@@ -1,0 +1,88 @@
+// Batch 2 Template - Fill in the image data manually
+export const BATCH_2_MONUMENTS = [
+  {
+    id: "4",
+    name: "Taj Mahal",
+    location: "Agra",
+    country: "India",
+    continent: "Asia",
+    type: "Mausoleum",
+    yearBuilt: 1653,
+    height: 73,
+    latitude: 27.1751,
+    longitude: 78.0421,
+    // Fill these in manually:
+    image: "", // Copy image URL from Unsplash
+    photographer: "", // Copy photographer name
+    photographerUrl: "", // Copy photographer profile URL
+    imageSource: "Unsplash",
+  },
+  {
+    id: "5",
+    name: "Colosseum",
+    location: "Rome",
+    country: "Italy",
+    continent: "Europe",
+    type: "Amphitheater",
+    yearBuilt: 80,
+    height: 48,
+    latitude: 41.8902,
+    longitude: 12.4922,
+    // Fill these in manually:
+    image: "",
+    photographer: "",
+    photographerUrl: "",
+    imageSource: "Unsplash",
+  },
+  {
+    id: "6",
+    name: "Machu Picchu",
+    location: "Cusco",
+    country: "Peru",
+    continent: "South America",
+    type: "Archaeological Site",
+    yearBuilt: 1450,
+    height: 0,
+    latitude: -13.1631,
+    longitude: -72.545,
+    // Fill these in manually:
+    image: "",
+    photographer: "",
+    photographerUrl: "",
+    imageSource: "Unsplash",
+  },
+  {
+    id: "7",
+    name: "Christ the Redeemer",
+    location: "Rio de Janeiro",
+    country: "Brazil",
+    continent: "South America",
+    type: "Statue",
+    yearBuilt: 1931,
+    height: 38,
+    latitude: -22.9519,
+    longitude: -43.2105,
+    // Fill these in manually:
+    image: "",
+    photographer: "",
+    photographerUrl: "",
+    imageSource: "Unsplash",
+  },
+  {
+    id: "8",
+    name: "Petra",
+    location: "Wadi Musa",
+    country: "Jordan",
+    continent: "Asia",
+    type: "Archaeological Site",
+    yearBuilt: -300,
+    height: 0,
+    latitude: 30.3285,
+    longitude: 35.4444,
+    // Fill these in manually:
+    image: "",
+    photographer: "",
+    photographerUrl: "",
+    imageSource: "Unsplash",
+  },
+]

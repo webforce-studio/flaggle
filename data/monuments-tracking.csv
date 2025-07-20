@@ -1,0 +1,6 @@
+id,name,location,country,continent,type,unsplash_page_url,unsplash_image_url,photographer,status,notes
+1,Eiffel Tower,Paris,France,Europe,Tower,https://unsplash.com/photos/eiffel-tower-paris-sfV_Tw658Y4,https://images.unsplash.com/photo-1566902145833-0475c9f1a1bf,Anthony Delanoix,added,
+2,Great Pyramid of Giza,Giza,Egypt,Africa,Pyramid,https://unsplash.com/photos/pyramid-giza-egypt-abc123,https://images.unsplash.com/photo-1234567890123-abcdef123456,Photographer Name,pending,
+3,Statue of Liberty,New York,USA,North America,Statue,https://unsplash.com/photos/statue-liberty-nyc-def456,https://images.unsplash.com/photo-2345678901234-bcdefg234567,Ferdinand Stohr,pending,
+4,Taj Mahal,Agra,India,Asia,Mausoleum,https://unsplash.com/photos/taj-mahal-agra-ghi789,https://images.unsplash.com/photo-3456789012345-cdefgh345678,Sylwia Bartyzel,pending,
+5,Colosseum,Rome,Italy,Europe,Amphitheater,https://unsplash.com/photos/a-very-large-building-with-a-sky-background-IkUpS4Ntv8M,https://images.unsplash.com/photo-1711447402543-d9acc369fbe4,Abdullah Guc,added,✅ Success!

@@ -1,0 +1,95 @@
+{
+    "name": "Monumentle - Daily Monument Guessing Game",
+    "short_name": "Monumentle",
+    "description": "Daily monument guessing game with 152+ world landmarks. Test your cultural knowledge with famous monuments from around the world.",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#F59E0B",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/",
+    "orientation": "portrait-primary",
+    "lang": "en",
+    "dir": "ltr",
+    "categories": ["games", "education", "puzzle"],
+    "screenshots": [
+        {
+            "src": "/og-image.png",
+            "sizes": "1200x630",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Monumentle Game Interface"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Play Today's Game",
+            "short_name": "Play",
+            "description": "Start today's monument guessing challenge",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        },
+        {
+            "name": "Geography Quiz",
+            "short_name": "Quiz",
+            "description": "Test your geography knowledge",
+            "url": "/geography-quiz",
+            "icons": [
+                {
+                    "src": "/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        },
+        {
+            "name": "Famous Landmarks",
+            "short_name": "Landmarks",
+            "description": "Explore famous world landmarks",
+            "url": "/famous-landmarks",
+            "icons": [
+                {
+                    "src": "/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "edge_side_panel": {
+        "preferred_width": 400
+    }
+}

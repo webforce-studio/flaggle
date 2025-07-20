@@ -1,0 +1,70 @@
+# Monumentle Robots.txt
+# Optimized for SEO and search engine crawling
+
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /geography-quiz
+Allow: /famous-landmarks
+Allow: /learn-geography
+
+# Disallow admin and API endpoints
+Disallow: /admin/
+Disallow: /api/
+Disallow: /monument-overview/
+Disallow: /fix-images/
+Disallow: /image-test/
+Disallow: /url-test/
+Disallow: /direct-test/
+Disallow: /attribution-test/
+Disallow: /.next/
+Disallow: /node_modules/
+
+# Crawl delay for all bots
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /monument-overview/
+Disallow: /fix-images/
+Disallow: /image-test/
+Disallow: /url-test/
+Disallow: /direct-test/
+Disallow: /attribution-test/
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /monument-overview/
+Disallow: /fix-images/
+Disallow: /image-test/
+Disallow: /url-test/
+Disallow: /direct-test/
+Disallow: /attribution-test/
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /monument-overview/
+Disallow: /fix-images/
+Disallow: /image-test/
+Disallow: /url-test/
+Disallow: /direct-test/
+Disallow: /attribution-test/
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://monumentle.fun/sitemap.xml
+
+# Host directive
+Host: https://monumentle.fun
