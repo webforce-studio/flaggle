@@ -60,7 +60,7 @@ export default function robots(): MetadataRoute.Robots {
         crawlDelay: 1,
       }
     ],
-    sitemap: "https://monumentle.fun/sitemap.xml",
-    host: "https://monumentle.fun",
+    sitemap: "https://flagguesser.fun/sitemap.xml",
+    host: "https://flagguesser.fun",
   }
 }
