@@ -21,10 +21,13 @@ export function ConsentManager() {
     setConsentGiven(true)
     setShowConsent(false)
     
-    // Update gtag consent
+    // Update Google Analytics consent
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('consent', 'update', {
         analytics_storage: 'granted',
+        ad_storage: 'granted', // Enable AdSense ads
+        ad_user_data: 'granted',
+        ad_personalization: 'granted',
         functionality_storage: 'granted'
       })
     }
@@ -35,10 +38,13 @@ export function ConsentManager() {
     setConsentGiven(false)
     setShowConsent(false)
     
-    // Update gtag consent
+    // Update Google Analytics consent (disable ads)
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('consent', 'update', {
         analytics_storage: 'denied',
+        ad_storage: 'denied', // Disable AdSense ads
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
         functionality_storage: 'denied'
       })
     }
@@ -51,7 +57,7 @@ export function ConsentManager() {
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex-1">
           <p className="text-sm">
-            We use cookies and analytics to improve your experience. 
+            We use cookies and analytics to improve your experience and show relevant ads. 
             This helps us understand how you use our site and make it better.
           </p>
         </div>

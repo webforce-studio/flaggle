@@ -573,55 +573,45 @@ export default function RootLayout({
         />
 
         {/* Google Analytics - GA4 Implementation */}
-        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
-          <>
-            {/* Google tag (gtag.js) */}
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  
-                  // Initialize Consent Mode v2 with analytics enabled by default
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY7R6HH2R7"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              
+                                // Initialize Consent Mode v2 - start with denied consent until user accepts
                   gtag('consent', 'default', {
-                    analytics_storage: 'granted',
+                    analytics_storage: 'denied',
                     ad_storage: 'denied',
                     ad_user_data: 'denied',
                     ad_personalization: 'denied',
                     functionality_storage: 'granted',
                     personalization_storage: 'denied'
                   });
-                  
-                  gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}', {
-                    anonymize_ip: true,
-                    allow_google_signals: false,
-                    allow_ad_personalization_signals: false,
-                    page_title: document.title,
-                    page_location: window.location.href
-                  });
-                  
-                  // Track page views
-                  gtag('event', 'page_view', {
-                    page_title: document.title,
-                    page_location: window.location.href
-                  });
-                `,
-              }}
-            />
-          </>
-        )}
+              
+              gtag('config', 'G-XY7R6HH2R7', {
+                anonymize_ip: true,
+                allow_google_signals: false,
+                allow_ad_personalization_signals: false,
+                page_title: document.title,
+                page_location: window.location.href
+              });
+              
+              // Track page views
+              gtag('event', 'page_view', {
+                page_title: document.title,
+                page_location: window.location.href
+              });
+            `,
+          }}
+        />
 
         {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159"
-          crossOrigin="anonymous"
-        />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159"
+     crossOrigin="anonymous"></script>
 
         {/* Monument Database Structured Data */}
         <script
@@ -724,7 +714,6 @@ export default function RootLayout({
           {/* Google AdSense Auto Ads */}
           <GoogleAdSenseAuto />
           <Footer />
-          <ConsentManager />
         </Providers>
       </body>
     </html>
