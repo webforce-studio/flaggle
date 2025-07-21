@@ -1,24 +1,24 @@
-import type { MonumentData } from "@/lib/monument-database"
+import type { Country } from "@/lib/country-database"
 
 interface StructuredDataProps {
-  monument?: MonumentData
+  country?: Country
   gameWon?: boolean
   guessCount?: number
 }
 
-export function StructuredData({ monument, gameWon, guessCount }: StructuredDataProps) {
-  if (!monument) return null
+export function StructuredData({ country, gameWon, guessCount }: StructuredDataProps) {
+  if (!country) return null
 
   const gamePlayStructuredData = {
     "@context": "https://schema.org",
     "@type": "GamePlayMode",
-    name: `Monumentle - ${monument.name} Challenge`,
-    description: `Daily monument challenge featuring ${monument.name} from ${monument.location}, ${monument.country}`,
-    url: "https://monumentle.fun",
+    name: `Flagguesser - ${country.name} Challenge`,
+    description: `Daily flag challenge featuring ${country.name} (${country.code}) in ${country.region}`,
+    url: "https://flagguesser.fun",
     gameItem: {
       "@type": "Game",
-      name: "Monumentle",
-      description: "Daily monument guessing game",
+      name: "Flagguesser",
+      description: "Daily flag guessing game",
     },
     playMode: "SinglePlayer",
     numberOfPlayers: 1,
@@ -27,61 +27,63 @@ export function StructuredData({ monument, gameWon, guessCount }: StructuredData
         "@type": "GameResult",
         resultType: "Win",
         score: `${guessCount}/6`,
-        description: `Successfully identified ${monument.name} in ${guessCount} attempts`,
+        description: `Successfully identified ${country.name} in ${guessCount} attempts`,
       },
     }),
   }
 
-  const monumentStructuredData = {
+  const countryStructuredData = {
     "@context": "https://schema.org",
-    "@type": "Place",
-    name: monument.name,
-    description: `${monument.type} located in ${monument.location}, ${monument.country}`,
+    "@type": "Country",
+    name: country.name,
+    alternateName: [country.code, country.id, "Flagle", "Flagle game", "flagle.app", "flag guessing game", "country quiz", "world flags game"],
+    description: `Country in ${country.region}. Capital: ${country.capital}. Population: ${country.population.toLocaleString()}.`,
     geo: {
       "@type": "GeoCoordinates",
-      latitude: monument.latitude,
-      longitude: monument.longitude,
+      latitude: country.coordinates.lat,
+      longitude: country.coordinates.lng,
     },
     address: {
       "@type": "PostalAddress",
-      addressLocality: monument.location,
-      addressCountry: monument.country,
-    },
-    additionalType: monument.type,
-    dateCreated: monument.yearBuilt > 0 ? monument.yearBuilt.toString() : `${Math.abs(monument.yearBuilt)} BCE`,
-    height: {
-      "@type": "QuantitativeValue",
-      value: monument.height,
-      unitCode: "MTR",
+      addressCountry: country.name,
+      addressRegion: country.region,
     },
     image: {
       "@type": "ImageObject",
-      url: monument.image,
-      ...(monument.photographer && {
-        creator: {
-          "@type": "Person",
-          name: monument.photographer,
-          url: monument.photographerUrl,
-        },
-      }),
-      ...(monument.imageSource && {
-        provider: {
-          "@type": "Organization",
-          name: monument.imageSource,
-          url: monument.imageSource === "Unsplash" ? "https://unsplash.com" : undefined,
-        },
-      }),
+      url: country.flagUrl,
     },
-    touristType: "Cultural Heritage Site",
     keywords: [
-      monument.name,
-      monument.type,
-      monument.country,
-      monument.continent,
-      "World Heritage",
-      "Famous Landmark",
-      "Monument",
-      "Architecture",
+      country.name,
+      country.code,
+      country.region,
+      "Flagguesser",
+      "flag guessing game",
+      "flag quiz",
+      "country quiz",
+      "world flags",
+      "flagle",
+      "Flagle game",
+      "flagle.app",
+      "flagle alternative",
+      "flagle vs flagguesser",
+      "guess the flag",
+      "flagle clone",
+      "flagle daily",
+      "flagle unlimited",
+      "flagle quiz",
+      "flagle wordle",
+      "flagle online",
+      "flagle play",
+      "flagle today",
+      "flagle hints",
+      "flagle answer",
+      "flagle solution",
+      "flagle challenge",
+      "flagle trivia",
+      "flagle puzzle",
+      "flagle competitor",
+      "geography trivia",
+      "world flags quiz"
     ],
   }
 
@@ -96,7 +98,7 @@ export function StructuredData({ monument, gameWon, guessCount }: StructuredData
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(monumentStructuredData),
+          __html: JSON.stringify(countryStructuredData),
         }}
       />
     </>

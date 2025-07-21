@@ -2,25 +2,26 @@ export function AboutPageStructuredData() {
   const aboutPageData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About Monumentle - The Ultimate Daily Monument Guessing Game",
+    name: "About Flagguesser - The Ultimate Daily Flag Guessing Game",
     description:
-      "Learn about Monumentle, the daily monument guessing game that's taking the cultural world by storm. Discover our mission, team, and passion for world landmarks and heritage sites.",
-    url: "https://monumentle.fun/about",
+      "Learn about Flagguesser, the daily flag guessing game that's taking the geography world by storm. Discover our mission, team, and passion for world flags, countries, and global knowledge.",
+    url: "https://flagguesser.fun/about",
     mainEntity: {
       "@type": "Organization",
-      name: "Monumentle",
+      name: "Flagguesser",
       description:
-        "Creators of the daily monument guessing game that combines entertainment with cultural education and geography learning.",
+        "Creators of the daily flag guessing game that combines entertainment with geography education and world knowledge.",
       foundingDate: "2024",
       mission:
-        "To make cultural knowledge fun, accessible, and challenging through daily monument puzzles that educate players about world heritage sites.",
+        "To make world geography fun, accessible, and challenging through daily flag puzzles that educate players about countries, capitals, and global facts.",
       knowsAbout: [
-        "World Heritage Sites",
-        "Famous Monuments",
-        "Cultural Education",
-        "Geography Learning",
+        "World Flags",
+        "Country Knowledge",
+        "Geography Education",
         "Educational Gaming",
-        "Architecture History",
+        "Flag Trivia",
+        "World Capitals",
+        "Global Awareness",
       ],
       serviceArea: {
         "@type": "Place",
@@ -34,13 +35,13 @@ export function AboutPageStructuredData() {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://monumentle.fun",
+          item: "https://flagguesser.fun",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "About",
-          item: "https://monumentle.fun/about",
+          item: "https://flagguesser.fun/about",
         },
       ],
     },

@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next"
-import { monuments } from "@/lib/monument-database"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://monumentle.fun"
+  const baseUrl = "https://flagguesser.fun"
   const currentDate = new Date().toISOString()
 
   // Static pages
@@ -44,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/famous-landmarks`,
+      url: `${baseUrl}/world-flags`,
       lastModified: currentDate,
       changeFrequency: "weekly" as const,
       priority: 0.9,
@@ -57,13 +56,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Dynamic monument pages (if you have individual monument pages)
-  const monumentPages = monuments.slice(0, 50).map((monument) => ({
-    url: `${baseUrl}/monument/${monument.kebabId}`,
-    lastModified: currentDate,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }))
-
-  return [...staticPages, ...monumentPages]
+  return staticPages
 }
