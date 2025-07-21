@@ -1,0 +1,27 @@
+{
+  "name": "cookie-consent-implementation",
+  "version": "1.0.0",
+  "description": "GDPR-compliant cookie consent with Google Analytics and AdSense integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cookie-consent",
+    "gdpr",
+    "google-analytics",
+    "adsense",
+    "react",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react-cookie-consent": "^3.0.0",
+    "lucide-react": "^0.454.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+} 

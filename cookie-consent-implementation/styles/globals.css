@@ -1,0 +1,106 @@
+/* Cookie Consent CSS Variables */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 222.2 47.4% 11.2%;
+  --primary-foreground: 210 40% 98%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --border: 214.3 31.8% 91.4%;
+}
+
+/* Dark mode support */
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --primary: 210 40% 98%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+  --muted-foreground: 217.2 32.6% 17.5%;
+  --border: 217.2 32.6% 17.5%;
+}
+
+/* Alternative color schemes you can use */
+
+/* Blue theme */
+.blue-theme {
+  --background: 210 40% 98%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --border: 214.3 31.8% 91.4%;
+}
+
+/* Green theme */
+.green-theme {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 142.1 76.2% 36.3%;
+  --primary-foreground: 355.7 100% 97.3%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --border: 214.3 31.8% 91.4%;
+}
+
+/* Purple theme */
+.purple-theme {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 262.1 83.3% 57.8%;
+  --primary-foreground: 210 40% 98%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --border: 214.3 31.8% 91.4%;
+}
+
+/* Custom utility classes for cookie consent */
+.cookie-consent-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: hsl(var(--background));
+  border-top: 1px solid hsl(var(--border));
+  box-shadow: 0 -4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.cookie-consent-button {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.cookie-consent-button:hover {
+  opacity: 0.9;
+}
+
+.cookie-consent-decline {
+  background: transparent;
+  color: hsl(var(--muted-foreground));
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 8px 16px;
+  border: 1px solid hsl(var(--border));
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cookie-consent-decline:hover {
+  background-color: hsl(var(--border));
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .cookie-consent-container {
+    padding: 1rem;
+  }
+  
+  .cookie-consent-button,
+  .cookie-consent-decline {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+} 
