@@ -12,6 +12,8 @@ import { Header } from "@/components/header"
 import { Input } from "@/components/ui/input"
 import { StructuredData } from "@/components/structured-data"
 import { XIcon } from "@/components/x-icon"
+import { FAQ } from "@/components/faq"
+import { GameLinks } from "@/components/game-links"
 import { getCountries, getTodaysCountry, calculateDistance, type CountryData } from "@/lib/data"
 
 // Game statistics interface
@@ -112,7 +114,7 @@ const getYesterday = (): string => {
   return yesterday.toDateString()
 }
 
-export default function Flaggle() {
+export default function Flagguesser() {
   const [darkMode, setDarkMode] = useState(true)
   const [currentCountry, setCurrentCountry] = useState<CountryData | null>(null)
   const [countries, setCountries] = useState<CountryData[]>([])
@@ -196,7 +198,7 @@ export default function Flaggle() {
 
       newStats.lastPlayedDate = today
       setStats(newStats)
-      localStorage.setItem("flaggle-stats", JSON.stringify(newStats))
+      localStorage.setItem("flagguesser-stats", JSON.stringify(newStats))
     }
   }
 
@@ -207,13 +209,13 @@ export default function Flaggle() {
       gameWon: won,
       gameOver: over,
     }
-    localStorage.setItem(`flaggle-game-${today}`, JSON.stringify(gameState))
+    localStorage.setItem(`flagguesser-game-${today}`, JSON.stringify(gameState))
   }
 
   const toggleDarkMode = () => {
     const newDarkMode = !darkMode
     setDarkMode(newDarkMode)
-    localStorage.setItem("flaggle-dark-mode", JSON.stringify(newDarkMode))
+    localStorage.setItem("flagguesser-dark-mode", JSON.stringify(newDarkMode))
 
     // Update document class for dark mode
     if (newDarkMode) {
@@ -379,8 +381,8 @@ export default function Flaggle() {
   const shareToSocial = (platform: string) => {
     const today = new Date().toLocaleDateString()
     const result = gameWon ? `${guesses.length}/${MAX_GUESSES}` : "X/6"
-    const text = `Flaggle ${today} ${result} 🏳️ Daily flag guessing game`
-    const url = "https://flaggle.fun"
+    const text = `Flagguesser ${today} ${result} 🏳️ Daily flag guessing game`
+    const url = "https://flagguesser.fun"
 
     let shareUrl = ""
 
@@ -390,7 +392,7 @@ export default function Flaggle() {
           try {
             navigator
               .share({
-                title: "Flaggle Result",
+                title: "Flagguesser Result",
                 text: `${text}
 Play at: ${url}`,
               })
@@ -454,7 +456,7 @@ Play at: ${url}`)
 
   useEffect(() => {
     // Load dark mode preference
-    const savedDarkMode = localStorage.getItem("flaggle-dark-mode")
+    const savedDarkMode = localStorage.getItem("flagguesser-dark-mode")
     if (savedDarkMode) {
       const isDark = JSON.parse(savedDarkMode)
       setDarkMode(isDark)
@@ -468,7 +470,7 @@ Play at: ${url}`)
       document.documentElement.classList.add("dark")
     }
 
-    const savedStats = localStorage.getItem("flaggle-stats")
+    const savedStats = localStorage.getItem("flagguesser-stats")
     let streakBonus = 0
     if (savedStats) {
       const parsedStats = JSON.parse(savedStats)
@@ -479,7 +481,7 @@ Play at: ${url}`)
         parsedStats.lastPlayedDate !== getYesterday()
       ) {
         parsedStats.currentStreak = 0
-        localStorage.setItem("flaggle-stats", JSON.stringify(parsedStats))
+        localStorage.setItem("flagguesser-stats", JSON.stringify(parsedStats))
       }
 
       setStats(parsedStats)
@@ -516,7 +518,7 @@ Play at: ${url}`)
     }
 
     const today = new Date().toDateString()
-    const savedGameState = localStorage.getItem(`flaggle-game-${today}`)
+    const savedGameState = localStorage.getItem(`flagguesser-game-${today}`)
 
     if (savedGameState) {
       const gameState = JSON.parse(savedGameState)
@@ -784,7 +786,7 @@ Play at: ${url}`)
                       className={`border-blue-300 hover:bg-blue-500 hover:text-white hover:border-blue-500 ${
                         darkMode ? "bg-slate-800 text-slate-100" : ""
                       }`}
-                      aria-label="Share your Flaggle result"
+                      aria-label="Share your Flagguesser result"
                     >
                       <Share2 className="w-4 h-4 mr-2" />
                       Share
@@ -866,6 +868,7 @@ Play at: ${url}`)
                 </CardContent>
               </Card>
             )}
+
           </div>
 
           <div className="space-y-6">
@@ -978,7 +981,18 @@ Play at: ${url}`)
                 </div>
               </CardContent>
             </Card>
+
+            {/* Game Links Section */}
+            <div className="mt-8">
+              {/* <GameLinks darkMode={darkMode} /> */}
+            </div>
           </div>
+        </div>
+
+        {/* FAQ Section - Full Width */}
+        <div className="mt-8">
+          <div style={{color: 'red', fontWeight: 'bold', fontSize: '2rem', textAlign: 'center'}}>FAQ TEST - Should be visible above FAQ</div>
+          <FAQ />
         </div>
       </div>
     </div>
