@@ -41,7 +41,7 @@ export default function ContactPage() {
             <div className="text-center mb-12">
               <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Contact Us</h1>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                Have questions, suggestions, or feedback about Monumentle? We'd love to hear from you!
+                Have questions, suggestions, or feedback about Flagguesser? We'd love to hear from you!
               </p>
             </div>
 
@@ -86,7 +86,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white mb-2">What We Can Help With</h3>
                     <ul className="text-gray-600 dark:text-gray-300 space-y-1">
-                      <li>• General questions about Monumentle</li>
+                      <li>• General questions about Flagguesser</li>
                       <li>• Bug reports and technical issues</li>
                       <li>• Feature suggestions and feedback</li>
                       <li>• Educational use inquiries</li>
@@ -106,30 +106,30 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div>
-                    <h4 className="font-medium text-gray-900 dark:text-white">How often are new monuments added?</h4>
+                    <h4 className="font-medium text-gray-900 dark:text-white">How often are new flags added?</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      We regularly add new monuments to keep the game fresh and educational. Our database now includes over 150 world landmarks.
+                      We regularly add new countries to keep the game fresh and educational. Our database now includes over 150 world countries.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 dark:text-white">Can I suggest a monument?</h4>
+                    <h4 className="font-medium text-gray-900 dark:text-white">Can I suggest a country?</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      Absolutely! We love suggestions for new monuments to include in the game. Send us your ideas via email.
+                      Absolutely! We love suggestions for new countries to include in the game. Send us your ideas via email.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 dark:text-white">Is Monumentle free to play?</h4>
+                    <h4 className="font-medium text-gray-900 dark:text-white">Is Flagguesser free to play?</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      Yes! Monumentle is completely free to play with no ads or premium features.
+                      Yes! Flagguesser is completely free to play with no ads or premium features.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 dark:text-white">Can I use Monumentle in my classroom?</h4>
+                    <h4 className="font-medium text-gray-900 dark:text-white">Can I use Flagguesser in my classroom?</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      Yes! Monumentle is designed as an educational tool and is perfect for geography lessons and cultural studies.
+                      Yes! Flagguesser is designed as an educational tool and is perfect for geography lessons and cultural studies.
                     </p>
                   </div>
                 </CardContent>
@@ -140,16 +140,16 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-amber-600" />
-                    About Monumentle
+                    About Flagguesser
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-gray-600 dark:text-gray-300">
-                    Monumentle is an educational geography game that challenges players to identify world monuments and landmarks. 
-                    Our mission is to make learning about world heritage sites engaging and accessible to everyone.
+                    Flagguesser is an educational geography game that challenges players to identify world flags and countries. 
+                    Our mission is to make learning about world geography engaging and accessible to everyone.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    With over 150 monuments from all continents, we provide a comprehensive learning experience that combines 
+                    With over 150 countries from all continents, we provide a comprehensive learning experience that combines 
                     visual recognition, geographical knowledge, and cultural education.
                   </p>
                 </CardContent>

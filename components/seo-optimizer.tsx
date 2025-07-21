@@ -42,12 +42,12 @@ export function SEOOptimizer() {
         const homePageData = {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "Flaggle - Daily Flag Guessing Game",
+          "name": "Flagguesser - Daily Flag Guessing Game",
           "description": "Play the daily flag guessing game with 150+ world countries",
-          "url": "https://flaggle.fun",
+          "url": "https://flagguesser.fun",
           "mainEntity": {
             "@type": "Game",
-            "name": "Flaggle Daily Challenge",
+            "name": "Flagguesser Daily Challenge",
             "description": "Daily flag guessing game"
           }
         }

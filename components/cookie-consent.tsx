@@ -31,7 +31,7 @@ export function SimpleCookieConsent() {
       buttonText="Accept All Cookies"
       declineButtonText="Decline"
       enableDeclineButton
-              cookieName="flaggle-cookie-consent"
+              cookieName="flagguesser-cookie-consent"
       style={{
         background: "hsl(var(--background))",
         color: "hsl(var(--foreground))",
@@ -105,7 +105,7 @@ export function AdvancedCookieConsent() {
 
   useEffect(() => {
     // Check if user has already given consent
-    const existingConsent = localStorage.getItem('flaggle-cookie-consent-v2')
+    const existingConsent = localStorage.getItem('flagguesser-cookie-consent-v2')
     if (!existingConsent) {
       setShowBanner(true)
     } else {
@@ -129,7 +129,7 @@ export function AdvancedCookieConsent() {
   }
 
   const saveConsent = (newConsent: ConsentSettings) => {
-            localStorage.setItem('flaggle-cookie-consent-v2', JSON.stringify(newConsent))
+            localStorage.setItem('flagguesser-cookie-consent-v2', JSON.stringify(newConsent))
     updateGoogleConsent(newConsent)
     setConsent(newConsent)
     setShowBanner(false)

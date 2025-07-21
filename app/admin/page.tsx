@@ -25,9 +25,9 @@ export default function AdminLogin() {
     setError("")
 
     // Simple authentication (in production, use proper auth)
-    if (username === "admin" && password === "flaggle2024") {
-      localStorage.setItem("flaggle-admin-auth", "true")
-      localStorage.setItem("flaggle-admin-login-time", Date.now().toString())
+    if (username === "admin" && password === "flagguesser2024") {
+      localStorage.setItem("flagguesser-admin-auth", "true")
+      localStorage.setItem("flagguesser-admin-login-time", Date.now().toString())
       router.push("/admin/dashboard")
     } else {
       setError("Invalid credentials. Please try again.")
@@ -43,7 +43,7 @@ export default function AdminLogin() {
           <div className="mx-auto w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mb-6 shadow-lg">
             <Shield className="w-8 h-8 text-white" />
           </div>
-          <CardTitle className="text-3xl font-bold text-gray-800 mb-2">Flaggle Admin</CardTitle>
+          <CardTitle className="text-3xl font-bold text-gray-800 mb-2">Flagguesser Admin</CardTitle>
           <CardDescription className="text-gray-600 text-lg">Sign in to access the admin dashboard</CardDescription>
         </CardHeader>
         <CardContent className="pt-0">

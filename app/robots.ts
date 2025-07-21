@@ -12,7 +12,7 @@ export default function robots(): MetadataRoute.Robots {
           "/privacy",
           "/terms",
           "/geography-quiz",
-          "/famous-landmarks",
+          "/world-flags",
           "/learn-geography"
         ],
         disallow: [

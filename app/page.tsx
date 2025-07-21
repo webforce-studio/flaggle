@@ -991,7 +991,6 @@ Play at: ${url}`)
 
         {/* FAQ Section - Full Width */}
         <div className="mt-8">
-          <div style={{color: 'red', fontWeight: 'bold', fontSize: '2rem', textAlign: 'center'}}>FAQ TEST - Should be visible above FAQ</div>
           <FAQ />
         </div>
       </div>

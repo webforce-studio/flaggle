@@ -83,8 +83,8 @@ export default function AdminDashboard() {
   useEffect(() => {
     // Check authentication
     const checkAuth = () => {
-      const authToken = localStorage.getItem("flaggle-admin-auth")
-      const loginTime = localStorage.getItem("flaggle-admin-login-time")
+          const authToken = localStorage.getItem("flagguesser-admin-auth")
+    const loginTime = localStorage.getItem("flagguesser-admin-login-time")
       
       if (authToken === "true" && loginTime) {
         const timeDiff = Date.now() - Number.parseInt(loginTime)
@@ -94,8 +94,8 @@ export default function AdminDashboard() {
         if (hoursDiff < 24) {
           setIsAuthenticated(true)
         } else {
-          localStorage.removeItem("flaggle-admin-auth")
-          localStorage.removeItem("flaggle-admin-login-time")
+                localStorage.removeItem("flagguesser-admin-auth")
+      localStorage.removeItem("flagguesser-admin-login-time")
           window.location.href = "/admin"
         }
       } else {
@@ -370,7 +370,7 @@ export default function AdminDashboard() {
     <div className="container mx-auto p-6 max-w-6xl">
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2">Country Admin Dashboard</h1>
-        <p className="text-muted-foreground">Manage countries for the Flaggle game</p>
+        <p className="text-muted-foreground">Manage countries for the Flagguesser game</p>
         {storageType === "session-only" && (
           <div className="mt-2 flex items-center gap-2 text-sm text-blue-600">
             <AlertTriangle className="w-4 h-4" />

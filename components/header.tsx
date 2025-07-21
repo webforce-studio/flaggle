@@ -32,10 +32,10 @@ export function Header({
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-2">
             <div className="relative w-10 h-10">
-              <Image src="/logo.png" alt="Flaggle" fill className="object-contain" />
+              <Image src="/logo.png" alt="Flagguesser" fill className="object-contain" />
             </div>
             <Link href="/" className="text-3xl font-bold text-blue-500 monument-title">
-              Flaggle
+              Flagguesser
             </Link>
           </div>
         </div>

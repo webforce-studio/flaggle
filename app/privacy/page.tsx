@@ -50,12 +50,12 @@ export default function PrivacyPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Monumentle is designed with privacy in mind. We collect minimal information to provide you with the
-                    best gaming experience:
+                    Flagguesser is designed with privacy in mind. We collect minimal information to provide you with the
+                    best flag guessing experience:
                   </p>
                   <ul>
                     <li>
-                      <strong>Game Statistics:</strong> Your game progress, scores, and statistics are stored locally in
+                      <strong>Game Statistics:</strong> Your flag guessing progress, scores, and statistics are stored locally in
                       your browser's storage and are not transmitted to our servers.
                     </li>
                     <li>
@@ -82,9 +82,9 @@ export default function PrivacyPage() {
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>The limited information we collect is used to:</p>
                   <ul>
-                    <li>Provide and maintain the Monumentle game service</li>
+                    <li>Provide and maintain the Flagguesser daily flag guessing service</li>
                     <li>Improve game performance and user experience</li>
-                    <li>Analyze usage patterns to enhance gameplay features</li>
+                    <li>Analyze usage patterns to enhance flag guessing features</li>
                     <li>Ensure the security and stability of our service</li>
                   </ul>
                 </CardContent>
@@ -102,7 +102,7 @@ export default function PrivacyPage() {
                       storage mechanisms.
                     </li>
                     <li>
-                      <strong>No Personal Accounts:</strong> Monumentle does not require account creation or personal
+                      <strong>No Personal Accounts:</strong> Flagguesser does not require account creation or personal
                       information.
                     </li>
                     <li>
@@ -118,11 +118,11 @@ export default function PrivacyPage() {
                   <CardTitle>Third-Party Services</CardTitle>
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
-                  <p>Monumentle may use third-party services for:</p>
+                  <p>Flagguesser may use third-party services for:</p>
                   <ul>
                     <li>
-                      <strong>Image Content:</strong> Monument images are sourced from Unsplash and Pexels with proper
-                      attribution.
+                      <strong>Flag Images:</strong> Flag images are sourced from reliable flag databases with proper
+                      attribution and accuracy verification.
                     </li>
                     <li>
                       <strong>Hosting:</strong> Our website is hosted on Vercel, which may collect standard web server
@@ -174,9 +174,9 @@ export default function PrivacyPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Monumentle is suitable for all ages and does not knowingly collect personal information from
+                    Flagguesser is suitable for all ages and does not knowingly collect personal information from
                     children under 13. The game is designed to be educational and safe for young learners interested in
-                    geography and world monuments.
+                    geography and world flags.
                   </p>
                 </CardContent>
               </Card>
@@ -201,7 +201,7 @@ export default function PrivacyPage() {
                   <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
                   <ul>
                     <li>Email: contact@webforce-studio.com</li>
-                    <li>Website: monumentle.fun</li>
+                    <li>Website: flagguesser.fun</li>
                     <li>Response Time: We typically respond to privacy inquiries within 48 hours</li>
                   </ul>
                 </CardContent>
@@ -210,9 +210,9 @@ export default function PrivacyPage() {
             
             {/* Call to Action */}
             <div className="text-center bg-gradient-to-r from-amber-500 to-orange-500 rounded-lg p-8 text-white shadow-lg mt-12">
-              <h2 className="text-3xl font-bold mb-4">Ready to Play Monumentle?</h2>
+              <h2 className="text-3xl font-bold mb-4">Ready to Play Flagguesser?</h2>
               <p className="text-xl mb-6 opacity-90">
-                Your privacy is important to us. Start playing our secure, privacy-focused monument game today!
+                Your privacy is important to us. Start playing our secure, privacy-focused flag guessing game today!
               </p>
               <Link href="/">
                 <Button className="bg-white text-amber-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold">

@@ -5,12 +5,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Trophy, Clock, Target, Lightbulb, Users, Star } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "How to Play Monumentle: Game Rules & Instructions | Daily Monument Guessing Game",
-  description: "Learn how to play Monumentle, the engaging monument guessing game. Master the rules, scoring system, and tips to become a geography expert through daily landmark challenges.",
-  keywords: "how to play Monumentle, monument guessing game rules, Monumentle instructions, guessing landmarks game, Monumentle tips, geography game rules",
+  title: "How to Play Flagguesser: Game Rules & Instructions | Daily Flag Guessing Game",
+  description: "Learn how to play Flagguesser, the engaging flag guessing game. Master the rules, scoring system, and tips to become a geography expert through daily flag challenges.",
+  keywords: "how to play Flagguesser, flag guessing game rules, Flagguesser instructions, guessing flags game, Flagguesser tips, geography game rules",
   openGraph: {
-    title: "How to Play Monumentle: Game Rules & Instructions",
-    description: "Master the monument guessing game with our comprehensive guide. Learn rules, scoring, and tips to become a geography expert.",
+    title: "How to Play Flagguesser: Game Rules & Instructions",
+    description: "Master the flag guessing game with our comprehensive guide. Learn rules, scoring, and tips to become a geography expert.",
     type: "website",
   },
 }
@@ -20,7 +20,7 @@ export default function HowToPlayPage() {
     {
       icon: <Target className="w-6 h-6" />,
       title: "Daily Challenges",
-      description: "New monument every day to test your knowledge and learn something new.",
+      description: "New flag every day to test your knowledge and learn something new.",
     },
     {
       icon: <Clock className="w-6 h-6" />,
@@ -45,13 +45,13 @@ export default function HowToPlayPage() {
     {
       icon: <Star className="w-6 h-6" />,
       title: "Educational",
-      description: "Learn about world cultures, history, and geography while having fun.",
+      description: "Learn about world cultures, flags, and geography while having fun.",
     },
   ]
 
   const tips = [
-    "Study architectural styles and distinctive features of famous landmarks",
-    "Learn world capitals and major cities where monuments are located",
+    "Study flag colors, patterns, and distinctive features of world flags",
+    "Learn world capitals and major cities where flags represent countries",
     "Pay attention to cultural and historical context clues",
     "Practice regularly to improve your recognition skills",
     "Use hints strategically - they provide educational value",
@@ -65,11 +65,11 @@ export default function HowToPlayPage() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 monument-title">
-              How to Play Monumentle: Master the Monument Guessing Game
+              How to Play Flagguesser: Master the Flag Guessing Game
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-              Unlock the world of monuments with our comprehensive guide to playing Monumentle. Learn the rules, 
-              master the scoring system, and discover tips to become a geography expert through daily landmark challenges.
+              Unlock the world of flags with our comprehensive guide to playing Flagguesser. Learn the rules, 
+              master the scoring system, and discover tips to become a geography expert through daily flag challenges.
             </p>
             <Link href="/">
               <Button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-3 text-lg">
@@ -81,16 +81,16 @@ export default function HowToPlayPage() {
           {/* What is Monumentle */}
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-              What is Monumentle?
+              What is Flagguesser?
             </h2>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-8 shadow-lg">
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-                <strong>Monumentle</strong> is an engaging monument guessing game that challenges players to identify 
-                famous landmarks and learn world geography in a fun, interactive way. Whether you're testing your 
-                knowledge or learning new facts, Monumentle offers a unique blend of education and entertainment for all ages.
+                <strong>Flagguesser</strong> is an engaging flag guessing game that challenges players to identify 
+                world flags and learn world geography in a fun, interactive way. Whether you're testing your 
+                knowledge or learning new facts, Flagguesser offers a unique blend of education and entertainment for all ages.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                The main goal is to <strong>guess the monument</strong> based on photo clues, hints, and trivia. 
+                The main goal is to <strong>guess the country</strong> based on flag clues, hints, and trivia. 
                 The faster and more accurately you guess, the higher your score!
               </p>
             </div>
@@ -130,8 +130,8 @@ export default function HowToPlayPage() {
                     1. Start a New Game
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Visit Monumentle daily to access the new monument challenge. Each day features a different 
-                    famous landmark from around the world.
+                    Visit Flagguesser daily to access the new flag challenge. Each day features a different 
+                    world flag from around the world.
                   </p>
                 </div>
                 
@@ -140,8 +140,8 @@ export default function HowToPlayPage() {
                     2. Study the Clues
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Carefully examine the visual clues, architectural details, and any provided hints. Look for 
-                    distinctive features that can help you identify the monument and its location.
+                    Carefully examine the visual clues, flag details, and any provided hints. Look for 
+                    distinctive features that can help you identify the flag and its country.
                   </p>
                 </div>
                 
@@ -160,7 +160,7 @@ export default function HowToPlayPage() {
                     4. Learn and Improve
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    After each round, discover fascinating facts about the monument, its history, and cultural 
+                    After each round, discover fascinating facts about the country, its history, and cultural 
                     significance. Use this knowledge to improve your future guesses.
                   </p>
                 </div>
@@ -187,7 +187,7 @@ export default function HowToPlayPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">Game Rules</h3>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                  <li>• One new monument challenge per day</li>
+                  <li>• One new flag challenge per day</li>
                   <li>• Multiple attempts allowed with score penalties</li>
                   <li>• Hints available but reduce final score</li>
                   <li>• No time limit, but speed affects scoring</li>
@@ -226,9 +226,9 @@ export default function HowToPlayPage() {
 
           {/* Call to Action */}
           <div className="text-center bg-gradient-to-r from-amber-500 to-orange-500 rounded-lg p-8 text-white shadow-lg">
-            <h2 className="text-3xl font-bold mb-4">Ready to Test Your Monument Knowledge?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ready to Test Your Flag Knowledge?</h2>
             <p className="text-xl mb-6 opacity-90">
-              Start playing Monumentle today and see how many famous landmarks you can identify!
+              Start playing Flagguesser today and see how many world flags you can identify!
             </p>
             <Link href="/">
               <Button className="bg-white text-amber-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold">

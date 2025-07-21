@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl">🏳️</span>
-              <h3 className="text-xl font-bold text-blue-400">Flaggle</h3>
+              <h3 className="text-xl font-bold text-blue-400">Flagguesser</h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Daily monument guessing game. Test your knowledge of world landmarks and cultural heritage sites.
@@ -36,8 +36,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/famous-landmarks" className="hover:text-amber-400 transition-colors">
-                  Famous Landmarks
+                <Link href="/world-flags" className="hover:text-amber-400 transition-colors">
+                  World Flags
                 </Link>
               </li>
             </ul>

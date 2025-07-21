@@ -50,7 +50,7 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    By accessing and using Monumentle ("the Service"), you accept and agree to be bound by the terms and
+                    By accessing and using Flagguesser ("the Service"), you accept and agree to be bound by the terms and
                     provision of this agreement. If you do not agree to abide by the above, please do not use this
                     service.
                   </p>
@@ -63,12 +63,12 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Monumentle is a free, educational web-based game that challenges players to identify world monuments
-                    and landmarks. The service includes:
+                    Flagguesser is a free, educational web-based game that challenges players to identify world flags
+                    and countries. The service includes:
                   </p>
                   <ul>
-                    <li>Daily monument guessing challenges with 150+ world landmarks</li>
-                    <li>Educational content about world heritage sites and cultural geography</li>
+                    <li>Daily flag guessing challenges with 150+ world countries</li>
+                    <li>Educational content about world geography and cultural knowledge</li>
                     <li>Interactive geography quizzes and learning materials</li>
                     <li>Progress tracking and statistics</li>
                     <li>Contact form for support and feedback</li>
@@ -82,7 +82,7 @@ export default function TermsPage() {
                   <CardTitle>User Conduct</CardTitle>
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
-                  <p>You agree to use Monumentle responsibly and agree not to:</p>
+                  <p>You agree to use Flagguesser responsibly and agree not to:</p>
                   <ul>
                     <li>
                       Use the service for any unlawful purpose or in violation of any local, state, national, or
@@ -102,13 +102,13 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    The Monumentle service and its original content, features, and functionality are owned by Webforce
+                    The Flagguesser service and its original content, features, and functionality are owned by Webforce
                     Studio and are protected by international copyright, trademark, patent, trade secret, and other
                     intellectual property laws.
                   </p>
                   <p>
-                    Monument images used in the game are sourced from Unsplash and Pexels under their respective
-                    licenses and are properly attributed to their original photographers.
+                    Flag images used in the game are sourced from reliable flag databases under their respective
+                    licenses and are properly attributed to their original sources.
                   </p>
                 </CardContent>
               </Card>
@@ -119,8 +119,8 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Monumentle is designed as an educational tool to promote learning about world geography, history,
-                    and cultural heritage. We encourage the use of this service in educational settings, including:
+                    Flagguesser is designed as an educational tool to promote learning about world geography, flags,
+                    and cultural knowledge. We encourage the use of this service in educational settings, including:
                   </p>
                   <ul>
                     <li>Classroom activities and assignments</li>
@@ -196,7 +196,7 @@ export default function TermsPage() {
                   <p>If you have any questions about these Terms of Service, please contact us:</p>
                   <ul>
                     <li>Email: contact@webforce-studio.com</li>
-                    <li>Website: monumentle.fun</li>
+                    <li>Website: flagguesser.fun</li>
                     <li>Response Time: We typically respond to legal inquiries within 48 hours</li>
                   </ul>
                 </CardContent>
@@ -207,7 +207,7 @@ export default function TermsPage() {
             <div className="text-center bg-gradient-to-r from-amber-500 to-orange-500 rounded-lg p-8 text-white shadow-lg mt-12">
               <h2 className="text-3xl font-bold mb-4">Ready to Start Playing?</h2>
               <p className="text-xl mb-6 opacity-90">
-                Accept our terms and start enjoying the educational monument game today!
+                Accept our terms and start enjoying the educational flag guessing game today!
               </p>
               <Link href="/">
                 <Button className="bg-white text-amber-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold">

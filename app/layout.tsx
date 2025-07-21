@@ -12,7 +12,7 @@ import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
 
 export const metadata: Metadata = {
   title: "Flagguesser - Daily Flag Guessing Game | Test Your World Knowledge",
-      description:
+  description:
       "Play Flagguesser, the daily flag guessing game! Identify world countries from progressively revealed flag images. Features 150+ countries from all continents. A free daily puzzle game for geography enthusiasts and flag lovers. Perfect for students, educators, and travel enthusiasts.",
   keywords: [
     "flagguesser",
