@@ -92,16 +92,9 @@ export function BlockingCookieConsent() {
     console.log('❌ Optional cookies declined')
   }
 
-  // Show loading state or return null if not needed
+  // Don't show anything while loading - make it completely invisible
   if (isLoading) {
-    return (
-      <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[9998] flex items-center justify-center">
-        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center gap-3">
-          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
-          <span className="text-gray-700">Checking your location...</span>
-        </div>
-      </div>
-    )
+    return null
   }
 
   // Only show the overlay if GDPR is required and no choice has been made
@@ -120,12 +113,6 @@ export function BlockingCookieConsent() {
               <h2 className="text-xl font-bold text-gray-900">Privacy Notice</h2>
               <p className="text-sm text-gray-600">
                 We need your consent to continue
-                {geolocationResult?.country && (
-                  <span className="flex items-center gap-1 mt-1 text-xs text-gray-500">
-                    <Globe className="h-3 w-3" />
-                    Detected location: {geolocationResult.country}
-                  </span>
-                )}
               </p>
             </div>
           </div>
