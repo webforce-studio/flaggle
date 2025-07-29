@@ -15,7 +15,7 @@ export function Footer() {
               <h3 className="text-xl font-bold text-blue-400 font-varela">Flagguesser</h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Daily monument guessing game. Test your knowledge of world landmarks and cultural heritage sites.
+              Daily flag guessing game. Test your knowledge of world countries and national flags. Identify countries from progressively revealed flag images.
             </p>
           </div>
 
