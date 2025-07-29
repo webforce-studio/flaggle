@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import CookieConsent from 'react-cookie-consent'
-import { Cookie, Shield, AlertCircle } from 'lucide-react'
+import { Cookie, Shield, AlertCircle, Globe } from 'lucide-react'
+import { checkGDPRRequirement, type GeolocationResult } from '@/lib/geolocation'
 
 // Google Consent Mode v2 integration
 declare global {
@@ -13,14 +14,52 @@ declare global {
 }
 
 export function BlockingCookieConsent() {
-  const [showOverlay, setShowOverlay] = useState(true)
+  const [showOverlay, setShowOverlay] = useState(false) // Start hidden until we check location
+  const [isLoading, setIsLoading] = useState(true)
+  const [geolocationResult, setGeolocationResult] = useState<GeolocationResult | null>(null)
 
   useEffect(() => {
-    // Check if consent was already given
-    const consent = localStorage.getItem('flagguesser-cookie-consent')
-    if (consent === 'granted' || consent === 'denied') {
-      setShowOverlay(false)
+    const checkLocationAndConsent = async () => {
+      try {
+        // Check if consent was already given
+        const consent = localStorage.getItem('flagguesser-cookie-consent')
+        if (consent === 'granted' || consent === 'denied') {
+          setShowOverlay(false)
+          setIsLoading(false)
+          return
+        }
+
+        // Check if user is in GDPR-required region
+        const result = await checkGDPRRequirement()
+        setGeolocationResult(result)
+
+        // Only show cookie consent if GDPR is required
+        if (result.isGDPRRequired) {
+          setShowOverlay(true)
+        } else {
+          // Auto-accept all cookies for non-GDPR regions
+          localStorage.setItem('flagguesser-cookie-consent', 'granted')
+          if (typeof window !== 'undefined' && window.gtag) {
+            window.gtag('consent', 'update', {
+              analytics_storage: 'granted',
+              ad_storage: 'granted',
+              ad_user_data: 'granted',
+              ad_personalization: 'granted',
+            })
+          }
+          console.log('✅ Auto-accepted cookies for non-GDPR region:', result.country)
+        }
+
+      } catch (error) {
+        console.error('Error checking location:', error)
+        // Default to showing consent if there's an error (safer approach)
+        setShowOverlay(true)
+      } finally {
+        setIsLoading(false)
+      }
     }
+
+    checkLocationAndConsent()
   }, [])
 
   const handleAccept = () => {
@@ -53,7 +92,19 @@ export function BlockingCookieConsent() {
     console.log('❌ Optional cookies declined')
   }
 
-  // Only show the overlay if no choice has been made
+  // Show loading state or return null if not needed
+  if (isLoading) {
+    return (
+      <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[9998] flex items-center justify-center">
+        <div className="bg-white rounded-lg shadow-xl p-6 flex items-center gap-3">
+          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+          <span className="text-gray-700">Checking your location...</span>
+        </div>
+      </div>
+    )
+  }
+
+  // Only show the overlay if GDPR is required and no choice has been made
   if (!showOverlay) return null
 
   return (
@@ -67,7 +118,15 @@ export function BlockingCookieConsent() {
             <Shield className="h-8 w-8 text-blue-600" />
             <div>
               <h2 className="text-xl font-bold text-gray-900">Privacy Notice</h2>
-              <p className="text-sm text-gray-600">We need your consent to continue</p>
+              <p className="text-sm text-gray-600">
+                We need your consent to continue
+                {geolocationResult?.country && (
+                  <span className="flex items-center gap-1 mt-1 text-xs text-gray-500">
+                    <Globe className="h-3 w-3" />
+                    Detected location: {geolocationResult.country}
+                  </span>
+                )}
+              </p>
             </div>
           </div>
           <div className="space-y-4">
@@ -86,8 +145,8 @@ export function BlockingCookieConsent() {
             </div>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
               <p className="text-sm text-blue-800">
-                <strong>Important:</strong> You must make a choice to continue using this website. 
-                This ensures compliance with privacy regulations.
+                <strong>GDPR Compliance:</strong> You must make a choice to continue using this website. 
+                This ensures compliance with EU/EEA/UK/Switzerland privacy regulations (GDPR, ePrivacy Directive, DMA).
               </p>
             </div>
           </div>

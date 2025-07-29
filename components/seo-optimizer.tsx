@@ -48,7 +48,21 @@ export function SEOOptimizer() {
           "mainEntity": {
             "@type": "Game",
             "name": "Flagguesser Daily Challenge",
-            "description": "Daily flag guessing game"
+            "description": "Daily flag guessing game with world countries",
+            "genre": ["Educational", "Quiz", "Geography"],
+            "educationalLevel": "Beginner",
+            "audience": {
+              "@type": "EducationalAudience",
+              "educationalRole": "student"
+            },
+            "about": "World flags and geography",
+            "playMode": "SinglePlayer",
+            "numberOfPlayers": 1,
+            "provider": {
+              "@type": "Organization",
+              "name": "Flagguesser",
+              "url": "https://flagguesser.fun"
+            }
           }
         }
         

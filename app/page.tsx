@@ -994,6 +994,13 @@ Play at: ${url}`)
           <FAQ />
         </div>
       </div>
+
+      {/* SEO Structured Data */}
+      <StructuredData 
+        country={currentCountry} 
+        gameWon={gameWon} 
+        guessCount={guesses.length} 
+      />
     </div>
   )
 } 

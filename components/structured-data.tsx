@@ -1,87 +1,104 @@
-import type { MonumentData } from "@/lib/monument-database"
+import type { CountryData } from "@/lib/data"
 
 interface StructuredDataProps {
-  monument?: MonumentData
+  country?: CountryData
   gameWon?: boolean
   guessCount?: number
 }
 
-export function StructuredData({ monument, gameWon, guessCount }: StructuredDataProps) {
-  if (!monument) return null
+export function StructuredData({ country, gameWon, guessCount }: StructuredDataProps) {
+  if (!country) return null
 
   const gamePlayStructuredData = {
     "@context": "https://schema.org",
-    "@type": "GamePlayMode",
-    name: `Monumentle - ${monument.name} Challenge`,
-    description: `Daily monument challenge featuring ${monument.name} from ${monument.location}, ${monument.country}`,
-    url: "https://monumentle.fun",
-    gameItem: {
-      "@type": "Game",
-      name: "Monumentle",
-      description: "Daily monument guessing game",
+    "@type": "Game",
+    name: `Flagguesser - ${country.name} Challenge`,
+    description: `Daily flag guessing challenge featuring ${country.name} flag`,
+    url: "https://flagguesser.fun",
+    genre: ["Educational", "Quiz", "Geography"],
+    educationalLevel: "Beginner",
+    audience: {
+      "@type": "EducationalAudience",
+      educationalRole: "student"
     },
+    about: "World flags and geography",
     playMode: "SinglePlayer",
     numberOfPlayers: 1,
+    provider: {
+      "@type": "Organization",
+      name: "Flagguesser",
+      url: "https://flagguesser.fun"
+    },
     ...(gameWon && {
       result: {
         "@type": "GameResult",
         resultType: "Win",
         score: `${guessCount}/6`,
-        description: `Successfully identified ${monument.name} in ${guessCount} attempts`,
+        description: `Successfully identified ${country.name} flag in ${guessCount} attempts`,
       },
     }),
   }
 
-  const monumentStructuredData = {
+  const flagQuestionStructuredData = {
     "@context": "https://schema.org",
-    "@type": "Place",
-    name: monument.name,
-    description: `${monument.type} located in ${monument.location}, ${monument.country}`,
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: monument.latitude,
-      longitude: monument.longitude,
-    },
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: monument.location,
-      addressCountry: monument.country,
-    },
-    additionalType: monument.type,
-    dateCreated: monument.yearBuilt > 0 ? monument.yearBuilt.toString() : `${Math.abs(monument.yearBuilt)} BCE`,
-    height: {
-      "@type": "QuantitativeValue",
-      value: monument.height,
-      unitCode: "MTR",
-    },
+    "@type": "Question",
+    name: `Which country does this flag belong to?`,
+    description: `Daily flag guessing challenge - identify the country from the flag image`,
     image: {
       "@type": "ImageObject",
-      url: monument.image,
-      ...(monument.photographer && {
-        creator: {
-          "@type": "Person",
-          name: monument.photographer,
-          url: monument.photographerUrl,
-        },
-      }),
-      ...(monument.imageSource && {
-        provider: {
-          "@type": "Organization",
-          name: monument.imageSource,
-          url: monument.imageSource === "Unsplash" ? "https://unsplash.com" : undefined,
-        },
-      }),
+      url: `/api/flags/${country.code.toLowerCase()}.png`,
+      alt: `${country.name} flag`,
     },
-    touristType: "Cultural Heritage Site",
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: country.name,
+      url: `https://flagguesser.fun?country=${country.code}`,
+    },
+    suggestedAnswer: [
+      {
+        "@type": "Answer",
+        text: "France"
+      },
+      {
+        "@type": "Answer", 
+        text: "Germany"
+      },
+      {
+        "@type": "Answer",
+        text: "Italy"
+      },
+      {
+        "@type": "Answer",
+        text: "Spain"
+      }
+    ],
+    educationalLevel: "Beginner",
+    audience: {
+      "@type": "EducationalAudience",
+      educationalRole: "student"
+    }
+  }
+
+  const countryStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Country",
+    name: country.name,
+    description: `${country.name} - a country featured in the daily flag guessing game`,
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: country.latitude,
+      longitude: country.longitude,
+    },
+    additionalType: "Sovereign State",
     keywords: [
-      monument.name,
-      monument.type,
-      monument.country,
-      monument.continent,
-      "World Heritage",
-      "Famous Landmark",
-      "Monument",
-      "Architecture",
+      country.name,
+      `${country.name} flag`,
+      "world flags",
+      "geography",
+      "country quiz",
+      "flag guessing game",
+      "national flags",
+      "world countries"
     ],
   }
 
@@ -96,7 +113,13 @@ export function StructuredData({ monument, gameWon, guessCount }: StructuredData
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(monumentStructuredData),
+          __html: JSON.stringify(flagQuestionStructuredData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(countryStructuredData),
         }}
       />
     </>
