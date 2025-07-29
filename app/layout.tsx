@@ -7,6 +7,8 @@ import { SEOOptimizer } from "@/components/seo-optimizer"
 import { ErrorBoundary } from "@/components/error-boundary"
 import { SEOAnalytics } from "@/components/seo-analytics"
 import { ConsentManager } from "@/components/consent-manager"
+import { SimpleCookieConsent } from "@/components/cookie-consent"
+import { BlockingCookieConsent } from "@/components/cookie-consent-blocking"
 
 import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
 
@@ -14,6 +16,11 @@ export const metadata: Metadata = {
   title: "Flagguesser - Daily Flag Guessing Game | Test Your World Knowledge",
   description:
       "Play Flagguesser, the daily flag guessing game! Identify world countries from progressively revealed flag images. Features 150+ countries from all continents. A free daily puzzle game for geography enthusiasts and flag lovers. Perfect for students, educators, and travel enthusiasts.",
+  icons: {
+    icon: "/images/flagguesser.png",
+    shortcut: "/images/flagguesser.png",
+    apple: "/images/flagguesser.png",
+  },
   keywords: [
     "flagguesser",
     "flag wordle", 
@@ -709,7 +716,9 @@ export default function RootLayout({
           <ErrorBoundary>
             {children}
           </ErrorBoundary>
-          {/* Cookie Consent handled by Google CMP */}
+          
+          {/* Cookie Consent Manager - Blocking Version */}
+          <BlockingCookieConsent />
           
           {/* Google AdSense Auto Ads */}
           <GoogleAdSenseAuto />

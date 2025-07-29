@@ -2,8 +2,8 @@
 
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import { Calendar, BarChart3, Sun, Moon } from "lucide-react"
-import { Logo } from "./logo"
 
 export function Header({
   darkMode,
@@ -31,7 +31,9 @@ export function Header({
       <div className="max-w-4xl mx-auto px-4 py-2 flex items-center justify-between flex-wrap gap-2">
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-2">
-            <Logo size={40} />
+            <div className="relative w-10 h-10">
+              <Image src="/images/flagguesser.png" alt="Flagguesser" fill className="object-contain" />
+            </div>
             <Link href="/" className="text-3xl font-bold text-blue-500 monument-title">
               Flagguesser
             </Link>

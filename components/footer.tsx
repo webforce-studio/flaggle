@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Logo } from "./logo"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -9,7 +9,9 @@ export function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <Logo size={32} />
+              <div className="relative w-8 h-8">
+                <Image src="/images/flagguesser.png" alt="Flagguesser" fill className="object-contain" />
+              </div>
               <h3 className="text-xl font-bold text-blue-400">Flagguesser</h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
