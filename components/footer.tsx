@@ -83,33 +83,73 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal Links */}
+          {/* Friends */}
           <div>
-            <h4 className="font-semibold text-amber-400 mb-4">Legal</h4>
+            <h4 className="font-semibold text-amber-400 mb-4">Friends</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/privacy" className="hover:text-amber-400 transition-colors">
-                  Privacy Policy
-                </Link>
+                <a
+                  href="https://browse-ai.tools"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  Browse AI Tools 🤖
+                </a>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-amber-400 transition-colors">
-                  Terms of Service
-                </Link>
+                <a
+                  href="https://www.stop-watch.online"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  Stopwatch Online ⏱️
+                </a>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-amber-400 transition-colors">
-                  Contact Us
-                </Link>
+                <a
+                  href="https://www.flip-a-coin.online"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  Flip A Coin Online 🪙
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.wheel-spinner.online"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  Wheel Spinner Online 🎡
+                </a>
               </li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-slate-700 mt-8 pt-8 text-center">
-          <p className="text-sm text-slate-400">© 2025 Webforce Studio. All rights reserved.</p>
-          <p className="text-xs text-slate-500 mt-2">Celebrating world heritage through interactive learning</p>
+        <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <div className="text-center md:text-left mb-4 md:mb-0">
+            <p className="text-sm text-slate-400">© 2025 Webforce Studio. All rights reserved.</p>
+            <p className="text-xs text-slate-500 mt-2">Celebrating world heritage through interactive learning</p>
+          </div>
+          
+          {/* Legal Links - Bottom Right */}
+          <div className="flex gap-6 text-sm">
+            <Link href="/contact" className="hover:text-amber-400 transition-colors">
+              Contact Us
+            </Link>
+            <Link href="/privacy" className="hover:text-amber-400 transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="hover:text-amber-400 transition-colors">
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
