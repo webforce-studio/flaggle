@@ -135,7 +135,7 @@ export function Footer() {
         <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-sm text-slate-400">© 2025 Webforce Studio. All rights reserved.</p>
-            <p className="text-xs text-slate-500 mt-2">Celebrating world heritage through interactive learning</p>
+            <p className="text-xs text-slate-500 mt-2">Exploring world flags through daily geography challenges</p>
           </div>
           
           {/* Legal Links - Bottom Right */}
