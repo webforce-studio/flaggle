@@ -18,12 +18,19 @@ export const metadata: Metadata = {
       "Play Flagguesser, the daily flag guessing game! Identify world countries from progressively revealed flag images. Features 150+ countries from all continents. A free daily puzzle game for geography enthusiasts and flag lovers. Perfect for students, educators, and travel enthusiasts.",
   icons: {
     icon: [
-      { url: "/flagguesser.png", sizes: "32x32", type: "image/png" },
-      { url: "/flagguesser.png", sizes: "16x16", type: "image/png" },
+      { url: "/logos/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/logos/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/logos/favicon-48x48.png", sizes: "48x48", type: "image/png" },
     ],
-    shortcut: "/flagguesser.png",
+    shortcut: "/logos/favicon-32x32.png",
     apple: [
-      { url: "/flagguesser.png", sizes: "180x180", type: "image/png" },
+      { url: "/logos/apple-touch-icon-180x180.png", sizes: "180x180", type: "image/png" },
+      { url: "/logos/apple-touch-icon-152x152.png", sizes: "152x152", type: "image/png" },
+      { url: "/logos/apple-touch-icon-120x120.png", sizes: "120x120", type: "image/png" },
+    ],
+    other: [
+      { url: "/logos/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/logos/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
     ],
   },
   keywords: [
@@ -197,9 +204,12 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/browserconfig.xml" />
 
         {/* Favicon */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/flagguesser.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/flagguesser.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/flagguesser.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/logos/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/logos/favicon-48x48.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon-180x180.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/logos/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/logos/apple-touch-icon-120x120.png" />
         <link rel="manifest" href="/site.webmanifest" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />

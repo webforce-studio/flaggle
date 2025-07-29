@@ -1,32 +1,32 @@
 {
-    "name": "Monumentle - Daily Monument Guessing Game",
-    "short_name": "Monumentle",
-    "description": "Daily monument guessing game with 152+ world landmarks. Test your cultural knowledge with famous monuments from around the world.",
+    "name": "Flagguesser - Daily Flag Guessing Game",
+    "short_name": "Flagguesser",
+    "description": "Daily flag guessing game with 150+ world countries. Test your geography knowledge with national flags from around the world.",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/logos/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/logos/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "/apple-touch-icon.png",
+            "src": "/logos/apple-touch-icon-180x180.png",
             "sizes": "180x180",
             "type": "image/png"
         },
         {
-            "src": "/favicon-32x32.png",
+            "src": "/logos/favicon-32x32.png",
             "sizes": "32x32",
             "type": "image/png"
         },
         {
-            "src": "/favicon-16x16.png",
+            "src": "/logos/favicon-16x16.png",
             "sizes": "16x16",
             "type": "image/png"
         }
@@ -42,22 +42,22 @@
     "categories": ["games", "education", "puzzle"],
     "screenshots": [
         {
-            "src": "/og-image.png",
+            "src": "/logos/og-image.png",
             "sizes": "1200x630",
             "type": "image/png",
             "form_factor": "wide",
-            "label": "Monumentle Game Interface"
+            "label": "Flagguesser Game Interface"
         }
     ],
     "shortcuts": [
         {
             "name": "Play Today's Game",
             "short_name": "Play",
-            "description": "Start today's monument guessing challenge",
+            "description": "Start today's flag guessing challenge",
             "url": "/",
             "icons": [
                 {
-                    "src": "/favicon-32x32.png",
+                    "src": "/logos/favicon-32x32.png",
                     "sizes": "32x32"
                 }
             ]
@@ -69,19 +69,19 @@
             "url": "/geography-quiz",
             "icons": [
                 {
-                    "src": "/favicon-32x32.png",
+                    "src": "/logos/favicon-32x32.png",
                     "sizes": "32x32"
                 }
             ]
         },
         {
-            "name": "Famous Landmarks",
-            "short_name": "Landmarks",
-            "description": "Explore famous world landmarks",
-            "url": "/famous-landmarks",
+            "name": "World Flags",
+            "short_name": "Flags",
+            "description": "Explore world flags",
+            "url": "/world-flags",
             "icons": [
                 {
-                    "src": "/favicon-32x32.png",
+                    "src": "/logos/favicon-32x32.png",
                     "sizes": "32x32"
                 }
             ]
