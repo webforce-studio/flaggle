@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   description:
       "Play Flagguesser, the daily flag guessing game! Identify world countries from progressively revealed flag images. Features 150+ countries from all continents. A free daily puzzle game for geography enthusiasts and flag lovers. Perfect for students, educators, and travel enthusiasts.",
   icons: {
-    icon: "/images/flagguesser.png",
-    shortcut: "/images/flagguesser.png",
-    apple: "/images/flagguesser.png",
+    icon: "/flagguesser.png",
+    shortcut: "/flagguesser.png",
+    apple: "/flagguesser.png",
   },
   keywords: [
     "flagguesser",

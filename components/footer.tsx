@@ -10,7 +10,7 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="relative w-8 h-8">
-                <Image src="/images/flagguesser.png" alt="Flagguesser" fill className="object-contain" />
+                <Image src="/flagguesser.png" alt="Flagguesser" fill className="object-contain" />
               </div>
               <h3 className="text-xl font-bold text-blue-400">Flagguesser</h3>
             </div>
