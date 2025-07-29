@@ -17,9 +17,14 @@ export const metadata: Metadata = {
   description:
       "Play Flagguesser, the daily flag guessing game! Identify world countries from progressively revealed flag images. Features 150+ countries from all continents. A free daily puzzle game for geography enthusiasts and flag lovers. Perfect for students, educators, and travel enthusiasts.",
   icons: {
-    icon: "/flagguesser.png",
+    icon: [
+      { url: "/flagguesser.png", sizes: "32x32", type: "image/png" },
+      { url: "/flagguesser.png", sizes: "16x16", type: "image/png" },
+    ],
     shortcut: "/flagguesser.png",
-    apple: "/flagguesser.png",
+    apple: [
+      { url: "/flagguesser.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   keywords: [
     "flagguesser",
@@ -180,12 +185,9 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/browserconfig.xml" />
 
         {/* Favicon */}
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
-        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/flagguesser.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/flagguesser.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/flagguesser.png" />
         <link rel="manifest" href="/site.webmanifest" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
