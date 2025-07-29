@@ -12,7 +12,7 @@ export function Footer() {
               <div className="relative w-10 h-10">
                 <Image src="/flagguesser.png" alt="Flagguesser" fill className="object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-blue-400">Flagguesser</h3>
+              <h3 className="text-xl font-bold text-blue-400 font-varela">Flagguesser</h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Daily monument guessing game. Test your knowledge of world landmarks and cultural heritage sites.

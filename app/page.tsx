@@ -663,7 +663,7 @@ Play at: ${url}`)
                   {gameOver && (
                     <div className="absolute inset-0 bg-black bg-opacity-25 flex">
                       <div className="absolute top-4 left-4 text-white">
-                        <h2 className="text-2xl font-bold mb-1">{currentCountry.name}</h2>
+                        <h2 className="text-2xl font-bold mb-1 font-varela">{currentCountry.name}</h2>
                         <p className="text-lg mb-2">
                           {currentCountry.capital}, {currentCountry.region}
                         </p>
@@ -772,7 +772,7 @@ Play at: ${url}`)
                     </div>
                   ) : (
                     <div className="space-y-4">
-                      <h2 className="text-2xl font-bold text-red-600 dark:text-red-400">Game Over</h2>
+                      <h2 className="text-2xl font-bold text-red-600 dark:text-red-400 font-varela">Game Over</h2>
                       <p>
                         The country was: <strong>{currentCountry.name}</strong>
                       </p>

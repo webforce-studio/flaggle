@@ -34,7 +34,7 @@ export function Header({
             <div className="relative w-12 h-12">
               <Image src="/flagguesser.png" alt="Flagguesser" fill className="object-contain" />
             </div>
-            <Link href="/" className="text-3xl font-bold text-blue-500 monument-title">
+            <Link href="/" className="text-3xl font-bold text-blue-500 font-varela">
               Flagguesser
             </Link>
           </div>
