@@ -1,40 +1,18 @@
-"use client"
-
-import { useState, useEffect } from "react"
-import { Header } from "@/components/header"
+import type { Metadata } from "next"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
+export const metadata: Metadata = {
+  title: "Flaggle Privacy Policy | Data, Cookies, and Security",
+  description:
+    "Read Flaggle's privacy policy. We minimize data collection, store stats locally, and offer a secure, kid‑friendly flag guessing experience.",
+  alternates: { canonical: "/privacy" },
+}
+
 export default function PrivacyPage() {
-  const [darkMode, setDarkMode] = useState(false)
-  const [showStats, setShowStats] = useState(false)
-  const [showHowToPlay, setShowHowToPlay] = useState(false)
-
-  useEffect(() => {
-    const savedDarkMode = localStorage.getItem("darkMode")
-    if (savedDarkMode) {
-      setDarkMode(JSON.parse(savedDarkMode))
-    }
-  }, [])
-
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode
-    setDarkMode(newDarkMode)
-    localStorage.setItem("darkMode", JSON.stringify(newDarkMode))
-  }
-
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
-        <Header
-          darkMode={darkMode}
-          toggleDarkMode={toggleDarkMode}
-          showStats={showStats}
-          setShowStats={setShowStats}
-          showHowToPlay={showHowToPlay}
-          setShowHowToPlay={setShowHowToPlay}
-        />
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
 
         <main className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">
@@ -50,7 +28,7 @@ export default function PrivacyPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Flagguesser is designed with privacy in mind. We collect minimal information to provide you with the
+                    flaggle.fun is designed with privacy in mind. We collect minimal information to provide you with the
                     best flag guessing experience:
                   </p>
                   <ul>
@@ -82,7 +60,7 @@ export default function PrivacyPage() {
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>The limited information we collect is used to:</p>
                   <ul>
-                    <li>Provide and maintain the Flagguesser daily flag guessing service</li>
+                    <li>Provide and maintain the Flaggle daily flag guessing service</li>
                     <li>Improve game performance and user experience</li>
                     <li>Analyze usage patterns to enhance flag guessing features</li>
                     <li>Ensure the security and stability of our service</li>
@@ -102,7 +80,7 @@ export default function PrivacyPage() {
                       storage mechanisms.
                     </li>
                     <li>
-                      <strong>No Personal Accounts:</strong> Flagguesser does not require account creation or personal
+                      <strong>No Personal Accounts:</strong> flaggle.fun does not require account creation or personal
                       information.
                     </li>
                     <li>
@@ -118,7 +96,7 @@ export default function PrivacyPage() {
                   <CardTitle>Third-Party Services</CardTitle>
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
-                  <p>Flagguesser may use third-party services for:</p>
+                  <p>Flaggle may use third-party services for:</p>
                   <ul>
                     <li>
                       <strong>Flag Images:</strong> Flag images are sourced from reliable flag databases with proper
@@ -174,7 +152,7 @@ export default function PrivacyPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Flagguesser is suitable for all ages and does not knowingly collect personal information from
+                    flaggle.fun is suitable for all ages and does not knowingly collect personal information from
                     children under 13. The game is designed to be educational and safe for young learners interested in
                     geography and world flags.
                   </p>
@@ -201,7 +179,7 @@ export default function PrivacyPage() {
                   <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
                   <ul>
                     <li>Email: contact@webforce-studio.com</li>
-                    <li>Website: flagguesser.fun</li>
+                    <li>Website: flaggle.fun</li>
                     <li>Response Time: We typically respond to privacy inquiries within 48 hours</li>
                   </ul>
                 </CardContent>
@@ -210,7 +188,7 @@ export default function PrivacyPage() {
             
             {/* Call to Action */}
             <div className="text-center bg-gradient-to-r from-amber-500 to-orange-500 rounded-lg p-8 text-white shadow-lg mt-12">
-              <h2 className="text-3xl font-bold mb-4">Ready to Play Flagguesser?</h2>
+              <h2 className="text-3xl font-bold mb-4">Ready to Play flaggle.fun?</h2>
               <p className="text-xl mb-6 opacity-90">
                 Your privacy is important to us. Start playing our secure, privacy-focused flag guessing game today!
               </p>
@@ -223,6 +201,5 @@ export default function PrivacyPage() {
           </div>
         </main>
       </div>
-    </div>
   )
 }

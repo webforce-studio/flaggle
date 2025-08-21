@@ -1,40 +1,18 @@
-"use client"
-
-import { useState, useEffect } from "react"
-import { Header } from "@/components/header"
+import type { Metadata } from "next"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
+export const metadata: Metadata = {
+  title: "Flaggle Terms of Service | Usage, IP, and Limitations",
+  description:
+    "Terms of Service for Flaggle. Learn about acceptable use, intellectual property, disclaimers, and contact information.",
+  alternates: { canonical: "/terms" },
+}
+
 export default function TermsPage() {
-  const [darkMode, setDarkMode] = useState(false)
-  const [showStats, setShowStats] = useState(false)
-  const [showHowToPlay, setShowHowToPlay] = useState(false)
-
-  useEffect(() => {
-    const savedDarkMode = localStorage.getItem("darkMode")
-    if (savedDarkMode) {
-      setDarkMode(JSON.parse(savedDarkMode))
-    }
-  }, [])
-
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode
-    setDarkMode(newDarkMode)
-    localStorage.setItem("darkMode", JSON.stringify(newDarkMode))
-  }
-
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
-        <Header
-          darkMode={darkMode}
-          toggleDarkMode={toggleDarkMode}
-          showStats={showStats}
-          setShowStats={setShowStats}
-          showHowToPlay={showHowToPlay}
-          setShowHowToPlay={setShowHowToPlay}
-        />
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
 
         <main className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">
@@ -50,7 +28,7 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    By accessing and using Flagguesser ("the Service"), you accept and agree to be bound by the terms and
+                    By accessing and using Flaggle ("the Service"), you accept and agree to be bound by the terms and
                     provision of this agreement. If you do not agree to abide by the above, please do not use this
                     service.
                   </p>
@@ -63,7 +41,7 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Flagguesser is a free, educational web-based game that challenges players to identify world flags
+                    Flaggle is a free, educational web-based game that challenges players to identify world flags
                     and countries. The service includes:
                   </p>
                   <ul>
@@ -82,7 +60,7 @@ export default function TermsPage() {
                   <CardTitle>User Conduct</CardTitle>
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
-                  <p>You agree to use Flagguesser responsibly and agree not to:</p>
+                  <p>You agree to use Flaggle responsibly and agree not to:</p>
                   <ul>
                     <li>
                       Use the service for any unlawful purpose or in violation of any local, state, national, or
@@ -102,7 +80,7 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    The Flagguesser service and its original content, features, and functionality are owned by Webforce
+                    The Flaggle service and its original content, features, and functionality are owned by Webforce
                     Studio and are protected by international copyright, trademark, patent, trade secret, and other
                     intellectual property laws.
                   </p>
@@ -119,7 +97,7 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent className="prose dark:prose-invert max-w-none">
                   <p>
-                    Flagguesser is designed as an educational tool to promote learning about world geography, flags,
+                    Flaggle is designed as an educational tool to promote learning about world geography, flags,
                     and cultural knowledge. We encourage the use of this service in educational settings, including:
                   </p>
                   <ul>
@@ -196,7 +174,7 @@ export default function TermsPage() {
                   <p>If you have any questions about these Terms of Service, please contact us:</p>
                   <ul>
                     <li>Email: contact@webforce-studio.com</li>
-                    <li>Website: flagguesser.fun</li>
+                    <li>Website: flaggle.fun</li>
                     <li>Response Time: We typically respond to legal inquiries within 48 hours</li>
                   </ul>
                 </CardContent>
@@ -218,6 +196,5 @@ export default function TermsPage() {
           </div>
         </main>
       </div>
-    </div>
   )
 }

@@ -2,19 +2,20 @@
 
 import type React from "react"
 import { useState, useEffect } from "react"
+import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import { Trophy, Share2, BarChart3, Flame, Zap, Crown, Star, Gem, MapPin, Facebook, Linkedin } from "lucide-react"
 import Image from "next/image"
-import { Header } from "@/components/header"
 import { Input } from "@/components/ui/input"
 import { StructuredData } from "@/components/structured-data"
 import { XIcon } from "@/components/x-icon"
 import { FAQ } from "@/components/faq"
 import { GameLinks } from "@/components/game-links"
 import { getCountries, getTodaysCountry, calculateDistance, type CountryData } from "@/lib/data"
+import Link from "next/link"
 
 // Game statistics interface
 interface GameStats {
@@ -115,6 +116,7 @@ const getYesterday = (): string => {
 }
 
 export default function Flagguesser() {
+  const { theme } = useTheme()
   const [darkMode, setDarkMode] = useState(true)
   const [currentCountry, setCurrentCountry] = useState<CountryData | null>(null)
   const [countries, setCountries] = useState<CountryData[]>([])
@@ -212,18 +214,22 @@ export default function Flagguesser() {
     localStorage.setItem(`flagguesser-game-${today}`, JSON.stringify(gameState))
   }
 
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode
-    setDarkMode(newDarkMode)
-    localStorage.setItem("flagguesser-dark-mode", JSON.stringify(newDarkMode))
+  // reflect global theme into local state
+  useEffect(() => {
+    setDarkMode(theme === "dark")
+  }, [theme])
 
-    // Update document class for dark mode
-    if (newDarkMode) {
-      document.documentElement.classList.add("dark")
-    } else {
-      document.documentElement.classList.remove("dark")
+  // Listen to header events to toggle modals
+  useEffect(() => {
+    const onToggleStats = () => setShowStats((v) => !v)
+    const onToggleHowTo = () => setShowHowToPlay((v) => !v)
+    window.addEventListener("flaggle:toggle-stats", onToggleStats)
+    window.addEventListener("flaggle:toggle-howto", onToggleHowTo)
+    return () => {
+      window.removeEventListener("flaggle:toggle-stats", onToggleStats)
+      window.removeEventListener("flaggle:toggle-howto", onToggleHowTo)
     }
-  }
+  }, [])
 
   // Filter countries based on input
   const filterCountries = (input: string) => {
@@ -600,14 +606,7 @@ Play at: ${url}`)
           : "bg-gradient-to-br from-blue-50 to-indigo-50 text-slate-900"
       }`}
     >
-      <Header
-        darkMode={darkMode}
-        toggleDarkMode={toggleDarkMode}
-        showStats={showStats}
-        setShowStats={setShowStats}
-        showHowToPlay={showHowToPlay}
-        setShowHowToPlay={setShowHowToPlay}
-      />
+      {/* Header is rendered globally in layout via <SiteHeader /> */}
 
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-[1fr_300px] gap-8">
@@ -774,7 +773,13 @@ Play at: ${url}`)
                     <div className="space-y-4">
                       <h2 className="text-2xl font-bold text-red-600 dark:text-red-400 font-varela">Game Over</h2>
                       <p>
-                        The country was: <strong>{currentCountry.name}</strong>
+                        The country was: {" "}
+                        <Link
+                          href={`/flags/${currentCountry.id}`}
+                          className="font-bold text-blue-600 dark:text-blue-400 underline decoration-dotted hover:decoration-solid"
+                        >
+                          {currentCountry.name}
+                        </Link>
                       </p>
                     </div>
                   )}
@@ -993,7 +998,82 @@ Play at: ${url}`)
         <div className="mt-8">
           <FAQ />
         </div>
+
+        {/* Printable Flags CTA */}
+        <div className="mt-8 flex justify-center">
+          <a
+            href="/printable-flags"
+            aria-label="Free printable country flags (SVG and PNG)"
+            className={`inline-flex items-center gap-2 px-6 py-3 rounded-md font-semibold transition-colors ${
+              darkMode
+                ? "bg-blue-600 text-white hover:bg-blue-500"
+                : "bg-blue-600 text-white hover:bg-blue-500"
+            }`}
+          >
+            Free Printable Flags (SVG/PNG)
+          </a>
+        </div>
       </div>
+
+      {/* Stats Modal */}
+      {showStats && (
+        <div className="fixed inset-0 z-[9999] bg-black/50 flex items-center justify-center p-4">
+          <Card className={`w-full max-w-md transition-colors ${darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"}`}>
+            <CardContent className="p-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-bold">Your Statistics</h2>
+                <Button variant="ghost" size="sm" onClick={() => setShowStats(false)} aria-label="Close stats">
+                  ✕
+                </Button>
+              </div>
+              <div className="grid grid-cols-2 gap-4 mb-4 text-center">
+                <div>
+                  <div className="text-2xl font-bold text-blue-500">{stats.gamesPlayed}</div>
+                  <div className={`text-sm ${darkMode ? "text-slate-400" : "text-slate-600"}`}>Played</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-green-500">{stats.gamesPlayed > 0 ? Math.round((stats.gamesWon / stats.gamesPlayed) * 100) : 0}%</div>
+                  <div className={`text-sm ${darkMode ? "text-slate-400" : "text-slate-600"}`}>Win Rate</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-blue-500">{stats.currentStreak}</div>
+                  <div className={`text-sm ${darkMode ? "text-slate-400" : "text-slate-600"}`}>Current Streak</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-purple-500">{stats.maxStreak}</div>
+                  <div className={`text-sm ${darkMode ? "text-slate-400" : "text-slate-600"}`}>Max Streak</div>
+                </div>
+              </div>
+              <div className="flex gap-2">
+                <Button onClick={shareResult} className="flex-1 bg-blue-500 hover:bg-blue-600 text-white">
+                  Share Stats
+                </Button>
+                <Button onClick={() => setShowStats(false)} variant="outline" className={`flex-1 ${darkMode ? "bg-slate-800 text-slate-100" : ""}`}>
+                  Close
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
+      {/* How to Play Modal */}
+      {showHowToPlay && (
+        <div className="fixed inset-0 z-[9999] bg-black/50 flex items-center justify-center p-4">
+          <Card className={`w-full max-w-md transition-colors ${darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"}`}>
+            <CardContent className="p-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-bold">How to Play</h2>
+                <Button variant="ghost" size="sm" onClick={() => setShowHowToPlay(false)} aria-label="Close how to play">✕</Button>
+              </div>
+              <div className={`text-sm space-y-3 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
+                <p>Guess the mystery country in up to 6 tries. Each wrong guess reveals more of the flag and you’ll get distance hints to guide you.</p>
+                <p>Use the search to enter a country. After the game, jump to the country’s detail page to learn its history and download printable flags.</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
 
       {/* SEO Structured Data */}
       <StructuredData 

@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import "./globals.css"
 import { Providers } from "./providers"
+import { SiteHeader } from "@/components/site-header"
 import { Footer } from "@/components/footer"
 import { SEOOptimizer } from "@/components/seo-optimizer"
 import { ErrorBoundary } from "@/components/error-boundary"
@@ -13,9 +14,9 @@ import { BlockingCookieConsent } from "@/components/cookie-consent-blocking"
 import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
 
 export const metadata: Metadata = {
-  title: "Flagguesser - Daily Flag Guessing Game | Test Your World Knowledge",
+  title: "flaggle.fun - Daily Flag Guessing Game | The Fun Flagle Alternative",
   description:
-      "Play Flagguesser, the daily flag guessing game! Identify world countries from progressively revealed flag images. Features 150+ countries from all continents. A free daily puzzle game for geography enthusiasts and flag lovers. Perfect for students, educators, and travel enthusiasts.",
+      "Play flaggle.fun, the fun alternative to Flagle! Daily flag guessing game where you identify world countries from progressively revealed flag images. Features 195+ countries from all continents. The most engaging flag guesser game online - perfect for geography enthusiasts and flag lovers.",
   icons: {
     icon: [
       { url: "/logos/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -123,9 +124,9 @@ export const metadata: Metadata = {
     "geography education game",
     "flag trivia game"
   ].join(", "),
-  authors: [{ name: "Flagguesser Team" }],
-  creator: "Flagguesser",
-  publisher: "Flagguesser",
+  authors: [{ name: "flaggle.fun Team" }],
+  creator: "flaggle.fun",
+  publisher: "flaggle.fun",
   formatDetection: {
     email: false,
     address: false,
@@ -136,11 +137,11 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Flagguesser - Daily Flag Guessing Game | 150+ World Countries",
+    title: "flaggle.fun - Daily Flag Guessing Game | 150+ World Countries",
     description:
       "Test your knowledge of world flags with our daily flag guessing game. Identify countries from progressively revealed flag images. Features 150+ countries from all continents. Perfect for students, educators, and travel enthusiasts.",
     url: "https://flagguesser.fun",
-    siteName: "Flagguesser",
+    siteName: "flaggle.fun",
     images: [
       {
         url: "/og-image.png",
@@ -154,7 +155,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Flagguesser - Daily Flag Guessing Game",
+    title: "flaggle.fun - Daily Flag Guessing Game",
     description: "Test your knowledge of world flags with our daily flag guessing game. 150+ countries to discover! Perfect for students and educators.",
     images: ["/og-image.png"],
     creator: "@flagguesser",
@@ -177,14 +178,14 @@ export const metadata: Metadata = {
     yahoo: "your-yahoo-verification-code",
   },
   generator: "Next.js",
-  applicationName: "Flagguesser",
+  applicationName: "flaggle.fun",
   category: "Game",
   classification: "Educational Game",
   other: {
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "default",
-    "apple-mobile-web-app-title": "Flagguesser",
-    "application-name": "Flagguesser",
+    "apple-mobile-web-app-title": "flaggle.fun",
+    "application-name": "flaggle.fun",
     "msapplication-TileColor": "#F59E0B",
     "msapplication-config": "/browserconfig.xml",
     "theme-color": "#F59E0B",
@@ -204,9 +205,11 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/browserconfig.xml" />
 
         {/* Favicon */}
+        <link rel="icon" type="image/svg+xml" href="/logos/logo-header.svg" />
         <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/logos/favicon-16x16.png" />
         <link rel="icon" type="image/png" sizes="48x48" href="/logos/favicon-48x48.png" />
+        <link rel="mask-icon" href="/logos/logo-header.svg" color="#0EA5E9" />
         <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon-180x180.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/logos/apple-touch-icon-152x152.png" />
         <link rel="apple-touch-icon" sizes="120x120" href="/logos/apple-touch-icon-120x120.png" />
@@ -737,6 +740,7 @@ export default function RootLayout({
         <SEOOptimizer />
         <SEOAnalytics />
         <Providers>
+          <SiteHeader />
           <ErrorBoundary>
             {children}
           </ErrorBoundary>

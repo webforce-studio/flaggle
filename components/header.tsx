@@ -31,11 +31,11 @@ export function Header({
       <div className="max-w-4xl mx-auto px-4 py-2 flex items-center justify-between flex-wrap gap-2">
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-2">
-            <div className="relative w-12 h-12">
-              <img src="/logo.png" alt="Flagguesser" className="w-full h-full object-contain" />
+            <div className="relative w-14 h-14">
+              <img src="/logo.png" alt="Flaggle" className="w-full h-full object-contain" />
             </div>
-            <Link href="/" className="text-3xl font-bold text-blue-500 font-varela">
-              Flagguesser
+            <Link href="/" className="text-3xl font-extrabold text-blue-500 font-varela">
+              Flaggle
             </Link>
           </div>
         </div>

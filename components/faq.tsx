@@ -4,44 +4,44 @@ import { Globe, GraduationCap, Pencil, Clock, BookOpen, Building, Palette, Star,
 
 const FAQ_DATA = [
   {
-    question: "How do I play Flagguesser?",
-    answer: "You are shown a flag each day and must guess which country it belongs to. Enter your guess, and receive feedback after each attempt. The goal is to guess correctly in as few tries as possible.",
+    question: "How to play the flag game?",
+    answer: "flaggle.fun is a daily flag guessing game where you identify world countries from progressively revealed flag images. You get 6 attempts to guess the correct country, with each wrong guess revealing more of the flag and providing geographic hints.",
     icon: Globe
   },
   {
-    question: "How many guesses do I get per day?",
-    answer: "You get 6 guesses per day. Each guess provides feedback on how close you are to the correct country, helping you narrow down your next guess.",
-    icon: Clock
+    question: "What is the flag game called?",
+    answer: "This flag guessing game is called flaggle.fun - a fun alternative to Flagle. It's a daily puzzle game that combines entertainment with geography education, featuring flags from 195+ countries worldwide.",
+    icon: HelpCircle
   },
   {
-    question: "What kind of feedback do I get?",
-    answer: "After each guess, you'll see the distance to the correct country and whether you're getting closer or farther away. This helps you learn geography while playing.",
-    icon: Pencil
-  },
-  {
-    question: "How does the distance calculation work?",
-    answer: "The game calculates the actual geographic distance between your guessed country and the correct country, giving you real-world geography insights.",
-    icon: Globe
-  },
-  {
-    question: "What geography skills will I develop?",
-    answer: "You'll improve your knowledge of world flags, country locations, capitals, and develop a better understanding of global geography through daily practice.",
-    icon: BookOpen
-  },
-  {
-    question: "Which countries are included?",
-    answer: "The game includes countries from all continents, featuring diverse flags from around the world to provide a comprehensive geography learning experience.",
-    icon: Building
-  },
-  {
-    question: "What cultural knowledge will I gain?",
-    answer: "Beyond flags, you'll learn about country capitals, regions, and develop a deeper appreciation for the cultural diversity represented by world flags.",
+    question: "What color is 75% of all flags?",
+    answer: "Red appears on approximately 75% of all world flags, making it the most common flag color. This is followed by white and blue, which also appear frequently in national flag designs.",
     icon: Palette
   },
   {
-    question: "Are there different difficulty levels?",
-    answer: "The game adapts to your skill level through the streak system. As you build winning streaks, you'll unlock achievements and develop stronger geography skills.",
+    question: "Are there 254 flags in the world?",
+    answer: "There are 195 officially recognized sovereign country flags in the world. The number 254 might include territories, dependencies, and regional flags. flaggle.fun focuses on the official country flags for the best learning experience.",
+    icon: Building
+  },
+  {
+    question: "Is flaggle.fun free to play?",
+    answer: "Yes! flaggle.fun is completely free to play with no ads or premium features. Enjoy unlimited access to daily flag challenges, regional quizzes, and educational content about world geography.",
     icon: Star
+  },
+  {
+    question: "What's the difference between Flagle and flaggle.fun?",
+    answer: "flaggle.fun is a more engaging and educational alternative to Flagle. Both offer a daily challenge; in addition, flaggle.fun provides regional flag quizzes, detailed country pages (history, map, printable flags), and a more interactive learning experience.",
+    icon: Clock
+  },
+  {
+    question: "How does flaggle.fun help learn geography?",
+    answer: "Beyond flag recognition, flaggle.fun teaches country locations, capital cities, regional geography, and cultural knowledge. Each game provides educational insights about the featured country's geography and culture.",
+    icon: BookOpen
+  },
+  {
+    question: "Can I play flaggle.fun in the classroom?",
+    answer: "Absolutely! flaggle.fun is perfect for classroom use. Teachers can use it for geography lessons, cultural studies, and interactive learning. The regional flag sections (Europe, Asia, Africa, Americas) are great for focused study.",
+    icon: GraduationCap
   }
 ]
 
@@ -78,7 +78,7 @@ export function FAQ() {
           <h2 className="text-4xl font-bold text-orange-500">Frequently Asked Questions</h2>
         </div>
         <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-          Everything you need to know about our interactive world geography quiz and flag identification game
+          Everything you need to know about flaggle.fun - the most engaging flag guessing game and Flagle alternative
         </p>
       </div>
 

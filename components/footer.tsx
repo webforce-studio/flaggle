@@ -12,35 +12,37 @@ export function Footer() {
               <div className="relative w-10 h-10">
                 <img src="/logo.png" alt="Flagguesser" className="w-full h-full object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-blue-400 font-varela">Flagguesser</h3>
+              <h3 className="text-xl font-bold text-blue-400 font-varela">flaggle.fun</h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Daily flag guessing game. Test your knowledge of world countries and national flags. Identify countries from progressively revealed flag images.
             </p>
           </div>
 
-          {/* Game Links */}
+          
+
+          {/* Regional Flags */}
           <div>
-            <h4 className="font-semibold text-amber-400 mb-4">Game</h4>
+            <h4 className="font-semibold text-amber-400 mb-4">Regional Flags</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/" className="hover:text-amber-400 transition-colors">
-                  Play Today
+                <Link href="/europe-flags" className="hover:text-amber-400 transition-colors">
+                  Europe Flags
                 </Link>
               </li>
               <li>
-                <Link href="/how-to-play" className="hover:text-amber-400 transition-colors">
-                  How to Play
+                <Link href="/africa-flags" className="hover:text-amber-400 transition-colors">
+                  Africa Flags
                 </Link>
               </li>
               <li>
-                <Link href="/geography-quiz" className="hover:text-amber-400 transition-colors">
-                  Geography Quiz
+                <Link href="/asia-flags" className="hover:text-amber-400 transition-colors">
+                  Asia Flags
                 </Link>
               </li>
               <li>
-                <Link href="/world-flags" className="hover:text-amber-400 transition-colors">
-                  World Flags
+                <Link href="/america-flags" className="hover:text-amber-400 transition-colors">
+                  Americas Flags
                 </Link>
               </li>
             </ul>
@@ -62,12 +64,22 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.supercardle.fun"
+                  href="https://www.numlink.fun"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-amber-400 transition-colors"
                 >
-                  Supercardle 🏎️
+                  Numlink 🔢
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.monumentle.fun"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  Monumentle 🗽
                 </a>
               </li>
               <li>

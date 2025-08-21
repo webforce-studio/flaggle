@@ -1,39 +1,17 @@
-"use client"
-
-import { useState, useEffect } from "react"
-import { Header } from "@/components/header"
+import type { Metadata } from "next"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, MessageSquare, HelpCircle, Globe } from "lucide-react"
 
+export const metadata: Metadata = {
+  title: "Contact Flaggle | Support, Feedback, and Partnerships",
+  description:
+    "Contact Flaggle for support, feedback, partnerships, and educational use. We reply within 24–48 hours. Flag guessing game and printable flags hub.",
+  alternates: { canonical: "/contact" },
+}
+
 export default function ContactPage() {
-  const [darkMode, setDarkMode] = useState(false)
-  const [showStats, setShowStats] = useState(false)
-  const [showHowToPlay, setShowHowToPlay] = useState(false)
-
-  useEffect(() => {
-    const savedDarkMode = localStorage.getItem("darkMode")
-    if (savedDarkMode) {
-      setDarkMode(JSON.parse(savedDarkMode))
-    }
-  }, [])
-
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode
-    setDarkMode(newDarkMode)
-    localStorage.setItem("darkMode", JSON.stringify(newDarkMode))
-  }
-
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
-        <Header
-          darkMode={darkMode}
-          toggleDarkMode={toggleDarkMode}
-          showStats={showStats}
-          setShowStats={setShowStats}
-          showHowToPlay={showHowToPlay}
-          setShowHowToPlay={setShowHowToPlay}
-        />
+    <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
 
         <main className="container mx-auto px-4 py-12">
           <div className="max-w-4xl mx-auto">
@@ -41,7 +19,7 @@ export default function ContactPage() {
             <div className="text-center mb-12">
               <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Contact Us</h1>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                Have questions, suggestions, or feedback about Flagguesser? We'd love to hear from you!
+                Have questions, suggestions, or feedback about Flaggle? We'd love to hear from you!
               </p>
             </div>
 
@@ -86,7 +64,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white mb-2">What We Can Help With</h3>
                     <ul className="text-gray-600 dark:text-gray-300 space-y-1">
-                      <li>• General questions about Flagguesser</li>
+                      <li>• General questions about Flaggle</li>
                       <li>• Bug reports and technical issues</li>
                       <li>• Feature suggestions and feedback</li>
                       <li>• Educational use inquiries</li>
@@ -120,16 +98,16 @@ export default function ContactPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 dark:text-white">Is Flagguesser free to play?</h4>
+                    <h4 className="font-medium text-gray-900 dark:text-white">Is Flaggle free to play?</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      Yes! Flagguesser is completely free to play with no ads or premium features.
+                      Yes! Flaggle is completely free to play.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="font-medium text-gray-900 dark:text-white">Can I use Flagguesser in my classroom?</h4>
+                    <h4 className="font-medium text-gray-900 dark:text-white">Can I use Flaggle in my classroom?</h4>
                     <p className="text-sm text-gray-600 dark:text-gray-300">
-                      Yes! Flagguesser is designed as an educational tool and is perfect for geography lessons and cultural studies.
+                      Yes! Flaggle is designed as an educational tool and is perfect for geography lessons and cultural studies.
                     </p>
                   </div>
                 </CardContent>
@@ -140,16 +118,16 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-amber-600" />
-                    About Flagguesser
+                    About Flaggle
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-gray-600 dark:text-gray-300">
-                    Flagguesser is an educational geography game that challenges players to identify world flags and countries. 
+                    Flaggle is an educational geography game that challenges players to identify world flags and countries.
                     Our mission is to make learning about world geography engaging and accessible to everyone.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    With over 150 countries from all continents, we provide a comprehensive learning experience that combines 
+                    With over 150 countries from all continents, we provide a comprehensive learning experience that combines
                     visual recognition, geographical knowledge, and cultural education.
                   </p>
                 </CardContent>
@@ -158,6 +136,5 @@ export default function ContactPage() {
           </div>
         </main>
       </div>
-    </div>
   )
 }

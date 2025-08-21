@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next"
+import { countries } from "@/lib/country-database"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://flagguesser.fun"
+  const baseUrl = "https://flaggle.fun"
   const currentDate = new Date().toISOString()
 
   // Static pages
@@ -11,6 +12,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: currentDate,
       changeFrequency: "daily" as const,
       priority: 1,
+    },
+    {
+      url: `${baseUrl}/printable-flags`,
+      lastModified: currentDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/how-to-play`,
@@ -60,7 +67,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/europe-flags`,
+      lastModified: currentDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/africa-flags`,
+      lastModified: currentDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/asia-flags`,
+      lastModified: currentDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/america-flags`,
+      lastModified: currentDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
   ]
 
-  return staticPages
+  const flagPages = countries.map((c) => ({
+    url: `${baseUrl}/flags/${c.id}`,
+    lastModified: currentDate,
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }))
+
+  return [...staticPages, ...flagPages]
 }

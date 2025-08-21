@@ -13,7 +13,11 @@ export default function robots(): MetadataRoute.Robots {
           "/terms",
           "/geography-quiz",
           "/world-flags",
-          "/learn-geography"
+          "/learn-geography",
+          "/europe-flags",
+          "/africa-flags",
+          "/asia-flags",
+          "/america-flags"
         ],
         disallow: [
           "/monument-overview/",
@@ -60,7 +64,7 @@ export default function robots(): MetadataRoute.Robots {
         crawlDelay: 1,
       }
     ],
-    sitemap: "https://flagguesser.fun/sitemap.xml",
-    host: "https://flagguesser.fun",
+    sitemap: "https://flaggle.fun/sitemap.xml",
+    host: "https://flaggle.fun",
   }
 }
