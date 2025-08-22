@@ -3484,6 +3484,63 @@ The flag has remained stable since 1943, serving as a unifying mark in a complex
       "lebanon flag history",
       "lebanon flag colors"
     ],
+  },
+  maldives: {
+    countryId: "maldives",
+    summary250: `Maldives’ flag is a red field bearing a green rectangle charged with a white crescent opening toward the fly. The modern composition was consolidated during twentieth‑century reforms and affirmed at independence in 1965 and the 1968 republic. Red symbolises the blood and courage of defenders; green faith, peace, and the coconut palm; the crescent Islam. Ratio is 2:3 with codified panel margins, crescent radii, and colour standards. Protocol governs precedence, half‑masting, maritime use, and dignified retirement; royal and state variants used historically have been retired.`,
+    longText: `The national flag of the Republic of Maldives—red field, central green panel, and a white crescent opening toward the fly—emerged through a series of nineteenth‑ and twentieth‑century adjustments that aligned island heraldry with modern state practice while retaining Islamic symbolism.
+
+From Red Banners to Panel and Crescent
+Historical Maldivian standards were predominantly red, a colour long associated with maritime sovereignty and royal authority in the Indian Ocean. In the early twentieth century, reforms under Sultan Muhammad Shamsuddeen III introduced a green rectangle centred on the red field, reflecting the islands’ coconut palm culture and the colour’s association with peace and faith. Later, a white crescent—common across Islamic heraldry—was added to the green panel, opening toward the fly to ensure clarity in wind.
+
+Independence and the Republic
+On 26 July 1965, the Maldives regained independence; the subsequent proclamation of the republic in 1968 consolidated the modern national flag, retiring earlier royal variants and hoist markings tied to monarchical courts. Legal texts and administrative circulars standardised the panel‑to‑field proportions, the placement and curvature of the crescent, and dye references suitable for tropical light and maritime service.
+
+Design and Geometry
+The flag’s ratio is 2:3. The green rectangle is inset from the red field by equal margins on all sides, defined as fixed fractions of the flag’s height in official drawings. The white crescent is constructed from intersecting circles to achieve a clean inner and outer arc, centred within the green panel and opening toward the fly. Government art files specify stroke weights and clearspace to preserve legibility at small sizes and in stitching.
+
+Symbolism
+Red expresses the blood and courage of those who defended the islands and their sovereignty; green represents Islam, peace, and the fertility embodied by the coconut palm; the white crescent affirms the nation’s Islamic identity and guidance. Together the palette produces strong contrast on sea and shore, important for a dispersed atoll nation with a maritime economy.
+
+Protocol and Usage
+Regulations address respectful handling (no contact with ground or water; sunrise‑to‑sunset display unless illuminated), precedence with foreign flags, placement on government vessels and aircraft, and the dignified retirement of worn flags. Half‑masting follows presidential order in mourning. Educational materials distributed to schools and island councils include geometry diagrams to avoid distorted crescents or incorrect panel margins.
+
+Continuity
+While royal and state variants have existed historically, the national standard has remained stable since independence and republican consolidation. On Independence Day and Republic Day, coordinated mast programmes across atolls and resorts emphasise the banner’s unifying role in a geographically fragmented state, while embassies and missions abroad display the flag according to Vienna Convention norms and host‑state protocol.`,
+    seoKeywords: [
+      "maldives flag",
+      "flag of maldives",
+      "maldives flag meaning",
+      "maldives flag history",
+      "maldives flag colors"
+    ],
+  },
+  mongolia: {
+    countryId: "mongolia",
+    summary250: `Mongolia’s flag is a vertical tricolour of red, blue, red, with the golden Soyombo emblem at the hoist. The current form was affirmed in 1992 when the socialist star above the Soyombo was removed. Blue signifies the eternal sky; red strength and progress. The Soyombo encodes fire, sun, moon, earth, water, and the yin‑yang‑like taijitu. Statutes set a 1:2 ratio, precise Soyombo artwork, placement, colour standards, and protocol for display, half‑masting, and dignified retirement.`,
+    longText: `Mongolia’s national flag—red, blue, red with the Soyombo emblazoned at the hoist—expresses steppe cosmology and the state’s modern constitutional identity. The present form dates to 1992 when the five‑pointed socialist star formerly surmounting the emblem was removed following democratic reforms; the underlying tricolour and the Soyombo’s core elements continue a line first entrenched in the twentieth century.
+
+Tricolour and Eternal Sky
+The vertical tricolour comprises two red bands flanking a central blue band. Blue evokes the “Eternal Blue Sky” (Tenger), a foundational concept in Mongolian worldview and statecraft; red denotes strength, vitality, and progress. The arrangement provides strong contrast at distance and on horseback standards, banners, and mastheads.
+
+The Soyombo Emblem
+At the hoist appears the golden Soyombo, a stacked ideographic emblem created by Zanabazar in the seventeenth century. From top to bottom it features stylised flame (the nation’s flourishing across generations), sun and crescent moon (eternity), triangles (defence against enemies), rectangles (honesty and justice), the taijitu‑like symbol (complementarity and balance), and vertical bars (resilience and unity). The state standard provides exact linework, stroke weight, and spacing to ensure faithful reproduction on cloth, print, and digital media.
+
+1992 Reform and Legal Specification
+With the 1992 Constitution, the socialist star above the Soyombo was removed. Law fixes the flag’s ratio at 1:2, positions the Soyombo within the hoist band at defined offsets, and codifies Pantone/CMYK references for the red, blue, and gold. Procurement rules require licensed artwork; ministries and schools receive vector templates to prevent drift in geometry.
+
+Protocol and Usage
+Regulations govern respectful handling, precedence with foreign flags, half‑masting during mourning by decree, and dignified retirement of worn flags. Military colours and presidential standards adapt the Soyombo within shields or wreaths while preserving the base tricolour. Diplomatic missions fly the flag externally and in protocol halls according to international practice.
+
+Continuity and Public Meaning
+The flag is central to State Flag Day and Naadam festivities, on which large banners are carried into stadia and across public squares. In sport and international fora, the tricolour and Soyombo visually anchor Mongolia’s identity between Russia and China, communicating a synthesis of historical cosmology and civic republicanism.`,
+    seoKeywords: [
+      "mongolia flag",
+      "flag of mongolia",
+      "mongolia flag meaning",
+      "mongolia flag history",
+      "mongolia flag colors"
+    ],
   }
 }
 
