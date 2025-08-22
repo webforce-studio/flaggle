@@ -2995,6 +2995,129 @@ In summary, the UAE flag fuses Pan‑Arab colour symbolism with a crisp geometry
       "uae flag history",
       "uae flag colors"
     ],
+  },
+  afghanistan: {
+    countryId: "afghanistan",
+    summary250: `Afghanistan’s flags have shifted repeatedly with regime changes. The internationally recognized 2013–2021 tricolour—black, red, green with the state emblem—encapsulated sovereignty, Islam, and 1919 independence. Earlier monarchic, republican, communist, and mujahideen governments each altered layouts or emblems; the Taliban (1996–2001; since 2021) use a white flag with the black shahada. Laws in each period set ratios, colours, emblem art, protocol, half‑masting, and dignified retirement.`,
+    longText: `Afghanistan’s national flag has been one of the most frequently revised in modern vexillology, mirroring sharp turns in state ideology and constitutional order from monarchy to republic, socialist rule, civil conflict, Islamic republic, and the re‑established Islamic Emirate.
+
+Monarchy and Early Tricolours
+In the late nineteenth century, the Emirate used plain black banners as assertions of sovereignty. Under King Amanullah (r. 1919–1929), a black–red–green palette entered official use, first horizontally then vertically, with a central emblem showing a mosque façade framed by sheaves of wheat and the date 1298 (AH), commemorating 1919 independence from British influence. Subsequent monarchic refinements through 1930–1973 retained the tricolour while adjusting arms and inscriptions, standardising ratios and colour references, and prescribing respectful handling at ministries, courts, and schools.
+
+Republic and Socialist Periods
+The 1973 republic replaced royal arms; after the 1978 Saur Revolution, socialist authorities introduced a solid red flag with revolutionary emblems, then later a red‑green‑black arrangement with a star and cog. Regulations detailed manufacture, display, and penalties for desecration, aligning usage with socialist symbolism and international practice in allied states.
+
+Mujahideen Governments and the 1990s
+With the collapse of the socialist regime, mujahideen authorities restored a tricolour and mosque arms, reaffirming Islamic identity. During the late 1990s, the Taliban (1996–2001) instituted a plain white flag bearing the shahada in black, eliminating representational arms and colour symbolism in favour of religious text.
+
+Islamic Republic (2004–2021)
+After 2001, interim authorities and the 2004 constitution re‑installed the tricolour (black‑red‑green) with a detailed white emblem centred: a mosque with mihrab toward Mecca, rising rays, takbir and shahada, two flags, sheaves, and the independence date. Laws specified a typical 1:2 or 2:3 ratio, emblem geometry, dye references, sunrise‑to‑sunset display, half‑masting by decree, precedence with foreign flags, and dignified retirement when worn. Embassies and armed forces used regulated variants.
+
+Islamic Emirate (since August 2021)
+Following the fall of the republic, the Taliban resumed use of a white flag with the black shahada. Decrees declare it the sole legal standard on state buildings, documents, and delegations; prior tricolour use is discouraged or prohibited. Protocol emphasises religious reverence, prohibiting profane or commercial uses.
+
+Symbolism and Protocol
+Across eras, the tricolour has been read as black for the past, red for struggle and sacrifice, and green for Islam and hope. Mosque emblems have embodied sovereignty, law, and faith; wheat sheaves, agriculture; and dated scrolls, independence. All governments codified manufacture and handling, with penalties for defacement.
+
+International Representation
+Afghan flags have identified the state at the UN and in sport with frequent transitions reflected in delegation practice. In every phase, legal texts have tied the flag’s form to the ruling order, making the banner an index of constitutional history as much as a national identifier.`,
+    seoKeywords: [
+      "afghanistan flag",
+      "flag of afghanistan",
+      "afghanistan flag meaning",
+      "afghanistan flag history",
+      "afghanistan flag colors"
+    ],
+  },
+  armenia: {
+    countryId: "armenia",
+    summary250: `Armenia’s tricolour—red, blue, orange (apricot)—was restored on 24 August 1990, reviving the First Republic’s 1918 design. Red signifies survival and sacrifice; blue the sky; orange industriousness and talent. Under Soviet rule a red flag with communist symbols prevailed (1922–1991). Law defines a 1:2 ratio, shades, protocol, half‑masting, and dignified retirement; misuse is penalised.`,
+    longText: `Armenia’s national flag compresses a long history of endurance, cultural memory, and statehood into three horizontal bands: red, blue, and orange. The tricolour first flew for the First Republic (1918–1920), lapsed under Soviet rule, and returned with independence in 1990.
+
+Origins and First Republic
+Nineteenth‑century national revivalists explored palettes and symbols drawn from Armenian art and liturgy. The tricolour of red–blue–orange gained currency and was adopted in 1918 by the First Republic, with meanings contemporaneously explained as the people’s struggle and blood (red), the heavens (blue), and labour, fruitfulness, and talent (orange/apricot).
+
+Soviet Period
+From 1922, the Armenian SSR used socialist designs: a red field, hammer and sickle, and, from 1952, a horizontal blue stripe across the centre. Protocol aligned with union‑wide norms. The diaspora kept the tricolour alive as a communal emblem through the twentieth century.
+
+Restoration and Law (1990–present)
+On 24 August 1990 the Supreme Soviet restored the tricolour; subsequent statutes and the 2005 Constitution codified a 1:2 ratio, equal stripes, shade guidance, and usage rules. The flag is raised on state buildings, diplomatic posts, and during national holidays; half‑masting follows decree. Desecration and unauthorised commercialisation are offences.
+
+Symbolism and Practice
+Red recalls survival, independence struggles, and the Armenian Highlands; blue, steadfast skies and aspiration; orange, the nation’s industry and creativity. The banner is central to ceremonies, military colours, and civic education at home and among diaspora communities.
+
+Continuity
+Unaltered since 1990, the tricolour links the modern republic to its first experiment in independence and to a wider historical narrative of cultural persistence.`,
+    seoKeywords: [
+      "armenia flag",
+      "flag of armenia",
+      "armenia flag meaning",
+      "armenia flag history",
+      "armenia flag colors"
+    ],
+  },
+  azerbaijan: {
+    countryId: "azerbaijan",
+    summary250: `Azerbaijan’s flag (re‑adopted 5 February 1991) is a horizontal tricolour—blue, red, green—with a white crescent and eight‑pointed star centred. Blue denotes Turkic heritage; red progress and modernity; green Islam. First raised by the 1918–1920 Democratic Republic, it was replaced under Soviet rule, then restored before independence. Law fixes a 1:2 ratio, geometry, protocol, and penalties for desecration.`,
+    longText: `Azerbaijan’s tricolour with crescent and eight‑pointed star is a synthesis of Turkic heritage, Islamic culture, and modern state aspirations. First adopted by the Azerbaijan Democratic Republic (ADR) in 1918, it was abolished after Sovietisation in 1920 and restored on 5 February 1991 amid the USSR’s dissolution.
+
+ADR Adoption (1918–1920)
+The blue–red–green bands encode Turkic identity (blue), progress and Europeanisation (red), and Islam (green). Centred on the red band are a white crescent and an eight‑pointed star. Interpretations of the star include the eight letters of “Azerbaijan” in pre‑Latin scripts or eight branches of the Turkic world.
+
+Soviet Period
+The tricolour gave way to red Soviet flags bearing the hammer and sickle and local inscriptions. Usage and protocol matched union standards; national symbolism was largely suppressed in official contexts.
+
+Restoration and Specification (1991–present)
+Upon restoration, law defined a 1:2 ratio, precise star/crescent geometry, and regulated display on government buildings, embassies, and military colours. Guidance covers half‑masting, precedence with foreign flags, and retirement of damaged flags. Desecration is an offence.
+
+Symbolism and Civic Role
+The flag functions as a unifying emblem in state ceremonies, in the armed forces, and across the diaspora. It has appeared prominently during conflicts and international sport, consolidating post‑Soviet identity.
+
+Continuity
+Unchanged since restoration, the design signals both historical continuity with the ADR and the republic’s commitment to a modern, secular state rooted in Turkic and Islamic traditions.`,
+    seoKeywords: [
+      "azerbaijan flag",
+      "flag of azerbaijan",
+      "azerbaijan flag meaning",
+      "azerbaijan flag history",
+      "azerbaijan flag colors"
+    ],
+  },
+  bahrain: {
+    countryId: "bahrain",
+    summary250: `Bahrain’s flag—white hoist band serrated into five points against a red field—took shape in 1932 and was standardised on 14 February 2002 (five points for the Five Pillars). Red is the traditional Gulf colour; white denotes peace. Statute sets a 3:5 ratio, serration geometry, protocol, and penalties for disrespect; display is mandatory on state occasions.`,
+    longText: `Bahrain’s national flag combines an historical Gulf palette with a distinctive serrated divide that has become an immediate visual signature. Nineteenth‑century banners were plain red; a white stripe indicating peace agreements and differentiation was added during the treaty era with Britain. In 1932 a serrated partition was introduced to sharpen recognition in ports and at sea.
+
+Independence in 1971 elevated the flag’s status; for decades the serration often showed eight points in practice. A 2002 royal decree, coincident with Bahrain’s transition to a kingdom, fixed five white points, explicitly referencing the Five Pillars of Islam, and codified proportion (commonly 3:5), colour references, and usage.
+
+Protocol mandates respectful handling, sunrise‑to‑sunset display unless illuminated, half‑masting by order in mourning, dignified retirement, and precedence rules with foreign flags. Desecration and unauthorised commercial use draw penalties.
+
+The design—white for peace and red for traditional Gulf identity—has remained stable since 2002, while the serration ensures distinctiveness among regional flags. The banner is ubiquitous on National Day, at ministries and embassies, in sport, and at maritime facilities where recognition at distance and on the water is essential.`,
+    seoKeywords: [
+      "bahrain flag",
+      "flag of bahrain",
+      "bahrain flag meaning",
+      "bahrain flag history",
+      "bahrain flag colors"
+    ],
+  },
+  bhutan: {
+    countryId: "bhutan",
+    summary250: `Bhutan’s flag (standardised 1969) is diagonally divided yellow–orange with a white dragon (Druk) along the divide. Yellow represents the Wangchuck monarchy; orange the Drukpa Kagyu Buddhist tradition; the white dragon purity, grasping jewels for prosperity and protection. The 2008 Constitution and flag rules prescribe a 2:3 ratio, artwork, respectful display, and retirement.`,
+    longText: `Bhutan’s national flag translates a millennium of Himalayan symbolism into a modern state emblem. A diagonal partition from lower hoist to upper fly separates yellow (secular authority of the Druk Gyalpo) from orange (Buddhist spiritual tradition). Centred on the divide is a white dragon, Druk, whose claws grasp jewels symbolising the nation’s wealth and the protection of its people.
+
+Early twentieth‑century prototypes introduced the diagonal scheme and dragon; refinements under Queen Ashi Kesang Choden in the 1960s standardised proportions, colours, and the dragon’s rendering. The current form dates to 1969 and is entrenched by the 2008 Constitution and subsidiary rules that specify a 2:3 ratio, border and dragon geometry, and textile and printing guidance.
+
+Protocol requires respectful handling, correct orientation, raising on state and royal occasions, and dignified retirement. The flag is central to National Day ceremonies, dzong (fortress‑monastery) events, schools, and diplomatic posts.
+
+By coupling royal colour with Buddhist orange and the guardian dragon, the flag communicates the dual foundation of Bhutanese statehood—monarchy and faith—within a striking geometry that is instantly recognisable among world flags.`,
+    seoKeywords: [
+      "bhutan flag",
+      "flag of bhutan",
+      "bhutan flag meaning",
+      "bhutan flag history",
+      "bhutan flag colors"
+    ],
   }
 }
 
