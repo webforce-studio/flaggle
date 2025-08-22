@@ -81,11 +81,13 @@ async function generateLogos() {
         console.log(`✅ Generated ${spec.name.replace('.ico', '.png')} (ICO alternative)`);
       } else {
         // Generate PNG files
+        const isFavicon = spec.name.startsWith('favicon-') && spec.name.endsWith('.png')
+        const resizeOptions = isFavicon
+          ? { fit: 'cover', position: 'center' } // fill the square, no padding so it looks bigger
+          : { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } }
+
         await sharp(inputPath)
-          .resize(spec.width, spec.height, { 
-            fit: 'contain', 
-            background: { r: 255, g: 255, b: 255, alpha: 0 } 
-          })
+          .resize(spec.width, spec.height, resizeOptions)
           .png({ quality: 90 })
           .toFile(outputPath);
         console.log(`✅ Generated ${spec.name}`);
