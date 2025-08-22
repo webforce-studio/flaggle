@@ -404,6 +404,26 @@ export const countries: Country[] = [
     coordinates: { lat: -0.2280, lng: 15.8277 }
   },
   {
+    id: "democratic-republic-of-the-congo",
+    name: "Democratic Republic of the Congo",
+    code: "CD",
+    flagUrl: "https://flagcdn.com/w320/cd.png",
+    region: "Africa",
+    capital: "Kinshasa",
+    population: 108000000,
+    coordinates: { lat: -4.0383, lng: 21.7587 }
+  },
+  {
+    id: "cote-divoire",
+    name: "Côte d'Ivoire",
+    code: "CI",
+    flagUrl: "https://flagcdn.com/w320/ci.png",
+    region: "Africa",
+    capital: "Yamoussoukro",
+    population: 26300000,
+    coordinates: { lat: 7.539989, lng: -5.54708 }
+  },
+  {
     id: "costa-rica",
     name: "Costa Rica",
     code: "CR",

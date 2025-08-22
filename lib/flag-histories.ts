@@ -1246,6 +1246,116 @@ Public life and continuity. The flag is ubiquitous on public buildings, in schoo
 Cameroon’s banner thus compresses federation, unification, and pan‑African identity into a clear tricolour marked by a single star.`,
     seoKeywords: ["cameroon flag history", "cameroon flag meaning"],
   },
+  senegal: {
+    countryId: "senegal",
+    summary250:
+      "Senegal’s flag—three vertical bands of green, yellow, and red with a central green star—was adopted on 20 August 1960 after independence. The palette draws on pan‑African colours; green signifies Islam, hope, and agriculture; yellow prosperity and labour; red sacrifice in the liberation struggle. The five‑pointed green star symbolises unity and guidance. A brief predecessor in the Mali Federation bore a Kanaga figure; Senegal replaced it with the star on dissolution. Law fixes a 2:3 ratio and protocol for respectful display.",
+    longText: `Senegal’s national flag sets a pan‑African tricolour within a French‑style arrangement and marks independence with a singular green star.
+
+Independence context. In 1959 French Sudan (Mali) and Senegal formed the Mali Federation, adopting a green‑yellow‑red tricolour with a Kanaga figure. When the federation dissolved in August 1960, Senegal proclaimed a separate republic and on 20 August 1960 enacted a national flag retaining the tricolour while replacing the Kanaga with a green five‑pointed star centred on the yellow band.
+
+Symbolism. The colours follow pan‑African tradition: green for Islam, hope, and agriculture; yellow for resources, labour, and progress; red for sacrifice in the independence struggle and vitality. The central green star represents unity and guidance.
+
+Standards and protocol. Constitutional and statutory texts set a 2:3 ratio, equal band widths, star geometry and position, and colour references. Protocol governs order of precedence, daily hoisting on public buildings, illumination at night, half‑masting by decree, and dignified retirement of worn flags.
+
+Continuity. Since 1960 the drawing has remained stable. Presidential and military standards add devices, but the civil flag is unchanged. The design’s clarity and pan‑African resonance make it legible in regional and international settings.
+
+Public life. On Independence Day (4 April) and national commemorations, ceremonies integrate the flag with anthem and oath; schools teach colour meanings and correct handling, reinforcing civic identity.
+
+Senegal’s banner thus preserves the federation’s chromatic family while inscribing a distinctive state symbol in the central star.`,
+    seoKeywords: ["senegal flag history", "senegal flag meaning"],
+  },
+  angola: {
+    countryId: "angola",
+    summary250:
+      "Angola’s flag, adopted at independence on 11 November 1975, is a red‑over‑black horizontal bicolour charged with a yellow emblem of half gear, machete, and star. Red commemorates sacrifices in liberation; black represents Africa; the gear denotes industry; the machete agricultural labour and armed struggle; the star progress and solidarity. A 2:3 ratio and emblem construction are standardised; proposed redesigns have not been enacted.",
+    longText: `The Angolan flag translates liberation‑era symbolism into a constitutional state emblem.
+
+Adoption and antecedents. On 11 November 1975, at independence from Portugal, Angola adopted a red‑over‑black bicolour bearing a yellow emblem of half gear, machete, and star, drawing from MPLA iconography reinterpreted as national. The bicolour recalls sacrifice (red) and the African continent (black).
+
+Emblem. The half gear represents industrial workers and development; the machete recalls rural labour and the armed struggle; the star connotes progress and international solidarity. The emblem’s geometry and relative sizes are prescribed to ensure manufacturing consistency.
+
+Standards and protocol. Typical ratio 2:3; the emblem is centred, its diameter proportioned to flag height. Protocol governs respectful treatment, order of precedence, and half‑masting. Desecration is prohibited.
+
+Reform debates. A redesign proposed in the early 2000s—blue field with sun and Southern Cross—was not adopted; the 1975 design remains in force, signalling continuity amid political evolution.
+
+Public use. The flag flies across ministries, forces, and missions; it anchors ceremonies on Independence Day and other national observances, and serves as a visual shorthand of Angola abroad.
+
+Thus the Angolan banner retains liberation symbology while operating under precise legal standards.`,
+    seoKeywords: ["angola flag history", "angola flag meaning"],
+  },
+  zimbabwe: {
+    countryId: "zimbabwe",
+    summary250:
+      "Zimbabwe’s flag (adopted 18 April 1980) displays seven horizontal stripes green‑gold‑red‑black‑red‑gold‑green with a white hoist triangle bearing a red star and the Zimbabwe Bird. Green symbolises agriculture; gold mineral wealth; red the struggle; black the people. The red star denotes revolutionary history and hope; the Zimbabwe Bird anchors cultural heritage. Ratio 1:2 with codified triangle and emblem geometry.",
+    longText: `Zimbabwe’s national flag combines pan‑African colours with a distinctive hoist triangle and cultural device.
+
+Adoption. At independence on 18 April 1980 the new state adopted a flag derived from the Zimbabwe African National Union banner: seven stripes arranged green‑gold‑red‑black‑red‑gold‑green; at the hoist, a white triangle edged in black charged with a red star and the Zimbabwe Bird.
+
+Symbolism. Green stands for agriculture and land; gold for mineral wealth; red for blood shed in the liberation war; black for the people. The red five‑pointed star signals revolutionary history and hope; the Zimbabwe Bird references Great Zimbabwe and national heritage.
+
+Standards and protocol. The ratio is 1:2; stripe heights equal; the hoist triangle’s base equals flag height; the bird and star are drawn to an official template. Protocol covers precedence, half‑masting, illumination at night, and dignified retirement.
+
+Continuity. The design has been stable since 1980, with official drawings refining detail while preserving composition. Military and presidential standards are derived variants.
+
+Public life. The flag features in national holidays and schools’ civics; correct usage and meaning are taught and enforced.
+
+Zimbabwe’s banner is thus a layered emblem—pan‑African stripes, revolutionary star, and a unique avian seal—fixed in law and ceremony.`,
+    seoKeywords: ["zimbabwe flag history", "zimbabwe flag meaning"],
+  },
+  "cote-divoire": {
+    countryId: "cote-divoire",
+    summary250:
+      "Côte d’Ivoire’s flag, a vertical tricolour of orange, white, and green in 2:3 ratio, was adopted on 3 December 1959 and retained at independence (7 August 1960). Orange denotes savannas and national energy; white peace; green forests and hope. Its arrangement mirrors but inverts Ireland’s flag chromatically; protocol fixes proportions and respectful display.
+    ",
+    longText: `Côte d’Ivoire’s tricolour aligns republican symbolism with ecological and civic readings.
+
+Adoption. As autonomy advanced within the French Community, Côte d’Ivoire enacted a national flag on 3 December 1959: orange‑white‑green vertical bands in a 2:3 ratio. The flag was retained unchanged at independence on 7 August 1960.
+
+Symbolism. Orange evokes the northern savannas and national energy; white connotes peace and unity; green represents southern forests and hope. The vertical arrangement reflects francophone influence while the palette situates the country within a broader pan‑African chromatic family.
+
+Standards and protocol. Law prescribes ratio, band equality, and colour references; guidance addresses correct vertical hanging and order of precedence. Misuse or defacement is penalised; worn flags are retired with dignity.
+
+Continuity. The design has remained unaltered; state and armed‑forces standards add coats of arms where appropriate, but the civil flag is stable. Education materials disseminate the colour meanings and proper handling.
+
+The Ivorian banner’s economy—three bands, three ideas—has preserved its salience across constitutional chapters.`,
+    seoKeywords: ["cote d'ivoire flag history", "ivory coast flag meaning"],
+  },
+  zambia: {
+    countryId: "zambia",
+    summary250:
+      "Zambia’s flag (adopted 24 October 1964; shades adjusted 1996) is predominantly green with a tricolour block of red, black, and orange at the fly and an orange African fish eagle above. Green denotes vegetation; red the struggle; black the people; orange mineral wealth; the eagle liberty and rising aspiration. Ratio 2:3; construction and colours standardised by statute.",
+    longText: `Zambia’s banner shifts the tricolour to the fly and lifts an eagle for aspiration and freedom.
+
+Adoption. On independence day, 24 October 1964, Zambia adopted a predominantly green flag with a fly‑side block of red, black, and orange verticals and, above them, an orange African fish eagle. In 1996 official shades were adjusted but the composition remained unchanged.
+
+Symbolism. Green symbolises vegetation and agriculture; red the struggle for freedom; black the people; orange mineral wealth, notably copper. The fish eagle, long a national emblem, signifies sovereignty and the capacity to rise above challenges.
+
+Standards and protocol. Ratio is 2:3; the fly block has specified width relative to the flag; the eagle’s drawing and position are codified. Protocol governs precedence, half‑masting, and respectful handling; unauthorised commercial use is restricted.
+
+Continuity and civic use. The design has endured with minor colour corrections; it is taught in schools and omnipresent on public buildings and in diplomacy. Military and presidential standards vary but derive from the civil flag.
+
+Zambia’s flag is thus a distinctive composition among world flags—colour concentrated at the fly and a soaring bird linking meaning and motion.`,
+    seoKeywords: ["zambia flag history", "zambia flag meaning"],
+  },
+  "democratic-republic-of-the-congo": {
+    countryId: "democratic-republic-of-the-congo",
+    summary250:
+      "The DR Congo flag (restored 20 February 2006) is a sky‑blue field with a yellow five‑pointed star at the hoist and a red diagonal band edged yellow from lower hoist to upper fly. It reprises earlier Congolese designs: blue for peace and hope; red for the people’s blood; yellow for wealth; the star for a radiant future. Ratio commonly 3:5; geometry is standardised.
+    ",
+    longText: `The Democratic Republic of the Congo has cycled through several flags; the 2006 restoration re‑established a modernised diagonal‑band design with a guiding star.
+
+Chronology. The independent Congo (Léopoldville) in 1960 adopted a light‑blue flag with six yellow stars along the hoist and a larger star in the canton, signalling six provinces and unity. Later regimes introduced variants including solid blue with a single star and, from 2003, a red diagonal band bordered in yellow across blue. The current flag, enacted 20 February 2006, keeps the blue field and yellow fimbriations while repositioning a single large yellow star near the hoist and establishing a red diagonal band running from lower hoist to upper fly.
+
+Symbolism. Blue denotes peace and hope; red the blood of the people; yellow the country’s wealth; the star a radiant future. The diagonal creates strong recognition and ties to earlier republican symbolism while distancing the design from prior authoritarian eras.
+
+Standards and protocol. Statutes define a typical 3:5 ratio, band width relative to flag height, fimbriation thickness, star diameter and placement, and colour references. Protocol governs respectful use, precedence, half‑masting, and dignified retirement.
+
+Continuity and presence. The 2006 flag is widely used across ministries, provinces, and missions; armed‑forces and presidential standards add specific insignia. Education campaigns clarify the symbolism and the correct orientation of the diagonal when hung vertically.
+
+Thus the DR Congo’s banner, with star and diagonal, fuses aspiration and memory in a legally precise vexillological form.`,
+    seoKeywords: ["dr congo flag history", "dr congo flag meaning"],
+  },
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
