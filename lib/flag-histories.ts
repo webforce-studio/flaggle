@@ -3351,6 +3351,64 @@ Since independence, minor refinements have clarified motif outlines and stripe w
       "turkmenistan flag history",
       "turkmenistan flag colors"
     ],
+  },
+  uzbekistan: {
+    countryId: "uzbekistan",
+    summary250: `Uzbekistan’s flag (18 November 1991) is a horizontal tricolour—blue, white, green—separated by thin red fimbriations, with a white crescent and twelve white stars at the hoist. Blue recalls water and sky; white peace and purity; green nature and renewal; red life and vitality. The crescent signifies independence and heritage; twelve stars order and aspiration. Law fixes a 1:2 ratio, precise star/crescent geometry, colour standards, and protocol for respectful display, half‑masting, and dignified retirement.`,
+    longText: `Uzbekistan adopted its national flag on 18 November 1991, weeks after proclaiming independence from the Soviet Union. The design—a blue, white, and green tricolour divided by slender red lines and charged with a crescent and twelve stars—condenses geography, ecology, and cultural memory into a strictly specified composition.
+
+Adoption in 1991
+Soon after the 31 August 1991 declaration of independence, the Supreme Council organised a rapid but deliberative process to create state symbols discontinuous with Soviet iconography yet intelligible to citizens and legible abroad. On 18 November 1991 the present flag was approved by law, alongside statutes for the coat of arms and anthem.
+
+Composition and Geometry
+The flag’s ratio is 1:2. Three horizontal bands—blue (top), white (middle), green (bottom)—are separated by narrow red fimbriations. In the canton, near the hoist on the blue field, a white crescent opens toward the fly, with twelve white five‑pointed stars arranged in three rows (3‑4‑5) according to an official grid. Government drawings specify star diameter, spacing, and offsets from the hoist and top edge, as well as the crescent’s radii and chord so licensed manufacturers can reproduce the design without drift.
+
+Symbolism
+Blue is widely read as water and sky, and as a nod to the Timurid past; white connotes peace, purity, and moral clarity; green signifies nature, agriculture, and renewal; red fimbriations represent life force and the bonds between the strata of society. The crescent marks independence and cultural heritage; twelve stars, beyond astronomical associations, express order, aspiration, and the calendaric rhythm of civic life. Popular and official explanations converge on harmony between nature and nation.
+
+Protocol and Usage
+Statutes regulate respectful handling: the flag is raised briskly at sunrise and lowered at sunset unless illuminated; it must not touch the ground; worn flags are retired with dignity. Precedence with foreign flags, placement on vehicles, and display indoors (behind lecterns, in assemblies, at courts) are governed by diagrams. Half‑masting is ordered by decree during mourning. School curricula and civic initiatives teach geometry and etiquette to ensure accurate reproduction and proper respect.
+
+Continuity
+Since 1991 the design has remained stable, anchoring Independence Day ceremonies, diplomatic missions, and international sport. Ministries issue colour references for textile and print; enforcement discourages incorrect star counts or distorted crescents. The flag’s calm palette and clear geometry have facilitated consistent use on digital interfaces and modern architectural settings, complementing the national arms on seals and signage.
+
+In sum, the Uzbek flag is a carefully engineered symbol that balances environmental references, historical continuity, and legal precision—an emblem of statehood designed for clarity at masthead height and pixel scale alike.`,
+    seoKeywords: [
+      "uzbekistan flag",
+      "flag of uzbekistan",
+      "uzbekistan flag meaning",
+      "uzbekistan flag history",
+      "uzbekistan flag colors"
+    ],
+  },
+  yemen: {
+    countryId: "yemen",
+    summary250: `Yemen’s flag (22 May 1990) is a horizontal tricolour of red, white, and black adopted upon unification of North and South Yemen. The Pan‑Arab palette recalls the Arab Revolt; red denotes revolution and unity; white a bright future and peace; black the past and steadfastness. Law sets a 2:3 ratio, colour references, protocol for state buildings and missions, half‑masting orders, and dignified retirement. Earlier northern and southern ensigns were retired at unification.`,
+    longText: `The Republic of Yemen’s national flag—red, white, and black in equal horizontal bands—was raised on 22 May 1990 to mark the unification of the Yemen Arab Republic (North Yemen) and the People’s Democratic Republic of Yemen (South Yemen). It situates Yemen within the Pan‑Arab tradition while signifying a specific constitutional moment.
+
+Pre‑1990 Flags
+North Yemen’s post‑1962 republican flag used the red‑white‑black tricolour with a green star; South Yemen after 1967 flew the same tricolour with a light‑blue hoist triangle bearing a red star. These emblems expressed divergent revolutionary narratives. The 1990 unification treaty provided for a single national flag; subsequent legal texts retired prior ensigns from state use.
+
+Adoption and Specification
+The unified state adopted the tricolour at a proportion of 2:3, without central emblems, to emphasise equality and a new start. Government standards define dye and print references for the red, white, and black; diagrams specify band equality and orientation for vertical displays. Guidance covers uses at ministries, governorates, courts, schools, and diplomatic missions.
+
+Symbolism
+Red is commonly read as the blood of martyrs and the energy of revolution; white denotes peace and a hopeful future; black evokes historical trials and steadfastness. Within the Pan‑Arab family of flags, Yemen’s plain tricolour is legible at distance and at sea, and it aligns the republic with wider Arab identity.
+
+Protocol and Legal Protection
+Rules mandate sunrise‑to‑sunset display (or illumination at night), prohibition on contact with the ground or water, dignified retirement of damaged flags, and precedence with foreign and military flags. Half‑masting follows presidential order during official mourning. Penalties exist for desecration or misuse, including unauthorised commercial exploitation.
+
+Continuity and Practice
+Despite political turbulence since the 1990s, the national flag has remained the state’s identifier at international organisations and in sport. Public education materials and procurement guidelines help prevent shade drift and improper proportions. On National Day and Unity Day, coordinated mast programmes and building‑scale banners underscore the flag’s unifying claim.
+
+The Yemeni tricolour thus integrates Pan‑Arab colours with the legal and ceremonial infrastructure of a unified state, designed for clarity, dignity, and consistent reproduction across contexts.`,
+    seoKeywords: [
+      "yemen flag",
+      "flag of yemen",
+      "yemen flag meaning",
+      "yemen flag history",
+      "yemen flag colors"
+    ],
   }
 }
 
