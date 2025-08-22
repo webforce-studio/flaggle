@@ -2117,6 +2117,146 @@ National commemorations on 14–15 May and 15 August centre the tricolour in par
       "paraguay flag history",
       "paraguay flag colors"
     ],
+  },
+  guatemala: {
+    countryId: "guatemala",
+    summary250: `Guatemala’s flag—vertical blue, white, blue with the coat of arms centred—was adopted on 17 August 1871 after liberal reforms. Blue signifies the two oceans and the sky; white denotes peace and purity. The arms show the resplendent quetzal (liberty), a scroll dated 15 September 1821, crossed rifles (readiness), swords (honour), and laurel (victory). A 5:8 ratio and decrees standardise colours, the crest drawing, and protocol; civil flags may omit arms.`,
+    longText: `Guatemala’s modern flag was proclaimed on 17 August 1871 amid the Liberal Revolution’s transformation of state symbols. It restored the Central American blue–white–blue colours but uniquely arranged them vertically—blue at the hoist and fly, white at centre—with the national coat of arms imposed on the white stripe for state use.
+
+The design’s antecedents reach to the independence of 15 September 1821 and the United Provinces of Central America (1823–1839), whose blue–white–blue horizontal triband represented the two oceans flanking the isthmus and a shared republican identity. After the federation dissolved, Guatemala experimented with flags reflecting alternating political currents, including a red–yellow–red scheme under conservative rule to echo Spain.
+
+Liberal reformers in 1871 reasserted the regional palette, but shifted to vertical bands to create a distinctly Guatemalan banner. Blue denotes the Pacific and Caribbean as well as the sky; white signifies peace and the purity of civic aspiration. The 5:8 proportion was defined in subsequent decrees, and colour references were codified to reduce variance.
+
+The coat of arms, introduced alongside the flag, centres a resplendent quetzal—national bird and emblem of liberty—perched on a parchment scroll inscribed “15 de septiembre de 1821,” the date of independence. Behind the scroll stand crossed Remington rifles, symbolising readiness to defend sovereignty, and crossed sabres for honour. A laurel wreath encircles the ensemble, signifying victory and civic virtue. Later standardisations, notably in 1968, refined the artwork for consistency across ministries and military uses.
+
+Law distinguishes the state flag (with arms), the civil flag (without), and maritime ensigns. Protocol prescribes precedence with foreign flags, half‑masting for national mourning by decree, and illumination when flown at night. Worn banners are retired with dignity. Schools teach respectful handling—never allowing the flag to touch the ground—and proper folding, and observe ceremonies on Independence Day, 15 September, when the flag is omnipresent in parades and public squares.
+
+Guatemala’s banner thus binds nineteenth‑century federative heritage to a distinct national symbol. Its vertical layout, quetzal crest, and legal protections produce a recognisable emblem for domestic institutions and missions abroad, while civil variants without arms enable broad civic display under the same colour tradition.`,
+    seoKeywords: [
+      "guatemala flag",
+      "flag of guatemala",
+      "guatemala flag meaning",
+      "guatemala flag history",
+      "guatemala flag colors"
+    ],
+  },
+  cuba: {
+    countryId: "cuba",
+    summary250: `Cuba’s flag (1902) bears five stripes—three blue, two white—and a red hoist triangle charged with a white five‑pointed star. Conceived by Narciso López in 1849 for the independence cause, blue marks the island’s historic departments, white purity and justice, red courage and sacrifice, and the lone star sovereignty. A 1:2 ratio and protocol regulate construction, display, and dignified retirement.`,
+    longText: `The Cuban flag—La Estrella Solitaria—arose from mid‑nineteenth‑century liberation movements. Designed in New York in 1849 by the Venezuelan‑born general Narciso López with the poet Miguel Teurbe Tolón, it married republican iconography to the geography and aspirations of the island: five horizontal stripes alternating blue (three) and white (two); a red equilateral triangle at the hoist; and a single white star at the triangle’s centre.
+
+The blue stripes referenced the island’s colonial administrative divisions; white signified purity of purpose and justice; the red triangle evoked sacrifice and, in Masonic parlance, liberty, equality, and fraternity; while the solitary white star expressed the goal of an independent state. López first raised the flag at Cárdenas in 1850. Though the expedition failed and Spain retained control for decades, the banner circulated through the Ten Years’ War (1868–1878) and later revolutionary campaigns as the emblem of Cuban nationhood.
+
+On 20 May 1902, coinciding with the proclamation of the Republic of Cuba after U.S. occupation ended, the López design was adopted officially as the national flag. Constitutional and statutory texts fixed a 1:2 proportion and set out construction sheets for the triangle and star to standardise manufacture. The state prescribed display on public buildings, at diplomatic missions, and within the armed forces, with penalties for desecration and misuse.
+
+The flag’s symbolism has remained constant across the twentieth century, including after 1959. While the government restructured politics and state emblems in other spheres, the national flag was preserved in its 1902 form as a unifying symbol across social and political currents. Variants exist for naval and presidential use, but the basic composition dominates civic and ceremonial contexts.
+
+Protocol requires the flag to be clean, intact, and properly hoisted, never touching the ground; worn flags are retired respectfully, commonly by burning. On national commemorations—10 October (beginning of the independence wars), 1 January (Triumph of the Revolution), and 20 May (Republic Day)—public display of the flag is widespread, while abroad it signals Cuban sovereignty at embassies and multilateral fora.
+
+Cuba’s banner thus links the island’s revolutionary past to its sovereign present: austere geometry, powerful colour contrasts, and a single guiding star that remains legible and distinctive across plazas, ships, stadiums, and diplomatic halls.`,
+    seoKeywords: [
+      "cuba flag",
+      "flag of cuba",
+      "cuba flag meaning",
+      "cuba flag history",
+      "cuba flag colors"
+    ],
+  },
+  "dominican-republic": {
+    countryId: "dominican-republic",
+    summary250: `The Dominican Republic’s flag (6 November 1844) bears a centred white cross dividing blue (upper hoist, lower fly) and red (upper fly, lower hoist) quarters, with the national coat of arms at the intersection. Blue stands for liberty, red for the blood of patriots, and white for faith, peace, and unity. A 2:3 ratio and law fix the arms—Bible (John 8:32), cross, lances, and motto—and strict protocol for state display.`,
+    longText: `Adopted with the first constitution on 6 November 1844, the Dominican flag crystallised a new national identity after separation from Haiti. Its centred white cross—which divides the field into four rectangles of blue and red—signifies faith and the unity of the Dominican people, while the colours read as liberty (blue) and sacrifice (red). At the cross’s heart appears the national coat of arms.
+
+The arms consist of a shield framed by laurel and palm, surmounted by a blue ribbon inscribed “Dios, Patria, Libertad.” Behind the shield, lances carry national flags; within, an open Bible displays John 8:32 (“Y la verdad os hará libres”), above a gold cross. This heraldic ensemble grounds the nation in religious and civic ideals of truth and freedom. The flag’s basic 2:3 proportion and armorial drawings are set by statute to ensure consistency.
+
+The War of Restoration (1863–1865) against Spain elevated the flag as a rallying device, and subsequent governments reaffirmed its core design across periods of instability and occupation. Legal instruments throughout the twentieth century clarified aspects of the arms, the shades of blue and red, and the ordering of ribbons and devices, but no reform altered the cross‑quartered concept.
+
+Protocol prescribes official contexts: the national flag with arms flies at state institutions, courts, the presidency, and missions abroad. Civil variants—without arms—appear in informal civic settings but do not substitute for the official standard at government sites. The flag must be hoisted clean and undamaged, never allowed to touch the ground, and lowered respectfully at day’s end when regulations so require.
+
+In education, students learn the origins tied to the 1844 movement and the symbolic triad “Dios, Patria, Libertad.” National dates—27 February (Independence Day) and 16 August (Restoration Day)—feature mass displays, while abroad the banner identifies the Dominican Republic among the nations with a unique cross‑and‑arms composition.
+
+From its constitutional birth to contemporary codifications, the flag blends Christian text, republican motto, and the colours of liberty and sacrifice within a rigid geometry—producing a singular emblem in world vexillology.`,
+    seoKeywords: [
+      "dominican republic flag",
+      "flag of dominican republic",
+      "dominican flag meaning",
+      "dominican republic flag history",
+      "dominican flag colors"
+    ],
+  },
+  honduras: {
+    countryId: "honduras",
+    summary250: `Honduras’s flag—blue, white, blue with five blue stars in an X pattern—was standardised on 7 March 1866, drawing on the Central American triband. Blue denotes the Caribbean, Pacific, and sky; white peace. The five stars recall the former federation’s members and the ideal of regional fraternity. Proportion and star geometry are codified; protocol covers precedence, half‑masting, and dignified retirement.`,
+    longText: `The national flag of Honduras preserves the colour scheme of the United Provinces of Central America while adding a distinct emblem of regional kinship: five blue five‑pointed stars on the centre white stripe arranged in a quincunx. The blue–white–blue horizontal triband symbolises the Caribbean and Pacific and the sky between, while white stands for peace.
+
+Following independence in 1821 and the federation period (1823–1839), Honduras initially used the shared blue‑white‑blue banner. On 7 March 1866, decree under President José María Medina fixed the five‑star device to represent Guatemala, El Salvador, Honduras, Nicaragua, and Costa Rica, projecting hope for unity that today reads as historical fraternity rather than a programme of political reunion.
+
+Later regulations defined the national proportion (commonly 1:2), the exact size of stars, their placement relative to the flag’s axes, and colour standards. The civil flag mirrors the national pattern; maritime and military variants adhere to specific ensign rules. Government guidance requires public buildings to fly the flag on commemorations—especially 15 September—while schools instil correct handling and salutes.
+
+Throughout the twentieth century, minor manufacturing inconsistencies led to occasional variance in star size and tone of blue; modern standards seek uniformity. Protocol prescribes precedence with foreign flags, half‑masting by decree, illumination when flown at night, and dignified retirement of worn banners. The flag appears across ministries, stadiums, and missions abroad as a plain, legible emblem of state and a reminder of Central America’s shared heritage.
+
+Honduras’s banner, thus, joins simple geometry to layered meaning—oceans and sky, peace and fraternity—embodying both national sovereignty and a memory of regional union.`,
+    seoKeywords: [
+      "honduras flag",
+      "flag of honduras",
+      "honduras flag meaning",
+      "honduras flag history",
+      "honduras flag colors"
+    ],
+  },
+  "el-salvador": {
+    countryId: "el-salvador",
+    summary250: `El Salvador’s flag—blue, white, blue with the national coat of arms centred—was readopted on 17 May 1912, honouring the Central American triband. Blue recalls the Pacific and Caribbean; white denotes peace. The arms show a triangle with five volcanoes, Phrygian cap, rainbow, and five flags. Laws fix proportions, hues, and usage; a civil flag omits the arms.`,
+    longText: `El Salvador’s national flag returns to the colours of the United Provinces of Central America while bearing its own republican heraldry. The blue–white–blue horizontal triband, readopted on 17 May 1912, standardised proportions and the centred coat of arms for state contexts, with a civil version omitting the arms.
+
+The nineteenth century brought numerous emblematic experiments as governments rose and fell. Ultimately, the country reaffirmed the blue of surrounding seas and skies and the white of peace as core civic colours. The coat of arms within the central stripe presents an equilateral triangle of equality over two oceans, five volcanoes for the five historic states, a staff crowned by a red Phrygian cap for liberty, a rainbow for peace, and rays of sun—all encircled by the legend “República de El Salvador en la América Central” and five flags.
+
+Statutes define proportion (historically near 189:335), colour references, crest drawings, and usage contexts: ministries, courts, armed forces, and missions abroad fly the flag with arms; citizens may use the civil flag without arms. Protocol addresses precedence with foreign flags, half‑masting for national mourning, nocturnal illumination, and dignified retirement. In schools, weekly ceremonies teach handling and salutes, and the flag dominates Independence Day on 15 September.
+
+Refinements across the twentieth century harmonised armorial details while preserving the basic scheme. Today the banner’s clear geometry and heraldic centre render it instantly recognisable at home and in diaspora communities, where the flag anchors identity at civic events and international sport.`,
+    seoKeywords: [
+      "el salvador flag",
+      "flag of el salvador",
+      "salvadoran flag meaning",
+      "el salvador flag history",
+      "el salvador flag colors"
+    ],
+  },
+  nicaragua: {
+    countryId: "nicaragua",
+    summary250: `Nicaragua’s flag (4 September 1908) is a blue‑white‑blue triband with the coat of arms centred: a triangle with five volcanoes between two oceans beneath a rainbow and Phrygian cap, encircled by “República de Nicaragua – América Central.” The colours recall the federation; statutes set a 3:5 ratio, colour standards, armorial drawings, and usage; civil flags omit arms.`,
+    longText: `Nicaragua’s flag, reinstated on 4 September 1908, restores the Central American triband while adopting a national coat of arms that affirms both state and regional identity. The blue stripes reference the Caribbean and Pacific and ideals of justice and loyalty; the white centre stands for peace.
+
+The arms reprise the iconography of the United Provinces: an equilateral triangle for equality; five volcanoes rising between two oceans, signifying the five historic republics; a red Phrygian cap for liberty; a rainbow for peace; and solar rays. The circular legend binds the emblem to Central America. Later standardisations—most notably in 1971—clarified drawings and colour tones.
+
+Law distinguishes the state flag (with arms) from the civil flag (without), prescribes a 3:5 proportion, and regulates manufacture and contexts of use. Protocol covers precedence, half‑masting by decree, and dignified retirement. Public buildings and schools raise the flag on national dates, especially 15 September, while abroad the banner signals sovereignty at embassies and multilateral institutions.
+
+Through revolutions, occupations, and political reconfiguration, the flag’s essential scheme has endured with only heraldic refinements, providing a stable visual anchor for Nicaraguan civic life and diaspora communities.`,
+    seoKeywords: [
+      "nicaragua flag",
+      "flag of nicaragua",
+      "nicaragua flag meaning",
+      "nicaragua flag history",
+      "nicaragua flag colors"
+    ],
+  },
+  "costa-rica": {
+    countryId: "costa-rica",
+    summary250: `Costa Rica’s flag—blue, white, broad red, white, blue—derives from an 1848 design inspired by the French Tricolour; the present standard was codified in 1906. Blue denotes sky, perseverance, and opportunity; white peace and wisdom; red the warmth and blood shed for freedom. The state flag bears the coat of arms on the red stripe; civil flags omit it.`,
+    longText: `Costa Rica’s modern national flag took shape in 1848 under President José María Castro Madriz, reportedly designed by Pacífica Fernández and inspired by the French Tricolour’s republican palette. The layout consists of five horizontal bands—blue, white, a double‑height red centre, then white and blue—set at a 3:5 proportion and legally codified in 1906 with subsequent refinements to the arms.
+
+Public readings assign blue to the sky, perseverance, and idealism; white to peace, wisdom, and happiness; and red to the warmth and the blood shed in defence of liberty. For state use, the coat of arms appears within a white ellipse on the red stripe toward the hoist: three volcanoes and a valley between two oceans with merchant ships, a rising sun for prosperity, and seven stars for the provinces. The arms’ artwork was adjusted in 1848, 1906, and 1964 to reflect territorial and heraldic updates.
+
+Statutes distinguish the state flag (with arms) from the civil flag (plain stripes), regulate colour values, placements, and permitted manufacturers, and prescribe contexts of display in ministries, courts, schools, and diplomatic missions. Protocol covers precedence with foreign flags, half‑masting for mourning, nighttime illumination, and dignified retirement of worn flags. Pupils learn handling and salutes during weekly ceremonies, and the banner is prominent on 15 September (Independence Day) and 25 July (Annexation of Guanacaste).
+
+Over more than a century, small graphic clarifications ensured uniform production while the overall scheme remained unchanged. The result—a bold central red framed by cool blue and white—pairs immediate legibility with a narrative that connects Costa Rica’s republican ideals to its geography between two seas.`,
+    seoKeywords: [
+      "costa rica flag",
+      "flag of costa rica",
+      "costa rica flag meaning",
+      "costa rica flag history",
+      "costa rica flag colors"
+    ],
   }
 }
 
