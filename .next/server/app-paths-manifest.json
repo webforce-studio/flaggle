@@ -1,7 +1,8 @@
 {
-  "/contact/page": "app/contact/page.js",
-  "/europe-flags/page": "app/europe-flags/page.js",
-  "/printable-flags/page": "app/printable-flags/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/world-flags/page": "app/world-flags/page.js",
-  "/page": "app/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/printable-flags/page": "app/printable-flags/page.js",
+  "/europe-flags/page": "app/europe-flags/page.js"
 }

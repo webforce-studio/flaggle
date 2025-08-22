@@ -6,17 +6,18 @@ import Image from "next/image"
 import { AboutPageStructuredData } from "./structured-data"
 
 export const metadata: Metadata = {
-  title: "About Monumentle - Daily Monument Guessing Game",
+  title: "About Flaggle - Daily Flag Guessing Game",
   description:
-    "Learn about Monumentle, a daily puzzle game that tests your knowledge of world monuments and landmarks. Discover how our game works and the types of cultural sites featured.",
+    "Learn about Flaggle, the daily flag guessing game. Discover how it works, what makes it fun, and how it helps you learn world geography.",
   keywords:
-    "about monumentle, monument game, cultural landmarks, daily monument challenge, world heritage sites, landmark quiz",
+    "about flaggle, flag guessing game, daily flag game, flag quiz, world flags",
   openGraph: {
-    title: "About Monumentle - Daily Monument Guessing Game",
+    title: "About Flaggle - Daily Flag Guessing Game",
     description:
-      "Discover how Monumentle works and the types of world monuments and landmarks featured in our daily guessing game.",
-    url: "https://monumentle.fun/about",
+      "Discover how Flaggle works and why it's the most engaging daily flag guessing game.",
+    url: "https://www.flaggle.fun/about",
   },
+  alternates: { canonical: "/about" },
 }
 
 export default function About() {
@@ -27,14 +28,14 @@ export default function About() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 monument-title">
-              About Monumentle
+              About Flaggle
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-              The ultimate daily monument guessing game for cultural enthusiasts worldwide
+              The daily flag guessing game for geography lovers worldwide
             </p>
             <Link href="/">
-              <Button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-3 text-lg">
-                Back to Monumentle
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 text-lg">
+                Back to Flaggle
               </Button>
             </Link>
           </div>
@@ -43,7 +44,7 @@ export default function About() {
           <div className="bg-white dark:bg-gray-800 rounded-lg p-8 shadow-lg mb-12">
             <div className="text-center mb-8">
               <div className="relative w-24 h-24 mx-auto mb-4">
-                <Image src="/logo.png" alt="Monumentle Logo" fill className="object-contain" />
+                <Image src="/logo.png" alt="Flaggle Logo" fill className="object-contain" />
               </div>
             </div>
 
@@ -53,9 +54,8 @@ export default function About() {
               <section>
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">Our Mission</h2>
                 <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed text-center">
-                  Monumentle combines the popular daily puzzle format with the fascinating world of iconic monuments and
-                  landmarks. Test your knowledge of world heritage sites, learn about different cultures, and discover
-                  new places every day.
+                  Flaggle combines the popular daily puzzle format with the fascinating world of national flags.
+                  Test your knowledge of world countries, learn flag histories and meanings, and discover new places every day.
                 </p>
               </section>
 
@@ -63,41 +63,22 @@ export default function About() {
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">How It Works</h2>
                 <div className="bg-amber-50 dark:bg-gray-700 rounded-lg p-6">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Every day, we present you with a new monument to identify. Start with a blurred image and use the
-                    progressive hint system to narrow down your guesses. Each incorrect guess reveals more details and
-                    provides distance clues to guide you toward the answer.
+                    Every day, we present a mystery flag to identify. Start with a partially hidden flag and use the
+                    progressive reveal system to narrow down your guesses. Each incorrect guess reveals more of the flag
+                    and provides distance/proximity hints to guide you toward the correct country.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Whether you're a geography enthusiast or just curious about world landmarks, Monumentle offers an
-                    engaging way to explore global heritage sites.
+                    Whether you're a geography enthusiast or just curious about world countries, Flaggle offers an
+                    engaging way to learn flags, pronunciations, and cultural context.
                   </p>
                 </div>
               </section>
 
               <section>
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-                  Featured Monument Types
-                </h2>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">What You’ll Learn</h2>
                 <p className="text-gray-600 dark:text-gray-300 mb-6 text-center">
-                  Our database features monuments and landmarks from various categories:
+                  Each country page includes flag history, symbolism, printable resources, and a map location.
                 </p>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {[
-                    "Ancient Wonders",
-                    "Religious Sites",
-                    "Modern Landmarks",
-                    "Castles & Palaces",
-                    "Towers & Bridges",
-                    "Cultural Icons",
-                  ].map((category) => (
-                    <div
-                      key={category}
-                      className="bg-white dark:bg-gray-600 border border-gray-200 dark:border-gray-500 p-4 rounded-lg text-center shadow-sm"
-                    >
-                      <div className="font-semibold text-gray-900 dark:text-white">{category}</div>
-                    </div>
-                  ))}
-                </div>
               </section>
             </div>
           </div>
