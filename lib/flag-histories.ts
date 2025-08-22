@@ -828,7 +828,7 @@ Continuity since 1937. The design has changed little since adoption. Minor clari
 
 International presentation. Liechtenstein’s embassies and missions raise the flag beside host standards; athletes compete under it in Olympic and alpine events; and the crown has become shorthand for the microstate in iconography and tourism. Within the principality, the flag appears on municipal façades, in classrooms, and at civic celebrations, reinforcing the narrative of a modern state that preserves an older constitutional tradition.
 
-Thus a simple blue‑red field became unmistakably Liechtenstein through a gold crown—an emblem born of dynastic heraldry, affirmed by law in the twentieth century, and kept vibrant by careful protocol and shared civic meaning.",
+Thus a simple blue‑red field became unmistakably Liechtenstein through a gold crown—an emblem born of dynastic heraldry, affirmed by law in the twentieth century, and kept vibrant by careful protocol and shared civic meaning.`,
     seoKeywords: ["liechtenstein flag history", "liechtenstein flag meaning"],
   },
   monaco: {
