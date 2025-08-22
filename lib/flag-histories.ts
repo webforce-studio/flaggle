@@ -868,7 +868,7 @@ Symbolism and instruction. The arms compress geography and values: towers for th
 
 Diplomacy and continuity. San Marino entered European institutions in the late twentieth century while preserving ceremonial forms that emphasize antiquity. Embassies and consulates hoist the flag beside host standards; it appears at international games under its own code. Apart from minor graphic refinements, the flag has remained stable since the nineteenth century, a visual abstraction of endurance on Monte Titano.
 
-San Marino’s flag thus couples a serene bicolour to a dense heraldic centre—an emblem of a polity that has made liberty its motto and continuity its method.",
+San Marino’s flag thus couples a serene bicolour to a dense heraldic centre—an emblem of a polity that has made liberty its motto and continuity its method.`,
     seoKeywords: ["san marino flag history", "san marino flag meaning"],
   },
   "vatican-city": {
