@@ -1819,6 +1819,118 @@ The restored flag appears across ministries, schools, and missions and figures c
     seoKeywords: ["republic of the congo flag history", "republic of the congo flag meaning"],
   }
   ,
+  "united-states": {
+    countryId: "united-states",
+    summary250: `The United States flag—thirteen red‑and‑white stripes with a blue canton bearing fifty white stars—was first established on 14 June 1777. The stripes commemorate the original colonies; the stars, one per state, grew with the Union to the current fifty on 4 July 1960 after Hawaii’s admission. Colours are read as valor (red), purity (white), and vigilance, perseverance, and justice (blue). The design evolved through 27 official versions as states joined. Etiquette is governed by the U.S. Flag Code (Title 4, U.S.C.) specifying display, half‑masting, folding, and dignified retirement. The standard proportion is 1.9:1 with a codified star field (Union) layout and colour specifications.`,
+    longText: `The United States flag developed during the American Revolution as the Confederation sought a distinct emblem. On 14 June 1777, the Continental Congress resolved that the flag have thirteen stripes alternating red and white, and thirteen white stars in a blue field to represent a new constellation.
+
+Early star arrangements varied—circles and rows—while the stripe count temporarily rose to fifteen in 1794 with Vermont and Kentucky. The 1818 Flag Act restored thirteen stripes permanently for the founding colonies and mandated that a star be added on the Fourth of July following admission of each new state.
+
+As territories entered the Union through the nineteenth and twentieth centuries, the canton grew to reflect 27 official versions of the flag. The current pattern of fifty stars—arranged in nine offset rows—took effect on 4 July 1960, after Hawaii’s admission in 1959.
+
+Colour symbolism has been read as red for valor and hardiness, white for purity and innocence, and blue for vigilance, perseverance, and justice. The flag’s standard proportion is 10:19 (height to length). Construction sheets specify the dimensions of the Union, the star diameter, and spacing to ensure uniform manufacture across services and vendors.
+
+Protocol is codified in the U.S. Flag Code, enacted in 1942 and refined since. It prescribes respectful display, precedence in groupings, the method of half‑masting, and proper folding. The flag should never touch the ground, be used for clothing, or carry advertising. Worn flags are retired with dignity, commonly by ceremonial burning.
+
+Historically, the flag gained prominence during the War of 1812—immortalised by the “Star‑Spangled Banner”—and again in the Civil War, when it became a central symbol of national unity. Through later conflicts and civic milestones, the Stars and Stripes served as a unifying emblem on public buildings, in schools, and at international events.
+
+Variations include ensigns and positional colours for the President and armed services, each governed by distinct regulations. Supreme Court rulings have balanced reverence for the flag with constitutional protections of expression. In everyday life the flag’s presence at ceremonies, memorials, and holidays embeds its meanings in civic culture.
+
+Today the flag flies worldwide at embassies and missions, with detailed Department of State and Department of Defense guidance for international protocol. The long tradition of star additions and standardised practice has yielded a design that is both historically layered and instantly recognisable.`,
+    seoKeywords: [
+      "united states flag",
+      "flag of the united states",
+      "us flag meaning",
+      "us flag history",
+      "american flag colors"
+    ],
+  },
+  canada: {
+    countryId: "canada",
+    summary250: `Canada’s Maple Leaf flag was inaugurated on 15 February 1965, replacing Red Ensign variants. A stylised red eleven‑point maple leaf is centred on white, flanked by vertical red bars (1:2 proportion with a 1:2:1 vertical scheme). Red and white have been Canada’s official colours since 1921. The leaf symbolises unity and the land; the simple geometry ensures high visibility. Federal protocol governs display, half‑masting, folding, and dignified retirement; the design is unchanged since adoption and is a core national emblem at home and abroad.`,
+    longText: `Before 1965, Canada flew British‑derived ensigns with Canadian arms. A mid‑twentieth‑century search for a distinctive emblem culminated in a multi‑party parliamentary process in 1964. Historian George Stanley’s concept—one maple leaf between two red bars—was selected for clarity, neutrality, and recognisability.
+
+Queen Elizabeth II proclaimed the new flag on 28 January 1965, and it was first raised on Parliament Hill on 15 February—now National Flag of Canada Day. The design’s symbolism is succinct: a stylised single maple leaf, long associated with Canada’s landscape and identity, framed by two red bars that stabilise the composition and improve distance legibility.
+
+Red and white were declared Canada’s national colours in 1921. The official proportion is 1:2, with precise construction for the leaf silhouette and bar widths (a vertical 1:2:1 scheme). There is no official meaning to the leaf’s eleven points; they are a graphic solution optimised for reproduction.
+
+Federal etiquette mandates respectful display, precedence rules when flown with provincial or foreign flags, half‑masting protocols, and dignified retirement for unserviceable flags. The civil flag is identical to state usage; additional flags—like the Governor General’s—have distinct devices.
+
+The Maple Leaf quickly displaced previous ensigns as Canada’s primary symbol at international events, military service, and diplomacy. It asserts a plural, bilingual, independent identity while acknowledging the country’s constitutional evolution.
+
+Manufacture follows colour references and exact construction sheets to ensure consistency. Government guidance details indoor and outdoor usage, illumination at night, and order of march for parades.
+
+Through decades of use, the flag has proven an accessible and unifying emblem across Canada’s regions, cultures, and languages. Its simplicity and symbolic economy contribute to broad recognition worldwide.`,
+    seoKeywords: [
+      "canada flag",
+      "flag of canada",
+      "canada flag meaning",
+      "canada flag history",
+      "canadian flag colors"
+    ],
+  },
+  mexico: {
+    countryId: "mexico",
+    summary250: `Mexico’s vertical tricolour of green, white, and red centres the national coat of arms—an eagle devouring a serpent on a nopal cactus—within the white band. Rooted in the 1821 independence tricolour, the emblem was standardised in 1916 and the current layout fixed in 1968. Colours are now read as hope (green), unity (white), and the blood of national heroes (red). Strict law (Ley sobre el Escudo, la Bandera y el Himno Nacional) defines design, proportions (4:7 in official use), protocols, and dignified treatment.`,
+    longText: `Mexico’s flag descends from the 1821 tricolour of the Army of the Three Guarantees that heralded independence from Spain. Early republic banners used green, white, and red with varied central emblems. In 1823, an eagle perched on a prickly pear cactus devouring a serpent—drawn from Mexica lore about Tenochtitlan’s founding—was adopted for the coat of arms and subsequently refined.
+
+In 1916 a presidential decree established a forward‑facing eagle rendering; the modern graphic canon was regularised in the twentieth century. Ahead of the 1968 Olympic Games, the state fixed current flag specifications, ensuring a codified emblem and consistent manufacture.
+
+Symbolism has evolved: once read as independence (green), religion (white), and union (red), the colours are now commonly interpreted as hope, unity, and the blood of patriots. The coat of arms synthesises pre‑Hispanic myth, national resilience, and continuity of state.
+
+The Ley sobre el Escudo, la Bandera y el Himno Nacional prescribes proportions, colour references, emblem geometry, protocols for state ceremonies, half‑masting, and respectful retirement. Civil flags may omit the arms; state, military, and official versions display the device.
+
+Flag Day (Día de la Bandera) on 24 February anchors public ritual. Educational and civic ceremonies emphasise correct salutes and handling. Misuse is sanctioned; commercial appropriation requires permission.
+
+While artistic refinements to the arms have occurred, the tricolour framework remains stable. The flag’s presence in plazas, schools, border ports, and foreign missions maintains its role as a unifying national symbol connecting ancient legend to contemporary republican identity.`,
+    seoKeywords: [
+      "mexico flag",
+      "flag of mexico",
+      "mexican flag meaning",
+      "mexico flag history",
+      "mexico flag colors"
+    ],
+  },
+  brazil: {
+    countryId: "brazil",
+    summary250: `Brazil’s flag (19 November 1889) places a yellow rhombus on green with a blue celestial globe showing 27 stars for the states and Federal District, crossed by the motto “Ordem e Progresso.” The green and yellow echo imperial heraldry; the globe depicts the Rio de Janeiro sky of 15 November 1889. Proportions are 7:10 with construction sheets for the globe, band, and star positions; additions have tracked state changes, most recently in 1992.`,
+    longText: `When Brazil proclaimed the republic on 15 November 1889, designers adapted the imperial banner’s green and yellow geometry to a new civic emblem. The arms were replaced by a blue celestial sphere, within which stars mark Brazil’s states and the Federal District as seen over Rio de Janeiro on the day of the proclamation.
+
+The green field links to the House of Braganza; the yellow rhombus to the House of Habsburg—reframed as colours of land and resources. The white band across the sphere bears the Positivist motto “Ordem e Progresso,” reflecting currents that shaped republican founders.
+
+Statutes set the flag at 7:10 and prescribe the sphere’s radius, band curvature, letterforms, and exact star placements by constellation. As states were created or reorganised, stars were added or reassigned, with the current total of 27 established in 1992.
+
+Protocol governs precedence, half‑masting, illumination at night, and dignified retirement. Special variants include the presidential standard and naval ensigns. Schools and public offices conduct regular flag ceremonies, and 19 November is commemorated as Flag Day.
+
+The design’s synthesis of imperial colours with astronomical precision produces a unique national identity: rooted in history, aimed at order and progress. The flag’s visibility in stadiums, missions, and international fora underscores its strong semiotics and careful standardisation.`,
+    seoKeywords: [
+      "brazil flag",
+      "flag of brazil",
+      "brazil flag meaning",
+      "brazil flag history",
+      "brazil flag colors"
+    ],
+  },
+  argentina: {
+    countryId: "argentina",
+    summary250: `Argentina’s flag—light blue‑white‑light blue horizontal bands—was first raised by Manuel Belgrano in 1812 and adopted in 1816. The Sun of May, with 32 alternating straight and wavy rays, appears on the official state and war flags at the centre; civil versions may omit it. Colours evoke sky, liberty, and Marian symbolism; the sun recalls the May Revolution. Law defines proportions, shades, emblem drawing, protocol, and Flag Day (20 June).`,
+    longText: `On 27 February 1812, Manuel Belgrano raised a blue‑and‑white banner at Rosario amid the struggle for independence. In 1816, following the Congress of Tucumán, the tricolour became the national flag; in 1818 the golden Sun of May—derived from revolutionary iconography and associated with Inca imagery—was added to state and war flags.
+
+The civil flag (without sun) coexists with official variants bearing the emblem. The colours are widely read as the sky and clouds, liberty, and Marian associations. The Sun of May is specified with 32 rays, alternating straight and undulating, and a defined face drawing.
+
+Statutes and decrees establish proportions, colour standards, and ceremonial protocol: solemn raising and lowering, half‑masting for mourning, order of precedence with other flags, and dignified retirement. Flag Day on 20 June commemorates Belgrano’s death and anchors civic education.
+
+While earlier banners and colonial ensigns preceded it, the current scheme has remained visually stable since the nineteenth century. Adjustments have refined shades and emblem artwork rather than the tricolour itself.
+
+The flag is omnipresent at public institutions, schools, military formations, and international events. It encapsulates independence ideals and a shared national narrative, binding provincial identities within a unified republic.`,
+    seoKeywords: [
+      "argentina flag",
+      "flag of argentina",
+      "argentina flag meaning",
+      "argentina flag history",
+      "argentina flag colors"
+    ],
+  },
   "sao-tome-and-principe": {
     countryId: "sao-tome-and-principe",
     summary250: `São Tomé and Príncipe’s flag (adopted 5 November 1975) features green‑yellow‑green horizontal bands with a red hoist triangle and two centered black five‑pointed stars. Green denotes forests and agriculture; yellow cocoa and sunlight; red the struggle for independence; the twin stars represent the two main islands—São Tomé and Príncipe. Proportions are typically 1:2 with codified triangle geometry, star size and spacing, and colour references. Usage guidelines cover precedence, half‑masting, and respectful handling on state occasions and missions abroad.`,
@@ -1841,6 +1953,55 @@ In practice, the flag is hoisted daily on public buildings, central on national 
       "sao tome and principe colors"
     ],
   }
+  ,
+  colombia: {
+    countryId: "colombia",
+    summary250: `Colombia’s tricolour—yellow (half‑height), blue, red—derives from the 19th‑century Gran Colombia banner and was adopted nationally in 1861. Yellow signifies sovereignty and abundance; blue the seas and loyalty; red the blood shed for independence. Proportion is 2:3 with a 2:1:1 band division; civil flags lack arms, while state and war flags may bear the coat of arms. Law codifies dimensions, shades, and protocol for display and half‑masting.`,
+    longText: `Colombia’s flag descends from the tricolour popularised by Francisco de Miranda and used by Gran Colombia after the independence wars. Following the federation’s dissolution, the Republic of New Granada and later Colombia retained the yellow‑blue‑red scheme, standardised in 1861 with yellow occupying half the field.
+
+Symbolism is commonly taught as yellow for sovereignty, justice, and wealth; blue for the seas and fidelity; red for courage and the blood of patriots. The proportion is 2:3, with the bands divided 2:1:1 in height. The civil flag omits arms; state and military flags add the national coat of arms centred in the yellow band.
+
+Legal norms define colour references, ratios, and respectful handling, including precedence, half‑masting by order, nocturnal illumination, and dignified retirement. The flag’s continuity from Gran Colombia preserves a pan‑regional heritage while marking Colombia’s distinct republican identity.`,
+    seoKeywords: [
+      "colombia flag",
+      "flag of colombia",
+      "colombia flag meaning",
+      "colombia flag history",
+      "colombia flag colors"
+    ],
+  },
+  chile: {
+    countryId: "chile",
+    summary250: `Chile’s Estrella Solitaria (1817) pairs white over red horizontal bands with a blue canton bearing a white five‑pointed star. White evokes the Andes; red sacrifice for liberty; blue the sky; the star guidance and honour. Proportions and star geometry are fixed by law; civil, state, and war flags vary by presence of arms. Protocol governs display, half‑masting, and retirement; the basic design has remained stable since independence.`,
+    longText: `Adopted on 18 October 1817 during Chile’s independence process, the national flag consists of a white band above red, with a blue canton at the hoist charged with a single white five‑pointed star. The composition symbolises the Andes’ snows (white), the blood shed for independence (red), and the sky (blue), with the lone star as a guide to progress and honour.
+
+The official proportion and the canton and star’s construction are specified by statute to ensure consistency. Variants include the civil flag (without arms) and state/war flags (with arms). Etiquette covers precedence with foreign flags, half‑masting, and dignified retirement.
+
+The Estrella Solitaria has remained visually consistent for two centuries, becoming one of the region’s most recognisable emblems. It appears across ministries, schools, and abroad on missions, integral to national ceremonies and civic education.`,
+    seoKeywords: [
+      "chile flag",
+      "flag of chile",
+      "chile flag meaning",
+      "chile flag history",
+      "chile flag colors"
+    ],
+  },
+  peru: {
+    countryId: "peru",
+    summary250: `Peru’s red‑white‑red vertical tricolour dates to 1825 reforms following San Martín’s 1820 banner. The civil flag omits arms; state and war flags display the coat of arms (vicuña, cinchona, cornucopia). Colours are read as sacrifice (red) and peace (white). Law fixes a 2:3 ratio, colour references, and protocol—display, half‑masting, ceremonies, and dignified retirement.`,
+    longText: `Peru’s earliest independence flag (1820) used diagonals; in 1825 the nation adopted a simpler vertical tricolour of red, white, red. The civil flag consists solely of the bands, while the state and war flags add the coat of arms depicting a vicuña, a cinchona tree, and a cornucopia—signifiers of fauna, flora, and abundance.
+
+Interpretations commonly present red as the blood of patriots and white as peace and purity. The legal proportion is 2:3, with definitions for shades and emblem drawings. Protocol governs precedence with foreign flags, half‑masting for mourning, and ceremonial handling. Old flags are retired with dignity.
+
+The design has remained largely unchanged since the nineteenth century, aside from refinements to the arms. The flag is central in civic education and national days and appears widely on public buildings and at missions abroad.`,
+    seoKeywords: [
+      "peru flag",
+      "flag of peru",
+      "peru flag meaning",
+      "peru flag history",
+      "peru flag colors"
+    ],
+  },
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
