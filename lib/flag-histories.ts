@@ -2257,6 +2257,122 @@ Over more than a century, small graphic clarifications ensured uniform productio
       "costa rica flag history",
       "costa rica flag colors"
     ],
+  },
+  panama: {
+    countryId: "panama",
+    summary250: `Panama’s flag (20 December 1903) quarters the field: white with a blue star (upper hoist), red (upper fly), blue (lower hoist), and white with a red star (lower fly). White signifies peace; blue and red represent the founding parties and political balance. The design by Manuel E. Amador was legalised in 1904 and later constitutionalised; statutes codify proportion, colours, star geometry, protocol, and dignified retirement.`,
+    longText: `Adopted on 20 December 1903, weeks after independence from Colombia, Panama’s national flag expresses a foundational pact of peace and political balance. The rectangular field is quartered: the upper hoist and lower fly are white, charged respectively with a blue and a red five‑pointed star; the upper fly is solid red; the lower hoist solid blue. White signifies peace between factions; blue and red represent the principal parties of 1903—Conservative (blue) and Liberal (red)—whose coexistence was essential to the new republic.
+
+An earlier proposal by Philippe‑Jean Bunau‑Varilla, echoing French heraldry, was rejected. The final and enduring layout is credited to Manuel E. Amador, son of the first president, Manuel Amador Guerrero. Government decrees in 1904 and Law 48 of 1925 set usage and protections, and the 1941 constitution enshrined the design, later reiterated by updated legislation specifying proportion, shades, and construction for the two stars.
+
+Protocol mandates display on ministries, schools, courts, armed forces, and missions abroad, with precedence rules when flown with foreign flags. Half‑masting occurs by executive order during national mourning; flags flown at night must be illuminated. Worn flags are retired ceremoniously.
+
+The flag’s geometry—simple quadrants punctuated by two stars—has remained unchanged. Public education emphasises correct folding and handling, and the banner dominates dates such as Independence Days in November and Flag Day. Abroad, it signals Panamanian sovereignty on vessels and at diplomatic posts, while domestically it recalls the 1903 settlement that launched a state bridging oceans and continents.`,
+    seoKeywords: [
+      "panama flag",
+      "flag of panama",
+      "panama flag meaning",
+      "panama flag history",
+      "panama flag colors"
+    ],
+  },
+  jamaica: {
+    countryId: "jamaica",
+    summary250: `Jamaica’s flag (6 August 1962) bears a gold saltire dividing black (hoist and fly) and green (top and bottom) triangles. Black signifies the strength and creativity of the people; gold the sunlight and natural wealth; green hope and agricultural resources. Selected at independence, the unique palette omits red, white, and blue. Protocol and law regulate proportion, respectful use, and dignified retirement.`,
+    longText: `Unfurled on 6 August 1962 at independence, Jamaica’s national flag is a gold saltire that divides the field into four triangles—black at hoist and fly, green at top and bottom. Widely cited as the only sovereign flag without red, white, or blue, the banner’s palette and geometry emerged from a national design effort and a final governmental selection.
+
+Official readings now present black as the strength and creativity of the people, gold as the country’s natural wealth and the sunlight, and green as hope and agricultural abundance. Earlier phrasing—“Hardships there are, but the land is green and the sun shineth”—captured the same spirit in aphoristic form. The flag’s bold diagonals produce high legibility in stadiums, regattas, and diplomatic venues.
+
+Statute and administrative guidance cover proportion, colour standards, and respectful handling: the flag must not touch the ground; soiled or torn flags are withdrawn from service and retired with dignity; reproduction is controlled to prevent defacement. The national flag is hoisted at government facilities on state observances and at missions abroad; half‑masting follows executive direction. The design has remained unaltered since adoption.`,
+    seoKeywords: [
+      "jamaica flag",
+      "flag of jamaica",
+      "jamaica flag meaning",
+      "jamaica flag history",
+      "jamaica flag colors"
+    ],
+  },
+  haiti: {
+    countryId: "haiti",
+    summary250: `Haiti’s flag is a blue‑over‑red horizontal bicolour bearing the coat of arms on a white panel: a palm with liberty cap, flags, artillery, and the motto “L’Union fait la Force.” Rooted in the 1803 revolutionary banner, the present form was restored on 25 February 1986 after the Duvalier era. Law codifies proportion, arms drawings, usage, and solemn protocol.`,
+    longText: `Haiti’s flag descends from the revolutionary bicolour attributed to 1803, when the French tricolour’s white band—seen as colonial—was removed, joining blue and red to symbolise unity among Haitians in the struggle for freedom. The modern state flag is the blue‑over‑red horizontal bicolour, with the national coat of arms centred on a white rectangle on the middle of the flag.
+
+The coat of arms features a royal palm rising above a trophy of flags, artillery, and anchors, topped with a Phrygian liberty cap; below runs the motto “L’Union fait la Force.” From independence (1804) through the nineteenth century, variants alternated between blue‑red and black‑red or changed orientation, reflecting political divisions. Under François and Jean‑Claude Duvalier (1964–1986), a vertical black‑and‑red flag replaced the bicolour. The fall of that regime in 1986 brought the formal restoration, on 25 February, of the blue‑red with arms.
+
+Legal provisions regulate proportion, the arms’ precise drawings, and contexts of display: public buildings, armed forces, and diplomatic missions. Fête du Drapeau (18 May) honours the banner’s origins. Protocol prescribes respectful handling, half‑masting by decree, and dignified retirement. The civil flag used domestically and by the merchant marine is the plain bicolour without arms, while the state and war flags bear the arms.`,
+    seoKeywords: [
+      "haiti flag",
+      "flag of haiti",
+      "haiti flag meaning",
+      "haiti flag history",
+      "haiti flag colors"
+    ],
+  },
+  belize: {
+    countryId: "belize",
+    summary250: `Belize’s flag (21 September 1981) has a royal blue field with thin red stripes at top and bottom and a large white disc bearing the national arms—two woodcutters, a shield of tools and ship, mahogany tree, and the motto “Sub Umbra Floreo.” The red stripes were added for political balance at independence. Law regulates proportions, usage, and dignified retirement.`,
+    longText: `Adopted at independence on 21 September 1981, the flag of Belize synthesises colonial heraldry and post‑colonial compromise. A royal blue field—long associated with the leading independence movement—is bordered by narrow red stripes at the top and bottom, a conscious addition to reflect opposition voices and ensure the flag’s inclusivity at the founding moment. Centred is a white disc containing the national coat of arms: two woodcutters of different ancestry supporting a shield beneath a mahogany tree, with tools of the timber trade (paddle, squaring axe, saw) and a ship symbolising commerce. The motto “Sub Umbra Floreo” (“I flourish in the shade”) appears below.
+
+The design replaced the British Blue Ensign defaced with the colonial badge. The 1981 settlement and the Flag and Coat of Arms (Protection) Act established the new banner’s legal protections, restricting reproduction to approved forms and requiring respect in manufacture and display. Protocol mandates that the flag not touch the ground, be raised and lowered ceremonially at public institutions, and be retired when worn.
+
+Graphic details of the arms were clarified post‑independence to ensure uniform manufacture—leaf counts around the disc, line weights, and colour references—while the overall composition remained fixed. The red edging, initially controversial, has become a defining feature that distinguishes Belize’s flag from those of its regional neighbours.
+
+On Independence Day and other national observances, the flag is prominent at the National Assembly, schools, and civic parades. Overseas, it identifies Belize at embassies, consulates, and international events. Through law and ceremony, the flag embodies a multi‑ethnic society’s history in forestry and maritime trade and its modern identity as a parliamentary democracy.`,
+    seoKeywords: [
+      "belize flag",
+      "flag of belize",
+      "belize flag meaning",
+      "belize flag history",
+      "belize flag colors"
+    ],
+  },
+  bahamas: {
+    countryId: "bahamas",
+    summary250: `The Bahamas’ flag (10 July 1973) shows aquamarine, gold, aquamarine horizontal bands with a black hoist triangle. Aquamarine symbolises sea and sky; gold the sun and land; black the strength and unity of the people. Selected by national competition at independence, the design is protected by protocol governing respectful display and retirement.`,
+    longText: `First flown at independence on 10 July 1973, The Bahamas’ national flag was chosen through a public design process that sought a distinct, modern emblem for a new nation. The layout—three horizontal bands of aquamarine (top and bottom) and gold (centre) with a black equilateral triangle at the hoist—reads immediately as maritime and sunlit, echoing the archipelago’s geography and climate while foregrounding the people’s agency and unity through the black triangle.
+
+Symbolism is officially articulated: aquamarine for the surrounding waters and sky, gold for the sun and the archipelago’s natural resources, black for the vigour and determination of Bahamians. The aspect ratio and geometric construction are standardised, and variants for specific state uses follow cabinet guidance.
+
+Statutes and administrative rules regulate usage: respectful handling is mandatory; the flag is raised after sunrise and lowered before sunset unless illuminated; half‑masting follows executive direction. The design has remained stable since adoption. On Independence Day, Emancipation Day, and state funerals, the flag anchors ceremonies at government buildings and public spaces. Abroad, it identifies the Commonwealth of The Bahamas in diplomatic and sporting contexts.`,
+    seoKeywords: [
+      "bahamas flag",
+      "flag of the bahamas",
+      "bahamas flag meaning",
+      "bahamas flag history",
+      "bahamas flag colors"
+    ],
+  },
+  barbados: {
+    countryId: "barbados",
+    summary250: `Barbados’s flag (30 November 1966) is a vertical triband of ultramarine, gold, ultramarine with a black trident head centred. Ultramarine signifies sea and sky; gold the sand; the broken trident marks the break from colonial rule and democratic sovereignty. A public competition produced the design; law codifies protocols and respectful use.`,
+    longText: `Raised at midnight on 30 November 1966, Barbados’s national flag emerged from an open competition that produced Grantley Prescod’s emblematic design. The flag is a vertical triband—ultramarine at the hoist and fly, a golden centre panel—and a stylised black trident head centred. The trident, taken from the colonial badge where it appeared whole, is shown broken to signify the severing of colonial ties and the assumption of sovereign authority by the people. The three prongs are often read as government “of, for, and by” the people.
+
+The ultramarine denotes the surrounding sea and the sky; the gold represents the island’s sand and warmth. National guidance sets proportions and artwork specifications, and the National Flag Act prescribes respectful handling, forbids defacement, and regulates commercial reproduction.
+
+The flag figures centrally in Independence Day observances, National Heroes Day, and diplomatic protocol. Since 1966 the design has been unchanged, reflecting a durable consensus around its symbolism. Strict retirement practices protect the emblem’s dignity, while controlled use ensures consistency across ministries, schools, and overseas missions.`,
+    seoKeywords: [
+      "barbados flag",
+      "flag of barbados",
+      "barbados flag meaning",
+      "barbados flag history",
+      "barbados flag colors"
+    ],
+  },
+  "trinidad-and-tobago": {
+    countryId: "trinidad-and-tobago",
+    summary250: `Trinidad and Tobago’s flag (31 August 1962) is red with a black diagonal band from upper hoist to lower fly, edged in white. Red denotes the vitality of the people and sun; black strength and dedication; white the water and equality. Adopted at independence, the design is governed by strict protocol on display, half‑masting, and retirement.`,
+    longText: `Hoisted at independence on 31 August 1962, Trinidad and Tobago’s national flag is a masterclass in minimalism and contrast. A red field symbolises the warmth and energy of the land and people. Cutting across from the upper hoist to the lower fly is a black diagonal band, edged on both sides in white. Official expositions assign red to vitality and the sun, black to strength and dedication rooted in the nation’s earth and people, and white to equality and the surrounding waters.
+
+The independence committee selected the final design from multiple proposals, seeking an emblem that would be legible on land and sea and distinct among world flags. Regulations codify aspect ratio and construction details, and the Flag and Coat of Arms Order sets rules for respectful use: ceremonial hoisting, correct precedence with foreign flags, and solemn half‑masting during national mourning. The banner features in Independence Day, Republic Day, Carnival, and state events; abroad it represents the republic at diplomatic posts and in international sport.
+
+The design has remained constant since 1962. Limits on commercial reproduction and clear retirement practice protect the flag’s dignity, while its graphic clarity ensures recognisability across contexts from naval ensigns to stadium terraces.`,
+    seoKeywords: [
+      "trinidad and tobago flag",
+      "flag of trinidad and tobago",
+      "trinidad and tobago flag meaning",
+      "trinidad and tobago flag history",
+      "trinidad and tobago flag colors"
+    ],
   }
 }
 
