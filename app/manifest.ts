@@ -1,0 +1,19 @@
+import type { MetadataRoute } from "next"
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "Flaggle",
+    short_name: "Flaggle",
+    icons: [
+      { src: "/icon.png", type: "image/png", sizes: "512x512" },
+      { src: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { src: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+    ],
+    start_url: "/",
+    display: "standalone",
+    background_color: "#0ea5e9",
+    theme_color: "#0ea5e9",
+  }
+}
+
+
