@@ -3620,6 +3620,48 @@ The Ay‑Yıldız is ubiquitous on Republic Day, during commemorations of 29 Oct
       "turkey flag colors"
     ],
   }
+  ,
+  taiwan: {
+    countryId: "taiwan",
+    summary250: `Taiwan’s flag (the flag of the Republic of China) is a red field with a blue canton bearing a white sun of twelve rays. First adopted by the ROC in 1928, it has been used in Taiwan since 1945 and continuously after 1949. Red signifies the land and the people’s sacrifice; blue the “Blue Sky” of liberty; white the purity of “White Sun” and equality—together known as “Blue Sky, White Sun, and a Wholly Red Earth.” Laws define a 2:3 ratio, canton geometry, sun construction, colour standards, respectful protocol, half‑masting, maritime use, and dignified retirement.`,
+    longText: `Taiwan uses the national flag of the Republic of China (ROC): a red field with a blue canton charged with a white sun of twelve triangular rays. The design, commonly glossed as “Blue Sky, White Sun, and a Wholly Red Earth,” integrates late‑Qing revolutionary symbolism with twentieth‑century state specifications, and it has flown continuously on Taiwan since the late 1940s.
+
+Origins and Early Symbolism
+The sun emblem originated within revolutionary circles at the end of the Qing dynasty. The “White Sun on a Blue Sky,” attributed to Lu Hao‑tung (Lu Haodong) in 1895, was adopted by the Kuomintang (KMT) as a party symbol; the twelve rays were explained as the twelve months and traditional double‑hours, connoting perpetual progress and disciplined order. Early ROC flags after 1912 experimented with colour arrangements until, in the 1920s, a red field was paired with the party sun in the canton to create the composite banner familiar today.
+
+1928 Adoption for the Republic
+Following the Northern Expedition and consolidation of central authority, the National Government proclaimed the current flag in late 1928 as the national standard of the Republic of China. Legal instruments and administrative circulars defined the composition: a rectangular flag in a 2:3 proportion; a blue canton occupying the upper hoist; within the canton, a white sun of twelve isosceles rays constructed by a specified circle‑and‑triangle method. The red field—described as the “wholly red earth”—completed the triad.
+
+Symbolism and Civic Education
+Authoritative explanations settled on a canonical reading: blue represents liberty and the “blue sky”; white stands for equality, moral integrity, and the sun’s light; red denotes fraternity, sacrifice, and the warmth of the people. In school texts the twelve rays map to the calendar’s months and double‑hours, implying ceaseless movement and industriousness. This symbolic vocabulary entered ceremonies, military colours, and diplomatic usage.
+
+Design Geometry and Colour Standards
+Construction sheets specify the canton’s dimensions relative to the flag height and width, the radius of the sun’s disc, the angular width and length of each ray, and the spacing between rays. The sun’s centre is fixed on the canton’s axes; the rays are equal and strictly triangular to retain crispness at small sizes and in needlework. Colour references are prescribed for the blue (often rendered as a deep navy), the red field, and the white sun; guidance covers textile dyes, paint, and digital equivalents to ensure consistent appearance across ministries, schools, and embassies.
+
+Protocol, Half‑Masting, and Retirement
+Regulations instruct that the flag be raised briskly at sunrise and lowered at sunset unless properly illuminated at night. It must not touch the ground or water, nor be used as drapery or clothing, and worn flags are to be retired with dignity. Precedence with foreign flags, indoor placement behind lecterns and on rostrums, and vehicle display are laid out in diagrams. Half‑masting procedures are ordered for periods of national mourning, with exact lowering height and timing specified for the main mast and sub‑masts.
+
+Military and Maritime Use
+Naval ensigns and service flags adapt the national design within ROC heraldry; the civil ensign retains the national pattern for merchantmen, subject to international practice regarding courtesy flags in foreign ports. Procurement for sea service requires colourfast textiles and stitching patterns that preserve the twelve‑ray sun under wind loading.
+
+Continuity on Taiwan
+The flag began flying in Taiwan in 1945 following the end of Japanese colonial administration and has remained the standard in government, education, and international representation of the authorities in Taipei since 1949. Within multilateral sport and certain international contexts, alternative emblems (“Chinese Taipei”) may be used under event agreements; however, domestic protocol for state institutions specifies the national flag’s form, handling, and placement.
+
+Manufacture and Compliance
+To prevent drift in the sun’s geometry or the canton’s sizing, ministries distribute vector artwork and numeric tables to licensed manufacturers and local governments. Inspections of large public displays—parades, schoolyards, stadiums—check for correct ray count and angular precision. Digital usage guidelines define safe areas and minimum sizes to protect recognisability on screens and printed materials.
+
+Public Life and Commemoration
+The banner is ubiquitous on National Day celebrations, military ceremonies, and school events. Instructional programmes in civic education teach the flag’s history, symbolism, and etiquette, reinforcing the pairing of the white twelve‑ray sun with the blue canton and the broad red field as a unified national emblem.
+
+Across these layers—revolutionary origins, legal specification, protocol, and public education—the flag’s design anchors a century of institutional continuity. Its disciplined geometry and triadic symbolism have proved adaptable to modern media while retaining the historical semantics of “Blue Sky, White Sun, and a Wholly Red Earth.”`,
+    seoKeywords: [
+      "taiwan flag",
+      "flag of taiwan",
+      "taiwan flag meaning",
+      "taiwan flag history",
+      "taiwan flag colors"
+    ],
+  }
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
