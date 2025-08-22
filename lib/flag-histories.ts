@@ -2002,6 +2002,48 @@ The design has remained largely unchanged since the nineteenth century, aside fr
       "peru flag colors"
     ],
   },
+  venezuela: {
+    countryId: "venezuela",
+    summary250: `Venezuela’s tricolour of yellow, blue, and red with eight white stars in a central arc descends from Francisco de Miranda’s 1806 banner. The present form dates to 2006, when an eighth star was added for Guayana and the arms were updated. Yellow signifies land and wealth; blue the sea; red courage and blood shed. A 2:3 ratio and statutes govern star geometry, spacing, and protocol; state and war flags bear arms at the hoist while the civil flag omits them.`,
+    longText: `Venezuela’s national flag traces its lineage to the tricolour raised by Francisco de Miranda in 1806 during the independence movement. Following independence and the period of Gran Colombia, Venezuela retained the horizontal yellow‑blue‑red scheme, periodically adjusting devices and stars to reflect constitutional developments.
+
+The current design fixes eight five‑pointed white stars in a semicircular arc centred on the blue band, adopted by law in 2006 to recognise the historic province of Guayana. Earlier versions displayed seven stars. State and war flags place the national coat of arms at the upper hoist; the civil flag consists solely of the bands and stars.
+
+Symbolism is widely taught: yellow for land, wealth, and the nation’s resources; blue for the Caribbean Sea and the distance from Spain; red for the blood of patriots and the courage shown in the struggle for independence. The official proportion is 2:3, and construction sheets specify star diameter, arc radius, and spacing to ensure consistent manufacture.
+
+Legal norms regulate precedence with other flags, half‑masting during periods of mourning by decree, nocturnal illumination when flown at night, and dignified retirement of unserviceable flags. The national flag is omnipresent in schools, institutions, and on missions abroad, and features centrally during commemorations on 5 July (Independence Day).
+
+Throughout the republic’s history the tricolour has served as a republican emblem distinct from colonial ensigns while maintaining the broader pan‑regional colour family. The 2006 reform harmonised heraldic details and confirmed the eight‑star constellation, balancing continuity and a renewed reading of historical geography.
+
+In public ritual and civic education, correct handling, salutes, and protocol are emphasised. The flag’s simple geometry and the star arc’s recognisable curve contribute to strong visibility in stadiums, diplomatic venues, and international events.`,
+    seoKeywords: [
+      "venezuela flag",
+      "flag of venezuela",
+      "venezuela flag meaning",
+      "venezuela flag history",
+      "venezuela flag colors"
+    ],
+  },
+  bolivia: {
+    countryId: "bolivia",
+    summary250: `Bolivia’s red‑yellow‑green tricolour was adopted in 1851. The civil flag is the plain tricolour; state and war flags add the coat of arms centred on the yellow band. Red symbolises bravery and sacrifice; yellow mineral wealth; green fertility and hope. A 15:22 proportion is traditional. Statutes regulate colour references, emblem drawings, protocol for precedence and half‑masting, and dignified retirement; the Wiphala also holds official status in state contexts.`,
+    longText: `Adopted on 5 November 1851, Bolivia’s national flag comprises three equal horizontal stripes of red, yellow, and green. The civil flag is the plain tricolour. The state and war flags display the national coat of arms centred on the yellow band, with precise drawings defined by decree to maintain heraldic consistency.
+
+Public symbolism associates red with bravery and the blood shed by defenders of the nation, yellow with the riches of the land—especially mineral resources—and green with the fertility of the territory and hope for the future. The customary proportion is 15:22, and guidance provides colour references to standardise manufacture.
+
+Protocol stipulates the order of precedence when flown with other flags, half‑masting by government order, illumination when flown at night, and dignified retirement of worn flags through respectful destruction. The flag is displayed across ministries, schools, and missions abroad and is central to civic ceremonies and national days.
+
+In 2009 the plurinational constitution affirmed the Wiphala as a state symbol alongside the tricolour, representing Andean indigenous peoples. In official contexts, the Wiphala may be flown with or beneath the national flag according to protocol.
+
+Across more than 170 years the tricolour has remained stable, with changes confined mainly to the coat of arms’ artwork. Its clear palette and simple geometry support strong recognition in international settings while reflecting the republic’s multiethnic identity.`,
+    seoKeywords: [
+      "bolivia flag",
+      "flag of bolivia",
+      "bolivia flag meaning",
+      "bolivia flag history",
+      "bolivia flag colors"
+    ],
+  }
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
