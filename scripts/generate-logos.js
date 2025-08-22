@@ -40,7 +40,9 @@ const logoSpecs = [
 ];
 
 async function generateLogos() {
-  const inputPath = path.join(__dirname, '../public/flagguesser.png');
+  // Source brand image (flaggle.png) lives in /images; also copy to /public for SVG wrappers
+  const inputPath = path.join(__dirname, '../images/flaggle.png');
+  const publicBrandPng = path.join(__dirname, '../public/flaggle.png');
   const outputDir = path.join(__dirname, '../public/logos');
   
   // Create logos directory if it doesn't exist
@@ -50,6 +52,11 @@ async function generateLogos() {
   
   console.log('🎨 Generating logo variations...');
   
+  // Ensure a public copy exists for SVG wrappers to reference
+  if (fs.existsSync(inputPath)) {
+    fs.copyFileSync(inputPath, publicBrandPng);
+  }
+
   for (const spec of logoSpecs) {
     try {
       const outputPath = path.join(outputDir, spec.name);
@@ -58,7 +65,7 @@ async function generateLogos() {
         // For SVG, we'll create a simple SVG wrapper around the PNG
         // In a real scenario, you'd want the original SVG source
         const svgContent = `<svg width="${spec.width}" height="${spec.height}" viewBox="0 0 ${spec.width} ${spec.height}" xmlns="http://www.w3.org/2000/svg">
-  <image href="/flagguesser.png" width="${spec.width}" height="${spec.height}" preserveAspectRatio="xMidYMid meet"/>
+  <image href="/flaggle.png" width="${spec.width}" height="${spec.height}" preserveAspectRatio="xMidYMid meet"/>
 </svg>`;
         fs.writeFileSync(outputPath, svgContent);
         console.log(`✅ Generated ${spec.name}`);
@@ -82,6 +89,22 @@ async function generateLogos() {
           .png({ quality: 90 })
           .toFile(outputPath);
         console.log(`✅ Generated ${spec.name}`);
+
+        // Also write og-image/twitter-card to public root for existing references
+        if (spec.name === 'og-image.png') {
+          await sharp(inputPath)
+            .resize(spec.width, spec.height, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
+            .png({ quality: 90 })
+            .toFile(path.join(__dirname, '../public/og-image.png'));
+          console.log('✅ Duplicated og-image.png to /public/og-image.png');
+        }
+        if (spec.name === 'twitter-card.png') {
+          await sharp(inputPath)
+            .resize(spec.width, spec.height, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
+            .png({ quality: 90 })
+            .toFile(path.join(__dirname, '../public/twitter-card.png'));
+          console.log('✅ Duplicated twitter-card.png to /public/twitter-card.png');
+        }
       }
     } catch (error) {
       console.error(`❌ Error generating ${spec.name}:`, error.message);

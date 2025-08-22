@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: "article",
       url: `https://flaggle.fun/flags/${country.id}`,
       images: [
-        { url: country.flagUrl, width: 512, height: 341, alt: `${country.name} flag` },
+        { url: "/og-image.png", width: 1200, height: 630, alt: `${country.name} flag - Flaggle` },
       ],
     },
   }
