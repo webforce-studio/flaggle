@@ -2490,6 +2490,69 @@ Statutes define proportions, colour references, and contexts of use, including d
       "suriname flag history",
       "suriname flag colors"
     ],
+  },
+  japan: {
+    countryId: "japan",
+    summary250: `Japan’s flag, the Hinomaru, is a white field with a crimson disc symbolising the sun—reflecting Japan’s identity as the “Land of the Rising Sun.” First mandated for ships in 1854 and standardised during the Meiji era, it was legally affirmed as the national flag in 1999. The circle connotes sincerity, brightness, and warmth; the white stands for purity and honesty. Proportions are 2:3 with the disc diameter at three‑fifths the flag height. Etiquette requires respectful handling, half‑masting in mourning, and prominence on national days. Despite post‑war debates, the design endures for its deep mytho‑historical roots and continuity of state identity.`,
+    longText: `The flag of Japan—the Hinomaru—is one of the world’s most instantly recognisable national symbols. A crimson sun disc centered on a white field, it compresses Japan’s mythic heritage, imperial tradition, and modern sovereignty into a minimalist emblem.
+
+Mythic and Early Uses
+References to the sun permeate Japan’s earliest chronicles, notably the Nihon Shoki (720 CE), which traces imperial lineage to the sun goddess Amaterasu. Sun devices and roundels appeared on court and military banners through the medieval era, but there was no single national flag.
+
+Edo Maritime Standard (1854)
+As Japan re‑engaged with international trade in the mid‑19th century, the Tokugawa shogunate mandated in 1854 that Japanese ships fly a white flag with a red disc—an early, nationwide legal instruction for identification at sea.
+
+Meiji Era Standardisation
+Following the Meiji Restoration (from 1868), the Hinomaru was defined as civil ensign and de facto national flag, with a 2:3 aspect ratio and a disc diameter of three‑fifths the flag’s height. The army and navy used related Rising Sun standards with radiating rays, while the plain disc flag represented the state in civic and diplomatic contexts.
+
+Wartime Associations and Occupation Period
+The Hinomaru’s visibility grew with state expansion. After 1945, occupation authorities constrained public display, and domestic debate surrounded school ceremonies. Nevertheless, practice reaffirmed the Hinomaru for embassies, sports, and official functions.
+
+1999 Act on National Flag and Anthem
+To remove ambiguity, the Diet codified the Hinomaru in 1999, specifying geometry and colour (white field, crimson disc, 2:3 proportion; disc three‑fifths of height) and pairing it legally with the anthem, Kimigayo. The law also clarified etiquette and occasions for display and half‑masting.
+
+Symbolism and Protocol
+The disc emblematises the sun—sincerity, brightness, and warmth—while white denotes purity and honesty. Protocol prescribes raising at sunrise, lowering at sunset, precedence among flags, half‑mast in mourning, and dignified retirement of worn flags.
+
+Continuity and Reception
+Public views once diverged over compulsory use in schools, but today the flag broadly functions as a unifying emblem at home and abroad. Its minimalist geometry, deep cultural resonance, and legal clarity explain its continuity from early maritime usage to a modern constitutional state symbol.`,
+    seoKeywords: [
+      "japan flag",
+      "flag of japan",
+      "japan flag meaning",
+      "japan flag history",
+      "japan flag colors"
+    ],
+  },
+  china: {
+    countryId: "china",
+    summary250: `China’s Five‑star Red Flag (adopted 1 October 1949) shows a large gold star with four smaller stars on a red field. Red symbolises revolution and the people; the large star the Communist Party; the four smaller stars the unity of social groups under Party leadership. A 1949 design contest selected Zeng Liansong’s concept; laws fix a 2:3 ratio, precise star sizes/placement, colour standards, and protocol for display and half‑masting. It replaced imperial and Republican banners at the founding of the PRC.`,
+    longText: `China’s national flag—the Five‑star Red Flag—was adopted at the foundation of the People’s Republic of China and encodes the new state’s revolutionary ideology in colour and geometry.
+
+Precursors
+Imperial China employed dynastic standards, notably the Qing yellow dragon flag. The 1912 Republic introduced five horizontal stripes (“Five Races Under One Union”); from 1928, the Nationalist flag (blue sky, white sun canton on red) served until 1949.
+
+Design Contest and Adoption (1949)
+In summer 1949, authorities invited public designs. Zeng Liansong’s submission—a red field for revolution, a large gold star for the Communist Party, four smaller stars for the people/social groups—was approved by the CPPCC on 27 September 1949 and raised at Tiananmen on 1 October 1949.
+
+Specifications
+Statutes define a 2:3 aspect ratio. The large star’s diameter equals three‑tenths of the flag’s height; its centre lies one‑tenth of the height from the hoist and top. The four small stars, each one‑tenth of height in diameter, arc to the fly with a point aimed at the large star’s centre. Official red and gold shades are standardised for production.
+
+Symbolism and Protocol
+Red denotes revolution and the people; gold provides contrast and national association. The Party (large star) leads the people (small stars). Protocol regulates respectful raising and lowering, half‑mast for mourning, and display at state buildings, schools, embassies, and on National Day (1 October).
+
+Continuity and Law
+The design remains unchanged since 1949. The National Flag Law (1990) and updates govern manufacture, display, and penalties for desecration, ensuring consistency and protection of the emblem.
+
+Role at Home and Abroad
+The flag functions as a central identity marker in diplomacy, sport, and state ceremony. Its strict geometry and revolutionary iconography make it one of the most codified national flags in use today.`,
+    seoKeywords: [
+      "china flag",
+      "flag of china",
+      "china flag meaning",
+      "china flag history",
+      "china flag colors"
+    ],
   }
 }
 
