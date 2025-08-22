@@ -1458,6 +1458,100 @@ Continuity and presence. The 2006 flag is widely used across ministries, provinc
 Thus the DR Congo’s banner, with star and diagonal, fuses aspiration and memory in a legally precise vexillological form.`,
     seoKeywords: ["dr congo flag history", "dr congo flag meaning"],
   },
+  benin: {
+    countryId: "benin",
+    summary250: `Benin’s flag—green vertical at the hoist with yellow over red at the fly—was adopted 16 November 1959 ahead of independence (1 August 1960). Green signifies hope and revival; yellow wealth and the northern savannas; red courage and sacrifice. Replaced in 1975 by a green field with a red star during the Marxist period, the original design was restored on 1 August 1990 with the return to multiparty democracy. Proportions are typically 2:3; statutes and guidance regulate colours, construction, and protocol for display on public buildings, missions, and national holidays.`,
+    longText: `Benin’s flag reflects independence, ideological change, and democratic restoration through a concise pan‑African palette.
+
+Adoption. On 16 November 1959 Dahomey (now Benin) enacted a national flag—green vertical hoist band with yellow over red at the fly—in anticipation of independence on 1 August 1960. The composition aligns with pan‑African colours while offering a distinctive layout.
+
+Symbolism. Green denotes hope and revival; yellow wealth and the northern savannas; red courage and the blood shed for freedom. The design situates the republic within African solidarity while articulating local readings.
+
+Change and restoration. In 1975, amid Marxist‑Leninist reforms, a plain green flag with a red star was introduced as the People’s Republic of Benin’s emblem. With political liberalisation, the 1959 design was restored on 1 August 1990, reaffirming constitutional democracy and historical continuity.
+
+Standards and protocol. Ratio 2:3; band widths and colour references are standardised. Protocol mandates respectful handling, precedence with foreign flags, half‑masting by decree, illumination when flown at night, and dignified retirement. Misuse and defacement are prohibited.
+
+Public life and presence. The flag is raised on ministries, schools, and missions; it anchors ceremonies on Independence Day and other national observances; and it identifies the state in international fora.
+
+Thus Benin’s banner records a trajectory from decolonisation through ideological experiment to democratic reaffirmation, kept precise by law and ritual.`,
+    seoKeywords: ["benin flag history", "benin flag meaning"],
+  },
+  "burkina-faso": {
+    countryId: "burkina-faso",
+    summary250: `Burkina Faso’s flag (4 August 1984) bears red over green with a centred yellow star, replacing Upper Volta’s black‑white‑red tricolour. Red honours revolution and sacrifice; green agricultural wealth and hope; the yellow star the guiding light of progress. The change accompanied the country’s renaming under Thomas Sankara. Proportions 2:3 are typical; law fixes colours, star geometry, and protocol.`,
+    longText: `Burkina Faso’s national flag marks a deliberate break with colonial and post‑colonial symbolism and a turn toward pan‑African ideals.
+
+From Upper Volta to Burkina Faso. Upper Volta’s independence flag (1960) used black‑white‑red stripes for the Volta rivers. On 4 August 1984, amid sweeping reforms, the country was renamed Burkina Faso and adopted a new flag of red over green with a centred yellow five‑pointed star.
+
+Symbolism. Red signifies the revolution and sacrifices; green the land’s fertility and agriculture; the yellow star a guiding light of unity and progress. The palette places the state within the pan‑African colour family.
+
+Standards and protocol. A 2:3 ratio is common; the star’s size and centring and the colour references are specified. Protocol governs precedence, half‑masting, illumination at night, and dignified retirement. Misuse is penalised.
+
+Continuity. Despite later political changes, the 1984 design has endured, stabilising national identity in ceremonies, education, and diplomacy.
+
+The flag, therefore, encodes revolution and renewal in a precise, durable emblem.`,
+    seoKeywords: ["burkina faso flag history", "burkina faso flag meaning"],
+  },
+  togo: {
+    countryId: "togo",
+    summary250: `Togo’s flag (27 April 1960) has five equal green and yellow stripes with a red hoist canton bearing a white star. Green denotes agriculture and hope; yellow mineral wealth and work; red sacrifice and patriotism; the white star purity and unity. Designed by Paul Ahyi, it uniquely approximates golden‑ratio proportions. Protocol standardises use across state institutions.`,
+    longText: `Adopted at independence on 27 April 1960, Togo’s flag set a refined pan‑African palette within a distinctive geometric scheme designed by artist Paul Ahyi.
+
+Design. Five equal horizontal stripes—green and yellow alternating from the top—support a red hoist‑side square bearing a white five‑pointed star. Proportions approximate the golden ratio, yielding notable visual balance.
+
+Symbolism. Green signifies agriculture and hope; yellow mineral wealth and productive labour; red the blood and resolve of the people; the white star purity, unity, and guidance.
+
+Law and protocol. Statutes define proportions, canton and star dimensions, and colour references. Protocol prescribes respectful handling, precedence, and half‑masting; misuse is prohibited.
+
+Continuity and presence. The design has remained stable through political changes, featuring in civic education and international representation.
+
+Togo’s banner thus joins mathematical elegance with clear civic symbolism, anchored in law and ritual.`,
+    seoKeywords: ["togo flag history", "togo flag meaning"],
+  },
+  guinea: {
+    countryId: "guinea",
+    summary250: `Guinea’s vertical tricolour of red, yellow, and green (2:3) was adopted on 2 October 1958 at independence. Red honours martyrs and labour; yellow the sun and mineral wealth; green vegetation and hope. The design follows Pan‑African colours in a French‑style arrangement; protocol governs proportions, colours, and respectful use.`,
+    longText: `Guinea’s flag—red, yellow, green in vertical bands—was enacted on 2 October 1958 as the republic chose immediate independence from France.
+
+Symbolism. Red recalls sacrifices and the work of the people; yellow the sun and abundant resources; green the land’s fertility and hope for prosperity. The vertical arrangement nods to francophone vexillological tradition while the palette aligns with pan‑African identity.
+
+Standards and protocol. Ratio 2:3; bands equal; colours specified by decree. Protocol addresses precedence, half‑masting by order, illumination when flown at night, and dignified retirement; misuse is restricted.
+
+Continuity. The flag has remained unchanged since 1958, providing stable civic symbolism across political eras. Education embeds its meanings and etiquette in public life.
+
+Guinea’s banner thus binds decisive decolonisation to a durable tricolour kept precise by law.`,
+    seoKeywords: ["guinea flag history", "guinea flag meaning"],
+  },
+  "guinea-bissau": {
+    countryId: "guinea-bissau",
+    summary250: `Guinea‑Bissau’s flag (24 September 1973) mirrors PAIGC symbolism: a red hoist band with a black star, and yellow over green at the fly. Red marks the liberation struggle; yellow resources and the sun; green land and hope; the black star African unity. Ratio 1:2; protocol and law govern display and colours.`,
+    longText: `Adopted at unilateral independence on 24 September 1973, Guinea‑Bissau’s flag transposes party iconography into national heraldry.
+
+Design and symbolism. A vertical red hoist band charged with a black five‑pointed star stands beside two equal horizontal bands of yellow over green. Red recalls blood shed for freedom; yellow the sun and resources; green fertile land and hope; the black star African unity and liberation.
+
+Standards and protocol. Ratio 1:2; colour specifications and star geometry are defined. Protocol covers precedence, half‑masting, and dignified retirement; misuse is penalised.
+
+Continuity and presence. The design has remained stable through political shifts, featuring centrally in civic rituals, schools, and international representation.
+
+Thus the national banner preserves the liberation movement’s visual grammar within a legal, civic frame.`,
+    seoKeywords: ["guinea bissau flag history", "guinea bissau flag meaning"],
+  },
+  gambia: {
+    countryId: "gambia",
+    summary250: `The Gambia’s flag (18 February 1965) shows red, blue, and green horizontal bands separated by narrow white fimbriations. Red signifies the sun and savannas; blue the Gambia River; green forests and agriculture; white peace and unity. Proportions 2:3; statutes standardise colours and protocol; the design has remained unchanged since independence.`,
+    longText: `The Gambia’s flag, designed by Louis Thomasi and adopted on 18 February 1965, eschews pan‑African colours to express a uniquely geographic and civic identity.
+
+Design. Three broad horizontal bands—red (top), blue (centre), green (bottom)—are separated by narrow white stripes. Ratio 2:3; colour and fimbriation widths are defined in guidance.
+
+Symbolism. Red denotes the sun and savannas and recalls the struggle toward independence; blue the Gambia River, the country’s axial feature; green forests, agriculture, and hope; white peace and unity.
+
+Law and protocol. Protocol prescribes respectful handling, precedence, half‑masting, and dignified retirement; misuse and commercial appropriation are restricted. The flag is raised on state buildings, schools, and missions and figures centrally in national holidays and civic instruction.
+
+Continuity. The composition has remained unchanged through political transitions, providing a stable emblem in domestic and international settings.
+
+Thus the Gambian banner ties geography and civics into a crisp, enduring tricolour with white separators, maintained by statute and ceremony.`,
+    seoKeywords: ["gambia flag history", "gambia flag meaning"],
+  }
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
