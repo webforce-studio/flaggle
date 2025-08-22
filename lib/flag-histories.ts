@@ -1961,6 +1961,72 @@ The Taegeukgi anchors national observances and international events, appearing a
       "south korea flag history",
       "south korea flag colors"
     ],
+  },
+  iran: {
+    countryId: "iran",
+    summary250: `Iran’s tricolour—green, white, red—was redesigned on 29 July 1980 after the Islamic Revolution. A stylised emblem representing “Allah” sits centred; the takbir (Allahu Akbar) repeats 22 times along the inner edges of the green and red bands, marking 22 Bahman. Green denotes Islam, white peace, red courage and sacrifice. Ratio is 4:7 with strict legal specs for geometry, shades, and inscription. Desecration or misuse is prosecutable; protocol covers precedence, half‑masting, and dignified retirement.`,
+    longText: `Iran’s national flag synthesises centuries of Persian heraldic tradition with the ideological and legal architecture of the Islamic Republic. The modern tricolour traces its pedigree to 19th‑century Qajar usage of green‑white‑red bands, later bearing the Lion and Sun royal emblem. Following the 1979 Revolution, legislators replaced monarchical insignia with Islamic symbolism and codified detailed construction rules.
+
+The law promulgated on 29 July 1980 fixed horizontal green, white, and red bands in a 4:7 proportion and introduced a central emblem—a highly stylised monogram that reads as “Allah,” while also evoking a tulip and elements of the phrase “La ilaha illa Allah.” Along the inner borders of the green and red stripes, the takbir (Allahu Akbar) appears 22 times in angular Kufic, commemorating 22 Bahman (11 February 1979), the climax of the revolution. These inscriptions are an integral design element, not decorative trim, and must be rendered precisely.
+
+Green signifies Islam and hope; white stands for peace and truth; red denotes bravery, martyrdom, and sacrifice. The emblem’s geometry and stroke weights, the widths of stripes, distance from edges, and colour references are enumerated in executive standards to ensure consistent manufacture. Approved fabrics and printing methods guard against diffusion or misalignment of the Kufic banding.
+
+Protocol prescribes sunrise‑to‑sunset display unless illuminated; orderly half‑masting for mourning by state directive; precedence alongside other national flags; and ceremonious retirement of worn flags. Desecration, defacement, or unauthorised alteration is a criminal offence. Diplomatic posts, schools, and ministries maintain stock in regulated sizes; military colours adapt the tricolour under separate service rules.
+
+Historically, Iran’s flags expressed changing political orders—from Zand and Qajar standards to Pahlavi royal iconography, and finally to the Islamic Republic’s synthesis. The 1980 settlement, stable for decades, anchored the flag as a central civic symbol while embedding revolutionary memory into everyday display.
+
+Across public life the banner is omnipresent on national holidays, at Friday prayers, and during commemorations such as Sacred Defence Week. Abroad, it identifies the state at international organisations and sporting events; consulates follow a usage manual to avoid incorrect centring, improper aspect ratios, or truncated inscriptions. The tricolour’s disciplined specification and protected status ensure that its meanings—religious conviction, national continuity, and post‑revolutionary legitimacy—are conveyed intact wherever it flies.`,
+    seoKeywords: [
+      "iran flag",
+      "flag of iran",
+      "iran flag meaning",
+      "iran flag history",
+      "iran flag colors"
+    ],
+  },
+  iraq: {
+    countryId: "iraq",
+    summary250: `Iraq’s flag—horizontal red, white, black bands with the green Takbir (Allahu Akbar) in Kufic script—was standardised on 22 January 2008. It descends from the Pan‑Arab tricolour used since 1963, which once bore three green stars. Colours signify Arab unity (red/white/black) and Islam (green). Ratio 2:3; law governs respectful display, half‑masting, precedence, and penalties for desecration.`,
+    longText: `Iraq’s national flag reflects the country’s 20th‑century transformations, from monarchy to republic and through subsequent regimes, while maintaining a connection to the broader Arab colour tradition. The modern banner is composed of three equal horizontal stripes—red at the top, white in the middle, black at the bottom—with the green Takbir, “Allahu Akbar,” centred in angular Kufic script.
+
+After the monarchy’s abolition in 1958, designs shifted rapidly. A vertical black‑white‑green tricolour with republican emblems (1959) yielded to the Pan‑Arab horizontal tricolour in 1963, augmented by three green stars that variously referenced Arab unity initiatives or the Ba’athist programme. In 1991, during the Gulf War, the Takbir was added between the stars, reportedly in Saddam Hussein’s handwriting.
+
+Post‑2003 debates on national symbols culminated in legislation on 22 January 2008: the stars were removed and the Takbir was retained in geometric Kufic, yielding a design that acknowledges religious identity without the partisan overtones of earlier iconography. The flag’s aspect ratio is 2:3; the Takbir must be centred, evenly spaced between the stripe boundaries, and drawn to a specified stroke weight with balanced letterforms.
+
+Symbolically, red commemorates sacrifice and courage; white expresses generosity and a desire for peace; black recalls historic Abbasid heritage and suffering overcome; green alludes to Islam. Protocol stipulates respectful handling, correct precedence with foreign flags, half‑masting by decree in national mourning, and dignified retirement of unserviceable flags. Desecration or improper commercial use is prohibited.
+
+The current settlement has stabilised the flag’s appearance in civic life: ministries, provincial councils, schools, and embassies display it according to guidance. Military colours integrate the motif within service standards. Internationally, the flag represents Iraq at organisations and in sport, where size and colour checks prevent misprints.
+
+Thus the 2008 design balances continuity with renewal—preserving the Pan‑Arab tricolour while clarifying religious text and removing divisive emblems—so the flag can function as a unifying symbol for a plural republic.`,
+    seoKeywords: [
+      "iraq flag",
+      "flag of iraq",
+      "iraq flag meaning",
+      "iraq flag history",
+      "iraq flag colors"
+    ],
+  },
+  israel: {
+    countryId: "israel",
+    summary250: `Israel’s flag (adopted 28 October 1948) is a white field with two horizontal blue stripes near the edges and a central blue Star of David. The design echoes the tallit (prayer shawl) and long‑standing Jewish communal symbols. Statute sets proportions (commonly 8:11), stripe widths, and precise Magen David geometry. Protocol regulates public display, half‑masting, and penalties for desecration under the Flag and Emblem Law (1949).`,
+    longText: `The flag of Israel draws from Zionist iconography that crystallised in the late 19th century and from ritual motifs associated with the tallit. Prior to statehood, Jewish congresses and settlement groups used a banner of white with two blue stripes and a central Star of David, quickly becoming the movement’s de facto emblem.
+
+After the Declaration of Independence on 14 May 1948, the Provisional Council of State resolved to adopt a national flag; on 28 October 1948 a formal decision established the white field, two blue horizontal stripes near the borders, and a central Magen David derived from precise geometry. Subsequent regulations defined a commonly used proportion of 8:11 (and 16:22), stripe widths at roughly one‑tenth of the flag’s width, and the star centred with balanced stroke weight.
+
+The symbolism is straightforward yet layered. White denotes purity and aspiration; blue recalls the tekhelet dye of biblical tradition and connects to the prayer shawl’s stripes; the Magen David identifies Jewish peoplehood and continuity from diaspora communities to the modern state.
+
+Usage is governed by the Flag and Emblem Law (1949) and related orders: public buildings, schools, and military formations raise the flag on Independence Day and memorial days; half‑masting occurs during national mourning; and penalties attach to defacement or insulting treatment. Commercial usage without permission is restricted. Diplomatic missions follow detailed manuals covering precedence with host‑country flags and illumination at night.
+
+The design has remained stable since 1948, providing visual continuity amid political change. In international arenas—sport, diplomacy, cultural exchange—the flag functions as a concise statement of Jewish national identity and state sovereignty, while domestic protocol emphasises respectful handling and consistent manufacture.
+
+In practice, the flag’s disciplined geometry and statutory protections ensure recognisability and dignity wherever it is flown, from municipal buildings to embassies and commemorative ceremonies.`,
+    seoKeywords: [
+      "israel flag",
+      "flag of israel",
+      "israel flag meaning",
+      "israel flag history",
+      "israel flag colors"
+    ],
   }
   ,
   "united-states": {
