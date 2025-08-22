@@ -887,7 +887,7 @@ Protocol and variants. Use is tightly circumscribed: Vatican departments, papal 
 
 Continuity and instruction. Because the design is heraldic rather than ideological, it has remained stable. Training for Swiss Guards, gendarmes, and ceremonial staff includes flag etiquette. During papal transitions (sede vacante) the state flag does not change, underscoring institutional continuity even when the personal standard lapses.
 
-Thus the Vatican flag, in yellow and white with keys and tiara, is at once ancient and modern: an heir to Papal States colours made precise by twentieth‑century law, and a compact assertion of spiritual sovereignty in the language of flags.",
+Thus the Vatican flag, in yellow and white with keys and tiara, is at once ancient and modern: an heir to Papal States colours made precise by twentieth‑century law, and a compact assertion of spiritual sovereignty in the language of flags.`,
     seoKeywords: ["vatican city flag history", "vatican flag meaning"],
   },
   moldova: {
