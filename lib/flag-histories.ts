@@ -2374,6 +2374,123 @@ The design has remained constant since 1962. Limits on commercial reproduction a
       "trinidad and tobago flag colors"
     ],
   }
+  ,
+  "antigua-and-barbuda": {
+    countryId: "antigua-and-barbuda",
+    summary250: `Adopted 27 February 1967, Antigua and Barbuda’s flag has a red field with an inverted triangle containing black, blue, and white bands and a rising golden sun. Black reflects African heritage; blue hope and the sea; white beaches; the sun a new era; the V‑shape victory. Retained at independence in 1981; law governs proportion, conduct, and dignified retirement.`,
+    longText: `Antigua and Barbuda’s flag dates to 27 February 1967, the start of associated statehood with the UK. Chosen via a national competition from more than six hundred entries, local artist Reginald Samuel’s design was raised that day as a marker of internal self‑government. The country retained the same flag at full independence on 1 November 1981, entrenching it as the enduring emblem of the state.
+
+The red field frames an inverted isosceles triangle reaching to the flag’s centre. Within the triangle appear three horizontal elements—black at top, blue in the middle, and white at base—surmounted by a stylised rising golden sun. Each element has a defined meaning: black represents the African ancestry of most citizens; blue denotes hope and the surrounding Caribbean; white signifies the famed beaches; and the rising gold sun promises a new era. The triangle’s V‑shape is widely read as victory.
+
+Government guidance standardises the flag’s geometry and colours and sets out respectful handling: it must never touch the ground, should be illuminated if flown at night, and is retired ceremoniously when worn. The national flag is displayed on government buildings, at schools, during Carnival and Independence events, and at overseas missions; half‑masting follows executive order in times of mourning. Maritime practice follows the British‑influenced ensign system, with the national flag serving as the civil and state ensign where applicable.
+
+The flag’s constancy since 1967 reflects broad acceptance of its symbolism, which unites landscape, heritage, and aspiration in a single, legible composition.`,
+    seoKeywords: [
+      "antigua and barbuda flag",
+      "flag of antigua and barbuda",
+      "antigua and barbuda flag meaning",
+      "antigua and barbuda flag history",
+      "antigua and barbuda flag colors"
+    ],
+  },
+  grenada: {
+    countryId: "grenada",
+    summary250: `Grenada’s flag (7 February 1974) shows yellow top/bottom triangles and green hoist/fly triangles divided by a red border with six yellow stars, a central red disc with a star, and a nutmeg pod at the hoist. Colours denote warmth, courage, and agriculture; stars mark the parishes. Protocol regulates usage and half‑masting.`,
+    longText: `Adopted at independence on 7 February 1974, Grenada’s flag was selected through a national competition won by artist Anthony C. George. The design balances pan‑Caribbean colour traditions with unique local references, producing one of the region’s most distinctive banners.
+
+The field is divided diagonally into four triangles: yellow above and below for warmth and sunlight; green at the hoist and fly for vegetation and agricultural wealth. A red border encloses the field and bears six yellow five‑pointed stars—three at the top and three at the bottom—representing the six parishes of the main island. At the centre, a red disc carries a larger yellow star, which stands for the dependency of Carriacou and Petite Martinique and national unity. In the hoist‑side green triangle appears a nutmeg pod, referencing Grenada’s signature spice crop and export identity.
+
+Legislation and guidance specify proportions, colours, and usage, emphasising respectful handling, correct precedence with foreign flags, and dignified retirement. The flag is flown across ministries, courts, schools, and at state events; half‑masting is ordered for national mourning. Maritime practice recognises the banner as the civil/state ensign where appropriate.
+
+The composition has remained unchanged since 1974, and educational programmes reinforce its meanings: courage and vitality in red, generosity and sunshine in yellow, and the fertile land in green—together with the nutmeg motif that singularises Grenada among world flags.`,
+    seoKeywords: [
+      "grenada flag",
+      "flag of grenada",
+      "grenada flag meaning",
+      "grenada flag history",
+      "grenada flag colors"
+    ],
+  },
+  guyana: {
+    countryId: "guyana",
+    summary250: `Guyana’s “Golden Arrowhead” (26 May 1966) has a green field with a golden triangle edged in white and a red hoist triangle edged in black. Green represents forests and agriculture; gold mineral wealth and forward drive; white rivers; red zeal; black endurance. Protocol codifies use and construction.`,
+    longText: `Introduced at independence on 26 May 1966, Guyana’s national flag—“The Golden Arrowhead”—was selected from a competition and designed by vexillologist Whitney Smith, then refined locally by adding black and white fimbriations to sharpen symbolism and visibility. Its geometry and palette make it one of the most recognisable flags in the Americas.
+
+The field is green for forests and agriculture. From the hoist extends a large golden triangle, pointing toward the fly to suggest advance and the country’s mineral wealth; a narrow white border along this shape denotes the many rivers and water resources that define Guyana’s landscape. Superimposed from the hoist is a red isosceles triangle for the zeal and dynamic spirit of the people, edged in black to represent endurance.
+
+The National Flag of Guyana Act standardises proportions and colours and prescribes respectful handling, half‑masting for mourning, and dignified retirement. The banner replaced colonial ensigns and is now omnipresent at ministries, schools, and Independence and Republic Day ceremonies. Maritime variants follow international practice.`,
+    seoKeywords: [
+      "guyana flag",
+      "flag of guyana",
+      "guyana flag meaning",
+      "guyana flag history",
+      "guyana flag colors"
+    ],
+  },
+  "saint-kitts-and-nevis": {
+    countryId: "saint-kitts-and-nevis",
+    summary250: `Adopted 19 September 1983, the flag shows green and red triangles divided by a black diagonal band edged in yellow with two white stars. Green symbolises fertility; red struggle and heritage; black the people; yellow sunshine; the stars hope, liberty, and the twin‑island federation. Protocol governs use and half‑masting.`,
+    longText: `Saint Kitts and Nevis adopted its flag at independence on 19 September 1983 following a national design competition, with Edrice Lewis’s entry selected. The banner conveys both unity and duality across the federation’s two islands.
+
+Two triangles—green above for the islands’ fertility and landscape, red below for the struggle against slavery and colonialism—are divided by a black diagonal band edged in yellow. On the band sit two white five‑pointed stars. The black stands for the people and their strength; the yellow for year‑round sunshine; the stars for hope and liberty and for Saint Kitts and Nevis as coequal parts of a single state.
+
+Government guidance fixes proportions, construction, and colour references; protocol requires respectful handling, correct precedence with foreign flags, and dignified retirement. The flag is central to Independence Day observances and daily display at ministries, schools, and missions abroad; half‑masting follows executive order.`,
+    seoKeywords: [
+      "saint kitts and nevis flag",
+      "flag of saint kitts and nevis",
+      "saint kitts and nevis flag meaning",
+      "saint kitts and nevis flag history",
+      "saint kitts and nevis flag colors"
+    ],
+  },
+  "saint-lucia": {
+    countryId: "saint-lucia",
+    summary250: `Saint Lucia’s flag (1 March 1967; retained 1979) is cerulean blue with a gold isosceles triangle before a black arrowhead edged in white. Blue evokes sea and sky; gold sunshine and prosperity; black and white the harmonious peoples and the Pitons. Minor refinements aside, the design endures; strict protocol applies.`,
+    longText: `Adopted with associated statehood on 1 March 1967 and retained at independence in 1979, Saint Lucia’s flag arose from a public contest won by artist Dunstan St Omer. Its abstract geometry distils landscape and society into a concise emblem.
+
+The field is cerulean blue for the Caribbean Sea and sky. Centred is a gold isosceles triangle signifying sunshine, prosperity, and aspiration. In front of it stands a black arrowhead edged in white, evoking the twin volcanic Pitons and the harmonious relationship of Saint Lucia’s black and white populations within a wider mixed‑heritage society. Over time, official guidance has adjusted blue shades and triangle proportions, but the core composition persists.
+
+Protocols regulate respectful handling, daily display on public buildings, half‑masting for mourning, and dignified retirement. Maritime practice uses appropriate ensigns based on the national flag.`,
+    seoKeywords: [
+      "saint lucia flag",
+      "flag of saint lucia",
+      "saint lucia flag meaning",
+      "saint lucia flag history",
+      "saint lucia flag colors"
+    ],
+  },
+  "saint-vincent-and-the-grenadines": {
+    countryId: "saint-vincent-and-the-grenadines",
+    summary250: `Adopted 21 October 1985, the flag is a vertical blue–gold–green triband (gold double width) with three green diamonds in a V on the centre band. Blue denotes sea/sky, gold sunshine and beaches, green the land; diamonds echo “Gems of the Antilles” and spell Vincent. Protocol prescribes respectful use.`,
+    longText: `Saint Vincent and the Grenadines replaced its original 1979 independence flag with the current design on 21 October 1985, following a competition won by Elaine Liverpool. The new banner sought sharper distinctiveness and clearer symbolism.
+
+The layout comprises three vertical bands: blue at the hoist, a double‑width gold centre, and green at the fly. Set on the centre band are three green diamonds arranged as a V—standing for Vincent and recalling the archipelago’s self‑image as gems scattered across the sea. Blue represents the Caribbean and sky; gold symbolizes beaches and sunshine; green denotes vegetation and environmental stewardship.
+
+Government documentation standardises proportions and artwork and requires respectful handling, correct precedence, and dignified retirement; half‑masting is ordered in mourning. The flag is ubiquitous at ministries, schools, and Independence Day ceremonies and at diplomatic posts abroad.`,
+    seoKeywords: [
+      "saint vincent and the grenadines flag",
+      "flag of saint vincent and the grenadines",
+      "saint vincent and the grenadines flag meaning",
+      "saint vincent and the grenadines flag history",
+      "saint vincent flag colors"
+    ],
+  },
+  suriname: {
+    countryId: "suriname",
+    summary250: `Suriname’s flag (25 November 1975) has green–white–red–white–green horizontal bands with a central yellow five‑pointed star on red. Green signals hope and fertility; white justice and freedom; red progress and sacrifice; the star national unity and a golden future. Law regulates construction and use.`,
+    longText: `Adopted on 25 November 1975 at independence, Suriname’s flag replaced colonial ensigns with a deliberately inclusive design. Five horizontal bands—green at top and bottom, followed by narrower white bands, and a broad red centre—carry a large yellow star at the heart.
+
+Official readings assign green to hope, forests, and agriculture; white to justice and freedom; red to progress and the sacrifices made for nationhood; the golden five‑pointed star to national unity across Suriname’s many communities and to a prosperous future. The design came from a state commission seeking non‑sectarian symbolism at the moment of sovereignty.
+
+Statutes define proportions, colour references, and contexts of use, including daily display at ministries, courts, and schools; half‑masting by decree; and dignified retirement of worn banners. Maritime practice follows international norms for civil and state ensigns.`,
+    seoKeywords: [
+      "suriname flag",
+      "flag of suriname",
+      "suriname flag meaning",
+      "suriname flag history",
+      "suriname flag colors"
+    ],
+  }
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
