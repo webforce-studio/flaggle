@@ -3198,6 +3198,75 @@ By coupling royal colour with Buddhist orange and the guardian dragon, the flag 
       "bhutan flag history",
       "bhutan flag colors"
     ],
+  },
+  oman: {
+    countryId: "oman",
+    summary250: `Oman’s modern flag—white, red, and green horizontal bands with a vertical red hoist bearing the national emblem—was introduced in 1970 and standardised with minor adjustments in 1985. White signifies peace and the Imamate tradition; red the historic Al Bu Sa‘id dynasty and coastal forts; green fertility and Dhofar. The emblem (khanjar dagger in sheath over crossed swords) denotes sovereignty. Proportions are 1:2 with precise band heights and emblem placement. Statutes and circulars regulate respectful display, precedence, half‑masting, illumination, maritime use, and dignified retirement. The banner is central to National Day ceremonies and diplomatic representation, with variants for military and royal standards defined by law.`,
+    longText: `Oman’s national flag, a composition of white, red, and green with a distinctive vertical red hoist charged by the state emblem, encapsulates the Sultanate’s political consolidation under the Al Bu Sa‘id dynasty and the country’s regional diversity from the Batinah coast to the mountains and Dhofar.
+
+Origins and Early Usage
+Before 1970, Omani usage featured plain red banners associated with the Al Bu Sa‘id rulers, alongside local and maritime flags that varied by context. The national emblem—a khanjar dagger in its sheath laid over two crossed swords—emerged as a symbol of authority in the nineteenth and twentieth centuries on seals and military colours. As Oman’s international profile grew in the mid‑twentieth century, the need for a modern, codified flag became evident for diplomacy and maritime registration.
+
+Adoption and Composition (1970, revised 1985)
+In 1970, following the accession of Sultan Qaboos bin Said, a new national flag was promulgated to signal a unified, modern state. The design set a vertical red bar at the hoist carrying the white state emblem, with three horizontal bands—white at the top, red in the middle, and green at the bottom—extending to the fly. The arrangement balanced continuity with historical red banners and the emblem, while introducing white and green to reflect peace, faith, fertility, and the geographic and cultural distinctiveness of Dhofar. In 1985 a specification circular refined proportions, colour references, and emblem rendering, ensuring consistent manufacture across ministries, missions abroad, and licensed suppliers.
+
+Symbolism
+White is widely interpreted as peace, purity, and the historic Imamate tradition that shaped Omani religious and communal life. Red evokes the ruling Al Bu Sa‘id dynasty, coastal fortifications, and the long maritime history of the sultanate across the Indian Ocean. Green connotes agriculture, mountain wadis, and Dhofar’s monsoon‑nourished landscapes. The emblem—khanjar and crossed saif swords—expresses sovereignty, lawful authority, and the protection of the realm; its precise orientation and detailing are governed by state artwork standards to prevent drift.
+
+Specifications and Proportion
+Official guidance sets the flag proportion at 1:2. The hoist bar is red and contains the emblem at a defined offset from the upper corner, scaled relative to the flag height. The three horizontal bands are equal in height in the standard drawing, though ceremonial and vertical variants maintain visual equivalence by rule. Colour references are codified in Pantone and textile/paint equivalents to preserve chromatic identity across cloth, paint, and digital applications.
+
+Protocol and Legal Protection
+Government circulars regulate respectful handling: the flag is raised briskly at sunrise and lowered at sunset unless properly illuminated; it must not touch the ground or water; it cannot serve as drapery, clothing, or table covering; and worn flags must be retired with dignity. Precedence rules stipulate the national flag’s place relative to foreign, military, and institutional flags on masts, on vehicles, and indoors. Half‑masting occurs by royal directive during periods of mourning, with procedures specified for the lowering and re‑raising sequence. Desecration and unauthorised commercial usage are punishable under applicable laws.
+
+Variants and Usage
+Military colours and naval ensigns incorporate the core elements with service identifiers while preserving the hoist bar and emblem. Diplomatic missions display the national flag externally and in reception rooms according to host‑state protocol and Vienna Convention practices. On National Day (18 November) and during royal tours, large‑scale displays are coordinated with guidance on mast strength, banner dimensions, and illumination. Educational campaigns instruct schools and civic groups in correct etiquette.
+
+International and Maritime Context
+Oman’s maritime tradition makes shipboard usage salient: merchant vessels fly the national flag as ensign, observing international conventions for size, placement, and courtesy flag display in foreign ports. The emblem’s complexity requires quality control to ensure legibility at sea; official suppliers provide standardized patterns.
+
+Continuity
+Since its introduction, the design has remained stable, with the 1985 specification preventing variation in emblem drawing or band ratios. As Oman has modernised infrastructure and expanded international engagement, the flag functions as a constant across ministries, provincial councils, cultural festivals, and sporting delegations—visually uniting historical authority, religious heritage, and the land’s green fertility in a single, well‑regulated standard.`,
+    seoKeywords: [
+      "oman flag",
+      "flag of oman",
+      "oman flag meaning",
+      "oman flag history",
+      "oman flag colors"
+    ],
+  },
+  qatar: {
+    countryId: "qatar",
+    summary250: `Qatar’s flag is maroon with a broad white hoist band separated by a serrated line of nine points. The serration commemorates Qatar joining as the ninth member of the ‘reconciled emirates’ after treaty arrangements; maroon reflects historic dyeing traditions and heraldic usage; white denotes peace. The current shade and geometry were standardised in the twentieth century and entrenched by law. Ratio is commonly 11:28, producing a long, easily recognised fly. Statutes govern respectful display, half‑masting, maritime use, commercial depiction, and penalties for misuse.`,
+    longText: `The national flag of the State of Qatar is among the world’s most distinctive for both its unusual proportion and its serrated divide. A deep maroon field, elongated toward the fly, is separated from a broad white hoist band by a serrated line of nine points. The composition reflects both treaty history in the Gulf and the peninsula’s material culture.
+
+Colour and Dye Tradition
+The maroon derives historically from red vegetable and cochineal dyes that darkened in intense sunlight, creating a characteristic hue associated with Gulf banners. Over time, as chemical dyes and flags for sea use became common, Qatar retained a deep shade as a heritage marker. Modern standards specify the maroon in Pantone and textile equivalents to ensure uniformity.
+
+Serration and the Number Nine
+The serrated line separating the white hoist band from the maroon field bears nine points. Qatari sources explain this as commemorating Qatar’s admission as the ninth reconciled emirate under British treaty arrangements in the early twentieth century, a political milestone in the consolidation of local rule and external relations. The serration also improves recognition at sea and at distance, an important consideration for a trading peninsula.
+
+Standardisation and Proportion
+By the mid‑twentieth century, Qatar promulgated guidance on the flag’s dimensions, settling on an elongated ratio—commonly noted as 11:28—that produces a long fly and gives the serration visual space. The white hoist band occupies a prescribed fraction of the width; the nine triangular points are equal in depth and spacing, with the maroon penetrating the white by exact measures. Variants for vertical hanging preserve the tooth count and symmetry.
+
+Symbolism
+White is conventionally read as peace and good faith; maroon evokes endurance, history, and the sacrifices of the people. The serration signifies differentiation from neighbouring flags and a particular constitutional journey marked by treaty, reconciliation, and state formation. While popular accounts sometimes ascribe additional meanings, official communications emphasise these core themes and the precise geometry that gives the flag its identity.
+
+Protocol and Legal Controls
+Statutes and circulars regulate respectful use: the flag is raised at sunrise and lowered at sunset unless illuminated; it must not touch the ground or be used as clothing or drapery; damaged flags are retired with dignity. Precedence rules cover display with foreign flags, placement on governmental vehicles, and arrangements on stages and in chambers. Half‑masting follows government order in periods of mourning, with procedures for lowering and re‑raising. Misuse, commercial misrepresentation, or desecration attract penalties.
+
+Domestic and International Use
+Government buildings, schools, embassies, and sporting delegations display the national flag according to detailed instructions on size and positioning. On National Day and during major events, large flags are flown from tall masts where the elongated ratio is most striking. At sea, merchant vessels use the national ensign; courtesy flags and consular protocols follow international practice. Procurement guidelines ensure serration accuracy and colourfast materials in the peninsula’s climate.
+
+Continuity and Recognition
+The modern form—white hoist band, maroon fly, nine serrations—has remained stable across the state’s rapid development in the late twentieth and early twenty‑first centuries. Its singular proportions make the banner instantly recognisable alongside neighbouring flags in the Gulf. Through precise legal specification and consistent protocol, the flag unites historical narrative, treaty memory, and contemporary sovereignty in a coherent national standard.`,
+    seoKeywords: [
+      "qatar flag",
+      "flag of qatar",
+      "qatar flag meaning",
+      "qatar flag history",
+      "qatar flag colors"
+    ],
   }
 }
 
