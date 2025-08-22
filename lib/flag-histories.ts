@@ -3541,6 +3541,84 @@ The flag is central to State Flag Day and Naadam festivities, on which large ban
       "mongolia flag history",
       "mongolia flag colors"
     ],
+  },
+  myanmar: {
+    countryId: "myanmar",
+    summary250: `Myanmar’s flag (21 October 2010) is a horizontal tricolour—yellow, green, red—with a large white five‑pointed star centred. Yellow stands for solidarity; green peace and plenty; red courage and determination; the star the union. It replaced the 1974 socialist flag. Laws set a 2:3 ratio, star geometry, colour specs, and protocol for display, half‑masting, and dignified retirement. Earlier colonial and independence‑era flags used different emblems.`,
+    longText: `Myanmar (Burma) adopted a new flag on 21 October 2010 during constitutional transition, replacing the 1974 socialist‑era banner. The design—a yellow, green, and red tricolour with a large white star centred—draws on long‑standing Southeast Asian colour symbolism and presents a simplified, legible emblem for a diverse union.
+
+From Colonial Insignia to Socialist Arms
+Under British rule, ensigns bore colonial badges; after independence in 1948, the Union of Burma flew a blue canton with a rice stalk and gear within a circlet of stars on a red field. The 1974 socialist constitution introduced a red field with a blue canton containing a large white cog‑wheel and paddy ears encircling a star, referencing workers and peasants.
+
+2010 Tricolour Adoption
+The 2008 Constitution paved the way for a new flag, formally raised in 2010: equal horizontal bands of yellow (top), green (middle), and red (bottom), charged at centre with a large white five‑pointed star. Official diagrams set the star’s diameter and centring, band equality, and the 2:3 proportion. Colour references are specified for textile and print to ensure consistency nationwide.
+
+Symbolism
+Government explanations give yellow as solidarity, green as peace and plenty, red as courage and determination; the white star is the union of the country’s national races. Civil society readings often trace the palette to regional associations found in neighbouring flags while emphasising the simplified civic message.
+
+Protocol and Usage
+Regulations prescribe respectful handling, sunrise‑to‑sunset display unless illuminated, half‑masting by order, and dignified retirement of damaged flags. Precedence rules cover display with foreign flags, on vehicles, and in chambers. Ministries provide geometry sheets to schools and agencies to prevent misshapen stars or incorrect band ratios.
+
+Continuity
+Since 2010 the design has remained unchanged and ubiquitous at state institutions and in international sport. As a straightforward tricolour with a single centred star, the flag reproduces well across cloth, print, and digital media, supporting the state’s representational needs at home and abroad.`,
+    seoKeywords: [
+      "myanmar flag",
+      "flag of myanmar",
+      "myanmar flag meaning",
+      "myanmar flag history",
+      "myanmar flag colors"
+    ],
+  },
+  "timor-leste": {
+    countryId: "timor-leste",
+    summary250: `Timor‑Leste’s flag (20 May 2002) is a red field with a yellow isosceles triangle at the hoist overlaid by a black triangle bearing a white five‑pointed star. Red signifies the struggle for liberation; yellow colonial traces; black past obscurantism; the white star peace and the guiding light of independence. Ratio 1:2; statutes codify triangle geometry, star size/placement, colours, protocol, half‑masting, and retirement.`,
+    longText: `The flag of the Democratic Republic of Timor‑Leste, raised on 20 May 2002 at the restoration of independence, visualises the country’s anti‑colonial struggle and guiding aspirations through a layered geometric composition on red.
+
+Design and Geometry
+The proportion is 1:2. A large yellow isosceles triangle is set at the hoist, its apex reaching to the flag’s centre; a smaller black isosceles triangle sits atop the yellow, reaching partway into the field; within the black triangle is a white five‑pointed star oriented upright. Official drawings fix triangle bases at the hoist, apex distances, and the star’s diameter and offsets. Colour references in Pantone and equivalents are mandated for textile and print.
+
+Symbolism
+Red represents the struggle for national liberation; yellow recalls traces of colonialism; black symbolises the obscurantism that must be overcome; the white star the light of peace and the hope guiding the nation. The arrangement ensures high contrast and legibility both at ceremonies and on moving vehicles.
+
+Protocol and Usage
+Regulations govern respectful handling, precedence with foreign and organisational flags, sunrise‑to‑sunset display unless illuminated, half‑masting during mourning by decree, and dignified retirement. Military colours and presidential standards adapt heraldic elements within shields while maintaining the base geometry. Schools and public agencies are provided construction sheets to prevent incorrect triangle apex positions or star scaling.
+
+Continuity
+Since 2002 the design has remained unchanged, anchoring Independence Day commemorations and international representation. The flag’s bold triangles and single star have proven effective on television coverage of national events and in international sport, reinforcing a coherent visual identity.`,
+    seoKeywords: [
+      "timor leste flag",
+      "flag of timor leste",
+      "timor leste flag meaning",
+      "timor leste flag history",
+      "timor leste flag colors"
+    ],
+  },
+  turkey: {
+    countryId: "turkey",
+    summary250: `Turkey’s flag is a red field with a white crescent and five‑pointed star, codified by the Turkish Flag Law of 29 May 1936 based on late Ottoman precedents. The law fixes a 2:3 ratio, exact crescent radii/chords and star size/placement, and colour standards. Red denotes the republic’s resolve; the crescent and star express continuity with Ottoman and earlier Anatolian‑Islamic symbolism. Protocol governs precedence, half‑masting, illumination, maritime use, and dignified retirement.`,
+    longText: `Turkey’s national flag, the Ay‑Yıldız (moon‑star), is a highly specified evolution of late Ottoman banners that became the emblem of the republic. A red field carries a white waxing crescent and a five‑pointed star; their geometry is determined by law and construction sheets used by manufacturers and public bodies.
+
+Ottoman Antecedents and Republican Codification
+Ottoman flags from the eighteenth and nineteenth centuries increasingly used red fields with crescents and, later, stars, with proportions varying by service and era. After the establishment of the Republic of Turkey in 1923, a need for a unitary civil and state flag led to legal codification. The Turkish Flag Law (No. 2994 of 29 May 1936, as amended) and implementing regulations fixed the 2:3 ratio, the precise radii and chord positions of the crescent, and the diameter and placement of the five‑pointed star relative to the hoist and baseline.
+
+Design and Colour
+The law’s annexed diagrams define a geometric grid from which the crescent’s outer and inner arcs are constructed and the star’s centre and diameter are set. Colour standards (popularly “al bayrak red”) are referenced for textiles, paint, and digital use. Manufacturers licensed for public procurement must follow these drawings to prevent drift in the crescent’s slim horns or the star’s offset.
+
+Symbolism
+Red is read as resolve, sacrifice, and the republican struggle; the crescent and star, while widely recognised as Islamic, in this context also express historical continuity with Ottoman heraldry and broader Anatolian symbolism. Official communications avoid theological claims, emphasising state continuity and national identity.
+
+Protocol and Usage
+Detailed rules govern respectful handling, precedence with foreign flags, sunrise‑to‑sunset display unless illuminated, half‑masting procedures for mourning, and dignified retirement of worn flags. Maritime regulations define use as a civil ensign and courtesy flag in foreign ports. Desecration and unauthorised commercial use attract penalties under penal provisions.
+
+Continuity and Public Life
+The Ay‑Yıldız is ubiquitous on Republic Day, during commemorations of 29 October and 23 April, and at state institutions, schools, and missions abroad. Its precisely defined geometry has facilitated consistent reproduction across massive building drapes, stadium choreographies, and pixel‑perfect digital assets.`,
+    seoKeywords: [
+      "turkey flag",
+      "flag of turkey",
+      "turkey flag meaning",
+      "turkey flag history",
+      "turkey flag colors"
+    ],
   }
 }
 
