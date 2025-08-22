@@ -1817,6 +1817,69 @@ Specifications prescribe a 2:3 ratio; the diagonal’s width relative to flag he
 
 The restored flag appears across ministries, schools, and missions and figures centrally in national days; the history of replacement and restoration is taught in civic education as a lesson in constitutional continuity.`,
     seoKeywords: ["republic of the congo flag history", "republic of the congo flag meaning"],
+  },
+  bangladesh: {
+    countryId: "bangladesh",
+    summary250: `Bangladesh’s flag (adopted 17 January 1972) is a dark‑green field with a red disc slightly offset toward the hoist. Green signifies the land’s fertility, youth, and hope; the red disc the rising sun and the blood of martyrs in the Liberation War. The original 1971 resistance flag included a yellow map inside the disc; this was removed for reproducibility and clarity. Proportions are 3:5 with strict placement and diameter rules. Protocol covers precedence, half‑masting, and dignified retirement, and the flag is central to observances on Independence Day (26 March) and Victory Day (16 December).`,
+    longText: `Bangladesh’s national flag emerged out of the country’s struggle for independence in 1971, translating a hard‑won sovereignty into a clear and compelling geometry: a red disc for the sun and sacrifice, set on a dark‑green field for the vitality of the land.
+
+Origins in the Independence Movement
+In late March 1971, student leaders and activists in Dhaka crafted a resistance emblem: a green field charged with a red disc, within which a yellow silhouette of the territory was sewn. The design was hoisted ahead of formal declarations, functioning as the standard of the burgeoning liberation movement. Portable and distinctive, it served on banners, arm patches, and improvised cloth in the hands of the Mukti Bahini and civilian supporters throughout the war.
+
+War, Victory, and Institutionalization
+Following months of armed and civil resistance, Bangladesh achieved victory in December 1971. Very quickly, officials turned to standardizing the national symbols for diplomatic and domestic administration. On 17 January 1972, the government promulgated a refined flag: the yellow map was removed from the red disc to resolve issues of accuracy and reproducibility across scales and materials. The simplified composition—green field and red disc—was retained; green, for the land’s fecundity and the optimism of a youthful nation; red, for the rising sun and for the blood shed in the struggle for independence.
+
+Design Specifications
+Statutes fix the aspect ratio at 3:5 and specify the red disc’s size and offset. The disc’s diameter equals one‑fifth of the flag’s length; its center is set slightly toward the hoist to compensate optically when the flag flies. Prescribed color references ensure consistent production for official use. These technical details enable a uniform emblem at embassies, schools, ministries, and military installations.
+
+Symbolism and Public Meaning
+The flag’s green field evokes the alluvial plains, forests, and agricultural richness that underpin the country’s life and culture, as well as hope for the future. The red disc symbolizes the morning sun—renewal and a new beginning—and memorializes the lives lost in the Liberation War. The composition’s clarity makes it legible at distance and memorable in form.
+
+Protocol and Etiquette
+Government guidance prescribes respectful handling, sunrise‑to‑sunset display, and precedence among flags. Half‑masting is ordered during national mourning; worn flags are to be retired with dignity. The banner is ubiquitous on Independence Day (26 March) and Victory Day (16 December), at public ceremonies, state funerals, and civic parades, and it figures prominently in education about the nation’s founding.
+
+Continuity Since 1972
+The 1972 refinement is the only significant design change; the flag’s core symbolism and construction have remained constant. The mapless disc established a bold, timeless image that works across print, fabric, and digital contexts, strengthening recognition at home and abroad. As Bangladesh grows and modernizes, the flag endures as a succinct emblem of sacrifice, natural vitality, and forward‑looking resolve.`,
+    seoKeywords: [
+      "bangladesh flag",
+      "flag of bangladesh",
+      "bangladesh flag meaning",
+      "bangladesh flag history",
+      "bangladesh flag colors"
+    ],
+  },
+  vietnam: {
+    countryId: "vietnam",
+    summary250: `Vietnam’s flag is a red field bearing a large gold five‑pointed star at the center. First flown by the Viet Minh in 1945 and adopted nationally upon reunification in 1976, it symbolizes revolution (red) and the unity of workers, peasants, intellectuals, traders, and soldiers (gold star). Law fixes a 2:3 ratio, star geometry, and color standards; protocol governs precedence and half‑masting. Earlier dynastic and South Vietnamese flags were superseded after reunification.`,
+    longText: `The national flag of Vietnam—red with a centered gold five‑pointed star—condenses the country’s mid‑20th‑century revolutionary trajectory and the socialist state’s self‑understanding into a stark, high‑contrast emblem.
+
+Dynastic and Colonial Precedents
+Prior to the 20th century, Vietnamese courts employed imperial banners, notably the yellow standards of the Nguyen dynasty. Under French colonial rule, the tricolor and Indochinese emblems predominated across administration and maritime contexts. These flags encoded imperial authority rather than popular nationhood.
+
+Revolutionary Emergence (1945)
+As Japanese occupation collapsed in 1945, revolutionary forces sought a symbol that would be distinctive, legible, and ideologically clear. A red field, recalling sacrifice and revolution, with a single gold star signifying unity of the people under leadership, was adopted by the Viet Minh during the August Revolution. On 2 September 1945, when Ho Chi Minh proclaimed the Democratic Republic of Vietnam in Hanoi, this banner was raised as the emblem of the new state.
+
+Division and Competing Banners
+From the late 1940s through 1975, the Vietnamese lived under competing flags. The Democratic Republic of Vietnam (North) used the red‑gold star flag, while the Republic of Vietnam (South) flew a yellow field with three horizontal red stripes. These flags became markers of opposed political orders and international alignments during decades of conflict.
+
+Reunification and National Adoption (1976)
+After the end of major hostilities and the political consolidation that followed, the National Assembly in 1976 declared the Socialist Republic of Vietnam and confirmed the red flag with gold star as the national flag. Proportions were specified at 2:3; the construction of the star—size and orientation—was standardized for official production. Color references for red and gold were formalized to ensure consistency.
+
+Symbolism
+The red field stands for revolution, solidarity, and the blood shed for national liberation and reunification. The gold star represents the people’s unity, often explicated as workers, peasants, intellectuals, traders, and soldiers, gathered into a single coordinating point under socialist leadership. The geometry—a single, centered star—creates a focal point that communicates unity at a glance.
+
+Protocol and Legal Framework
+Flag laws and decrees govern respectful handling, precedence at state events, and half‑masting for mourning. The banner appears at all government buildings, schools, diplomatic missions, and on national holidays such as National Day (2 September) and Reunification Day (30 April). Worn flags are retired respectfully; misuse or desecration is penalized.
+
+Continuity and Public Life
+Since reunification, the design has remained unchanged. In the diaspora, alternative symbolism persists, but within Vietnam the red‑gold star defines the state’s identity domestically and internationally—at sporting events, diplomatic ceremonies, and civic rituals. Its spare formal language and legal standardization have strengthened recognition and cohesion around a shared national emblem.`,
+    seoKeywords: [
+      "vietnam flag",
+      "flag of vietnam",
+      "vietnam flag meaning",
+      "vietnam flag history",
+      "vietnam flag colors"
+    ],
   }
   ,
   "united-states": {
