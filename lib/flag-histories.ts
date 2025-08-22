@@ -1246,6 +1246,112 @@ Public life and continuity. The flag is ubiquitous on public buildings, in schoo
 Cameroon’s banner thus compresses federation, unification, and pan‑African identity into a clear tricolour marked by a single star.`,
     seoKeywords: ["cameroon flag history", "cameroon flag meaning"],
   },
+  mozambique: {
+    countryId: "mozambique",
+    summary250:
+      "Mozambique’s flag (1 May 1983) pairs green‑black‑yellow horizontal bands, the black edged in white, with a red hoist triangle charged with a yellow five‑pointed star bearing a book, hoe, and AK‑47 with bayonet. Green denotes land; black Africa; yellow mineral wealth; white peace; red the liberation struggle. The emblem signifies education (book), agriculture (hoe), and defence/ vigilance (rifle). The design derives from FRELIMO symbolism and is fixed in statute, which standardises ratios, colours, and emblem geometry.",
+    longText: `Mozambique’s national flag compresses liberation history, developmental priorities, and civic aspirations into one of the world’s most recognisable African designs.
+
+Adoption and antecedents. Mozambique achieved independence from Portugal on 25 June 1975 after an armed struggle led by FRELIMO. The new state adopted a banner influenced by FRELIMO colours and devices. On 1 May 1983 the republic promulgated the present flag: three horizontal bands of green, black, and yellow, the black fimbriated in white; a red hoist triangle bearing a yellow five‑pointed star charged with a book, a hoe, and an AK‑47 with bayonet.
+
+Symbolism. Green represents fertile land; black the African continent and people; yellow mineral resources; white peace and reconciliation; red the sacrifices of the liberation war. The open book stands for education; the hoe for agriculture and labour; the rifle for defence and vigilance in safeguarding independence. The five‑pointed star indicates international solidarity and the guiding role of progress.
+
+Standards and construction. Implementing texts define a common 2:3 ratio; the width of the fimbriations; the triangle’s geometry; colour references; and the exact drawing of the star and its charged devices. Guidance clarifies correct vertical display and prohibits mirrored or distorted emblems.
+
+Protocol. The flag flies daily on ministries, schools, and missions; is half‑masted by decree in mourning; illuminated when displayed at night; and retired with dignity when worn. Desecration is penalised; commercial use is regulated.
+
+Debate and continuity. Periodic proposals have questioned the appropriateness of a firearm on a national flag; a 2005 commission reviewed alternatives. The state retained the 1983 design, citing its historical resonance and educational reading of the emblem as defence alongside books and tools. Through refinement of official drawings, the composition has remained materially unchanged.
+
+Thus Mozambique’s banner—bands, triangle, star with book, hoe, and rifle—sets a narrative of liberation and development within a precise legal frame.`,
+    seoKeywords: ["mozambique flag history", "mozambique flag meaning"],
+  },
+  madagascar: {
+    countryId: "madagascar",
+    summary250:
+      "Madagascar’s flag—white vertical at the hoist, with red over green horizontal bands at the fly—was adopted on 14 October 1958 and retained at independence on 26 June 1960. White and red echo the Merina kingdom’s colours; green represents the coastal peoples and hope. A 2:3 ratio is standard; statutes regulate colour references and display protocol across the republic’s institutions.",
+    longText: `Madagascar’s national flag blends pre‑colonial heraldry with republican form.
+
+Adoption. In the course of constitutional change within the French Community, Madagascar adopted on 14 October 1958 a flag consisting of a white vertical band at the hoist and, on the fly, two equal horizontal bands of red over green. When the island attained independence on 26 June 1960, this flag was retained without alteration.
+
+Symbolism. White and red were the colours of the Merina kingdom that achieved nineteenth‑century hegemony in the highlands; they evoke sovereignty and the historic state. Green is commonly read as representing the coastal populations and hope. The arrangement—vertical hoist panel and horizontal fly bands—creates a legible geometry distinct among African flags while acknowledging French vexillological influence.
+
+Standards and protocol. A 2:3 ratio is typical; the hoist panel occupies one‑third of the length; colours are referenced to official guides. Protocol governs respectful handling, daily hoisting on public buildings, precedence with foreign flags, half‑masting by decree, illumination at night, and dignified retirement.
+
+Continuity. The drawing has remained stable since 1958/1960, with refinements confined to colour specifications for consistent manufacture. The civil flag is the state’s primary banner; military and presidential standards add coats of arms where appropriate.
+
+Public life. National and independence days emphasise flag‑raising ceremonies across the island; schools teach the colours’ meanings and correct use as part of civic curricula.
+
+Madagascar’s banner thus unites a Merina visual legacy with a modern republican layout, fixed in statute and ritual.`,
+    seoKeywords: ["madagascar flag history", "madagascar flag meaning"],
+  },
+  mali: {
+    countryId: "mali",
+    summary250:
+      "Mali’s flag is a vertical tricolour of green, yellow, and red in 2:3 ratio. Adopted on 1 March 1961 after the Mali Federation dissolved, it removed the Kanaga figure used on the federation’s 1959 flag. Green signifies the land and hope; yellow mineral wealth and labour; red the blood shed for freedom. Law standardises proportions, colours, and protocol.",
+    longText: `Mali’s tricolour places pan‑African colours in a francophone layout and a post‑federation legal frame.
+
+From federation to republic. In 1959 Senegal and the Sudanese Republic formed the Mali Federation with a green‑yellow‑red tricolour bearing a stylised Kanaga figure. The federation dissolved in 1960; the Republic of Mali adopted, on 1 March 1961, a tricolour of the same colours without the anthropomorphic device.
+
+Symbolism. Green evokes the land, agriculture, and hope; yellow the country’s resources and labour; red the sacrifices of the independence struggle. The vertical arrangement reflects institutional inheritance from the French vexillological tradition even as the palette affirms pan‑African identity.
+
+Standards and protocol. Ratio is commonly 2:3; bands are equal; colour values are standardised by decree. Protocol sets order of precedence, hoisting and lowering rites, half‑masting, and dignified retirement. Unauthorised defacement or misuse is prohibited.
+
+Continuity and presence. The design has remained unchanged since 1961, with official drawings ensuring consistent shades. Derived standards exist for state offices and forces, but the civil flag is constant.
+
+Thus Mali’s flag—simple, stable, and symbolic—binds federation history to a durable republican emblem.`,
+    seoKeywords: ["mali flag history", "mali flag meaning"],
+  },
+  niger: {
+    countryId: "niger",
+    summary250:
+      "Niger’s flag, adopted on 23 November 1959 and retained at independence (3 August 1960), is orange‑white‑green with an orange disc centred in the white band. Orange denotes the Sahara and courage; white purity and honesty; green the Niger River, agriculture, and hope; the disc signifies the sun. Official drawings historically cite a 6:7 ratio though 2:3 variants appear in practice. Protocol governs respectful use across the republic.",
+    longText: `Niger’s banner—three horizontal bands with a central sun disc—expresses geography and civic ideals in a distinctive proportion.
+
+Adoption. As autonomy advanced, Niger enacted a national flag on 23 November 1959: horizontal bands of orange, white, and green with an orange disc centred in the white band. The republic retained the design upon independence on 3 August 1960.
+
+Symbolism. Orange represents the Saharan north and courage; white peace and honesty; green the southern agricultural belt, the Niger River, and hope. The orange disc is the sun, an ever‑present fact of Nigerien life and a symbol of energy.
+
+Standards and protocol. Historic specifications cite a 6:7 ratio; other ratios, notably 2:3, appear in manufacture, but official drawings regulate band equality, disc diameter and centring, and colour references. Protocol sets precedence with foreign flags, half‑masting by decree, illumination at night, and dignified retirement of worn banners.
+
+Continuity and civic use. The design has been stable since 1959/1960. State and military standards incorporate coats of arms where appropriate; education materials teach colour meanings and correct handling.
+
+Niger’s flag thus joins sun and land in a concise geometry unique among world flags.`,
+    seoKeywords: ["niger flag history", "niger flag meaning"],
+  },
+  rwanda: {
+    countryId: "rwanda",
+    summary250:
+      "Rwanda’s current flag (25 October 2001) replaced the 1962 green‑yellow‑red tricolour. It features sky‑blue, yellow, and green horizontal bands (2:1:1) with a golden sun of 24 rays in the fly‑side canton. Blue signifies peace and happiness; yellow economic development; green hope; the sun enlightenment. Law fixes a 2:3 ratio, precise sun geometry, and protocol.",
+    longText: `Rwanda’s redesigned banner signals renewal and development while preserving a clear national identity.
+
+Adoption. On 25 October 2001 Rwanda adopted a new flag to replace the 1962 tricolour. The current design comprises a wide sky‑blue band over narrower yellow and green bands (proportions 2:1:1). A golden sun with 24 rays appears near the fly in the blue field.
+
+Symbolism. Blue denotes peace and happiness; yellow economic development and work; green hope for prosperity. The sun symbolises enlightenment and unity, projecting forward‑looking purpose after national trauma in the 1990s.
+
+Standards and protocol. Statutes set a 2:3 ratio, the exact construction and placement of the sun, and colour references to ensure consistent production. Protocol prescribes order of precedence, hoisting and lowering rites, half‑masting, illumination at night, and dignified retirement. Misuse is prohibited.
+
+Continuity and presence. The flag is flown widely on public buildings, schools, and missions; derived standards are used by the presidency and defence forces. Education emphasises correct usage and civic meaning.
+
+Rwanda’s flag is thus a precise, optimistic composition—blue, yellow, green, and a radiant sun—anchored in law and ceremony.`,
+    seoKeywords: ["rwanda flag history", "rwanda flag meaning"],
+  },
+  sudan: {
+    countryId: "sudan",
+    summary250:
+      "Sudan’s flag (20 May 1970) is a horizontal tricolour of red, white, and black with a green hoist triangle, aligning with pan‑Arab colours. It replaced the 1956 blue‑yellow‑green flag of independence. Red symbolises struggle; white peace; black the ‘land of the blacks’ and identity; green Islam and agriculture. Law standardises a 1:2 ratio, triangle geometry, and protocol.",
+    longText: `Sudan’s current flag ties republican symbolism to the wider pan‑Arab palette.
+
+Adoption. Following the 1969 revolution, Sudan replaced its 1956 independence flag (blue‑yellow‑green) with a pan‑Arab tricolour: on 20 May 1970 the state enacted a red‑white‑black horizontal flag with a green triangle at the hoist.
+
+Symbolism. Red recalls struggle and sacrifice; white peace and optimism; black the country’s historical name and identity; green Islam, agriculture, and prosperity. The green triangle anchors the hoist and balances the long 1:2 ratio.
+
+Standards and protocol. A 1:2 ratio is prescribed; the triangle’s base equals the hoist; colour references are fixed. Protocol regulates order of precedence, half‑masting, illumination when displayed at night, and dignified retirement; misuse is penalised.
+
+Continuity and presence. The 1970 design has been stable; derived standards exist for state offices and forces. The flag flies widely on public buildings and missions and figures centrally in national ceremonies.
+
+Thus Sudan’s banner situates national identity within a canonical Arab chromatic sequence, expressed through clear geometry and law.`,
+    seoKeywords: ["sudan flag history", "sudan flag meaning"],
+  },
   senegal: {
     countryId: "senegal",
     summary250:
