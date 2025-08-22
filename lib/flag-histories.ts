@@ -3267,6 +3267,90 @@ The modern form—white hoist band, maroon fly, nine serrations—has remained s
       "qatar flag history",
       "qatar flag colors"
     ],
+  },
+  syria: {
+    countryId: "syria",
+    summary250: `Syria’s current flag (red‑white‑black horizontal tricolour with two green stars) was re‑adopted in 1980, restoring the 1958–1961 UAR motif. Pan‑Arab colours denote Arab unity and liberation; the green stars historically represented Egypt and Syria in the UAR, later read as unity and socialism. Laws fix a 2:3 ratio, star geometry, colour specs, and protocol (precedence, half‑masting, dignified retirement). Competing flags have been used by opposition groups.`,
+    longText: `Syria’s national flag has changed with constitutional turns and union projects, but the present form—red, white, and black horizontal bands charged with two green five‑pointed stars—belongs to a lineage of Pan‑Arab symbolism stretching to the early twentieth century.
+
+Ottoman Twilight and Arab Revolt Palette
+The red‑white‑black‑green palette draws from the flags of the Arab Revolt (1916) and literary symbolism of the dynasties (Hashemite, Abbasid, Umayyad, and Fatimid). In the mandate period and early independence (1946), Syrian flags alternated arrangements of these colours while political currents debated republic vs. unionist futures.
+
+United Arab Republic and Aftermath (1958–1963)
+On 22 February 1958, Syria and Egypt formed the United Arab Republic (UAR). The flag adopted then—red‑white‑black tricolour with two green stars in the white—signified the two member republics and broader Arab unity. After Syria’s 1961 secession, alternative designs circulated; in 1963 a Ba‘athist coup revived unionist imagery.
+
+Union Projects and Star Variants (1963–1972)
+With the formation of the Federation of Arab Republics (Egypt, Libya, Syria) in 1972, Syria used the tricolour with the golden Hawk of Quraish (as did Egypt and Libya). Administrative practice standardised ratio and armorial details, though variants were common in manufacture.
+
+Return to Two Stars (1980)
+Law No. 2 of 1980 restored the UAR‑style flag: a 2:3 tricolour with two centred green stars on the white band. Decrees fixed star geometry (regular five‑pointed, equal spacing), colour references, and usage rules for ministries, armed forces, schools, and diplomatic missions. Half‑masting follows government order; worn flags are retired with dignity; desecration is punishable under penal provisions.
+
+Symbolism and Protocol
+Red denotes struggle and sacrifice; white a bright future and peace; black the Abbasid mantle and historical tribulation; the green stars, originally Egypt and Syria, later read as unity and socialism or pan‑Arab aspirations. Protocol details placement with foreign flags, vehicle mounts, indoor staff sets, and illumination for night display. Military colours and presidential standards adapt the base scheme with badges while preserving the tricolour primacy.
+
+Contested Symbols
+Since 2011, opposition entities have flown the pre‑Ba‘ath tricolour with three red stars. International venues may see multiple Syrian flags; however, the state’s 1980 law defines the official national flag for embassies and organisations recognising the government in Damascus.
+
+Continuity
+Despite contestation, the 1980 specification remains in force in state institutions. Through defined geometry, colour standards, and protocol, the banner expresses Syria’s official narrative of Arab unity and national sovereignty within the Pan‑Arab tradition.`,
+    seoKeywords: [
+      "syria flag",
+      "flag of syria",
+      "syria flag meaning",
+      "syria flag history",
+      "syria flag colors"
+    ],
+  },
+  tajikistan: {
+    countryId: "tajikistan",
+    summary250: `Tajikistan’s flag (24 November 1992) is a horizontal tricolour of red, white, and green with a golden crown and seven stars centred. Red symbolises unity and sacrifice; white snow and cotton; green nature and agriculture. The crown denotes sovereignty; seven stars auspiciousness. Laws prescribe a 1:2 ratio, emblem geometry, colour specs, protocol, half‑masting, and dignified retirement.`,
+    longText: `Tajikistan’s national flag, adopted on 24 November 1992 amid the early post‑Soviet period, blends a red‑white‑green tricolour with a golden crown and seven stars—the latter an emblem with deep cultural resonance in Tajik literature and folklore.
+
+From SSR to Republic
+Under the Tajik SSR, a red field with blue and white elements and Soviet arms prevailed. Independence in 1991 prompted a search for symbols distinct from Soviet iconography yet rooted in Tajik cultural memory. Parliamentary debates culminated in a tricolour reflecting regional agriculture (cotton and mountain snow) and a central emblem articulating sovereignty.
+
+Design and Geometry
+The proportion is 1:2. Bands are red (top), white (middle), and green (bottom), with the white often the widest in official drawings to accommodate the emblem: a stylised gold crown surmounted by a semicircle of seven gold five‑pointed stars. Specification documents fix crown curvature, star size and spacing, and offsets from the flag’s axis, alongside Pantone/CMYK references for dyes and print.
+
+Symbolism
+Red is read as national unity, independence struggles, and the warmth of the people; white as snow‑capped peaks and cotton—an agricultural mainstay—and peace; green as nature, fertility, and renewal. The crown signifies statehood and the people’s dignity; the seven stars are auspicious, alluding to the number’s prominence in Tajik poetry and cosmology.
+
+Protocol and Usage
+Statutes regulate respectful handling, sunrise‑to‑sunset display (or illumination at night), precedence with foreign flags, half‑masting on days of mourning, and dignified retirement of worn flags. Military and presidential standards adapt the emblem within service heraldry. Schools, ministries, and embassies observe placement and size charts to ensure visual consistency.
+
+Continuity
+Since 1992, the design has remained stable and is central to Independence Day observances and international representation in sport and diplomacy. Public education materials emphasise the emblem’s geometry to ensure accurate reproduction across textiles and printed media.`,
+    seoKeywords: [
+      "tajikistan flag",
+      "flag of tajikistan",
+      "tajikistan flag meaning",
+      "tajikistan flag history",
+      "tajikistan flag colors"
+    ],
+  },
+  turkmenistan: {
+    countryId: "turkmenistan",
+    summary250: `Turkmenistan’s flag (24 January 1992; refined later) features a green field with a vertical red carpet‑gül stripe at the hoist, a white waxing crescent, and five stars. The carpet motifs represent major tribes; green and crescent denote Islam and heritage. Detailed laws fix a 2:3 ratio, gül sequence, stripe width, crescent/stellar geometry, colour references, and protocol; misuse is penalised.`,
+    longText: `Turkmenistan’s national flag is a heraldic synthesis of Islamic symbolism and the cultural artistry of Turkmen carpets. Officially introduced on 24 January 1992 and later refined, it displays a green field charged with a white waxing crescent and five five‑pointed stars near the fly side of a vertical red stripe at the hoist. The stripe carries traditional gül motifs corresponding to the principal Turkmen tribes.
+
+Carpet Stripe and Gül Order
+The hoist stripe incorporates stacked carpet medallions (gül) associated with Teke, Yomut, Saryk, Chowdur, and Arsary lineages. Specification standards define the order, scale, and line work so licensed manufacturers can reproduce the stripe without drift. The stripe also includes crossed olive branches near its base, signalling neutrality and peace.
+
+Field and Celestial Emblems
+The green field recalls historical banners; the white waxing crescent connotes renewal and the Islamic heritage of the people; five stars are commonly read as the five provinces (welayatlar) and, in broader tradition, guidance and aspiration. Government drawings locate the crescent and stars within a geometric grid to preserve placement across sizes and fabrics.
+
+Proportion, Colour, and Protocol
+The ratio is typically 2:3. Pantone/CMYK specifications standardise the green, red, white, and accent colours used in textile and print. Protocol requires respectful handling, precedence rules with foreign flags, half‑masting by decree, and dignified retirement of worn flags. Desecration and incorrect commercial depictions attract penalties under law.
+
+Continuity and Representation
+Since independence, minor refinements have clarified motif outlines and stripe width to improve legibility at distance and on television. The banner is central to Neutrality Day and state ceremonies, and it identifies the country in international organisations and sport—where accuracy of the complex carpet stripe is ensured through official art files and supplier accreditation.`,
+    seoKeywords: [
+      "turkmenistan flag",
+      "flag of turkmenistan",
+      "turkmenistan flag meaning",
+      "turkmenistan flag history",
+      "turkmenistan flag colors"
+    ],
   }
 }
 
