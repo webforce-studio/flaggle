@@ -3661,6 +3661,47 @@ Across these layers—revolutionary origins, legal specification, protocol, and 
       "taiwan flag history",
       "taiwan flag colors"
     ],
+  },
+  palestine: {
+    countryId: "palestine",
+    summary250: `The flag of Palestine is the Pan‑Arab tricolour—three equal horizontal bands of black, white, and green—charged with a red hoist triangle. It descends from the 1916 Arab Revolt flag and appeared in Palestinian nationalist use during the British Mandate. The Palestine Liberation Organization (PLO) adopted it in 1964; the 1988 Palestinian Declaration of Independence reaffirmed it as the state flag. The Palestinian Authority and State of Palestine use the banner in domestic institutions and abroad; since 2015 it has been raised at the UN as a non‑member observer state’s flag. A common 1:2 ratio is used; construction sheets specify the triangle’s apex to the flag’s centre line. Official guidance and practice govern respectful handling, half‑masting in mourning, precedence with foreign flags, and dignified retirement of worn banners.`,
+    longText: `Palestine’s national flag—black, white, and green horizontal bands with a red hoist triangle—is part of the Pan‑Arab family of flags that crystallised during the early twentieth century. Its lines and colours trace back to the Arab Revolt of 1916 and subsequent anti‑colonial movements, while its modern legal and diplomatic standing emerged through the Palestine Liberation Organization (PLO), the 1988 Palestinian Declaration of Independence, and widespread international practice.
+
+Arab Revolt Palette and Early Palestinian Usage
+The colour scheme derives from the banner associated with the 1916 Arab Revolt against Ottoman rule. Intellectuals linked black to the Abbasids, white to the Umayyads, green to the Fatimids (and Islam more broadly), and red to the Hashemites and the blood of struggle; by the early twentieth century the palette had become a shared lexicon of Arab nationalism. In the British Mandate period (1920–1948), Palestinian political groups and civic associations employed versions of the tricolour with a red triangle at the hoist to signal local identity within a wider Arab movement. Photographs, pamphlets, and press coverage from the 1920s through the 1940s show the banner in demonstrations, congresses, and community events.
+
+PLO Adoption (1964) and Codification in National Institutions
+The Palestine Liberation Organization, founded in 1964, formally adopted the flag as its emblem—black over white over green, with a red triangle extending from the hoist to the centreline. The PLO’s Basic Regulations and subsequent organisational directives standardised the flag’s drawing: three equal horizontal bands; a red isosceles triangle based at the hoist with its apex meeting the mid‑point of the fly; and a typical overall proportion of 1:2. As the PLO developed representative organs and foreign relations, the flag appeared in its offices, on publications, and at international conferences, reinforcing the association between the emblem and Palestinian political identity.
+
+1988 Declaration of Independence and State Flag Status
+On 15 November 1988, the Palestinian National Council meeting in Algiers issued the Palestinian Declaration of Independence, proclaiming the State of Palestine and affirming the PLO as its representative. The declaration and accompanying resolutions confirmed the existing flag as the state flag. From this point, legislation, administrative circulars, and institutional practice treated the banner as the national standard for state buildings under Palestinian administration, for diplomatic representation, and for ceremonial occasions. In areas administered by the Palestinian Authority (PA) after the Oslo Accords, ministries, schools, courts, and security services flew the flag according to government instructions.
+
+Design and Construction
+Government and organisational art sheets specify a common 1:2 ratio for official manufacture (other ratios appear in historical and informal use). The three horizontal bands—black (top), white (middle), and green (bottom)—are equal in height. The hoist triangle is red, its base equal to the flag’s hoist, with an apex precisely on the centreline of the flag, typically meeting the point at half the fly length. Graphic construction sets the triangle as an isosceles form to ensure a consistent angle, with tolerances for stitching and large fabric banners. Colour references are codified in textile and print standards to minimise shade drift under strong sunlight.
+
+Symbolism in Palestinian Context
+Within Palestinian discourse, black can recall historical tribulation and steadfastness; white, peace and a just future; green, the land and hope; and red, sacrifice and unity. The composition is deliberately congruent with other Pan‑Arab flags (Jordan, Western Sahara, and formerly Hejaz or the Arab Federation), signalling solidarity with regional anti‑colonial narratives while asserting a specifically Palestinian claim to statehood and self‑determination. Educational materials and civic programmes describe the colours in both the wider Arab framework and the local historical experience, including Mandate‑era activism, the dispersal of 1948, and efforts to build institutions at home and in the diaspora.
+
+Protocol, Precedence, and Half‑Masting
+Administrative guidance instructs that the flag be raised briskly at sunrise and lowered at sunset unless appropriately illuminated; that it not touch the ground or water; and that worn flags be retired with dignity. When displayed with foreign flags, the Palestinian flag follows international precedence rules and local host‑state law; indoors, diagrams specify placement behind lecterns, on dais backdrops, and along processional routes. Half‑masting is ordered by authorities during national mourning, with procedures for lowering and re‑raising at the day’s end.
+
+Domestic and International Display
+In areas administered by the PA, government buildings, schools, courts, and security facilities display the flag according to standard size charts, often alongside institutional emblems. Abroad, the PLO/State of Palestine missions—operating under host agreements—exhibit the flag at chancery entrances and in reception halls. In 2015, the UN General Assembly adopted a resolution permitting the flags of non‑member observer states to be raised at UN Headquarters and offices; on 30 September 2015 the Palestinian flag was ceremonially hoisted in New York and Geneva, reinforcing its visibility in global diplomacy.
+
+Maritime and Event Usage
+While Palestine does not operate a widely recognised merchant registry, government guidance still provides for civil ensign usage in certain contexts, and courtesy flag practice follows international custom for visits and events. Large‑scale banners used in parades, sporting events, and public commemorations are sewn to preserve the triangle’s straight edge and band equality; procurement standards require colourfast fabrics and reinforced hoists suitable for coastal winds.
+
+Continuity and Public Education
+Since 1988 the flag’s drawing has remained stable across Palestinian institutions and documents. Public campaigns discourage the addition of text or symbols, which can compromise the emblem’s recognisability. Civic education materials distributed to schools and youth organisations explain construction geometry, etiquette, and history to support faithful reproduction across textiles, print, and digital media. In the diaspora, community centres and student groups adopt the same standards to maintain a consistent presentation during cultural festivals and demonstrations.
+
+In sum, the Palestinian flag unites a century of Arab nationalist symbolism with the specific institutional life of Palestinian representation. Through codified geometry, colour standards, and protocol—paired with constant public use at home and in international fora—the banner serves as the visual shorthand for Palestinian identity, aspiration, and diplomatic presence.`,
+    seoKeywords: [
+      "palestine flag",
+      "flag of palestine",
+      "palestine flag meaning",
+      "palestine flag history",
+      "palestine flag colors"
+    ],
   }
 }
 
