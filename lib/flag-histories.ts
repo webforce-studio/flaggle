@@ -2553,6 +2553,96 @@ The flag functions as a central identity marker in diplomacy, sport, and state c
       "china flag history",
       "china flag colors"
     ],
+  },
+  india: {
+    countryId: "india",
+    summary250: `India’s Tiranga—saffron, white (with navy‑blue 24‑spoke Ashoka Chakra), and green—was adopted on 22 July 1947. Saffron signifies courage and selfless service; white truth and peace; green faith and prosperity; the Chakra represents law, motion, and continuous progress. Ratios are 2:3 with strict standards for the Chakra and colours. The design evolved from Congress banners and Pingali Venkayya’s proposals; the charkha was replaced by the Ashoka Chakra at independence. Protocol and the Flag Code govern precedence, half‑masting, and dignified retirement.`,
+    longText: `India’s national flag—the Tiranga—condenses the subcontinent’s long freedom struggle and its commitment to a plural, democratic republic into a rigorous geometry of colour and symbol.
+
+Pre‑Independence Experiments
+Under the British Raj, the Union Jack and Star of India banners prevailed, while princely states retained their own symbols. From the 1900s, nationalist leaders and artists explored unifying flags: Sister Nivedita’s early designs; the 1917 Home Rule banner with red‑green stripes and the Union Jack canton; and regional variations that circulated at protests and meetings across the subcontinent.
+
+Pingali Venkayya and the Congress Tricolour
+In 1921, Pingali Venkayya proposed a two‑colour standard with the spinning wheel (charkha), a symbol of self‑reliance (swadeshi) promoted by Gandhi. Debate over communal associations of colours led the Indian National Congress, in 1931, to adopt a saffron‑white‑green tricolour with the charkha—explicitly redefining the palette as civic virtues rather than religious identities: courage and sacrifice (saffron), truth and peace (white), and faith and prosperity (green).
+
+Constituent Assembly Adoption (22 July 1947)
+As independence approached, a committee of the Constituent Assembly retained the tricolour but replaced the charkha with the Ashoka Chakra, a 24‑spoke wheel from the Lion Capital at Sarnath, representing dharma (righteous law), progress, and continuity with India’s ancient moral philosophy. The flag’s aspect ratio is 2:3. The Chakra is centered in the white band and rendered in a specified navy blue with precise spoke geometry.
+
+Symbolism and Civic Meaning
+Saffron evokes service, renunciation, and courage; white, truth and peaceful conduct; green, growth, faith, and environmental vitality; the Chakra signifies motion and just law. Together they articulate a non‑sectarian, constitutional identity for a diverse republic.
+
+Standards and Protocol
+The Flag Code of India and Bureau of Indian Standards specify construction, colour shades, and display etiquette: precedence rules; brisk raising at sunrise and lowering at sunset; half‑masting by order in mourning; and dignified disposal of unserviceable flags. Liberalisation since 2002 expanded citizen display while preserving respect provisions.
+
+Continuity in Public Life
+Unchanged since adoption, the Tiranga anchors state ceremonies (Republic Day, Independence Day), education, and international representation. Its disciplined geometry and layered symbolism have made it a global icon of India’s independence, democracy, and pluralism.`,
+    seoKeywords: [
+      "india flag",
+      "flag of india",
+      "india flag meaning",
+      "india flag history",
+      "india flag colors"
+    ],
+  },
+  indonesia: {
+    countryId: "indonesia",
+    summary250: `Indonesia’s “Sang Saka Merah Putih” is a horizontal bicolour—red over white—first raised nationally on 17 August 1945 and rooted in Majapahit heraldry. Red denotes courage and the physical aspect of humanity; white purity and the spiritual. The 1945 Constitution fixes a 2:3 ratio. Law prescribes protocol (half‑masting in mourning, precedence, dignified retirement). Similarities to Monaco and Poland are coincidental; Indonesia’s design has distinct proportions and history.`,
+    longText: `Indonesia’s flag, the Sang Saka Merah Putih, binds pre‑colonial heritage to the independence proclamation of 1945 through a spare but potent red‑white geometry.
+
+Majapahit Antecedents and Cultural Memory
+Historical sources associate red‑white striping with the Majapahit Empire (13th–15th centuries), echoed in Javanese and Balinese regalia and textiles. The pairing acquired philosophical readings—courage (red) and purity (white); body and soul; earthly and spiritual—informing later nationalist interpretations.
+
+Colonial Period and Nationalist Revival
+Dutch colonial ensigns dominated public life, but early 20th‑century movements reclaimed red‑white as a unifying emblem. Youth congresses and student societies displayed the bicolour in rallies, pamphlets, and badges, strengthening its association with collective self‑determination.
+
+Proclamation of Independence (17 August 1945)
+As Sukarno read the proclamation in Jakarta, the red‑white was hoisted, inaugurating its status as the national banner. The original “Bendera Pusaka” became a revered relic, preserved and ceremonially replicated due to fragility.
+
+Constitutional Status and Specifications
+Article 35 of the 1945 Constitution names the flag the Sang Merah Putih. The proportion is 2:3 with equal horizontal bands. Subsequent regulations prescribe sunrise‑to‑sunset flying, half‑masting by decree, precedence among flags, and dignified disposal of worn flags.
+
+Symbolism and Variants
+Red signifies bravery and the physical aspect of humanity; white, honesty, purity, and the spiritual aspect. Naval jacks recall Majapahit’s multiple red‑white stripes; service flags adapt the palette for military use, while the civil flag remains the simple bicolour.
+
+International Comparisons
+Monaco’s bicolour resembles Indonesia’s but with different proportions and independent historical development; Poland inverts the colours. Indonesia’s claim rests on deep cultural memory and the 1945 constitutional settlement.
+
+Continuity in National Life
+Unchanged since 1945, the red‑white is ubiquitous on Independence Day and across government, education, and diplomacy, articulating unity amid vast geographic and cultural diversity.`,
+    seoKeywords: [
+      "indonesia flag",
+      "flag of indonesia",
+      "indonesia flag meaning",
+      "indonesia flag history",
+      "indonesia flag colors"
+    ],
+  },
+  pakistan: {
+    countryId: "pakistan",
+    summary250: `Pakistan’s flag (11 August 1947) has a dark‑green field with a white hoist stripe, a white crescent, and a five‑pointed star. Green represents Islam and the Muslim majority; the white stripe minorities and peace; the crescent progress; the star light and knowledge. Proportions are 2:3 with specified geometries and shades. Rules govern precedence, half‑masting, respectful handling, and dignified retirement.`,
+    longText: `Pakistan’s national flag synthesises Islamic heritage with constitutional inclusion, visually encoding the founding vision of 1947.
+
+From League Emblem to National Banner
+The All‑India Muslim League popularised a green field with crescent and star as a political emblem. On 11 August 1947, the Constituent Assembly adopted a national flag designed by Amiruddin Kidwai that added a white hoist stripe to signify the rights and dignity of minorities in the new state.
+
+Design and Specifications
+The ratio is 2:3. The white hoist stripe occupies one‑quarter of the length; the remaining field is dark green. A white crescent opens toward the fly, with a five‑pointed star placed to its right. Government standards specify exact geometries and colour references for official manufacture.
+
+Symbolism
+Green denotes Islam and the Muslim majority; the white stripe symbolises minorities and peace; the crescent progress; the star light, guidance, and knowledge. The composition preserves continuity with the League’s emblem while articulating a constitutional promise of inclusion.
+
+Protocol and Legal Protection
+Flag rules from 1947 onward regulate respectful handling, sunrise‑to‑sunset display, half‑masting in mourning, precedence over other flags, and dignified retirement. Desecration is penalised. The flag is flown at state buildings, schools, diplomatic missions, and on Pakistan Day (23 March), Independence Day (14 August), and Defence Day (6 September).
+
+Continuity and Public Life
+The design has remained stable since adoption. It anchors military, civic, and diplomatic ceremony and serves as a unifying device across Pakistan’s linguistic and regional diversity.`,
+    seoKeywords: [
+      "pakistan flag",
+      "flag of pakistan",
+      "pakistan flag meaning",
+      "pakistan flag history",
+      "pakistan flag colors"
+    ],
   }
 }
 
