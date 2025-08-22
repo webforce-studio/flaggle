@@ -53,6 +53,7 @@ export default async function FlagPage({ params }: PageProps) {
     if (r === "europe") return "/europe-flags"
     if (r === "asia") return "/asia-flags"
     if (r === "africa") return "/africa-flags"
+    if (r === "oceania") return "/oceania-flags"
     return "/world-flags"
   }
 
@@ -174,6 +175,7 @@ export default async function FlagPage({ params }: PageProps) {
         <Link href="/asia-flags"><Button variant="outline" size="sm">Asia Flags</Button></Link>
         <Link href="/africa-flags"><Button variant="outline" size="sm">Africa Flags</Button></Link>
         <Link href="/america-flags"><Button variant="outline" size="sm">Americas Flags</Button></Link>
+        <Link href="/oceania-flags"><Button variant="outline" size="sm">Oceania Flags</Button></Link>
       </div>
 
       <div className="mt-8 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-6 md:p-8 text-center">
