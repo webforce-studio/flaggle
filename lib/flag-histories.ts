@@ -923,7 +923,7 @@ Protocol and usage. The flag is mandatory on state buildings, at courts and scho
 
 Symbolism. The double‑headed eagle connotes sovereignty and vigilance; orb and scepter signal legitimate authority; the lion evokes courage and law. The gold border frames the device, lending the flag a formal standard‑like presence in parades and council chambers.
 
-Continuity and recognition. Since 2004 the design has remained stable, with minor line refinements to the arms for digital clarity. Internationally, the flag is instantly legible among European standards—one of few defined by a border and detailed armorial centre—announcing Montenegro’s re‑emergence as a sovereign state after 2006.",
+Continuity and recognition. Since 2004 the design has remained stable, with minor line refinements to the arms for digital clarity. Internationally, the flag is instantly legible among European standards—one of few defined by a border and detailed armorial centre—announcing Montenegro’s re‑emergence as a sovereign state after 2006.`,
     seoKeywords: ["montenegro flag history", "montenegrin flag meaning"],
   },
   "north-macedonia": {
