@@ -1553,6 +1553,65 @@ Thus the Gambian banner ties geography and civics into a crisp, enduring tricolo
     seoKeywords: ["gambia flag history", "gambia flag meaning"],
   }
   ,
+  burundi: {
+    countryId: "burundi",
+    summary250: `Burundi’s flag (adopted 28 June 1967; proportions 3:5) features a white saltire dividing red (hoist and fly) and green (top and bottom) panels, with a central white disk bearing three red six‑pointed stars edged green. Red recalls struggle and sacrifice; green hope; white peace. The three stars represent the national motto—Unité, Travail, Progrès (Unity, Work, Progress)—and the three major communities. Statutes specify geometry, colours, and protocols for public display and half‑masting.`,
+    longText: `Burundi’s national flag expresses unity and aspiration through a precise heraldic composition. A white saltire divides the field into four panels: red at the hoist and fly, green above and below. At the centre sits a white disk charged with three six‑pointed red stars edged in green, arranged 2–1.
+
+Adoption followed constitutional changes in the mid‑1960s; the present drawing—fixed by law on 28 June 1967—standardised the stars, saltire widths, and colours after early post‑independence variants. Symbolism is multilayered: red for the blood shed in the independence struggle and for courage; green for hope and agricultural renewal; white for peace. The three stars simultaneously reference the national motto Unité, Travail, Progrès and the country’s three principal communities, gathered within one disc.
+
+Legal instruments prescribe a 3:5 ratio, the relative widths of the saltire arms, the diameter of the central disk, star size and edging, and colour references to ensure consistent manufacture. Protocol covers respectful handling, order of precedence when flown with foreign flags, half‑masting by decree, illumination at night, and dignified retirement of worn flags. Desecration and improper commercial use are restricted.
+
+The flag is omnipresent in public life—on ministries, schools, and missions abroad—and features centrally in national days where its meanings are taught in civic education. The design’s clarity and the balanced geometry of saltire and disk have ensured its longevity across constitutional chapters.`,
+    seoKeywords: ["burundi flag history", "burundi flag meaning"],
+  },
+  "cape-verde": {
+    countryId: "cape-verde",
+    summary250: `Cape Verde’s flag (22 September 1992) shows a dark‑blue field with a horizontal white‑over‑red band offset toward the base and a ring of ten yellow five‑pointed stars near the hoist. Blue denotes the Atlantic; white and red peace and effort; the stars the ten islands and national unity. The 1992 design replaced a PAICV‑inspired tricolour, signalling a pluralist, outward‑looking republic. Ratio 2:3 with standardised geometry.`,
+    longText: `Following political reforms and a shift from a single‑party system, Cape Verde adopted a new national flag on 22 September 1992. The composition reflects an oceanic democracy: a dark‑blue field for the Atlantic surrounds a ring of ten yellow five‑pointed stars placed toward the hoist; below the field’s centre runs a narrow white stripe over a broader red stripe, both offset downward.
+
+Symbolism was explained at adoption: blue for the surrounding sea and the sky; white for peace; red for the effort and determination of the people. The ten stars represent the archipelago’s inhabited islands and their unity in one republic. Their circular arrangement implies cohesion and movement. The offset stripes and star ring create a modern, distinctive profile among world flags while avoiding partisan colours.
+
+Specifications fix a 2:3 ratio; the ring’s diameter, star size and spacing, and the widths and vertical offset of the stripes are codified to support consistent manufacture. Protocol governs precedence, half‑masting, nocturnal illumination, and respectful retirement. The previous flag—derived from PAICV colours—was retired, with the 1992 banner signalling a pluralist, internationally engaged state.
+
+The design has remained unchanged since adoption. It appears on ministries and schools, aboard vessels under national registry, and at missions abroad; civic instruction highlights the unity of islands within the ring and the maritime horizon suggested by the stripes.`,
+    seoKeywords: ["cape verde flag history", "cape verde flag meaning"],
+  },
+  comoros: {
+    countryId: "comoros",
+    summary250: `The Comoros flag (adopted 7 January 2002) has four horizontal bands—yellow, white, red, blue—representing the islands, with a green hoist triangle bearing a white crescent and four five‑pointed stars. The crescent and stars express Islam and the four main islands (Ngazidja, Ndzuani, Mwali, Maore). Ratio 3:5; law standardises colours and emblem geometry; earlier independence‑era variants differed.`,
+    longText: `Comoros introduced its current flag on 7 January 2002 to align state symbolism with a federal constitution and to represent each major island. Four horizontal bands—yellow, white, red, blue—are set from top to bottom, while a green isosceles triangle issues from the hoist. Within the triangle, a white crescent cradles four five‑pointed stars aligned vertically.
+
+The palette connects each band to an island: yellow for Mohéli (Mwali), white for Mayotte (Maore), red for Anjouan (Ndzuani), blue for Grande Comore (Ngazidja). The crescent and stars reflect the country’s Islamic heritage and the four principal islands. Earlier flags since independence in 1975 arranged green fields with crescent and stars in differing positions; the 2002 design added the coloured bands to signal federal balance.
+
+Statutes establish a 3:5 ratio, the triangle’s base equal to the flag’s height, the curvature and thickness of the crescent, star size and placement, and colour references. Protocol prescribes precedence, half‑masting by order, illumination at night, and dignified retirement. The flag flies on government buildings, schools, and missions abroad and is central to national ceremonies that teach the union of islands under a single crescent.`,
+    seoKeywords: ["comoros flag history", "comoros flag meaning"],
+  },
+  congo: {
+    countryId: "congo",
+    summary250: `The Republic of the Congo’s flag (adopted 18 August 1958; restored 10 June 1991) is a diagonal tricolour: a yellow band from lower hoist to upper fly, separating green (upper hoist) and red (lower fly). Green denotes forests and agriculture; yellow wealth and friendship; red courage and independence. A 1970–1991 emblematic red flag was replaced by the original. Ratio 2:3; geometry and colours are codified.`,
+    longText: `Congo‑Brazzaville first adopted its diagonal tricolour on 18 August 1958 as an autonomous republic within the French Community, then retained it at independence in 1960. The design sets a broad yellow diagonal band from lower hoist to upper fly, dividing a green upper hoist triangle from a red lower fly triangle. After 1970 the People’s Republic introduced a plain red flag with a device; in 1991 the 1958 tricolour was restored by law.
+
+Symbolism follows regional readings: green for forests and agriculture; yellow for mineral wealth and friendship; red for courage and the blood shed in the struggle for independence. The diagonal layout creates a recognisable profile among African flags while avoiding partisan insignia.
+
+Specifications prescribe a 2:3 ratio; the diagonal’s width relative to flag height, the intersection points, and colour references are fixed to ensure consistent manufacture. Protocol governs order of precedence, half‑masting, nocturnal illumination, and dignified retirement. Improper use is restricted by statute.
+
+The restored flag appears across ministries, schools, and missions and figures centrally in national days; the history of replacement and restoration is taught in civic education as a lesson in constitutional continuity.`,
+    seoKeywords: ["republic of the congo flag history", "republic of the congo flag meaning"],
+  },
+  "equatorial-guinea": {
+    countryId: "equatorial-guinea",
+    summary250: `Equatorial Guinea’s flag (12 October 1968) features green‑white‑red horizontal bands with a blue hoist triangle and the national coat of arms (silk‑cotton tree and six stars) centred on the white band. Green represents forests; white peace; red the struggle; blue the sea uniting the mainland and islands. Ratio 2:3; usage with or without arms varies by context, with arms on state flags.`,
+    longText: `Proclaimed at independence on 12 October 1968, Equatorial Guinea’s flag combines pan‑African colours with a maritime triangle and the national coat of arms. From the hoist, a blue isosceles triangle points into three equal horizontal bands of green, white, and red. Centred on the white stripe is the coat of arms: a silk‑cotton (ceiba) tree above a silver shield, six gold stars representing the mainland and five islands, and a scroll with the motto Unidad, Paz, Justicia.
+
+Colour meanings were defined at adoption: green for equatorial forests and agriculture; white for peace; red for the struggle and the people’s sacrifice; blue for the sea that links the continental territory to the islands. The arms identify the state in formal contexts and are commonly omitted in purely civil uses, where a plain tricolour with triangle may be displayed.
+
+Specifications set a 2:3 ratio; the triangle’s base and height, the bands’ equality, colour references, and the scale and placement of the arms are codified for consistent manufacture. Protocol regulates precedence, half‑masting, and the circumstances for displaying flags with or without arms. Worn flags are retired with dignity; misuse is penalised.
+
+The design has remained stable, with official drawings refining the arms. The flag is prominent on ministries, schools, ports, and missions abroad and anchors independence ceremonies and civic education.`,
+    seoKeywords: ["equatorial guinea flag history", "equatorial guinea flag meaning"],
+  }
+  ,
   botswana: {
     countryId: "botswana",
     summary250: `Botswana’s flag, adopted on 30 September 1966 at independence, is a light‑blue field crossed by a central black stripe edged in white. Blue represents rain and life (pula); black and white together symbolize racial harmony and the diversity of the nation. The design intentionally avoided partisan or pan‑African palettes to emphasize unity and pragmatism. Proportions are typically 2:3; law and protocol regulate construction, respectful handling, precedence, half‑masting, and illumination at night. The flag has remained unchanged since adoption and is taught widely in schools and civic ceremonies.`,
