@@ -205,10 +205,12 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/browserconfig.xml" />
 
         {/* Favicon */}
+        {/* Next.js app/icon.tsx handles /favicon.ico and /icon.png automatically */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
         <link rel="icon" type="image/svg+xml" href="/logos/logo-header.svg" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/logos/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/logos/favicon-16x16.png" />
-        <link rel="icon" type="image/png" sizes="48x48" href="/logos/favicon-48x48.png" />
         <link rel="mask-icon" href="/logos/logo-header.svg" color="#0EA5E9" />
         <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon-180x180.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/logos/apple-touch-icon-152x152.png" />
