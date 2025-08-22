@@ -140,7 +140,7 @@ export const metadata: Metadata = {
     title: "flaggle.fun - Daily Flag Guessing Game | 150+ World Countries",
     description:
       "Test your knowledge of world flags with our daily flag guessing game. Identify countries from progressively revealed flag images. Features 150+ countries from all continents. Perfect for students, educators, and travel enthusiasts.",
-    url: "https://flagguesser.fun",
+    url: "https://www.flaggle.fun",
     siteName: "flaggle.fun",
     images: [
       {
