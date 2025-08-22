@@ -2119,6 +2119,86 @@ The unchanged design since 1948 underpins the regime’s narrative of continuity
       "north korea flag history",
       "north korea flag colors"
     ],
+  },
+  brunei: {
+    countryId: "brunei",
+    summary250: `Brunei’s yellow flag with diagonal black and white stripes and a red state crest was formalised in 1959 and retained at independence in 1984. Yellow denotes royalty; black and white the principal ministers; the crest (crescent, hands, parasol, banner) expresses Islam, benevolence, and monarchy. Protocol and statute regulate ratio, artwork, respectful display, and retirement.`,
+    longText: `Brunei Darussalam’s flag is a monarchical and Islamic emblem crystallised in mid‑twentieth‑century reforms and carried unchanged into independence. Yellow—the royal colour common to Malay polities—forms the field; from upper hoist to lower fly run a white stripe above a black stripe, representing the Pengiran Bendahara and Pengiran Pemancha, the sultanate’s principal ministers. Centred is the red state crest: an upturned crescent bearing the national motto, supporting hands signifying benevolence, a ceremonial parasol of sovereignty, and a banner reading “Brunei Darussalam.”
+
+The present design was promulgated on 29 September 1959 with a written constitution under British protection and was reaffirmed on 1 January 1984 when Brunei became fully independent. Legal instruments prescribe a 1:2 ratio, crest artwork and colour references, and strict handling: the flag is to be raised on royal and state occasions, on government buildings and embassies, illuminated at night if flown, and retired with dignity when unserviceable. Unauthorised alteration or commercialisation and disrespect are offences.
+
+The unchanged design signals continuity of the Malay Muslim Monarchy (MIB) philosophy—monarchy, Islam, and national tradition—while the diagonal stripes and large crest ensure recognisability on land and sea.`,
+    seoKeywords: [
+      "brunei flag",
+      "flag of brunei",
+      "brunei flag meaning",
+      "brunei flag history",
+      "brunei flag colors"
+    ],
+  },
+  cambodia: {
+    countryId: "cambodia",
+    summary250: `Cambodia’s flag—blue, red (double width), blue with a white Angkor Wat—was readopted in 1993 with the restoration of the monarchy. First used in 1948, it was replaced by republican and revolutionary flags (1970–1993). Blue denotes royalty, red the nation and bravery, white the temple and unity. Law fixes 2:3 ratio, temple artwork, protocol, and penalties.`,
+    longText: `Cambodia’s national flag centres the most potent emblem of Khmer civilisation—Angkor Wat—on a tricolour first raised in 1948. The layout is blue at top and bottom with a double‑width red centre band carrying a stylised white Angkor Wat, rendered to official artwork. Blue represents royalty; red, the nation’s courage and vitality; white, religious purity and unity.
+
+After independence in 1953 the flag endured until 1970, when the Khmer Republic adopted a different symbol set; in 1975 the Khmer Rouge instituted a red revolutionary banner; and in 1979 the People’s Republic of Kampuchea used a red‑blue flag with a yellow temple. The 1991 Paris Accords and 1993 restoration returned the pre‑1970 design, now defined in statute: 2:3 ratio; band widths; central placement and line weights of the temple silhouette; and respectful usage at ministries, schools, embassies, and on royal and national days. Desecration and misuse draw penalties.
+
+The stable post‑1993 design functions as a banner of reconciliation and cultural continuity at home and abroad.`,
+    seoKeywords: [
+      "cambodia flag",
+      "flag of cambodia",
+      "cambodia flag meaning",
+      "cambodia flag history",
+      "angkor wat flag"
+    ],
+  },
+  jordan: {
+    countryId: "jordan",
+    summary250: `Jordan’s flag (standardised April 1928) derives from the 1916 Arab Revolt banner: black, white, green horizontal stripes with a red chevron bearing a white seven‑pointed star. Colours recall Abbasid, Umayyad, and Fatimid dynasties; the chevron and star signify Hashemite leadership and faith. Statute fixes ratio, star geometry, protocol, and half‑masting.`,
+    longText: `Jordan’s national flag links state identity to the Arab Revolt and Hashemite legitimacy. The design—black, white, and green stripes with a hoist‑side red chevron—was adopted by the Emirate of Transjordan in the early 1920s and standardised with a white seven‑pointed star in April 1928 as constitutional structures matured.
+
+Colour symbolism references the Abbasid (black), Umayyad (white), and Fatimid (green) dynasties and Islam; the red chevron marks the Hashemite role in the revolt. The star’s seven points are commonly read as the seven verses of Al‑Fatiha and as unity. Government orders fix a typical 1:2 ratio, chevron depth, and exact star construction for consistent manufacture.
+
+Protocol mandates respectful handling, precedence rules, illumination at night if flown, half‑masting by decree, and dignified retirement. The banner is prominent at ministries, schools, embassies, and royal ceremonies and has remained visually stable for nearly a century.`,
+    seoKeywords: [
+      "jordan flag",
+      "flag of jordan",
+      "jordan flag meaning",
+      "jordan flag history",
+      "jordan flag colors"
+    ],
+  },
+  kazakhstan: {
+    countryId: "kazakhstan",
+    summary250: `Kazakhstan’s flag (4 June 1992) is sky blue with a gold sun of 32 rays above a soaring steppe eagle, and a hoist‑side national ornament in gold. Blue denotes Turkic heritage and the open sky; the sun life and abundance; the eagle freedom and statehood; the koshkar‑muiz border Kazakh artistry. Law standardises ratio, geometry, shades, and protocol.`,
+    longText: `Adopted on 4 June 1992 after independence, Kazakhstan’s flag by designer Shaken Niyazbekov rejects Soviet iconography for a Turkic‑steppe visual language. A sky‑blue field symbolises the vast heavens and unity; centred are a golden sun with thirty‑two evenly spaced rays and, beneath, a soaring golden steppe eagle. Along the hoist runs a vertical ornamental band (koshkar‑muiz, “ram’s horns”) drawn from Kazakh decorative art.
+
+Statutes define a 1:2 ratio, the sun’s diameter and offsets, ray count, eagle proportions, and the ornamental stripe’s width and patterning, together with colour references to ensure consistent production. Protocol prescribes respectful handling, daily display at state institutions, half‑masting in mourning by decree, and dignified retirement; desecration is an offence.
+
+The composition has remained unchanged since 1992, serving as a unifying emblem in state ceremonies, international sport, and diplomacy, and asserting a distinct national identity rooted in steppe heritage.`,
+    seoKeywords: [
+      "kazakhstan flag",
+      "flag of kazakhstan",
+      "kazakhstan flag meaning",
+      "kazakhstan flag history",
+      "kazakhstan flag colors"
+    ],
+  },
+  kuwait: {
+    countryId: "kuwait",
+    summary250: `Kuwait’s flag (7 September 1961) bears the Pan‑Arab colours: green, white, red stripes with a black hoist trapezoid. It replaced the plain red ensign used under British protection. Green signifies land and fertility; white peace; red courage; black the defeat of foes. Law fixes a 1:2 ratio, trapezoid geometry, protocol, and penalties for desecration.`,
+    longText: `Kuwait adopted its current flag on 7 September 1961 as it assumed independence, aligning with the Pan‑Arab palette that spread across the region in the twentieth century. Three equal horizontal bands—green above, white, then red—are joined at the hoist by a black trapezoid whose angles and depth are set in statute.
+
+The colours reflect a shared Arab heritage—green for land and fertility, white for peace and purity, red for valour and sacrifice, black for overcoming adversity. Regulations provide a 1:2 aspect ratio, precise trapezoid construction, and colour standards. Protocol governs respectful handling, precedence with foreign flags, illumination at night, half‑masting by decree, and dignified retirement; desecration and improper commercial use are offences.
+
+The design has endured without alteration, becoming a central emblem in National Day observances, at ministries and embassies, and during international events.`,
+    seoKeywords: [
+      "kuwait flag",
+      "flag of kuwait",
+      "kuwait flag meaning",
+      "kuwait flag history",
+      "kuwait flag colors"
+    ],
   }
   ,
   "united-states": {
