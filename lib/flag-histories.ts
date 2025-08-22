@@ -969,7 +969,7 @@ Continuity and refinement. Since adoption, refinements have focused on digital s
 
 International presence. At multilateral venues, Kosovo’s flag appears according to the host’s recognition policies; where full recognition is unavailable, the flag still serves domestically and at partner events. In sport, Kosovo competes under its flag in federations that recognise its national committee.
 
-Kosovo’s flag is thus deliberately contemporary: an emblem of a new state that places territory and civic plurality at the heart of its visual identity.",
+Kosovo’s flag is thus deliberately contemporary: an emblem of a new state that places territory and civic plurality at the heart of its visual identity.`,
     seoKeywords: ["kosovo flag history", "kosovo flag meaning"],
   },
   georgia: {
@@ -992,7 +992,7 @@ Continuity and public use. Since 2004 the flag has become ubiquitous in Georgia 
 
 International presence. At the United Nations and European institutions, Georgia’s five‑cross flag is instantly recognisable among tricolours and ensigns, distinguishing the country visually while echoing medieval heraldry. Military colours, ship ensigns, and presidential standards adapt the core design for service contexts.
 
-By reviving a medieval emblem in modern statutory form, Georgia bound its renewed republic to a deep civilisational memory—an act of heraldic restoration with contemporary political force.",
+By reviving a medieval emblem in modern statutory form, Georgia bound its renewed republic to a deep civilisational memory—an act of heraldic restoration with contemporary political force.`,
     seoKeywords: ["georgia flag history", "georgian flag meaning"],
   },
   russia: {
@@ -1017,7 +1017,7 @@ Continuity. Since 1993, minor circulars refined colourimetric values and guidanc
 
 Global visibility. Russia’s tricolour is among the world’s most recognisable, encountered in multilateral halls and international sport. It is, however, always paired domestically with the coat of arms in official interiors, maintaining the Russian separation between national flag and armorial state emblem.
 
-From merchant ensign to state flag, the white‑blue‑red tri‑band has traversed empire, revolution, and restoration—its persistence a function of maritime origins, practical clarity, and the power of a simple, enduring design.",
+From merchant ensign to state flag, the white‑blue‑red tri‑band has traversed empire, revolution, and restoration—its persistence a function of maritime origins, practical clarity, and the power of a simple, enduring design.`,
     seoKeywords: ["russia flag history", "russian flag meaning"],
   },
 }
