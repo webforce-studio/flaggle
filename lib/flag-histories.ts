@@ -1020,6 +1020,116 @@ Global visibility. Russia’s tricolour is among the world’s most recognisable
 From merchant ensign to state flag, the white‑blue‑red tri‑band has traversed empire, revolution, and restoration—its persistence a function of maritime origins, practical clarity, and the power of a simple, enduring design.`,
     seoKeywords: ["russia flag history", "russian flag meaning"],
   },
+  egypt: {
+    countryId: "egypt",
+    summary250:
+      "Egypt’s flag is a horizontal tricolour of red, white, and black with the golden Eagle of Saladin centred in the white band. Adopted by law in 1984, it continues the pan‑Arab palette introduced after the 1952 Revolution. Red commemorates sacrifice and struggle; white evokes the revolution’s ‘bloodless’ success; black marks the end of oppression and colonial rule. Earlier variants reflected shifting unions and regimes—the green royal flag (1922–1953), the Arab Liberation Flag after 1953, and UAR stars (1958–1961). Protocol sets a 2:3 ratio, correct colours and emblem drawing, half‑masting rules, and respectful handling across ministries, armed forces, and diplomatic missions.",
+    longText: `The modern Egyptian flag condenses a long political arc—from monarchy, through revolution and trans‑Arab unions, to a republican state with settled heraldry.
+
+Before the twentieth century Egypt had no “national” flag in the modern sense, though banners and standards proliferated under Mamluk, Ottoman, and dynastic regimes. In the nineteenth century, amid reforms under Muhammad Ali and his successors, distinct red flags bearing crescents and stars appeared to signal Egyptian authority within the Ottoman sphere. The Khedivate (1867–1914) commonly used a red ensign charged with three crescents and stars.
+
+The Kingdom of Egypt, proclaimed in 1922 following nominal independence from Britain, adopted a green flag charged with a white crescent and three stars. Read widely as symbols of Islam and the country’s religious communities, the design flew through the interwar era and Second World War.
+
+The 1952 Revolution ended the monarchy and spawned the Arab Liberation Flag: horizontal red‑white‑black bands for pan‑Arab unity, with a central emblem that changed as unions formed and dissolved. In 1958 Egypt and Syria created the United Arab Republic (UAR) and replaced the central device with two green stars for the two republics. Although the UAR ended in 1961, Egyptian emblems continued to evolve—most notably the Hawk of Quraish—while retaining the tricolour.
+
+Law No. 144 of 1984 fixed the current design: the three bands with the golden Eagle of Saladin centred in the white stripe, holding a scroll with the state name. Implementing regulations define colour references, the eagle’s proportions, and placement to ensure uniform manufacture. The ratio is 2:3 in most uses, with authorised variants for military colours and presidential standards.
+
+Protocol governs respectful handling (no contact with the ground, proper illumination at night), half‑masting during national mourning, and precedence when co‑displayed with foreign flags. Government buildings, schools, courts, and diplomatic posts display the flag under detailed circulars; ships and service branches use specialised ensigns tied to international practice.
+
+Symbolism blends historic and revolutionary readings. Red recalls sacrifice and the struggle preceding 1952; white commemorates the revolution’s success; black marks the end of oppression. The Eagle of Saladin—an emblem with medieval resonance in Cairo’s citadel—speaks to sovereignty and continuity across regimes.
+
+In public life the tricolour is ubiquitous on Revolution Day (23 July), Sinai Liberation Day (25 April), and national commemorations. It appears in sport and civic ceremonies, and its contours are taught in civics curricula with guidance on proper treatment and retirement.
+
+Thus Egypt’s banner is both pan‑Arab and specifically Egyptian: a republican tricolour stamped with the Saladin eagle, expressing the historical narrative of monarchy ended, sovereignty asserted, and state continuity maintained by law and protocol.`,
+    seoKeywords: ["egypt flag history", "egypt flag meaning"],
+  },
+  nigeria: {
+    countryId: "nigeria",
+    summary250:
+      "Nigeria’s flag is a vertical tricolour of green, white, and green, designed by Michael Taiwo Akinkunmi in 1959 and first raised on 1 October 1960. The green stripes symbolise agricultural wealth and natural resources; the white band signifies peace and unity. Law prescribes a 1:2 ratio, respectful handling, and authorised display on government buildings, embassies, and service flags. The design has remained unchanged through civil war, military rule, and democratic transitions, serving as a unifying emblem for a diverse federation.",
+    longText: `Nigeria’s national flag—green, white, green in vertical bands—emerged directly from the independence movement and has remained visually constant through six decades of profound political change.
+
+Anticipating independence, authorities organised a 1959 competition for a national flag. The winning design by Michael Taiwo Akinkunmi originally featured a red sun in the centre; the judging panel removed the sun to produce the stark tricolour now familiar. At midnight on 1 October 1960 the Union Flag was lowered and the green‑white‑green was raised over Lagos, heralding the Federation’s sovereignty.
+
+The colour symbolism is straightforward and widely taught: green for agriculture and natural resources; white for peace and unity. The simplicity was a deliberate choice to offer a clear, dignified emblem for a vast, plural society.
+
+Statutes and ordinances from 1960 onward, supplemented by the National Flag Act and administrative circulars, set a 1:2 ratio, regulate respectful handling (no ground contact, proper storage), and define authorised uses on public buildings, schools, courts, embassies, and official vehicles. Desecration and unauthorised commercial exploitation are prohibited. Military and service flags adapt the national palette according to separate defence regulations but do not alter the basic civil flag.
+
+Through the 1960s the flag served as a rallying sign during constitutional crises and the civil war (1967–1970). It remained unchanged through subsequent military governments and the return to civilian rule in 1979 and 1999, symbolising continuity above regime shifts. Diplomatic missions and national teams consistently display the tricolour abroad, with procurement standards ensuring correct hues and proportions.
+
+Education and civic ceremonies—Independence Day (1 October), Armed Forces Remembrance Day (15 January)—centre on flag‑raising and the national anthem, reinforcing protocols of respect and the idea of unity in diversity. Guidance also addresses half‑masting for mourning, correct co‑display with state and foreign flags, and dignified retirement of worn flags.
+
+Nigeria’s banner is thus intentionally minimalist: a durable, legible sign of agricultural foundation and civic aspiration, legally protected and widely recognised from Abuja to the diaspora.`,
+    seoKeywords: ["nigeria flag history", "nigeria flag meaning"],
+  },
+  kenya: {
+    countryId: "kenya",
+    summary250:
+      "Kenya’s flag comprises horizontal black, red, and green bands separated by white fimbriations, charged at centre with a Maasai shield and crossed spears. Adopted on 12 December 1963 from the KANU tricolour, black represents the people, red the struggle for independence, green the land and agriculture, and white peace. The National Flag, Emblems and Names Act regulates authorised use, vehicle flags, respectful handling, and penalties for misuse. The design has remained unchanged since independence.",
+    longText: `Kenya’s national flag fuses pan‑African colour symbolism with an indigenous emblem to narrate struggle, land, and unity.
+
+The anti‑colonial movement coalesced under the Kenya African National Union (KANU), which employed a black‑red‑green tricolour inspired by pan‑Africanism. As independence approached in 1963, the new state adopted the KANU colours as a national flag, inserted narrow white fimbriations to signify peace, and added a central Maasai shield with crossed spears to proclaim defence of freedom and cultural heritage. The flag was first raised on 12 December 1963.
+
+Colour meanings are formally taught: black for the people of Kenya; red for the blood shed in the struggle; green for the land and agricultural wealth; white for unity and peace. The red‑white‑black shield and spears, drawn from Maasai iconography, locate the banner in Kenya’s cultural landscape and lend instant recognisability.
+
+The National Flag, Emblems and Names Act (Cap. 99) governs display and protection: authorised use on government buildings and vehicles; rules against commercial exploitation and defacement; and penalties for improper display. Protocol prescribes order of precedence in co‑display, illumination at night, half‑masting during mourning, and dignified retirement.
+
+Since adoption, the design has remained unchanged. Ceremonial contexts—Madaraka Day (1 June), Mashujaa Day (20 October), and Jamhuri Day (12 December)—feature flag‑raising, anthem renditions, and military honours. Abroad, the flag appears with the same drawing in embassies and at sporting events; procurement guidance maintains consistent colours and shield geometry.
+
+Kenya’s flag, by wedding pan‑African bands to a distinctive shield, asserts a confident national identity: a people united in peace, mindful of sacrifice, rooted in land, and ready to defend a hard‑won sovereignty.`,
+    seoKeywords: ["kenya flag history", "kenya flag meaning"],
+  },
+  "south-africa": {
+    countryId: "south-africa",
+    summary250:
+      "South Africa’s flag, adopted on 27 April 1994, displays a horizontal green ‘Y’ that converges from the hoist and divides red (top) and blue (bottom) fields, bordered by narrow white and yellow stripes with a black hoist triangle. Designed by Frederick Brownell, it symbolises convergence and unity in diversity after apartheid. Constitutional and statutory provisions regulate respectful display, co‑display, and ceremonial handling; no specific meanings are assigned to individual colours by law.",
+    longText: `South Africa’s national flag is a graphic encapsulation of democratic transition: distinct streams converging into one path.
+
+Prior national flags had reflected colonial and Afrikaner narratives—the 1928 “Union” flag combined British and Boer emblems. As the apartheid era ended, negotiators sought a new, unifying emblem. After a public design process stalled, State Herald Frederick Brownell produced the final layout: a green horizontal Y‑shape issuing from the hoist and splitting the field into red (upper) and blue (lower) panels, with a black hoist triangle separated by white and yellow pinstripes. The flag was proclaimed for use on 27 April 1994, the day of the first non‑racial elections.
+
+The palette (black, green, yellow, white, red, blue) resonates with major political traditions—ANC colours and the historical European hues—yet the government intentionally refrained from assigning fixed meanings to each colour. Instead, the design as a whole signifies the convergence of diverse communities on a common constitutional path.
+
+Protocol is grounded in constitutional and statutory instruments: dignified raising and lowering; no ground contact; illumination if flown at night; half‑masting on designated mourning days; and strict order of precedence when co‑displayed with other flags. Guidance addresses correct proportions and colour values to prevent drift in manufacturing.
+
+The flag flies daily on public buildings and anchors national ceremonies—Freedom Day (27 April), Heritage Day (24 September)—and international representation at summits and sporting events. It is protected against defacement and unauthorised commercial use, with educational materials reinforcing respect and proper handling.
+
+Since 1994, the design has not changed, and it has become an instantly recognisable emblem of the “Rainbow Nation”: an inclusive, democratic society forged from a divided past.`,
+    seoKeywords: ["south africa flag history", "south africa flag meaning"],
+  },
+  ethiopia: {
+    countryId: "ethiopia",
+    summary250:
+      "Ethiopia’s flag is a horizontal tricolour of green, yellow, and red charged with a blue disc bearing a golden star and rays. Adopted on 6 February 1996, it updates the long‑standing Ethiopian tricolour that inspired pan‑African colours. Green denotes land and hope; yellow peace and justice; red sacrifice. The star symbolises unity and equality of peoples. Law prescribes display, respectful handling, and emblem drawing across federal institutions and missions.",
+    longText: `Ethiopia’s tricolour is one of Africa’s oldest state emblems and the fountainhead of pan‑African colours. Its present form, with a blue disc and golden star, dates to 1996 and expresses federal unity atop a venerable palette.
+
+In the late nineteenth century, under Emperor Menelik II, Ethiopia consolidated a modern state and adopted a tricolour of red, yellow, and green. After the victory at Adwa (1896) affirmed independence, the colours gained wider resonance. Arrangements varied, but by the early twentieth century a horizontal order with green uppermost became common. Under the monarchy the Lion of Judah often appeared on the flag as an imperial device.
+
+Italian occupation (1936–1941) interrupted but did not erase the tricolour’s status; upon restoration the imperial banner returned. The 1974 revolution replaced the Lion of Judah with socialist emblems during the Derg era, but the foundational colours remained. After 1991, as a federal republic formed, lawmakers retained the tricolour while seeking a new centrepiece representing a multi‑national state rather than a dynasty or ideology.
+
+On 6 February 1996, legislation established the current device: a blue disc at the centre bearing a golden five‑pointed star with radiating lines. The star signifies the equality and unity of Ethiopia’s peoples and nationalities; blue suggests peace. Implementing regulations define proportions, colour references, and the disc’s size and placement to ensure consistent manufacture.
+
+Protocol prescribes respectful handling, half‑masting during national mourning, and order of precedence in co‑display with regional and foreign flags. Government buildings, schools, and diplomatic posts fly the flag; armed forces and vessels use prescribed variants aligned with international practice. Education materials emphasise the pan‑African legacy of the colours, now anchored to a federal civic symbol rather than monarchic heraldry.
+
+Ethiopia’s flag thus marries continuity and update: the familiar tricolour that inspired a continent, newly centred by a unifying star for a plural republic.`,
+    seoKeywords: ["ethiopia flag history", "ethiopian flag meaning"],
+  },
+  morocco: {
+    countryId: "morocco",
+    summary250:
+      "Morocco’s flag is a plain red field charged with a centred green interlaced pentagram (Seal of Solomon). The red ‘Alawite colour dates to the seventeenth century; the green star was added by dahir in 1915 and retained at independence in 1956. Red evokes royal lineage and valour; green the nation’s Islamic identity and unity. Law fixes a 2:3 ratio and precise star geometry; protocol regulates display on state buildings, armed forces, and missions.",
+    longText: `Morocco’s flag—red with a green interlaced pentagram—combines dynastic continuity with a distinct modern legal definition.
+
+Red, long associated with the Sharifian ‘Alawite dynasty and with the Prophet’s lineage, became Morocco’s state colour under the ‘Alawites from the seventeenth century. For centuries a plain red banner served in courtly and military contexts. In 1915, during the protectorate period, a dahir (royal decree) added the green five‑pointed interlaced star—also known as the Seal of Solomon—to distinguish Morocco’s ensign internationally and to symbolise Islam and national unity. The flag persisted, with usage limits in certain zones under colonial administration, and was reaffirmed at independence in 1956.
+
+Today’s law specifies a 2:3 ratio, centre placement for the pentagram, and precise line thickness and angles so that the star neither touches the edges nor appears as a filled device. Guidance sets colour references for consistent dyes and digital reproduction. Protocol regulates respectful handling, half‑masting during mourning, and precedence when flown with other flags; government buildings, embassies, and armed forces installations display the banner daily and on royal and national holidays.
+
+Symbolically, red stands for the monarchy’s historic legitimacy and for courage; green connotes Islam and hope; the interlaced star, drawn in a single line, suggests the unity of the realm and the five pillars. The design’s longevity—and its distinctive pentagram—make Morocco’s flag one of the most recognisable in Africa and the Arab world.
+
+In civic life the flag appears in schools, ministries, and public squares; it is taught in curricula with instructions for correct display and retirement. Abroad, missions maintain exact specifications to prevent distortion of the pentagram’s geometry.
+
+Thus the Moroccan flag unites a deep dynastic colour with a modern, codified emblem—continuity given clear legal form.`,
+    seoKeywords: ["morocco flag history", "moroccan flag meaning"],
+  },
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
