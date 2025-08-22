@@ -216,6 +216,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="152x152" href="/logos/apple-touch-icon-152x152.png" />
         <link rel="apple-touch-icon" sizes="120x120" href="/logos/apple-touch-icon-120x120.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        {/* Explicit icon for Safari pinned tabs / legacy */}
+        <link rel="mask-icon" href="/logos/logo-header.svg" color="#0EA5E9" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
