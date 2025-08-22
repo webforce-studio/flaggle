@@ -3409,6 +3409,81 @@ The Yemeni tricolour thus integrates Pan‑Arab colours with the legal and cerem
       "yemen flag history",
       "yemen flag colors"
     ],
+  },
+  kyrgyzstan: {
+    countryId: "kyrgyzstan",
+    summary250: `Kyrgyzstan’s flag (3 March 1992) is a red field with a yellow sun bearing forty rays (the forty tribes) and, within it, a red tunduk—the crown of a yurt—rendered as three crossed bands. Red signifies bravery and Manas’ banner; the sun life and openness; the tunduk home and unity. Law fixes a 1:2 ratio, ray geometry, tunduk construction, colour specs, protocol, and dignified retirement.`,
+    longText: `Kyrgyzstan adopted its national flag on 3 March 1992, selecting a powerful composite of nomadic architecture and epic tradition. A red field carries a golden sun with forty rays; inside the sun appears the red tunduk—the crown ring of the Kyrgyz yurt—drawn with three crossed struts that evoke the felt dome’s structure when seen from within.
+
+Origins and Selection
+Following the 31 August 1991 independence declaration, a commission evaluated designs that would depart from Soviet iconography while anchoring identity in the Kyrgyz epic Manas and nomadic heritage. Parliament chose the current scheme for its legibility and cultural centrality: the tunduk is the literal and symbolic centre of the home, and the sun’s rays signify clans united in a single polity.
+
+Design and Geometry
+The flag’s ratio is 1:2. Official drawings define the sun’s diameter, the number and arrangement of forty rays (often grouped visually into sets), and the tunduk’s three crossing bands with their curvature, thickness, and offsets. The red ground and golden sun have codified colour references to prevent shade drift; the inner tunduk is coloured red to integrate with the field while remaining outlined by the sun’s disc for contrast.
+
+Symbolism
+Red is linked to bravery and to Manas’ banner in epic tradition; the sun represents life, warmth, and openness to the world; forty rays recall the forty tribes or clans gathered into the Kyrgyz nation; the tunduk embodies home, cohesion, and the political community assembled under one roof. The composition thus ties household, epic, and state.
+
+Protocol and Usage
+Statutes regulate respectful handling, precedence with foreign flags, half‑masting in mourning, and dignified retirement. Diagrams guide placement at ministries, schools, courts, and diplomatic missions. Military colours and presidential standards adapt the core emblem while preserving proportions.
+
+Continuity
+Since 1992 the design has remained unchanged, widely recognised in international sport and diplomacy. Educational materials teach the tunduk geometry to ensure faithful reproduction across textiles, print, and digital interfaces.`,
+    seoKeywords: [
+      "kyrgyzstan flag",
+      "flag of kyrgyzstan",
+      "kyrgyzstan flag meaning",
+      "kyrgyzstan flag history",
+      "kyrgyzstan flag colors"
+    ],
+  },
+  laos: {
+    countryId: "laos",
+    summary250: `Laos’s flag (2 December 1975) is a horizontal triband—red, blue (double‑height), red—with a white disc centred. Red signifies the people’s blood and struggle; blue the Mekong, prosperity, and the nation; the white disc the moon over the Mekong and the unity of the Lao people. Ratio 2:3; statutes specify disc diameter and placement, colours, protocol, half‑masting, and retirement.`,
+    longText: `The flag of the Lao People’s Democratic Republic was adopted on 2 December 1975, replacing the royal tricolour with a banner associated with the Lao Issara movement. Its composition—red, blue, red with a central white disc—has become one of Southeast Asia’s most recognisable.
+
+Design and Specification
+The proportion is 2:3. The central blue band is double the height of each red band. The white disc is centred on the flag’s vertical and horizontal axes, with a diameter set as a fixed fraction of the flag’s height in official drawings. Colour references for the deep blue and red are codified; procurement guidelines prevent shade drift and mis‑centred discs.
+
+Symbolism
+Red denotes the people’s sacrifices; blue represents the Mekong River and national prosperity; the white disc is read as the full moon over the Mekong and the unity of the Lao people. Explanations emphasise socialist struggle and national cohesion without monarchical insignia.
+
+Protocol and Usage
+Rules govern respectful handling, precedence with foreign flags, half‑masting during mourning, and dignified retirement. The flag is displayed on state buildings, schools, and diplomatic missions, and it appears alongside party and organisational banners in official ceremonies according to protocol diagrams.
+
+Continuity
+Since 1975 the design has been stable, with educational outreach focusing on correct disc size and exact centring—critical for visual balance on large public displays and televised events.`,
+    seoKeywords: [
+      "laos flag",
+      "flag of laos",
+      "laos flag meaning",
+      "laos flag history",
+      "laos flag colors"
+    ],
+  },
+  lebanon: {
+    countryId: "lebanon",
+    summary250: `Lebanon’s flag (7 December 1943) is red‑white‑red with a green cedar centred, touching the red bands. Red signifies sacrifice; white snow and peace; the cedar endurance and holiness. Law fixes a 2:3 ratio, mandates that the cedar touch the red fields, and codifies artwork, shades, protocol, and dignified retirement. The banner dates to independence from the French Mandate.`,
+    longText: `Lebanon’s flag, adopted on 7 December 1943 during the final phase of the French Mandate, is a tricolour of red, white, and red with a green cedar tree centred on the white band. The tree—Arz al‑Rabb, the famed cedar of Lebanon—touches both red bands by law, a detail that distinguishes the design.
+
+Adoption and Law
+The independence parliament adopted the flag days before the release of arrested leaders in the “Independence Intifada,” setting a 2:3 ratio and the requirement that the cedar touch the red bands. Subsequent legislation and standards documents defined cedar proportions, trunk and branch stylisation, and colour references to ensure recognisability and to prevent overly naturalistic or overly abstract depictions.
+
+Symbolism
+Red bands denote the blood of martyrs and national sacrifice; the white band the snow of Mount Lebanon and peace; the evergreen cedar endurance, holiness, and rootedness in the land. The tree’s contact with the red stripes symbolises continuous life between sacrifice and peace.
+
+Protocol and Usage
+Rules govern respectful handling, sunrise‑to‑sunset display unless illuminated, precedence with foreign flags, placement on vehicles and rostrums, and half‑masting by decree. Worn or damaged flags are retired with dignity. Variants for military and presidential standards adapt the cedar within shields while preserving the core geometry.
+
+Continuity
+The flag has remained stable since 1943, serving as a unifying mark in a complex confessional landscape. Ministries, schools, and embassies use approved cedar artwork to prevent drift in shape or shade; public campaigns remind suppliers that the cedar must touch the red bands to comply with law.`,
+    seoKeywords: [
+      "lebanon flag",
+      "flag of lebanon",
+      "lebanon flag meaning",
+      "lebanon flag history",
+      "lebanon flag colors"
+    ],
   }
 }
 
