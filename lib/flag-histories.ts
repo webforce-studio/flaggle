@@ -946,7 +946,7 @@ Continuity and change. Since 1995 the design has remained stable, with technical
 
 International display and sport. At the United Nations and sporting events, the flag’s bold, centric construction reads clearly at distance. Diaspora communities use it widely at cultural festivals, while municipalities pair it with local flags and the national coat of arms on façades and in council chambers.
 
-Thus, North Macedonia’s flag is both creative compromise and confident identity: a modern solar emblem rooted in regional symbolism, legally calibrated to defuse a dispute while projecting a distinct national presence.",
+Thus, North Macedonia’s flag is both creative compromise and confident identity: a modern solar emblem rooted in regional symbolism, legally calibrated to defuse a dispute while projecting a distinct national presence.`,
     seoKeywords: ["north macedonia flag history", "macedonian flag meaning"],
   },
   kosovo: {
