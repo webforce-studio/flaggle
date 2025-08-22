@@ -2787,6 +2787,56 @@ The design has remained stable since adoption. It anchors military, civic, and d
       "pakistan flag history",
       "pakistan flag colors"
     ],
+  },
+  "saudi-arabia": {
+    countryId: "saudi-arabia",
+    summary250: `Saudi Arabia’s flag is a green field charged with the white shahada (Islamic declaration of faith) above a horizontal sword pointing toward the hoist. Rooted in banners used by the House of Saud since the 18th century, the design was consolidated with the 1932 unification and refined in 1938 and later specifications. Green symbolises Islam; the sword denotes justice and state authority. Because it bears sacred text, the flag is never flown at half‑mast, nor used on clothing or profane items. Geometry, script (Thuluth), colour references, and respectful protocol are codified; misuse is punishable by law.`,
+    longText: `Saudi Arabia’s national flag unites the kingdom’s religious foundations and political consolidation into a singular emblem that is strictly governed by law and custom. Its central inscription is the shahada—the Islamic profession of faith, “La ilaha illa Allah, Muhammadun rasul Allah” (“There is no god but Allah, Muhammad is the Messenger of Allah”)—rendered in flowing Thuluth calligraphy and placed above a horizontal white sword pointing toward the hoist.
+
+Historical antecedents trace to banners associated with the House of Saud and the religious reform movement commonly termed Wahhabism in the 18th century, which employed green cloth and devotional inscriptions to express allegiance to Islam and the emerging polity in Najd. In the modern era, as Abdulaziz Ibn Saud expanded control across the peninsula, a need for consistent symbols arose. After the capture of Riyadh in 1902 and the subsequent proclamation of the Sultanate of Nejd (1921), flags bearing the shahada circulated with variations of script and blade.
+
+With the proclamation of the Kingdom of Saudi Arabia in 1932—following the integration of the Hejaz (1925) and other regions—the green flag with the shahada was affirmed as the state emblem. By the late 1930s, official models had settled the principal elements: the text in Thuluth script and a sword placed beneath. Over time, decrees refined aspects of construction: the sword is drawn straight, with the tip to the hoist; the inscription must be perfectly legible and correctly proportioned; and no embellishments may interrupt the text.
+
+The flag’s proportion is commonly set at 2:3, and government specifications enumerate geometric relationships between the script, margins, and the sword’s placement so manufacturers can reproduce it consistently at any size. Colour references standardise the characteristic green field and white elements. Variants for the King’s standard and military or state uses retain the shahada and sword but alter fields or borders in accordance with protocol.
+
+Because the flag bears sacred text, its treatment is exceptional in international practice. It is never lowered to half‑mast, even during mourning, and should never touch the ground, water, or be used as drapery, table covering, or clothing. Commercial reproduction is controlled; desecration or profane use is punishable under Saudi law. When displayed with other flags, the Saudi flag holds a position of honour and must be properly illuminated if shown at night.
+
+The sword symbol below the inscription has been interpreted in several complementary ways. It recalls Ibn Saud’s campaigns that unified the realm; more broadly it denotes the rule of law and the state’s authority to uphold justice. Critically, official guidance emphasises that the sword does not modify the shahada above it—the religious message stands complete and inviolable.
+
+Across public life the flag is ubiquitous on national days, in ministries, at schools, and at embassies abroad. It identifies the kingdom at international organisations and sporting events, where special care is taken to prevent the flag from appearing on items likely to be discarded or placed on the ground. When printed for educational materials, publishers follow strict guidelines to avoid disrespect.
+
+Although the essential design has remained constant since the kingdom’s founding, periodic circulars have clarified execution to prevent drift in calligraphy, blade shape, and colour. This attention to detail reinforces the banner’s dual character as both a national emblem and a bearer of Islam’s most concise creed. In Saudi civic rites—parades, inaugurations, state funerals—the green field, white shahada, and sword function as a visual shorthand for the country’s religious identity, monarchical continuity, and the legal order instituted by the state.
+
+In sum, the Saudi Arabian flag is less a decorative logo than a codified statement of belief and sovereignty. Its protocols—especially the prohibitions on half‑masting and profane use—are integral to its meaning, ensuring that the shahada and the authority represented by the sword are approached with dignity in every context where the flag is displayed.`,
+    seoKeywords: [
+      "saudi arabia flag",
+      "flag of saudi arabia",
+      "saudi arabia flag meaning",
+      "saudi arabia flag history",
+      "saudi arabia flag colors"
+    ],
+  },
+  "united-arab-emirates": {
+    countryId: "united-arab-emirates",
+    summary250: `The UAE flag (adopted 2 December 1971) combines the Pan‑Arab colours: a vertical red hoist bar and horizontal green, white, and black stripes. Designed by Abdullah Mohammed Al Maainah through a national competition, it symbolises Arab unity, courage, prosperity, peace, and strength. Proportion is 1:2; statutes and circulars govern respectful display, precedence, half‑masting, illumination at night, and dignified retirement. Each emirate retains its historic banner for local use; the federal flag is paramount on national occasions.`,
+    longText: `The flag of the United Arab Emirates was adopted on 2 December 1971, the day the federation was formed by Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, and Fujairah (with Ras Al Khaimah joining shortly thereafter). Conceived through a national design competition and selected from hundreds of entries, the winning design by Abdullah Mohammed Al Maainah deploys the canonical Pan‑Arab palette: green, white, black, and red.
+
+The arrangement is distinctive and legible. Along the hoist runs a vertical red bar. The remainder of the field is divided into three equal horizontal bands: green at the top, white in the middle, and black at the bottom. The colours reprise the themes shared across Arab history and literature—red for bravery and sacrifice, green for prosperity and hope, white for peace and honesty, black for strength and steadfastness in overcoming adversity—while taking on specifically Emirati connotations in the context of federation and state‑building.
+
+Legal specifications set the flag’s proportion at 1:2 and fix construction details so that suppliers can reproduce the design accurately at all sizes. Government circulars prescribe respectful handling: the flag must be clean and intact; raised briskly at sunrise and lowered at sunset unless illuminated; never allowed to touch the ground or water; never used as drapery, clothing, or covering; and retired ceremoniously when worn. Protocols specify precedence with foreign flags, placement on vehicles, and procedures for half‑masting during periods of national mourning. Penalties exist for desecration or disrespectful usage.
+
+The federal banner stands alongside the historic flags of individual emirates on appropriate local occasions. This dual display underscores both the unity of the federation and the heritage of its constituent polities. In diplomatic settings and at international organisations, the UAE flag alone identifies the state; at home, it anchors National Day celebrations, military parades, and civil ceremonies.
+
+The stability of the design since 1971 mirrors the federation’s consolidation. While the colours link the UAE to the wider Arab world (and to the writings that popularised the palette), their arrangement and the prominent vertical hoist bar give the flag an identity recognisable at distance and on sea, land, and air. Educational campaigns around Flag Day reinforce correct etiquette among citizens and residents, emphasising that care for the flag is care for the country’s dignity.
+
+In summary, the UAE flag fuses Pan‑Arab colour symbolism with a crisp geometry chosen at the state’s founding. Its governing rules—covering construction, display, precedence, half‑masting, and retirement—ensure consistency across ministries, schools, and embassies, while public observance on National Day and Flag Day renews the ideals of unity and service that the banner is intended to represent.`,
+    seoKeywords: [
+      "united arab emirates flag",
+      "flag of the united arab emirates",
+      "uae flag meaning",
+      "uae flag history",
+      "uae flag colors"
+    ],
   }
 }
 
