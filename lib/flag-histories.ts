@@ -849,7 +849,7 @@ Symbolism and identity. The bicolour speaks to dynastic continuity and compact s
 
 Continuity. Since 1881 the design has not changed. Modern adjustments focus on dye standards and accessibility in digital contexts. Education curricula, stamps, and ceremonial publications rehearse the story of red and white as a throughline from medieval citadel to twenty‑first‑century microstate.
 
-Thus the bicolour of Monaco—spare but resonant—embodies a principality that values legal clarity, heraldic lineage, and protocol exactitude.",
+Thus the bicolour of Monaco—spare but resonant—embodies a principality that values legal clarity, heraldic lineage, and protocol exactitude.`,
     seoKeywords: ["monaco flag history", "monaco flag meaning"],
   },
   "san-marino": {
