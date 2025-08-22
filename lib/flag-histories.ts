@@ -1130,6 +1130,122 @@ In civic life the flag appears in schools, ministries, and public squares; it is
 Thus the Moroccan flag unites a deep dynastic colour with a modern, codified emblem—continuity given clear legal form.`,
     seoKeywords: ["morocco flag history", "moroccan flag meaning"],
   },
+  ghana: {
+    countryId: "ghana",
+    summary250:
+      "Ghana’s flag—three horizontal bands of red, gold, and green with a black five‑pointed star centred in the gold—was designed by Theodosia Okoh and first raised on 6 March 1957 at independence. Red honours the blood of those who fought for freedom; gold signifies mineral wealth; green represents forests and agriculture; the black star stands for African freedom and unity. A brief 1964–1966 variant replaced the gold with white during the one‑party period; the original was restored after 1966 and remains in law. Protocol prescribes respectful handling, order of precedence, and daily display on state buildings and missions.",
+    longText: `Ghana’s national flag distils independence, resources, land, and a pan‑African vocation into a single, legible composition.
+
+Origins and adoption. As the Gold Coast advanced toward self‑government in the 1950s, the need for a modern national emblem became urgent. The Convention People’s Party under Kwame Nkrumah championed symbols that would signal African leadership and unity. Artist Theodosia Salome Okoh designed a horizontal triband of red, gold, and green with a central black star—adopted and first raised on 6 March 1957 when Ghana became the first sub‑Saharan colony to achieve independence in the twentieth century.
+
+Colour and symbol. Red commemorates the blood shed in the struggle for freedom; gold references the country’s mineral wealth; green speaks to fertile forests and agriculture; the centred black star proclaims African emancipation and unity. The palette follows Ethiopia’s pan‑African colours, long associated with independence and resistance to colonialism. The star also lent its name to Accra’s Black Star Gate and to the Black Star Line in maritime branding.
+
+Variant and restoration. In 1964, during a one‑party period, parliament adopted a variant that replaced the gold with white to symbolise unity (red‑white‑green with the black star). After the February 1966 coup, the original Okoh design was restored, reaffirming the link between independence and the pan‑African colours. Since then, the flag’s drawing has remained stable.
+
+Law and protocol. Statutes and administrative circulars govern proportions (commonly 2:3), colour references, the star’s geometry and placement, and proper display. The flag is flown on ministries, courts, schools, and missions abroad; it is raised and lowered ceremoniously, illuminated when flown at night, and half‑masted on order during national mourning. Defacement and unauthorised commercial use are prohibited; worn flags are retired with dignity.
+
+Civic presence. Independence Day (6 March) and Republic Day (1 July) feature national flag‑raising and public parades, with the anthem and pledge reinforcing civic education. The Black Star motif pervades sport, culture, and tourism, binding the banner to a wider national narrative.
+
+External resonance. Ghana’s early independence and pan‑African leadership meant its flag influenced many post‑colonial designs that adopted the red‑gold‑green tricolour. In international fora and the diaspora, the flag remains a shorthand for African self‑determination tethered to Ghana’s specific experience of liberation and constitutional development.
+
+Thus Okoh’s composition—triband and star—has endured because it marries clear graphic form with deep meanings: historical sacrifice, resources and land, unity and freedom, and a continental horizon.`,
+    seoKeywords: ["ghana flag history", "ghana flag meaning"],
+  },
+  tanzania: {
+    countryId: "tanzania",
+    summary250:
+      "Tanzania’s flag displays a black diagonal band bordered in yellow from lower hoist to upper fly, dividing a green upper triangle and blue lower triangle. Adopted in 1964 upon the union of Tanganyika and Zanzibar, it fuses Tanganyika’s green‑yellow‑black with Zanzibar’s black‑blue‑green. Green represents land and agriculture; blue the Indian Ocean and lakes; black the people; yellow the nation’s mineral wealth. Statutes fix proportions, colour values, and band geometry; protocol governs respectful use across the union’s institutions.",
+    longText: `The national flag of the United Republic of Tanzania is a union emblem: a diagonal, yellow‑edged black band cleaving green and blue fields to merge two former flags into one.
+
+Union and design. On 26 April 1964 Tanganyika and Zanzibar united. Lawmakers sought a national flag that would honour both components. They combined Tanganyika’s green‑yellow‑black triband with Zanzibar’s black‑blue‑green: a black band for the people, edged in yellow for mineral wealth, set diagonally from hoist‑lower to fly‑upper to divide green (land and agriculture) above from blue (sea and inland waters) below. The design was proclaimed in 1964 and took immediate effect across public buildings and services.
+
+Construction and standards. Implementing orders set a typical 2:3 ratio; specified relative widths for the black band and yellow fimbriations; and defined colour references to prevent drift across cloth and print. Guidance addresses common errors (reversing the diagonal, misplacing the band) and prescribes correct orientation in vertical display.
+
+Protocol. The flag is raised daily on ministries, schools, courts, and military installations; flown on national holidays such as Union Day (26 April), Independence Day (9 December), and Revolution Day in Zanzibar (12 January); and half‑masted in mourning by presidential order. It is illuminated at night when displayed, never allowed to touch the ground, and retired with dignity when worn.
+
+Continuity and identity. While coats of arms, presidential standards, and service ensigns carry additional symbols, the civil flag has remained unchanged since 1964, a widely recognised mark of the union state at home and abroad. In sport and diplomacy, the diagonal black band bordered in gold against green and blue creates a distinctive silhouette among world flags.
+
+Meaning and civics. Green embodies the nation’s land and agricultural base; blue the Indian Ocean, great lakes, and rivers; black the people; yellow the country’s mineral resources. These readings feature in curricula and public messaging, reinforcing a shared civic language.
+
+Thus Tanzania’s flag is at once synthesis and statement: a union codified in colour and geometry, stable in law and protocol since the republic’s formative year.`,
+    seoKeywords: ["tanzania flag history", "tanzania flag meaning"],
+  },
+  uganda: {
+    countryId: "uganda",
+    summary250:
+      "Uganda’s flag consists of six equal horizontal stripes—black, yellow, red repeated—charged with a white disc bearing a grey crowned crane facing the hoist. Adopted on 9 October 1962 at independence, the colours were proposed by the Uganda People’s Congress: black for the people; yellow for sunlight; red for fraternity. The crowned crane, a long‑standing military emblem, lifts one leg to signify forward movement. Law defines proportions, crane drawing, and protocol across state, military, and diplomatic use.",
+    longText: `Uganda’s flag pairs a rhythmic tricolour sequence with a poised heraldic bird to express people, promise, and progress.
+
+Adoption. In the run‑up to independence in 1962, competing proposals reflected the country’s party landscape. The final scheme—six equal horizontal bands in the order black‑yellow‑red‑black‑yellow‑red with a centred white disc bearing a grey crowned crane—was associated with the Uganda People’s Congress and promulgated for the midnight of 9 October 1962.
+
+Symbolism. Black represents the people of Uganda; yellow, the equatorial sunlight; red, fraternity and the bond of common blood. The grey crowned crane, long used as a symbol by colonial and post‑colonial forces, stands on one leg with the other raised, signalling forward movement; it faces the hoist as per vexillological convention. The crane’s colours—grey body, red and black details, golden crown—are standardised in the official drawing.
+
+Standards and protocol. Regulations prescribe a common 2:3 ratio, the diameter and placement of the disc, and the crane’s orientation and detailing. The flag is hoisted on ministries, schools, courts, and missions; half‑masted in mourning; illuminated at night when displayed; and retired respectfully when worn. Misuse or defacement is prohibited by law.
+
+Continuity and identity. The design has remained stable since 1962, its banding immediately recognisable among world flags and the crowned crane providing a singular heraldic centre. Variants exist for the President and defence forces, but the civil flag itself is unaltered.
+
+Public life. National Day (9 October) ceremonies focus on the flag and anthem; civics curricula teach the colour meanings and crane symbolism; and procurement guidance ensures correct hues and crane geometry in manufacturing.
+
+The Ugandan flag’s clarity—simple stripes and a dignified bird—has given it enduring force as a symbol of a young state’s aspirations and cohesion.`,
+    seoKeywords: ["uganda flag history", "uganda flag meaning"],
+  },
+  algeria: {
+    countryId: "algeria",
+    summary250:
+      "Algeria’s flag presents two vertical bands of green (hoist) and white with a red crescent and five‑pointed star centred slightly toward the hoist. Legalised at independence in 1962, it draws on nationalist flags used since the 1920s. Green and white evoke Islam and purity; red the blood of martyrs; the crescent and star are long‑standing Maghrebi emblems. Ordinances fix a 2:3 ratio, precise crescent geometry, and protocol for display across state organs and missions.",
+    longText: `Algeria’s flag—green and white with a red crescent and star—announces an Islamic and republican identity forged in anti‑colonial struggle.
+
+Antecedents. Algerian nationalists in the interwar period employed green‑and‑white flags with crescents and stars; versions flew during demonstrations and in exile communities. Such designs crystallised the movement’s symbolism: green for Islam, white for purity and a just peace, red for sacrifice.
+
+War and independence. During the War of Independence (1954–1962), variants served the Front de Libération Nationale (FLN) as revolutionary emblems. After the Evian Accords and the proclamation of independence in July 1962, the new state codified a national flag: vertical green and white fields, with a red crescent embracing a red five‑pointed star, centred slightly toward the hoist for balance.
+
+Standards. Decrees established a 2:3 ratio; the relative widths of the vertical fields; the exact construction of the crescent (two arcs of defined radii) and star; and colour references to secure consistency. Guidance also addresses correct vertical display and the prohibition of mirrored crescents.
+
+Protocol. The flag flies over ministries, wilaya headquarters, schools, courts, and diplomatic missions; it is half‑masted on national mourning; illuminated at night when displayed; and retired respectfully when worn. Misuse is sanctioned; manufacture for official use follows approved specifications.
+
+Continuity and presence. The design has remained unchanged since 1962. It serves as a unifying emblem in a diverse country and a clear identifier abroad—green and white fields cleft by a red crescent and star that link Algeria visually to the wider Maghreb and Islamic world while marking a distinct national story of revolution and state‑building.
+
+Thus the Algerian flag places sacred colour and republican law in compact heraldry: a sign born in protest, legalised in independence, and sustained by protocol.`,
+    seoKeywords: ["algeria flag history", "algerian flag meaning"],
+  },
+  tunisia: {
+    countryId: "tunisia",
+    summary250:
+      "Tunisia’s flag is a red field charged with a centred white disc bearing a red crescent and five‑pointed star. Originating as an Ottoman‑era naval ensign (1831), it was retained with minor refinements by the modern state and codified most recently in 1999. Red recalls resistance and Ottoman ties; white peace; the crescent and star are classic symbols of the Islamic world. Law fixes a 2:3 ratio, disc diameter, and crescent/star geometry; protocol governs display and dignified use.",
+    longText: `Tunisia’s national flag—red with a white disc enclosing a red crescent and star—binds Ottoman heritage to republican statute.
+
+Origins. In 1831 Husaynid Bey Hussein II introduced a red naval ensign with a white disc bearing a crescent and star to distinguish Tunisian ships within the Ottoman sphere. Over the nineteenth century the ensign gained civil currency as a general state flag, even as European influence grew.
+
+From protectorate to independence. Under the French protectorate (1881–1956) the flag’s use continued with restrictions in international zones; at independence in 1956 the red banner with disc, crescent, and star was affirmed as national. Subsequent legislation refined the drawing without altering the basic composition.
+
+Codification. A 1999 law specified proportions (2:3), the disc’s diameter and exact placement, crescent thickness and curvature, star size and position, and colour references. Implementing decrees regulate proper vertical display, order of precedence, and authorised variants for the armed forces and presidency.
+
+Symbolism and protocol. Red evokes resistance and historic ties; white connotes peace; the crescent and five‑pointed star are long‑standing Islamic emblems. Protocol requires respectful handling, illumination at night, half‑masting during mourning, and dignified retirement. Misuse is penalised.
+
+Continuity and recognition. The design is stable and instantly recognisable among Maghrebi and Arab banners: a simple geometry, concentrated symbolism, and strong contrast. From ministries to embassies, the white disc and inner crescent‑star anchor Tunisia’s visual identity at home and abroad.
+
+Thus Tunisia’s flag carries nineteenth‑century maritime origins into a republican present, a minimalist emblem kept precise by law and alive in public ritual.`,
+    seoKeywords: ["tunisia flag history", "tunisian flag meaning"],
+  },
+  cameroon: {
+    countryId: "cameroon",
+    summary250:
+      "Cameroon’s flag is a vertical tricolour of green, red, and yellow with a centred yellow five‑pointed star. Adopted as a federation in 1961 with two stars (for East and West Cameroon), it was revised in 1975 to a single ‘star of unity’ when the state became unitary. Green represents the forested south; red national unity; yellow the savannas and sun. Statutes fix a 2:3 ratio, star geometry, and protocol across public institutions and missions.",
+    longText: `Cameroon’s national flag—green, red, yellow with a central gold star—tracks the country’s constitutional journey from federation to unitary state within a pan‑African palette.
+
+Precedents and independence. The former French trusteeship gained independence as the Republic of Cameroon in 1960 and adopted a vertical tricolour of green, red, and yellow, echoing pan‑African colours and the French arrangement. In 1961, following a UN‑organised plebiscite, part of British Cameroons joined the republic to form a federation. The flag was then altered to include two gold stars in the upper hoist to symbolise the two federated states.
+
+Unification and current design. Constitutional reform in 1972 created a unitary state; in 1975 the flag was revised to its present form by replacing the two hoist stars with a single yellow five‑pointed star centred on the red band—the ‘star of unity.’ The red central stripe thereby became the axis of national cohesion between green (forest zone) and yellow (savanna and northern light).
+
+Standards and protocol. Law prescribes a 2:3 ratio; equal stripe widths; star size and exact centring; and official colour references. Protocol covers respectful handling, co‑display with foreign flags, illumination at night, half‑masting, and dignified retirement. Military and presidential standards add specific devices but the civil flag remains unchanged since 1975.
+
+Symbolic readings. Green evokes the humid, forested south; yellow the northern savannas and sunshine; red national unity and independence struggles. The centred gold star codifies the unitary settlement while maintaining the original pan‑African chromatic identity.
+
+Public life and continuity. The flag is ubiquitous on public buildings, in schools, and at diplomatic posts; it anchors ceremonies on National Day (20 May). Its stable design and strong colours render it highly legible in international forums and sport, while education materials reinforce correct usage and meaning.
+
+Cameroon’s banner thus compresses federation, unification, and pan‑African identity into a clear tricolour marked by a single star.`,
+    seoKeywords: ["cameroon flag history", "cameroon flag meaning"],
+  },
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
