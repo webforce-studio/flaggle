@@ -1844,6 +1844,16 @@ export const countries: Country[] = [
     coordinates: { lat: -32.5228, lng: -55.7658 }
   },
   {
+    id: "dominican-republic",
+    name: "Dominican Republic",
+    code: "DO",
+    flagUrl: "https://flagcdn.com/w320/do.png",
+    region: "Americas",
+    capital: "Santo Domingo",
+    population: 10900000,
+    coordinates: { lat: 18.7357, lng: -70.1627 }
+  },
+  {
     id: "uzbekistan",
     name: "Uzbekistan",
     code: "UZ",

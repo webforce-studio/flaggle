@@ -2043,6 +2043,80 @@ Across more than 170 years the tricolour has remained stable, with changes confi
       "bolivia flag history",
       "bolivia flag colors"
     ],
+  },
+  ecuador: {
+    countryId: "ecuador",
+    summary250: `Ecuador’s tricolour—yellow (double height), blue, red—dates to 26 September 1860 and the Gran Colombia tradition. Yellow signifies abundance and the country’s resources; blue the sky and Pacific; red the blood shed for independence. The civil flag is the plain tricolour; the state and war flags bear the national coat of arms centred. Laws codify the 2:3 ratio, colour references, and crest sizing; protocol governs precedence, half‑masting, and dignified retirement.`,
+    longText: `Ecuador’s national flag emerged from the independence era and the subsequent dissolution of Gran Colombia. The familiar yellow–blue–red arrangement ultimately reflects Francisco de Miranda’s eighteenth‑century model and Simón Bolívar’s republican project, while Ecuador’s statutes have given the banner its distinct local expression.
+
+Before independence, colonial emblems prevailed. The first local rupture came with Guayaquil’s declaration of independence on 9 October 1820, which introduced a separate civic symbolism. Following the Battle of Pichincha on 24 May 1822, the territory joined Gran Colombia and flew its tricolour—yellow, blue, red—across the Andes and the coast.
+
+After 1830, Ecuador left the federation and experimented with designs that included stars and alternate stripe patterns. Nevertheless, the tricolour persisted in public life as a republican emblem. On 26 September 1860, during a period of national consolidation, Ecuador formally restored the horizontal tricolour with yellow occupying half the height, and blue and red each a quarter.
+
+Public interpretation reads yellow as the country’s wealth and fertility—from coastal cacao and bananas to Andean agriculture and Amazonian resources. Blue recalls the Pacific Ocean and high equatorial skies. Red commemorates sacrifice in the wars of independence and later conflicts that shaped the republic. The standard proportion is 2:3, and norms specify colour shades to reduce manufacturing variance.
+
+Since 1900, the state flag has carried the national coat of arms centred. The arms depict Mount Chimborazo, source of the Guayas River, and a steamship with a caduceus for commerce, all beneath a condor—that guardian of the Andes—framed by national flags and laurel and palm branches. The civil flag omits arms; the war flag includes them and follows military regulation sheets.
+
+Protocol governs precedence with foreign flags, half‑masting during national mourning by decree, proper illumination when flown at night, and dignified retirement when a flag is unserviceable. Schools teach correct folding and salutes, and public buildings display the flag on specified commemorative dates, including Flag Day on 26 September. At missions abroad, the state flag signals Ecuador’s sovereignty and identity.
+
+The broad visual kinship with Colombia and Venezuela is acknowledged in official literature as a historical legacy, not a source of confusion. Construction sheets emphasise the double‑height yellow band and the presence or absence of arms as primary differentiators. Through minor heraldic refinements to the coat of arms over the twentieth century, the core tricolour has remained unchanged.
+
+In civic education and diaspora communities, the Ecuadorian flag functions as a unifying emblem at festivals and elections. Its colours link coastal, Andean, and Amazonian regions in a single national narrative that begins in the revolutionary era and continues in modern republican life.`,
+    seoKeywords: [
+      "ecuador flag",
+      "flag of ecuador",
+      "ecuador flag meaning",
+      "ecuador flag history",
+      "ecuador flag colors"
+    ],
+  },
+  uruguay: {
+    countryId: "uruguay",
+    summary250: `Uruguay’s flag (11 July 1830) has nine horizontal stripes alternating white and blue and a white canton charged with the golden Sun of May with a human face and sixteen rays. The stripes recall the country’s original departments; the Sun symbolises liberty and the Río de la Plata revolutionary tradition. A 2:3 ratio is fixed by law; etiquette covers precedence, half‑masting, and approved contexts for the national, Artigas, and Treinta y Tres flags.`,
+    longText: `Uruguay’s national flag reflects the Río de la Plata region’s independence movement and the young state’s administrative structure. The design adopted on 11 July 1830 settled on nine alternating white and blue stripes—five white and four blue—with a white canton bearing the Sun of May, a radiant golden sun with a face and sixteen alternating straight and wavy rays.
+
+The earliest national symbolism grew from the revolutionary milieu that followed the 1810 May Revolution in Buenos Aires and José Gervasio Artigas’s federalist programme. Artigas’s own banner (blue field with a white diagonal band and a red stripe) remains an official historic flag. After a period of Brazilian annexation as the Cisplatina Province, Uruguayan sovereignty was recognised by the 1828 Treaty of Montevideo.
+
+Uruguay’s first national flag decree in 1828 envisaged more stripes to represent departments, but legibility concerns led lawmakers to standardise nine stripes in 1830. The Sun of May connects Uruguay to the broader emancipation symbolism of the United Provinces of the Río de la Plata, echoing Incan sun imagery and Enlightenment motifs. The 2:3 proportion and the canton’s construction are defined to preserve consistent manufacture.
+
+Uruguayan law distinguishes three official flags: the National Flag (Pabellón Nacional), the Artigas Flag (used by the armed forces and police), and the Flag of the Treinta y Tres (commemorating the 1825 patriots). Protocols specify order of precedence, occasions for display, half‑masting during official mourning, and dignified retirement. The national flag is flown across ministries, schools, and embassies, while the Artigas and Treinta y Tres flags appear in ceremonial and military contexts.
+
+Public symbolism reads the white stripes as peace and the blue stripes as the nation’s rivers and sky; the nine stripes collectively recall the original departmental division. The Sun signifies the birth of a nation and republican liberty. Minor artistic refinements to the sun’s rendering have occurred, but the essential design has remained stable since the nineteenth century.
+
+The flag features centrally on dates such as 18 July (Constitution Day) and 25 August (Independence). In civic education, correct handling—never letting the flag touch the ground, proper folding, and respectful storage—is emphasised. Abroad, the banner identifies Uruguayan missions and ships and appears at multilateral organisations with codified precedence.
+
+Over nearly two centuries, Uruguay’s flag has balanced local identity—through departmental symbolism and historic banners—with regional heritage, embodied in the Sun of May. The result is a distinctive national emblem that is immediately legible in South America and beyond.`,
+    seoKeywords: [
+      "uruguay flag",
+      "flag of uruguay",
+      "uruguay flag meaning",
+      "uruguay flag history",
+      "uruguay flag colors"
+    ],
+  },
+  paraguay: {
+    countryId: "paraguay",
+    summary250: `Paraguay’s tricolour (red, white, blue) is unique for having different obverse and reverse seals: the coat of arms (front) and the treasury seal with the lion and liberty cap (back). Standardised in 1842, the colours echo revolutionary ideals—courage (red), peace (white), and liberty (blue). The legal ratio is 11:20; decrees define the emblems’ drawings, usage contexts, precedence, and half‑masting.`,
+    longText: `Paraguay’s national flag is distinguished among world flags by its two faces: the obverse bearing the national coat of arms and the reverse displaying the treasury seal. The horizontal tricolour—red, white, blue—was formalised in 1842, consolidating earlier revolutionary designs adopted after independence in 1811.
+
+Under Spanish rule, colonial emblems prevailed in Asunción. The events of 14–15 May 1811 brought self‑government and a search for republican symbols. Early cockades and flags experimented with red, white, and blue arrangements influenced by regional currents and French revolutionary colours, while local meanings developed: red associated with courage and justice, white with peace and purity, and blue with liberty and steadfastness.
+
+Through the 1820s and 1830s, flags varied in stripe orientation and the presence of arms. The 1842 decree standardised a horizontal tricolour with distinct faces. The obverse arms show a yellow five‑pointed star wreathed by palm and olive with the legend “República del Paraguay.” The reverse treasury seal features a lion seated before a staff topped with a Phrygian cap beneath the motto “Paz y Justicia.”
+
+The legal proportion is 11:20, and subsequent decrees have provided construction sheets for the emblems to harmonise manufacture. Civil, state, and military flags are distinguished by the presence and rendering of the seals, and government guidance addresses fabric, placement, and minimum sizes for public buildings and ceremonies.
+
+Protocol specifies the order of precedence when flown with foreign flags, procedures for half‑masting during national mourning, nocturnal illumination when kept aloft at night, and dignified retirement. Schools teach correct folding and the difference between obverse and reverse, a practical concern given the flag’s dual design.
+
+Paraguay’s tricolour has persisted through wars, reconstruction, and reform. Artistic refinements in 2013 clarified colour shades and seal details, but the nineteenth‑century concept remains. The result is a flag whose symbolism—courage, peace, justice, liberty—reflects both European revolutionary ideals and Paraguayan civic values.
+
+National commemorations on 14–15 May and 15 August centre the tricolour in parades and rituals. Abroad, the dual‑face design is carefully oriented to display the obverse arms when possible, while state and military contexts use the prescribed versions.`,
+    seoKeywords: [
+      "paraguay flag",
+      "flag of paraguay",
+      "paraguay flag meaning",
+      "paraguay flag history",
+      "paraguay flag colors"
+    ],
   }
 }
 
