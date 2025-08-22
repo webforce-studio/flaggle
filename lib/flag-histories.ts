@@ -1411,9 +1411,7 @@ Zimbabwe’s banner is thus a layered emblem—pan‑African stripes, revolution
   },
   "cote-divoire": {
     countryId: "cote-divoire",
-    summary250:
-      "Côte d’Ivoire’s flag, a vertical tricolour of orange, white, and green in 2:3 ratio, was adopted on 3 December 1959 and retained at independence (7 August 1960). Orange denotes savannas and national energy; white peace; green forests and hope. Its arrangement mirrors but inverts Ireland’s flag chromatically; protocol fixes proportions and respectful display.
-    ",
+    summary250: `Côte d’Ivoire’s flag, a vertical tricolour of orange, white, and green in 2:3 ratio, was adopted on 3 December 1959 and retained at independence (7 August 1960). Orange denotes savannas and national energy; white peace; green forests and hope. Its arrangement mirrors but inverts Ireland’s flag chromatically; protocol fixes proportions and respectful display.`,
     longText: `Côte d’Ivoire’s tricolour aligns republican symbolism with ecological and civic readings.
 
 Adoption. As autonomy advanced within the French Community, Côte d’Ivoire enacted a national flag on 3 December 1959: orange‑white‑green vertical bands in a 2:3 ratio. The flag was retained unchanged at independence on 7 August 1960.
