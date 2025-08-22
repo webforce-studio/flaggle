@@ -1552,6 +1552,135 @@ Continuity. The composition has remained unchanged through political transitions
 Thus the Gambian banner ties geography and civics into a crisp, enduring tricolour with white separators, maintained by statute and ceremony.`,
     seoKeywords: ["gambia flag history", "gambia flag meaning"],
   }
+  ,
+  botswana: {
+    countryId: "botswana",
+    summary250: `Botswana’s flag, adopted on 30 September 1966 at independence, is a light‑blue field crossed by a central black stripe edged in white. Blue represents rain and life (pula); black and white together symbolize racial harmony and the diversity of the nation. The design intentionally avoided partisan or pan‑African palettes to emphasize unity and pragmatism. Proportions are typically 2:3; law and protocol regulate construction, respectful handling, precedence, half‑masting, and illumination at night. The flag has remained unchanged since adoption and is taught widely in schools and civic ceremonies.`,
+    longText: `Botswana’s national flag was enacted on 30 September 1966, the day the former Bechuanaland Protectorate became the independent Republic of Botswana. Before independence the Union Jack served as the territory’s official flag; the new design was created to symbolize the priorities of the state and its people without embedding party insignia or ethnic motifs.
+
+The predominant light blue is a direct reference to water and rain. In a semi‑arid country where drought has shaped demography, agriculture, and policy, rain is celebrated in language and ceremony. The national motto and the common blessing “Pula!” encapsulate this reality. Setting blue as the field foregrounds stewardship of scarce resources and the shared hope for prosperity through prudent management.
+
+Across the centre runs a black horizontal stripe bordered above and below by thin white fimbriations. Black and white together express the principle of racial harmony and equal citizenship. Surrounded at independence by regimes riven by racial division—apartheid South Africa and minority‑ruled Rhodesia—the new republic chose a flag that made nonracial democracy unmistakable. The strong contrast of black and white on blue also ensures legibility at distance.
+
+Official specifications establish a 2:3 ratio; the relative widths of the black stripe and white fimbriations and the exact shade values are standardised to ensure consistent manufacture. Protocol prescribes order of precedence when flown with other flags, dignified retirement of worn flags, half‑masting by proclamation, and illumination if displayed at night. Desecration or commercial misuse is prohibited by statute.
+
+The flag appears on government buildings, schools, border posts, and missions abroad. It anchors Independence Day ceremonies and civic education, where the symbolism—rain as life, black and white for unity—is repeatedly taught. While the coat of arms and presidential standard incorporate distinct motifs, the civil flag remains plain and potent.
+
+No significant redesigns have been proposed or adopted since 1966. The flag’s durability mirrors Botswana’s broader post‑independence trajectory: constitutional continuity, prudent governance, and a civic identity that prioritises unity over factional symbolism.`,
+    seoKeywords: ["botswana flag history", "botswana flag meaning"],
+  },
+  namibia: {
+    countryId: "namibia",
+    summary250: `Namibia’s flag was adopted on 21 March 1990 at independence. A red diagonal band edged in white runs from lower hoist to upper fly, dividing a blue upper hoist triangle (charged with a golden sun of twelve triangular rays) from a green lower fly triangle. Blue represents the sky, Atlantic, and water; red the people’s heroism and unity; green vegetation and land; white peace. Ratio 2:3; the construction sheet standardizes the sun and band geometry and colour references.`,
+    longText: `Namibia’s banner emerged from a national competition ahead of independence and was formalised with legal specifications on 21 March 1990. The composition is dynamic: a broad red diagonal, bordered by narrow white fimbriations, cuts across a blue upper hoist triangle and a green lower fly triangle. A golden sun with twelve triangular rays rests in the blue field near the hoist.
+
+Each element bears layered meaning. Blue stands for the sky, the Atlantic, and precious water resources. Red signifies the people—their heroism, determination, and unity in the struggle for self‑government. Green represents vegetation, agriculture, and hope for renewal. White expresses peace. The golden sun echoes the coat of arms and symbolises life and energy; its twelve rays are evenly spaced and codified.
+
+Statutory drawings fix a 2:3 ratio; the diagonal’s width, the thickness of the white fimbriations, and the sun’s diameter and placement are defined with precision to support consistent manufacture. Protocol prescribes respectful handling, precedence, half‑masting by order, and illumination at night. The civil flag appears widely on ministries, schools, and missions; derived standards for the president and defence force add distinctive charges without altering the national colours.
+
+The choice of a diagonal layout created instant distinctiveness among African flags, while the bright palette supports recognition on land and at sea. Since adoption the design has not been materially altered, signalling continuity in national identity and broad popular acceptance.`,
+    seoKeywords: ["namibia flag history", "namibia flag meaning"],
+  },
+  malawi: {
+    countryId: "malawi",
+    summary250: `Malawi’s flag, first adopted on 6 July 1964, is a horizontal tricolour of black, red, and green bearing a rising red sun on the black band to mark the dawn of independence. In 2010 a redesigned flag with a full white sun and reordered colours (red‑black‑green) briefly replaced it; the original design was restored by Act in May 2012. Black stands for the people, red for sacrifice, green for the land. Ratio 2:3; law standardizes the sun and colours.`,
+    longText: `Malawi’s national flag has twice served as a visual ledger of constitutional change. At independence on 6 July 1964 the republic adopted a horizontal tricolour—black over red over green—with a red rising sun of thirty‑one rays centred on the black band. The sun symbolised the dawn of freedom for the peoples of Africa. Black represented the people of Malawi; red the blood shed in the struggle; green the country’s rich land and vegetation.
+
+The 1964 design remained in use for decades, becoming a familiar emblem in schools, ceremonies, and diplomacy. Specifications set a 2:3 ratio; colours and the sun’s ray count and geometry were standardised. Protocol provided for precedence, half‑masting, illumination at night, and dignified retirement of worn flags.
+
+In July 2010 a new flag was introduced featuring three bands reordered red‑black‑green and a full white sun centred on the black stripe. Officials argued this represented a “mature” noonday nation. The redesign was controversial, with debates about public consultation, cost, and the perceived abandonment of liberation symbolism. Following elections, Parliament repealed the change and, in May 2012, restored the 1964 flag by law.
+
+The restoration affirmed the primacy of the independence narrative. Today the 1964 banner—with its rising sun—again flies on state buildings and abroad. Civic education materials emphasise correct handling, the meaning of the colours, and the historical interlude of 2010–2012.
+
+Across both episodes, the flag’s essential message has remained consistent: people, sacrifice, and land joined beneath a shared rising sun.`,
+    seoKeywords: ["malawi flag history", "malawi flag meaning"],
+  },
+  "sierra-leone": {
+    countryId: "sierra-leone",
+    summary250: `Sierra Leone’s flag, adopted on 27 April 1961 at independence, consists of three equal horizontal bands of green, white, and blue in a 2:3 ratio. Green represents agriculture and the mountains; white stands for unity and justice; blue symbolizes the natural harbour of Freetown and the sea. Statutes regulate proportions and respectful display across state institutions and missions abroad.`,
+    longText: `The flag of Sierra Leone was proclaimed on 27 April 1961, the day the country attained independence from the United Kingdom. The simple tricolour—green, white, blue—was selected to capture geography, civic ideals, and the maritime identity of the capital.
+
+Green, placed uppermost, represents agriculture, the forested hills, and the nation’s natural wealth. White, in the centre, symbolises unity and justice—virtues integral to the constitutional order. Blue, at the base, signifies the deep natural harbour of Freetown and the surrounding Atlantic, a maritime asset central to history and trade. The palette and order yield high contrast and clear symbolism in public education.
+
+A 2:3 ratio and equal band widths are standardised. Colour references are fixed to ensure manufacturing consistency. Protocol covers precedence with foreign flags, half‑masting at national mourning, nocturnal illumination, and dignified retirement of worn flags. Misuse is penalised by law.
+
+The design has remained unchanged since 1961. It appears on ministries, schools, ships under appropriate registration, and missions abroad. Derived standards for the president and armed forces add insignia without altering the national tricolour. The flag’s clarity makes it readily recognisable among the family of West African banners.`,
+    seoKeywords: ["sierra leone flag history", "sierra leone flag meaning"],
+  },
+  liberia: {
+    countryId: "liberia",
+    summary250: `Liberia’s flag (24 August 1847) features eleven red‑and‑white stripes and a blue canton charged with a single white star. The stripes honour signatories of the Declaration of Independence and echo the American pattern; the lone star proclaims sovereignty—the “Lone Star Republic.” Ratios vary historically; modern usage commonly follows U.S.‑style proportions. Protocol and maritime law govern wide civil and naval use.`,
+    longText: `Adopted on 24 August 1847, days after the republic’s founding, Liberia’s flag consciously echoes the flag of the United States while asserting distinct statehood through a single white star. Eleven horizontal stripes—six red and five white—represent the eleven signatories of Liberia’s Declaration of Independence and the sacrifices of nation‑building. The blue canton in the upper hoist bears one white five‑pointed star symbolising the “Lone Star Republic,” free and sovereign among nations.
+
+The historical connection to the United States, from which many early settlers arrived, informed the choice of colours and pattern: red for courage, white for purity, and blue for fidelity and justice. Yet the single star differentiates Liberia’s emblem from its inspiration, locating identity in West Africa.
+
+Law regulates construction and respectful use; proportions have followed U.S. practice with minor local variations. In addition to government display on land, Liberia’s open ship registry has given the flag extensive maritime presence. Protocol prescribes order of precedence, half‑masting, and dignified retirement; improper commercial use and desecration are offences.
+
+Across civil ceremonies, schools, and international missions, the Lone Star flag functions as a durable symbol linking constitutional heritage to a modern sovereign republic.`,
+    seoKeywords: ["liberia flag history", "liberia flag meaning"],
+  },
+  gabon: {
+    countryId: "gabon",
+    summary250: `Gabon’s flag—three equal horizontal bands of green, yellow, and blue—was adopted on 9 August 1960 (preceded by a 1959 variant with a French stripe). Green depicts equatorial forests; yellow the equator and national wealth; blue the Atlantic Ocean. Ratio commonly 3:4; legislation and guidance standardize colour references and protocol for state display and half‑masting.`,
+    longText: `Gabon’s national flag achieved its current form on 9 August 1960, on the eve of independence. An earlier 1959 colonial‑era design added a narrow French tricolour at the hoist; this was removed, leaving three equal horizontal bands—green, yellow, blue—that have endured for decades.
+
+The symbolism is geographic and economic. Green represents the dense equatorial forests that define Gabon’s ecology. Yellow marks both the equator, which crosses the country, and the wealth of the land. Blue signifies the Atlantic Ocean and the rivers that shape settlement and commerce. The uncluttered tricolour reads clearly at distance and on sea and air ensigns derived from the civil flag.
+
+Guidance sets a typical 3:4 ratio and fixes colour references to support consistent manufacture. Protocol addresses precedence with foreign flags, half‑masting on national mourning, illumination when flown at night, and respectful retirement. Worn or defaced flags are withdrawn from service.
+
+The design’s restraint and geographic clarity have spared it from significant controversy or redesign. It appears across ministries, schools, and missions abroad, functioning as a stable emblem of a forested equatorial state on the Atlantic.`,
+    seoKeywords: ["gabon flag history", "gabon flag meaning"],
+  },
+  "central-african-republic": {
+    countryId: "central-african-republic",
+    summary250: `The Central African Republic’s flag (1 December 1958), designed by Barthélemy Boganda, combines four horizontal bands—blue, white, green, yellow—with a vertical red stripe through the centre and a yellow five‑pointed star in the upper hoist. The scheme symbolises the union of Africa and Europe and the blood that binds the nation. Ratio commonly 3:5; specifications and protocol are established by law.`,
+    longText: `Proclaimed on 1 December 1958 for the autonomous Central African Republic within the French Community, and retained at independence in 1960, the national flag unites colours and orientations in a distinctive composition. Four equal horizontal bands—blue, white, green, yellow—are crossed by a vertical red stripe centred from top to bottom. A yellow five‑pointed star appears in the canton on the blue band.
+
+Boganda’s rationale placed the red stripe as the blood that binds; blue and white referenced Europe, green and yellow Africa—together expressing cooperation and unity. The star symbolises independence and aspiration. The unusual crossing of horizontal and vertical elements yields instant recognisability among world flags.
+
+A typical ratio of 3:5 is used in practice; colour references, the width of the vertical stripe, and the star’s size and placement are specified in guidance to ensure consistent manufacture. Protocol prescribes precedence, half‑masting, nocturnal illumination, and dignified retirement. Misuse is penalised.
+
+The design has remained stable. Presidential and military standards derive from the civil flag with added devices. Civic education emphasises the meaning of each colour and the unifying red band.`,
+    seoKeywords: ["central african republic flag history", "central african republic flag meaning"],
+  },
+  chad: {
+    countryId: "chad",
+    summary250: `Chad’s flag, adopted on 6 November 1959, is a vertical tricolour of blue, yellow, and red. Blue stands for sky and hope, yellow the sun and desert, red for sacrifice and unity. Often compared with Romania’s tricolour, Chad uses a darker (indigo) blue; both states maintain their historic designs. Ratio 2:3; law regulates colours, construction, and protocols for display and half‑masting.`,
+    longText: `Chad proclaimed its national flag on 6 November 1959, months before independence in August 1960. The design is a vertical tricolour—blue nearest the hoist, then yellow, then red—reflecting francophone vexillological tradition while expressing national conditions and aspirations.
+
+Blue symbolises the sky, southern waters, and hope. Yellow represents the sun and the northern Sahara’s sands. Red recalls the blood shed for freedom, patriotism, and unity. The palette’s clarity has made the tricolour a simple and effective emblem across a vast, diverse territory.
+
+The flag’s resemblance to Romania’s, long noted by observers, arises from convergent adoption of a common European tricolour model. Chad typically specifies a darker, indigo‑leaning blue; both countries have retained their designs. International law recognises each state’s right to its emblem so long as fraud or misuse is not intended.
+
+Specifications fix a 2:3 ratio with equal bands and colour references for consistent manufacture. Protocol addresses precedence, half‑masting by decree, illumination at night, and dignified retirement; desecration and unauthorised commercial use are restricted.
+
+Since independence the design has not changed, serving as a unifying symbol on ministries, schools, and missions abroad.`,
+    seoKeywords: ["chad flag history", "chad flag meaning"],
+  },
+  mauritania: {
+    countryId: "mauritania",
+    summary250: `Mauritania’s flag features a green field charged with a gold upward‑facing crescent and five‑pointed star, bordered at top and bottom by red stripes added in 2017. The original 1959 design lacked the red bands; a referendum introduced them to honour sacrifice and perseverance. Green and gold reflect Islam and the Sahara; red recalls the struggle. Ratio 2:3; law standardizes geometry and colours.`,
+    longText: `Mauritania adopted its first national flag in 1959: a green field bearing a gold crescent and star, symbols of Islam and the desert’s sun. After decades of use, a 2017 constitutional referendum amended the design by adding narrow red stripes at the top and bottom of the field. The bands memorialise the sacrifices of the people and their endurance in forging and defending the nation.
+
+The present flag thus comprises a green field bordered by red stripes, with a gold upward‑facing crescent and five‑pointed star centred between them. Green represents Islam and hope; gold (yellow) the sands and the sun; red the blood of patriots and the collective will to persevere.
+
+Statutory guidance fixes a 2:3 ratio; the widths of the red stripes relative to the field, the diameter and orientation of the crescent and star, and colour references are defined to support consistent manufacture. Protocol prescribes precedence, half‑masting by proclamation, illumination at night, and dignified retirement of worn flags. Improper use is restricted.
+
+The 2017 change was implemented nationwide across public buildings and missions. Civic education materials explain both the historical 1959 emblem and the reasons for the added red borders, situating the flag within a constitutional evolution.`,
+    seoKeywords: ["mauritania flag history", "mauritania flag meaning"],
+  },
+  lesotho: {
+    countryId: "lesotho",
+    summary250: `Lesotho’s current flag (4 October 2006) is a horizontal tricolour of blue, white, and green with a central black mokorotlo (Basotho hat) on the white band. Blue represents rain; white peace; green prosperity and the land. The 2006 design replaced a 1987 emblematic flag to emphasize civilian unity and tradition. Ratio 2:3; construction sheets standardize the hat’s geometry and placement.`,
+    longText: `On 4 October 2006, Lesotho introduced a new national flag to mark the 40th anniversary of independence and to signal a renewed emphasis on peace and tradition. The design comprises blue, white, and green horizontal bands, with a black mokorotlo—the Basotho conical hat—centred on the white stripe.
+
+The symbolism is straightforward. Blue denotes rain, vital in Lesotho’s highland climate and hydropower economy. White represents peace. Green stands for the land and prosperity. The mokorotlo, an enduring cultural emblem, anchors national identity in Basotho heritage and appears in stylised form on the coat of arms and other state devices.
+
+The 2006 flag replaced the 1987 banner that bore shield, spear, and club motifs. The change was intended to underscore civilian unity and stability after periods of political tension. Legal instruments set a 2:3 ratio; the hat’s dimensions, line weights, and placement are specified to ensure legibility at different sizes. Protocol lays out order of precedence, half‑masting, and dignified retirement; misuse is restricted.
+
+The flag flies widely on state buildings, schools, and missions and features centrally in national holidays. Its crisp palette and central emblem have made it readily recognisable among African flags while retaining a distinctly local voice.`,
+    seoKeywords: ["lesotho flag history", "lesotho flag meaning"],
+  }
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
