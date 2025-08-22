@@ -1891,6 +1891,63 @@ Specifications fix a 2:3 ratio; the width of the red fimbriations, the disc diam
 The banner flies on ministries, schools, and missions abroad and features centrally in independence celebrations and civic education, where the arms’ symbolism is taught.`,
     seoKeywords: ["belize flag history", "belize flag meaning"],
   }
+  ,
+  bolivia: {
+    countryId: "bolivia",
+    summary250: `Bolivia’s flag (31 October 1851; reaffirmed 2009) is a horizontal tricolour of red, yellow, and green, often displayed with the national coat of arms centred for state use; the civil flag omits the arms. Red signifies bravery; yellow natural resources; green fertility and hope. The wiphala is also recognised for indigenous representation. Ratio 2:3; protocol distinguishes variants and contexts.`,
+    longText: `Bolivia’s republican tricolour—red, yellow, green—was formalised on 31 October 1851 after earlier revolutionary banners. The colours have canonical readings: red for the bravery and blood of patriots; yellow for the nation’s mineral and natural wealth; green for the land’s fertility and hope. For state and military display the coat of arms is commonly placed at the centre; a plain tricolour serves as the civil flag.
+
+The 2009 Constitution additionally recognised the wiphala, a multicoloured Andean emblem, as a symbol of the Plurinational State when used in appropriate contexts, complementing the tricolour rather than replacing it. This dual recognition reflects Bolivia’s plurinational identity and constitutional reforms.
+
+Statutes define a 2:3 ratio, equal band heights, colour references, and, for the state flag, the shield’s scale and placement. Protocol prescribes precedence, half‑masting by decree, nocturnal illumination, dignified retirement of worn flags, and restrictions on commercial misappropriation. Armed and civic ensigns are derived from the core design.
+
+The flag is ubiquitous in national ceremonies and international representation. Civic education teaches the meanings of both the tricolour and the wiphala within the framework of a unified plurinational republic.`,
+    seoKeywords: ["bolivia flag history", "bolivia flag meaning"],
+  },
+  brazil: {
+    countryId: "brazil",
+    summary250: `Brazil’s flag (19 November 1889; updated star map periodically) shows a green field with a yellow rhombus bearing a blue celestial globe with 27 white stars and the motto “Ordem e Progresso.” Green and yellow recall imperial colours; the globe depicts the sky over Rio on 15 Nov 1889. Ratio 7:10; law fixes star positions and updates with state changes.`,
+    longText: `Proclaimed days after the republic on 15 November 1889, Brazil’s flag retained imperial colours—green and yellow—while replacing the arms with a positivist celestial globe. The green field and yellow rhombus frame a blue disk with a white equatorial band inscribed ORDEM E PROGRESSO and a star map of the southern sky as seen over Rio de Janeiro on the date of the proclamation.
+
+Each star corresponds to a state or the Federal District, positioned in legally defined constellations (such as Cruzeiro do Sul) mirrored as if viewed from outside the celestial sphere. The star count has been updated with changes to the federation, most recently to 27. The motto reflects Auguste Comte’s positivism influential among the republic’s founders.
+
+Standards fix a 7:10 ratio; the diameters of the rhombus and globe, arc of the motto band, typeface, and precise coordinates of each star are codified to ensure uniform manufacture. Protocol prescribes precedence, half‑masting by decree, nocturnal illumination, and dignified retirement; improper commercial use is restricted.
+
+The banner flies at ministries, schools, and missions abroad and features centrally in civic rituals, sport, and international branding, balancing imperial chroma with republican cosmography.`,
+    seoKeywords: ["brazil flag history", "brazil flag meaning"],
+  },
+  canada: {
+    countryId: "canada",
+    summary250: `Canada’s National Flag (15 February 1965) is a red‑white‑red vertical triband with a stylised 11‑point red maple leaf centred on the white square. The “Maple Leaf” replaced the Red Ensign to provide a distinctive Canadian emblem. Ratio 1:2; construction sheets define the leaf, its stem, and the white square (half the flag’s length).`,
+    longText: `On 15 February 1965 Canada inaugurated its National Flag after an extensive parliamentary process. The design—red, white, red vertical bands with a stylised 11‑point maple leaf centred in a square white field—replaced the Canadian Red Ensign to establish a unique symbol for all Canadians at home and abroad.
+
+Red and white are Canada’s national colours proclaimed in 1921. The maple leaf had long symbolised the land and its people in military insignia and civic emblems. The final geometry balances recognition and manufacturability: a 1:2 ratio; the white square equal to one‑half the flag’s length; precise leaf silhouette and stem proportions set in construction sheets for consistent reproduction.
+
+Protocol governs precedence, respectful handling, half‑masting by order, and illumination at night. The flag should never be used as a table covering or drapery, and worn flags are retired with dignity. The National Flag is ubiquitous at federal sites, schools, and international missions, and 15 February is marked as National Flag of Canada Day.
+
+The emblem’s clarity and neutrality have supported a shared civic identity across a bilingual, multicultural federation.`,
+    seoKeywords: ["canada flag history", "canada flag meaning"],
+  },
+  chile: {
+    countryId: "chile",
+    summary250: `Chile’s flag (“La Estrella Solitaria”) has a white canton with a five‑pointed white star on blue, and two horizontal bands (white over red). Adopted in 1817–1818, it symbolises the Andes (white), blood of patriots (red), the sky (blue), and the guiding star of authority and independence. Ratio 2:3; construction standardises canton and star.`,
+    longText: `Chile adopted its current flag in the independence period (1817–1818). The design consists of two horizontal bands—white over red—with a blue canton at the hoist bearing a single white five‑pointed star. Known as La Estrella Solitaria, it communicates geography and republican ideals: white for the snow of the Andes; red for the blood shed for independence; blue for the sky over the Pacific; and the lone star for guidance and sovereign authority.
+
+A 2:3 ratio is standard. Construction sheets fix canton proportions, star diameter and placement, and colour references. Protocol regulates precedence, half‑masting, illumination at night, and dignified retirement; improper use is restricted. Derived ensigns serve naval and civil maritime contexts.
+
+The banner is central to national holidays (Fiestas Patrias), appears across ministries, schools, and missions, and is taught in civic education as a synthesis of landscape and liberty.`,
+    seoKeywords: ["chile flag history", "chile flag meaning"],
+  },
+  colombia: {
+    countryId: "colombia",
+    summary250: `Colombia’s flag (1861) is a horizontal tricolour of yellow (double height), blue, and red, inherited from Gran Colombia. Yellow signifies wealth and the sun; blue seas and rivers; red the blood of patriots. Ratio 2:3; the civil flag is plain; state and war flags bear arms and inscriptions. Protocol and colour references are defined in law.`,
+    longText: `Colombia retained a version of the tricolour of Gran Colombia after the federation dissolved, fixing the current layout in 1861: yellow occupying the upper half of the flag, over blue and red bands of equal height. The palette has canonical readings—yellow for wealth, the sun, and sovereignty; blue for the seas and rivers; red for the blood and courage of those who fought for independence.
+
+Variants distinguish usage: the civil flag is plain; the state flag bears the coat of arms; the war flag includes arms and inscriptions. Statutes define a 2:3 ratio, band proportions, and colour references for consistent manufacture. Protocol governs precedence, half‑masting by decree, night illumination, and dignified retirement; misuse is restricted.
+
+The tricolour is ubiquitous in civic life—ministries, schools, and international missions—and anchors ceremonies on national dates, sustaining a historical link to the broader independence movement of northern South America.`,
+    seoKeywords: ["colombia flag history", "colombia flag meaning"],
+  }
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
