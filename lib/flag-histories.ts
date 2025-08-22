@@ -808,6 +808,218 @@ The design has remained stable since the mid‑1990s, with incremental guidance 
 Today, Slovenia’s flag functions as a concise narrative: a nineteenth‑century tricolour matured into a sovereign emblem by adding a shield that encodes mountain, water, and starry heraldry. In European councils and on Alpine ridgelines, the white‑blue‑red with Triglav’s shield signals a small country with a clear story of cultural perseverance, democratic transition, and geographic pride.`,
     seoKeywords: ["slovenia flag history", "slovenian flag meaning"],
   },
+  liechtenstein: {
+    countryId: "liechtenstein",
+    summary250:
+      "Liechtenstein’s flag consists of blue over red with a gold crown at the hoist. Blue is often read as the alpine sky; red as the glow of hearth and community. The bicolour dates to princely livery colours used in the eighteenth and nineteenth centuries. After Liechtenstein discovered at the 1936 Olympics that its flag matched Haiti’s, the principality added the crown in 1937 to assert sovereign distinction and constitutional monarchy. Protocol requires the crown nearest the hoist; correct ratios and shades are prescribed; commercial exploitation is restricted. The flag appears on National Day (15 August), over ministries, and at diplomatic posts, and is handled with strict dignity. Simple in geometry yet steeped in dynastic history, the flag declares the continuity of one of Europe’s smallest sovereign states—an Alpine microstate whose identity bridges princely heritage, civic cohesion, and modern neutrality.",
+    longText: `Liechtenstein’s national flag—blue over red with a gold crown—compresses princely heraldry, civic symbolism, and an interwar moment of diplomatic clarification into one of Europe’s most distinctive microstate standards.
+
+Origins and colours. The oldest association of blue and red with the House of Liechtenstein lies in livery colours used by the princely family from the eighteenth century. Long before parliament codified a national flag, these colours traveled on ribbons, cockades, and regimental decorations that linked princely service to territory. In the nineteenth century, when national flags proliferated alongside new customs unions and conscriptions, Liechtenstein commonly flew a horizontal blue–red bicolour as a domestic sign and abroad when differentiation from Austria was necessary.
+
+Early regulation. Through the late nineteenth and early twentieth centuries, Liechtenstein’s legislation referenced national colours rather than a precise flag drawing. The bicolour gradually settled into common use for public occasions while the elaborate achievement of arms remained reserved for seals and official stationery. The symbolism popularized in schoolbooks—blue for the alpine sky, red for the warmth of home—rooted a civic reading in daily experience rather than dynastic doctrine.
+
+1936 Olympic incident and the crown. In Berlin, Liechtenstein’s delegation noticed that its flag matched Haiti’s horizontal blue–red banner. Because unique identification had become a practical necessity at international gatherings, the government moved swiftly. By law of 24 June 1937, a gold crown was added near the hoist, explicitly representing the constitutional monarchy and the unity of prince and people. The crown was not a novelty: it echoed princely insignia long used in armorial contexts. But its migration to the flag transformed an undifferentiated bicolour into a microstate signature.
+
+Legal standards and etiquette. Subsequent guidance fixed ratios, colour references, and crown placement toward the hoist, centred vertically. Protocol requires respectful handling: clean cloth, no contact with the ground, dignified retirement by incineration. The flag is flown on National Day (15 August), outside ministries in Vaduz, on schools, and at diplomatic missions. Commercial use is regulated; state permission is required for merchandising that might trivialize national symbols. When co‑displayed with foreign flags, Liechtenstein’s flag follows international order of precedence; the crown must remain nearest the pole.
+
+Symbolism and identity. Blue and red are interpreted as sky and hearth—an Alpine landscape above a closely knit community—while the crown declares sovereignty and constitutional monarchy. The combination articulates the principality’s particular recipe for survival: a small population under a dynastic house, economically integrated with neighbours yet jealous of independence. In vexillological terms, the crown also solves a practical problem by distinguishing the banner from others of identical palette.
+
+Continuity since 1937. The design has changed little since adoption. Minor clarifications have concerned the crown’s drawing and metallic gold rendering in textiles and digital reproduction. Because the achievement of arms is comparatively elaborate, the crown alone serves on the flag; the full coat of arms remains for seals and formal documents.
+
+International presentation. Liechtenstein’s embassies and missions raise the flag beside host standards; athletes compete under it in Olympic and alpine events; and the crown has become shorthand for the microstate in iconography and tourism. Within the principality, the flag appears on municipal façades, in classrooms, and at civic celebrations, reinforcing the narrative of a modern state that preserves an older constitutional tradition.
+
+Thus a simple blue‑red field became unmistakably Liechtenstein through a gold crown—an emblem born of dynastic heraldry, affirmed by law in the twentieth century, and kept vibrant by careful protocol and shared civic meaning.",
+    seoKeywords: ["liechtenstein flag history", "liechtenstein flag meaning"],
+  },
+  monaco: {
+    countryId: "monaco",
+    summary250:
+      "Monaco’s flag is a minimalist horizontal bicolour: red over white, adopted by sovereign ordinance in 1881. The colours descend from the heraldry of the House of Grimaldi, rulers of the principality since the thirteenth century. Despite frequent confusion with Indonesia’s (different ratio) and Poland’s (colours inverted), Monaco’s design predates both modern versions. Strict protocols regulate display on government buildings and during National Day (19 November). At sea, distinct state and civil ensigns incorporating the arms prevent confusion. Unauthorized commercial use is discouraged, and princely personal standards are reserved for the Sovereign and family. The continuity of the red‑white banner mirrors Monaco’s emphasis on dynastic stability and legal precision in state symbols.",
+    longText: `Monaco’s red‑over‑white flag—ordained on 4 April 1881—compresses seven centuries of Grimaldi heraldry into a stark, confident national sign.
+
+Heraldic ancestry. Red and white are Grimaldi colours documented in the fourteenth century. In medieval practice, banners served households and rulers as much as territories; Monaco’s fortress over the Mediterranean flew a variety of standards that linked the ruling house to its domain. As national consciousness and diplomatic law matured in the nineteenth century, the principality codified a permanent national flag while preserving armorial complexity for princely standards and seals.
+
+Legal adoption and design. The 1881 ordinance fixed the national flag as two equal horizontal bands—red above white—without arms. Proportion is commonly 4:5 or 2:3 for land display. Because minimal designs risk confusion, colour coordinates and ratios were specified for manufacture and for correct co‑display with foreign flags. The national flag is distinct from state and civil ensigns used at sea: these incorporate the Grimaldi lozengy arms in a white canton on a red field and are tightly regulated to shipping categories.
+
+Comparisons and precedence. Indonesia adopted a similar bicolour in 1945, and Poland’s flag is white over red. Monaco maintains historical precedence for its version and relies on strict proportion differences and maritime ensigns to avoid confusion. In multilateral display rooms and at the United Nations, the principality’s protocol office polices size, position, and fabric to ensure legibility.
+
+Protocol and etiquette. Monaco’s government prescribes respectful handling—clean cloth, no ground contact, dignified retirement—and discourages commercial exploitation. The flag flies on public buildings daily and in heightened display on the Feast of the Sovereign (19 November). Personal standards exist for the Prince and members of the Princely Family, featuring full armorial devices and a princely crown; these are never used by the public.
+
+Symbolism and identity. The bicolour speaks to dynastic continuity and compact sovereignty: a small territory asserting identity through steadfast heraldic colours. The simplicity of the design, far from being impoverished, is a deliberate abstraction that leaves heraldry to the arms while elevating a clear, memorable national mark.
+
+Continuity. Since 1881 the design has not changed. Modern adjustments focus on dye standards and accessibility in digital contexts. Education curricula, stamps, and ceremonial publications rehearse the story of red and white as a throughline from medieval citadel to twenty‑first‑century microstate.
+
+Thus the bicolour of Monaco—spare but resonant—embodies a principality that values legal clarity, heraldic lineage, and protocol exactitude.",
+    seoKeywords: ["monaco flag history", "monaco flag meaning"],
+  },
+  "san-marino": {
+    countryId: "san-marino",
+    summary250:
+      "San Marino’s flag shows white over light blue with the republic’s coat of arms—three towers on Monte Titano, flanked by laurel and oak and the motto Libertas—centred. Adopted in 1862 amid Italian unification, it asserts the micro‑republic’s ancient autonomy. Statutes govern state and civil versions, colour shades, and ceremonial display on September 3 (Founding Day). Etiquette forbids defacement and commercial misuse. The design expresses an old claim: liberty sustained by institutions older than most European states.",
+    longText: `San Marino’s flag—white above light blue with the coat of arms at centre—announces one of Europe’s most durable political stories: a mountain republic claiming liberty since late antiquity and asserting it afresh during nineteenth‑century unification.
+
+From medieval standards to a national flag. Community banners flew over the three summits of Monte Titano in the Middle Ages, but a nationally recognized flag emerged alongside modern diplomacy. By April 1862 the republic codified a white–blue bicolour carrying the arms: three towers (Guaita, Cesta, Montale) on triple peaks, crowned by ostrich plumes, framed by laurel and oak, with Libertas on a scroll. The palette reads conventionally as white for peace and good faith, blue for liberty and sky.
+
+Italian unification and legal consolidation. Surrounded by territories convulsed by the Risorgimento, San Marino retained independence through careful neutrality, sheltering revolutionaries yet negotiating with monarchs. A distinct flag—republican colours plus arms—signalled that the enclave was not a stray Italian municipality but a sovereign commonwealth with its own statutes (first codified in 1600). Subsequent ordinances refined the arms’ drawing and the flag’s proportions for uniform manufacture.
+
+Protocols and variants. Law distinguishes state flags (with full armorial complexity) from simpler civil versions for general use. Government buildings, the Palazzo Pubblico, and diplomatic missions display the state flag; schools and civic venues often use a simplified coat. The flag is raised ceremonially on 3 September, the Feast of the Founding, and on other national anniversaries. Etiquette mandates clean fabric, correct orientation, and dignified retirement; commercial exploitation or defacement is prohibited.
+
+Symbolism and instruction. The arms compress geography and values: towers for the three summits; laurel and oak for victory and steadfastness; Libertas as constitutional creed. Civics curricula teach proper display and the story of the republic’s survival by law rather than force. In mourning, Sammarinese practice commonly adds a black ribbon to the hoist rather than half‑masting in tight medieval streets.
+
+Diplomacy and continuity. San Marino entered European institutions in the late twentieth century while preserving ceremonial forms that emphasize antiquity. Embassies and consulates hoist the flag beside host standards; it appears at international games under its own code. Apart from minor graphic refinements, the flag has remained stable since the nineteenth century, a visual abstraction of endurance on Monte Titano.
+
+San Marino’s flag thus couples a serene bicolour to a dense heraldic centre—an emblem of a polity that has made liberty its motto and continuity its method.",
+    seoKeywords: ["san marino flag history", "san marino flag meaning"],
+  },
+  "vatican-city": {
+    countryId: "vatican-city",
+    summary250:
+      "Vatican City’s flag is a square vertical bicolour: gold (hoist) and white, with the crossed keys of Saint Peter and the papal tiara in the white panel. Codified with the Lateran Treaty in 1929, it inherits colours from earlier Papal States standards (gold and silver rendered as yellow and white). Protocol strictly limits use to Vatican institutions and nunciatures; the papal standard and other variants are reserved. The design asserts spiritual sovereignty distinct from Italy.",
+    longText: `Vatican City’s flag, adopted in 1929, condenses centuries of papal heraldry into a concise legal emblem for the world’s smallest sovereign state.
+
+Papal colours and early standards. The Papal States long experimented with flags, but by the early nineteenth century guards and institutions had settled on gold and silver as emblematic colours—translated in textiles as yellow and white. These colours, together with the crossed keys of Saint Peter and the papal tiara, marked ecclesiastical authority distinct from neighbouring temporal powers.
+
+Lateran Treaty and codification. The 1929 accords between the Holy See and the Kingdom of Italy created Vatican City State and, with it, an official flag: a square vertical bicolour of gold (hoist) and white bearing the keys and tiara in the white panel. Regulations positioned the gold key dexter (nearest the hoist) and the silver sinister, bound by a red cord; they fixed proportions, drawing, and usage.
+
+Symbolism. The gold and silver keys signify the power of binding and loosing granted to Saint Peter; the tiara represents the papacy’s spiritual jurisdiction. The square shape, rare among national flags, further distinguishes Vatican City in international display. The flag asserts that the city‑state is the temporal instrument of a spiritual authority—the Holy See—whose international personality predates and outlives any particular regime.
+
+Protocol and variants. Use is tightly circumscribed: Vatican departments, papal residences, St Peter’s Basilica and Square, and nunciatures abroad display the flag; private or commercial uses require permission. The papal standard—distinct from the state flag—adds the reigning pontiff’s arms and flies only in the pope’s presence. Nunciatures observe diplomatic precedence rules; flags are kept immaculate, never touching the ground, and replaced at the first sign of wear.
+
+Continuity and instruction. Because the design is heraldic rather than ideological, it has remained stable. Training for Swiss Guards, gendarmes, and ceremonial staff includes flag etiquette. During papal transitions (sede vacante) the state flag does not change, underscoring institutional continuity even when the personal standard lapses.
+
+Thus the Vatican flag, in yellow and white with keys and tiara, is at once ancient and modern: an heir to Papal States colours made precise by twentieth‑century law, and a compact assertion of spiritual sovereignty in the language of flags.",
+    seoKeywords: ["vatican city flag history", "vatican flag meaning"],
+  },
+  moldova: {
+    countryId: "moldova",
+    summary250:
+      "Moldova’s flag is a vertical tricolour of blue, yellow, and red with the state arms—eagle, cross, scepter and olive branch, and the aurochs shield—centred in the yellow stripe. Adopted on 27 April 1990 ahead of independence (1991), it acknowledges cultural ties to Romania while asserting distinct statehood through the arms. Statutes specify 1:2 ratio, colour standards, state/civil use, and etiquette for public display and mourning.",
+    longText: `The Republic of Moldova adopted a blue–yellow–red tricolour with arms on 27 April 1990 as the Soviet order waned. The choice balanced history and distinction: colours shared with Romania—reflecting medieval Moldavia and nineteenth‑century national movements—plus state arms to mark separate sovereignty.
+
+Origins of the palette. In the Principality of Moldavia, banners varied, but by the nineteenth century the pan‑Romanian tricolour had become a political emblem of liberty, justice, and fraternity. In the late 1980s, as the Moldavian SSR debated language and identity, the tricolour re‑emerged in demonstrations and on parliament balconies.
+
+Arms and meaning. Moldova’s arms place a golden eagle bearing a cross in its beak over a shield with an aurochs head flanked by star, rose, and crescent. The eagle’s talons grasp an olive branch and scepter, signifying peace and lawful authority. This armorial centre distinguishes the Moldovan flag from Romania’s plain tricolour while linking to the heraldry of historic Moldavia.
+
+Law and protocol. Parliamentary acts set a 1:2 ratio, colour references, and usage: the flag must fly over parliament, presidency, ministries, courts, schools, and diplomatic missions. Civil flags may omit fringes and certain ceremonial features; state and military versions include full arms. Etiquette prescribes half‑masting for mourning and dignified retirement. Production and commercial use are licensed to preserve standards; defacement and misuse are penalized.
+
+Continuity since 1990. Although debates have surfaced about adopting the plain Romanian tricolour or altering proportions, legislators have retained the 1990 design. Minor refinements addressed digital colour values and reproducibility of the aurochs shield.
+
+International use and education. Diplomatic missions display the flag beside host standards; Moldova’s participation in the UN (since 1992) and European institutions has normalized its presence abroad. Civics curricula teach the flag’s history and correct handling. The banner is ubiquitous on Independence Day (27 August) and at remembrance ceremonies, binding a young state to a deep historical narrative.
+
+Thus Moldova’s flag—tricolour plus arms—states both kinship and distinction: a Romanian palette bearing a Moldovan emblem.",
+    seoKeywords: ["moldova flag history", "moldovan flag meaning"],
+  },
+  montenegro: {
+    countryId: "montenegro",
+    summary250:
+      "Montenegro’s flag is a red field with a gold border and the state coat of arms—a crowned double‑headed eagle with orb and scepter and a blue shield bearing a golden lion—at centre. Adopted on 13 July 2004 in the run‑up to renewed independence (2006), it revives royal and Orthodox heraldry. Law fixes ratios, border width, arms size/position, and etiquette across state, military, and civil use.",
+    longText: `Montenegro’s modern flag, codified in 2004, reasserts a royal heraldic grammar after decades of Yugoslav symbolism. A red field bordered in gold carries, at exact centre, the coat of arms: a crowned double‑headed eagle holding orb and scepter, with a blue inescutcheon charged with a golden lion passant.
+
+Historical roots. Medieval Zeta and later the Prince‑Bishops of Cetinje used standards with eagles, crosses, and lions drawn from Byzantine and regional iconography. Under the Kingdom of Montenegro (1910–1918) royal flags and standards featured double eagles and rich gold ornament. Yugoslav integration brought tricolours and socialist emblems; the 1990s loosened those bonds and reopened questions of identity.
+
+Return to heraldry. Parliamentary debates in the early 2000s concluded that a bordered red cloth with centred arms best signaled continuity and distinctiveness. The law of 13 July 2004 set a 1:2 ratio; the gold border at one‑twentieth of width; the arms at one‑half of height. Presidential, parliamentary, and military standards add fringes or special embroidery under separate regulations.
+
+Protocol and usage. The flag is mandatory on state buildings, at courts and schools, and at embassies abroad; it is carried at national celebrations on 21 May (Independence Day) and 13 July (Statehood Day). Etiquette forbids ground contact or defacement and prescribes dignified retirement. In mourning, practice often adds a black ribbon at the hoist.
+
+Symbolism. The double‑headed eagle connotes sovereignty and vigilance; orb and scepter signal legitimate authority; the lion evokes courage and law. The gold border frames the device, lending the flag a formal standard‑like presence in parades and council chambers.
+
+Continuity and recognition. Since 2004 the design has remained stable, with minor line refinements to the arms for digital clarity. Internationally, the flag is instantly legible among European standards—one of few defined by a border and detailed armorial centre—announcing Montenegro’s re‑emergence as a sovereign state after 2006.",
+    seoKeywords: ["montenegro flag history", "montenegrin flag meaning"],
+  },
+  "north-macedonia": {
+    countryId: "north-macedonia",
+    summary250:
+      "North Macedonia’s flag is a red field charged with a stylised golden sun with eight broadening rays, officially adopted on 5 October 1995. Called the ‘Sun of Liberty,’ it replaced the 1992 design that bore the ancient Vergina Sun following an interim accord with Greece. The current emblem avoids claims to Greek heritage while preserving solar symbolism long present in Macedonian iconography. Law specifies proportions, colour tones, and the sun’s geometry and placement; protocol governs respectful handling, co‑display, and mourning. The design followed decades under Yugoslav symbols, and, before that, partisan and regional banners. Today it is a distinct, modern emblem recognised in international fora, on state buildings, and across civic life.",
+    longText: `North Macedonia’s national flag—a red field with a golden sun of eight rays—encodes a careful legal and diplomatic settlement alongside a modern statement of identity.
+
+From regional banners to a national flag. In the Ottoman and early twentieth‑century eras, Macedonian organizations used a variety of banners—often red, with stars, suns, or partisan devices—rather than a single national flag. Under the Socialist Federal Republic of Yugoslavia (1945–1991), the Socialist Republic of Macedonia used a red flag charged with a five‑pointed golden star, conforming to federal practice while signalling a distinct republic.
+
+Independence and the Vergina Sun. With independence in 1991–1992, lawmakers adopted a red field with a sixteen‑rayed ancient sun—commonly called the Vergina Sun—linked to archaeological finds in the Greek region of Macedonia. Greece objected that this emblem appropriated Hellenic cultural heritage and implied irredentist claims. Disputes reverberated through diplomatic channels, affecting recognition and trade.
+
+1995 settlement and the ‘Sun of Liberty.’ The interim accord with Greece in 1995 cleared a path by replacing the sixteen‑rayed symbol with a new sun of eight rays whose geometry broadened from a circular centre to the flag edges. The design preserved a Macedonian solar motif while steering clear of the contested archaeological emblem. On 5 October 1995, the Assembly adopted the new law on the flag, specifying the drawing’s exact construction—diameters, ray widths, and spacing—as well as official shades of red and gold.
+
+Law and protocol. Subsequent regulations standardised proportion, typical practice being 1:2; some uses employ 2:3 to match international display contexts, but the geometry always maintains the sun’s centre at the flag’s midpoint with rays extending symmetrically to the edges. Protocol addresses respectful handling, co‑display with foreign and international flags, illumination at night, and dignified retirement. State buildings, diplomatic missions, courts, and schools fly the flag according to set orders of precedence; misuse for advertising or defacement can incur penalties.
+
+Symbolism. The sun is read as ‘Sun of Liberty,’ a phrase echoing nineteenth‑century revolutionary poetry and modern constitutional aspirations. Red evokes struggle and vitality; gold suggests light and hope. In civics instruction and public rhetoric, the eight rays signify radiance in all directions—an inclusive emblem rather than a dynastic claim.
+
+Continuity and change. Since 1995 the design has remained stable, with technical circulars refining Pantone/CMYK/sRGB values for textiles and digital media to ensure consistent reproduction. Diplomatic practice emphasises correct co‑display with the European Union flag and neighbouring states’ flags in summits and multilateral venues.
+
+International display and sport. At the United Nations and sporting events, the flag’s bold, centric construction reads clearly at distance. Diaspora communities use it widely at cultural festivals, while municipalities pair it with local flags and the national coat of arms on façades and in council chambers.
+
+Thus, North Macedonia’s flag is both creative compromise and confident identity: a modern solar emblem rooted in regional symbolism, legally calibrated to defuse a dispute while projecting a distinct national presence.",
+    seoKeywords: ["north macedonia flag history", "macedonian flag meaning"],
+  },
+  kosovo: {
+    countryId: "kosovo",
+    summary250:
+      "Kosovo’s flag—adopted on 17 February 2008—shows a golden silhouette of Kosovo beneath an arc of six white five‑pointed stars on a blue field. Selected via public competition at independence, the design’s colours nod to European heraldry; the six stars represent Kosovo’s principal ethnic communities. Statutes define proportions, colour references, the map’s placement, and protocols for state, military, and diplomatic use. The flag appears across institutions and at missions abroad, while municipalities may display local flags alongside it under national precedence.",
+    longText: `Kosovo’s flag was unveiled on 17 February 2008, the day its Assembly declared independence. A modern emblem by design competition, it seeks inclusive symbolism and international legibility.
+
+Design and symbolism. The field is blue, charged at centre with a golden silhouette of Kosovo, above which arcs six white stars. The stars, equally spaced and identical, represent the principal communities historically identified in Kosovo’s constitutional discourse; the exact enumeration is less about ethnicity than an acknowledgment of pluralism within a civic republic. The palette—blue, white, and gold—evokes European heraldic norms and intentionally distances the flag from the partisan or ethnic designs of the late twentieth century.
+
+Selection process. In 2007–2008 designers submitted proposals under rules that discouraged overt national colours associated with neighbouring states and required a neutral, state‑forward emblem. The winning approach placed the territory itself at the symbolic centre, with stars for communities under a unifying arc. This choice aligned with international mediation efforts seeking a flag acceptable for multilateral recognition.
+
+Legal standards. Kosovo’s law on state symbols defines the flag’s ratio, colour coordinates, the precise drawing of the map (including its orientation and placement), and star geometry. Protocol prescribes respectful handling, co‑display with foreign and international flags at equal heights, and dignified retirement. State and military flags add fringes or cords for ceremonial use; civil display is permitted within restrictions on commercial exploitation and defacement.
+
+Institutional use. The flag flies above the Assembly, Presidency, Government offices, courts, schools, and embassies. Diplomatic missions enforce manufacture standards to avoid distortion of the map silhouette or misplacement of stars. In municipalities, the national flag holds precedence; local and community flags may be displayed alongside it in prescribed order.
+
+Context and reception. Earlier decades in Kosovo saw intense symbolism: Albanian red‑black flags as ethnic emblems; Serbian state symbols in official spaces; UN administration flags after 1999. The 2008 flag positioned Kosovo as a civic state distinct from ethnonational banners. While acceptance is not uniform in all regions, the flag is the legally required emblem for state functions and international representation.
+
+Continuity and refinement. Since adoption, refinements have focused on digital specifications and procurement guidance. The map’s outline must be crisp and correctly scaled; the arc of stars must match statutory spacing to avoid crowding or asymmetry. Training materials in public administration include modules on correct display and storage.
+
+International presence. At multilateral venues, Kosovo’s flag appears according to the host’s recognition policies; where full recognition is unavailable, the flag still serves domestically and at partner events. In sport, Kosovo competes under its flag in federations that recognise its national committee.
+
+Kosovo’s flag is thus deliberately contemporary: an emblem of a new state that places territory and civic plurality at the heart of its visual identity.",
+    seoKeywords: ["kosovo flag history", "kosovo flag meaning"],
+  },
+  georgia: {
+    countryId: "georgia",
+    summary250:
+      "Georgia’s flag—the ‘Five‑Cross Flag’—is a white field bearing a large red cross of St George with four smaller red crosses in the quarters. Restored by law in January 2004 after the Rose Revolution, it revived a medieval Georgian emblem used by dynasties and in church art. The design replaced the 1990–2004 tricolour. Statutes define proportions, cross geometry, and protocols for state, military, and diplomatic display; improper use is restricted. The flag now appears across institutions and international fora.",
+    longText: `Georgia’s national flag presents a white field charged with a large red cross of St George and four smaller Bolnur‑Katskhuri crosses in the quarters—a medieval motif restored in 2004 to signal renewal and historic continuity.
+
+Medieval antecedents. The five‑cross composition appears in Georgian manuscripts, church frescoes, and dynastic arms from the late medieval period. St George—warrior martyr and patron—figures prominently in Georgian iconography; the multiplicity of small crosses reads as a field of sanctity or as heraldic quarter charges associated with ruling houses.
+
+Modern adoption. After the dissolution of the USSR, the Republic of Georgia initially readopted a red‑black‑white tricolour (1990), a banner with roots in early twentieth‑century national movements. Civil society and historians campaigned for the medieval five‑cross flag as a purer emblem of Georgian statehood. In January 2004, following the Rose Revolution, parliament enacted the law restoring the five‑cross design as the national flag.
+
+Design and construction. Law specifies the ratios and line widths for the central St George’s cross and the four smaller crosses, ensuring the large cross reaches the flag’s edges while the quarter crosses sit proportionally within each quadrant. Official colour standards fix a vivid red on a white field. Variants for presidential and military standards incorporate the national arms or fringes but retain the five‑cross core.
+
+Symbolism. The central cross represents St George and, by extension, Christian heritage and national endurance; the quarter crosses repeat and amplify this theme. White stands for purity and peace; red for courage and sacrifice. In public rhetoric, the flag fuses Christian tradition with civic aspiration after difficult transitions.
+
+Protocol and etiquette. Government buildings, courts, schools, and diplomatic missions display the flag with the Georgian coat of arms separately as a state emblem where appropriate. Protocol prescribes respectful handling, proper illumination at night, precedence rules when flown with the EU flag and other national flags, and dignified disposal. Misuse for advertising or defacement is prohibited.
+
+Continuity and public use. Since 2004 the flag has become ubiquitous in Georgia and among the diaspora. It appears at sporting events, national holidays, and in village squares. Education curricula teach the flag’s history and proper display, and procurement standards ensure consistent geometry across manufacturers.
+
+International presence. At the United Nations and European institutions, Georgia’s five‑cross flag is instantly recognisable among tricolours and ensigns, distinguishing the country visually while echoing medieval heraldry. Military colours, ship ensigns, and presidential standards adapt the core design for service contexts.
+
+By reviving a medieval emblem in modern statutory form, Georgia bound its renewed republic to a deep civilisational memory—an act of heraldic restoration with contemporary political force.",
+    seoKeywords: ["georgia flag history", "georgian flag meaning"],
+  },
+  russia: {
+    countryId: "russia",
+    summary250:
+      "Russia’s flag is a horizontal tricolour of white, blue, and red, restored as the state flag in 1991 after the Soviet period and standardised by law in 1993. Its origins trace to the late 17th century and Peter the Great’s merchant ensigns. The tricolour served the Russian Empire until 1917–1918, returned briefly in the 1917 provisional period, and was re‑adopted after the USSR’s dissolution. Protocol codifies proportions (commonly 2:3), colour standards, co‑display, and respectful handling.",
+    longText: `Russia’s white‑blue‑red tricolour—familiar from embassy façades, stadiums, and summit tables—links modern statehood to a seventeenth‑century maritime beginning.
+
+Origins. The tricolour’s genesis is commonly tied to Peter the Great’s efforts to modernise Russia’s fleet and commerce. In the 1690s, merchant ships flew white‑blue‑red banners influenced by Dutch practice, with the arrangement soon stabilising into horizontal stripes. Through the eighteenth and nineteenth centuries, the tricolour gained currency as a national emblem for civil use, while imperial eagles and black‑yellow‑white cockades populated court heraldry and military standards.
+
+Imperial era. By the late nineteenth century, usage differentiated: black‑yellow‑white sometimes served as imperial colours, while the white‑blue‑red tri‑band stood for the nation in civil contexts. The tricolour fluttered over public buildings and merchant ships and became a fixture of international display even as the Romanov arms dominated state seals.
+
+Revolution and eclipse. The upheavals of 1917 brought brief revival and then eclipse. The provisional government used the tricolour; Bolshevik victory replaced it with red flags bearing hammer‑and‑sickle devices and the red star. Throughout the Soviet period, the tricolour persisted in exile communities and historical memory but not as a state flag.
+
+Restoration. As the USSR unraveled, the Russian Soviet Federative Socialist Republic replaced the Soviet banner with the tricolour (1991). A 1993 constitutional law fixed the white‑blue‑red as the state flag, setting proportions (commonly 2:3), and standardising colour references for manufacturing. The law prescribes respectful handling, co‑display in federal and regional settings, and dignified retirement. August 22, the day of the 1991 re‑raising over the White House in Moscow, became National Flag Day.
+
+Symbolism. Explanations vary: white for nobility and frankness, blue for faith or the Virgin’s robe in Orthodox tradition, red for courage and statehood; or, alternatively, colours of pan‑Slavic kinship later influential in the region. Official texts avoid dogmatic assignments, preferring historical continuity as the flag’s core meaning.
+
+Protocol and variants. The state flag bears no arms; the coat of arms (double‑headed eagle) occupies seals and official devices. Military and presidential standards adapt heraldry separately. Federal law specifies precedence when flown with regional flags across the federation’s subjects and sets standards for diplomatic, maritime, and ceremonial use. Misuse and defacement are sanctionable.
+
+Continuity. Since 1993, minor circulars refined colourimetric values and guidance for digital reproduction. Education and public campaigns emphasise correct display, especially on public buildings and schools. Abroad, embassies and consulates maintain strict procurement standards to ensure crisp horizontal banding and durable fabrics appropriate to climate.
+
+Global visibility. Russia’s tricolour is among the world’s most recognisable, encountered in multilateral halls and international sport. It is, however, always paired domestically with the coat of arms in official interiors, maintaining the Russian separation between national flag and armorial state emblem.
+
+From merchant ensign to state flag, the white‑blue‑red tri‑band has traversed empire, revolution, and restoration—its persistence a function of maritime origins, practical clarity, and the power of a simple, enduring design.",
+    seoKeywords: ["russia flag history", "russian flag meaning"],
+  },
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
