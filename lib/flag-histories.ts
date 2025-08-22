@@ -1880,6 +1880,87 @@ Since reunification, the design has remained unchanged. In the diaspora, alterna
       "vietnam flag history",
       "vietnam flag colors"
     ],
+  },
+  thailand: {
+    countryId: "thailand",
+    summary250: `Thailand’s “Trairanga” (adopted September 1917) is a five‑stripe red‑white‑blue‑white‑red tricolour, with the blue centre band double width. Red denotes the nation/people; white Buddhism/religion; blue the monarchy and, historically, solidarity with WWI Allies. Proportion is 2:3 with strict stripe ratios; law governs protocol, precedence, half‑masting, and dignified retirement. It replaced earlier elephant‑on‑red royal ensigns to modernise and internationalise Siam’s emblem.`,
+    longText: `Thailand’s modern flag, the Trairanga (“Tricolour”), dates to 1917 and articulates nation, religion, and monarchy—the three pillars of Thai identity—through a crisp, symmetrical composition.
+
+From Plain Red to Elephant Banners
+For centuries, Siam used a plain red ensign in maritime contexts, later adding devices such as the chakra and a white elephant to signal royal authority. As international trade expanded in the 19th century, these emblems served on royal and naval standards, but complexity and variability limited their suitability as a civil flag.
+
+1916–1917 Reforms and Adoption
+Under King Vajiravudh (Rama VI), reforms pursued clearer international presentation and domestic cohesion. A red‑white‑red flag appeared in 1916 as a transitional design. In September 1917, the definitive Trairanga was decreed: five horizontal stripes—red, white, blue (double width), white, red—with a 2:3 aspect ratio. The blue centre honoured the monarchy and aligned Siam visually with Allied colours during World War I.
+
+Symbolism and Structure
+Red signifies the Thai nation and the land; white represents Buddhism and religious purity; blue denotes the monarchy and loyalty. The doubled central band establishes visual centrality of the crown and balances the composition.
+
+Protocol and Variants
+Regulations prescribe stripe proportions, colour shades, respectful handling, sunrise‑to‑sunset flying, half‑masting in mourning, and dignified retirement. Royal, naval, and military flags adapt elephant and chakra devices, while the civil flag remains the five‑stripe tricolour.
+
+Continuity in Public Life
+Unchanged since 1917, the Trairanga flies over ministries, schools, temples, and embassies, anchors national ceremonies, and functions as a unifying symbol through political change. Its clarity and legal standardisation have secured high recognition at home and abroad.`,
+    seoKeywords: [
+      "thailand flag",
+      "flag of thailand",
+      "thailand flag meaning",
+      "thailand flag history",
+      "thailand flag colors"
+    ],
+  },
+  philippines: {
+    countryId: "philippines",
+    summary250: `The Philippines flag (first raised 12 June 1898) has blue over red horizontal bands and a white hoist triangle bearing a golden sun with eight rays and three stars. Blue denotes peace, truth, justice; red patriotism and valor; the triangle equality/Katipunan ideals; the sun independence and the people; stars the three main island groups. The flag inverts in wartime (red up). Proportion is 1:2 with codified colours and geometry; the 1998 Flag and Heraldic Code governs protocol.`,
+    longText: `The flag of the Philippines crystallises the archipelago’s anti‑colonial revolution and republican ideals in a design renowned for its wartime inversion protocol.
+
+Revolutionary Genesis (1896–1898)
+Katipunan banners pioneered sun and letter motifs during the 1896 uprising against Spain. In exile, Emilio Aguinaldo commissioned a new flag sewn in Hong Kong by Marcela Agoncillo, her daughter Lorenza, and Delfina Herbosa. It was first unfurled at the proclamation of independence in Kawit, Cavite, on 12 June 1898.
+
+Design and Symbolism
+The flag consists of two equal horizontal bands—blue above red in peacetime—with a white equilateral triangle at the hoist. Within the triangle appears a golden sun with eight rays for the first eight provinces to revolt, and three five‑pointed stars for Luzon, Visayas, and Mindanao. Blue stands for peace, truth, and justice; red for patriotism and valor; the triangle for equality and revolutionary ideals. In wartime, the flag is inverted (red up), a unique feature among national flags.
+
+Suppression, Restoration, and Law
+American colonial authorities banned public display from 1907 to 1919, but the emblem returned during the Commonwealth and was fully reinstated at independence on 4 July 1946 (now commemorated 12 June). The Flag and Heraldic Code of 1998 establishes a 1:2 ratio, precise geometry of the sun and stars, colour standards, etiquette, and penalties for misuse.
+
+Protocol and Public Life
+Guidance mandates respectful handling, precedence, half‑masting in mourning, and dignified retirement. The flag is omnipresent in schools, government, and diaspora communities, and central to Independence Day rites. Its inversion rule provides a vivid, widely recognised signal of national status in peace or war.
+
+Continuity
+Except for shade adjustments and minor standardisation, the design has remained consistent with the 1898 concept, binding revolutionary heritage to modern statehood.`,
+    seoKeywords: [
+      "philippines flag",
+      "flag of the philippines",
+      "philippines flag meaning",
+      "philippines flag history",
+      "philippines flag colors"
+    ],
+  },
+  "south-korea": {
+    countryId: "south-korea",
+    summary250: `South Korea’s Taegeukgi (reaffirmed 1948; origins 1883) places a red‑blue Taegeuk at the center of a white field with four black I Ching trigrams (geon, gon, gam, ri) in the corners. White signifies purity and peace; the Taegeuk cosmic balance; the trigrams heaven, earth, water, fire. Proportions (2:3), color standards, and trigram placements are codified; protocol governs etiquette and half‑masting. Suppressed under Japanese rule, the flag became a symbol of resistance and later of the Republic.`,
+    longText: `The Taegeukgi—South Korea’s national flag—interweaves philosophical symbolism with modern statehood, spanning its 1883 introduction to its reaffirmation by the Republic in 1948.
+
+Origins and Adoption (1882–1883)
+Facing expanding foreign relations in the late Joseon period, officials adopted a flag for international treaties and maritime recognition. The chosen design centered a red‑blue Taegeuk (yin‑yang) on white, with four trigrams from the I Ching placed at the corners to encode cosmic principles.
+
+Suppression and Resistance (1910–1945)
+Under Japanese colonial rule, display was repressed. The Taegeukgi served as a clandestine emblem for independence movements, notably during the March 1st Movement (1919), where it became a rallying sign of national aspiration.
+
+Republic of Korea and Standardisation (from 1948)
+With state formation in 1948, the Republic reaffirmed the Taegeukgi. Presidential decrees and later standards fixed a 2:3 ratio, the Taegeuk’s precise construction, trigram positions, and official shades (“Taegeuk red/blue”). Minor adjustments in 1984 and 1997 refined colourimetric and geometric details for consistent manufacture.
+
+Symbolism and Protocol
+White signifies purity and the cultural symbolism of traditional attire; the Taegeuk expresses harmony of opposing forces; the trigrams represent heaven (geon), earth (gon), water (gam), and fire (ri). Protocol prescribes respectful handling, precedence, half‑masting in mourning, and dignified retirement.
+
+Public Life and International Representation
+The Taegeukgi anchors national observances and international events, appearing at schools, embassies, and sports arenas. Its fusion of philosophical cosmology and clean geometry makes it both distinctive and deeply resonant in contemporary Korea.`,
+    seoKeywords: [
+      "south korea flag",
+      "flag of south korea",
+      "south korea flag meaning",
+      "south korea flag history",
+      "south korea flag colors"
+    ],
   }
   ,
   "united-states": {
