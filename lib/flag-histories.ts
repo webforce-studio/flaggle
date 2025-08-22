@@ -2027,6 +2027,98 @@ In practice, the flag’s disciplined geometry and statutory protections ensure 
       "israel flag history",
       "israel flag colors"
     ],
+  },
+  malaysia: {
+    countryId: "malaysia",
+    summary250: `Malaysia’s “Jalur Gemilang” (Stripes of Glory) features fourteen alternating red and white stripes and a blue canton with a yellow crescent and fourteen‑point star. Introduced for the Federation of Malaya and updated in 1963 for Malaysia, the stripes and points represent the thirteen states plus the federal government. Ratio 1:2; rules govern respectful display, precedence, half‑masting, illumination, and retirement.`,
+    longText: `Malaysia’s national flag, known as the Jalur Gemilang, took shape amid decolonisation and federation. First unveiled for the Federation of Malaya after an open competition, it was updated in 1963 when Malaya, Sabah, Sarawak, and Singapore formed Malaysia (with Singapore departing in 1965). The design retains fourteen alternating red and white horizontal stripes and a blue canton charged with a yellow crescent and a fourteen‑pointed star.
+
+The fourteen stripes symbolise the equal partnership of the thirteen states and the federal government; when Singapore left the federation, the count was retained to preserve the emblem’s meaning for the federal system, including federal territories. The blue canton denotes unity; the yellow reflects the Malay rulers’ royal colour. The crescent signifies Islam, the state religion; the star’s fourteen points mirror the stripes’ constitutional symbolism.
+
+Statute sets the aspect ratio at 1:2 and details stripe widths, canton dimensions, and the construction of the crescent and star for consistent manufacture. Protocol prescribes respectful handling, sunrise‑to‑sunset display (or illumination at night), half‑masting by order in mourning, and dignified retirement. The Arms, Flag and Anthem rules constrain commercial usage and require permission for certain reproductions.
+
+The Jalur Gemilang is central to Merdeka (Independence) and Malaysia Day celebrations and is widely flown during National Month campaigns. Schools, ministries, and diplomatic missions maintain flags in standardised sizes; guidance covers vehicle flags, maritime usage, and precedence with foreign flags.
+
+By combining royal colour, Islamic symbolism, and a federal count of stripes and star points, the flag communicates the country’s constitutional monarchy, religious identity, and plural federation in a clear, repeatable geometry that has remained stable for decades.`,
+    seoKeywords: [
+      "malaysia flag",
+      "flag of malaysia",
+      "malaysia flag meaning",
+      "malaysia flag history",
+      "malaysia flag colors"
+    ],
+  },
+  singapore: {
+    countryId: "singapore",
+    summary250: `Singapore’s flag (3 December 1959) is a red over white bicolour with a white crescent and five white stars in a circle at the hoist. Red denotes universal brotherhood; white pervading virtue; the crescent a young nation; the stars the ideals of democracy, peace, progress, justice, and equality. Ratio 2:3; strict law governs construction, respectful use, and half‑masting.`,
+    longText: `Adopted in 1959 at self‑government and retained at independence in 1965, Singapore’s flag encapsulates nation‑building ideals in a simple hoist‑side emblem. The field is a horizontal bicolour—red above white—with a white crescent opening toward the fly and five five‑pointed white stars arranged in a circle in the upper hoist quadrant.
+
+Red signifies universal brotherhood among the island’s multiethnic population; white stands for purity and enduring virtue. The waxing crescent represents Singapore as a young nation on a path of growth; the five stars articulate national ideals: democracy, peace, progress, justice, and equality.
+
+The Singapore Arms and Flag and National Anthem Act and subsidiary legislation prescribe the flag’s 2:3 ratio, canton dimensions, star arrangement, and crescent construction. Protocol defines respectful handling, conditions for public display during the National Day period, half‑masting during state mourning, illumination at night if flown, and proper retirement. Commercial use and clothing applications require permission and must not diminish the flag’s dignity.
+
+Unaltered since 1959, the design’s spare geometry reads clearly at distance and at sea and has become tightly linked to the civic rituals of National Day parades, school ceremonies, and international representation.`,
+    seoKeywords: [
+      "singapore flag",
+      "flag of singapore",
+      "singapore flag meaning",
+      "singapore flag history",
+      "singapore flag colors"
+    ],
+  },
+  nepal: {
+    countryId: "nepal",
+    summary250: `Nepal’s flag is the world’s only non‑rectangular national flag: two stacked crimson pennants bordered blue, bearing a white crescent moon above and a white twelve‑pointed sun below. Adopted with the 1962 constitution, it modernised 19th‑century royal standards by removing facial features. Crimson denotes bravery and the national flower; blue peace. Exact geometric construction is codified in law.`,
+    longText: `Nepal’s national flag preserves the ancient form of double pennons while translating royal insignia into a modern national emblem. The current flag dates to the 1962 constitution, which provided a geometric construction method specifying angles, segment lengths, border widths, and emblem placements so that any artisan could reproduce the design precisely.
+
+The composition is two stacked crimson triangular pennants bordered with deep blue. The upper pennant carries a white crescent moon; the lower bears a white stylised twelve‑pointed sun. Earlier variants depicted human faces on the celestial bodies; these were removed in 1962 to simplify and modernise the iconography. Crimson is associated with bravery and with the rhododendron, Nepal’s national flower; blue signifies peace and harmony.
+
+Historically, triangular standards were used by monarchs and military units in the Kathmandu Valley and beyond. Through successive dynasties, the shapes and emblems varied, but the twin pennants became an identifier of the kingdom. The 20th‑century shift to codified geometry paralleled constitutional reform, establishing a durable, reproducible national symbol.
+
+Protocol governs respectful handling, typical display on government buildings and landmarks, and half‑masting when ordered. The distinctive shape poses unique manufacturing considerations—reinforced hoists and precise border mitres—addressed in official specifications. The flag’s singular outline ensures immediate recognisability among world flags while asserting Nepal’s independent historical trajectory.`,
+    seoKeywords: [
+      "nepal flag",
+      "flag of nepal",
+      "nepal flag meaning",
+      "nepal flag history",
+      "nepal flag colors"
+    ],
+  },
+  "sri-lanka": {
+    countryId: "sri-lanka",
+    summary250: `Sri Lanka’s flag shows a golden lion holding a sword on a maroon panel with a gold border and four bo leaves, plus green and orange vertical stripes at the hoist. Adopted in 1948 and revised in 1951 and 1972, it symbolises Sinhalese heritage (lion), Buddhist virtues (bo leaves), and inclusion of minorities (orange and green). Ratio 1:2; protocol and penalties are codified.`,
+    longText: `Sri Lanka’s national flag, often called the Lion Flag, integrates ancient Sinhalese royal symbolism with modern commitments to pluralism. Upon independence in 1948, the maroon lion‑bearing banner became the national flag; in 1951, two narrow vertical stripes—green and orange—were added to reflect the Muslim and Tamil communities. In 1972, four golden bo (pipal) leaves were placed at the corners of the maroon panel, representing Buddhist virtues and anchoring the design.
+
+The lion holding a kastane sword references royal standards of the Kandyan kingdom; the maroon field evokes historic Sinhalese identity. The green and orange stripes near the hoist signal recognition of minority communities within the unitary state. The gold border and bo leaves confer a ritual frame and spiritual resonance.
+
+Regulations set the ratio at 1:2 and define the relative widths of the vertical stripes, border thicknesses, and artwork for the lion and leaves. Protocol covers respectful handling, precedence, illumination at night, half‑masting during state mourning, and dignified retirement. Laws prohibit desecration and unauthorised commercial use.
+
+The design, stable since 1972, features prominently on Independence Day, at schools and ministries, and at overseas missions. Public education materials explain symbolism and correct display to maintain consistency across contexts.`,
+    seoKeywords: [
+      "sri lanka flag",
+      "flag of sri lanka",
+      "sri lanka flag meaning",
+      "sri lanka flag history",
+      "sri lanka flag colors"
+    ],
+  },
+  "north-korea": {
+    countryId: "north-korea",
+    summary250: `North Korea’s flag (8 September 1948) has a wide red central band bordered by thin white lines and blue bands, with a white disc and red five‑pointed star near the hoist. Red denotes revolutionary spirit; white national identity and purity; blue sovereignty and peace. Ratio 1:2; usage is tightly regulated, with penalties for disrespect.`,
+    longText: `Adopted at the founding of the Democratic People’s Republic of Korea in 1948, the flag intentionally departed from the Taegukgi to proclaim a new socialist state. The composition is a broad red horizontal band flanked by narrow white stripes and outer blue bands. Near the hoist, a white circle encloses a red five‑pointed star.
+
+Red symbolises the revolutionary struggle and the blood shed for independence and socialism; white indicates purity and the identity of the Korean people; blue represents sovereignty, peace, and international solidarity. The statute fixes the 1:2 aspect ratio and details the diameters, offsets, and band thicknesses for accurate reproduction.
+
+Protocol requires display on state buildings, military formations, and during mass events; half‑masting follows official decree. Disrespect, alteration, or misuse is a criminal offence. Internationally, the flag appears almost exclusively in formal diplomatic and sporting contexts, with strict controls on manufacture and use ensuring uniformity.
+
+The unchanged design since 1948 underpins the regime’s narrative of continuity and revolutionary legitimacy.`,
+    seoKeywords: [
+      "north korea flag",
+      "flag of north korea",
+      "north korea flag meaning",
+      "north korea flag history",
+      "north korea flag colors"
+    ],
   }
   ,
   "united-states": {
