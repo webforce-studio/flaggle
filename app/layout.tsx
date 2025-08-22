@@ -659,7 +659,8 @@ export default function RootLayout({
           }}
         />
 
-        <script src="/scripts/performance-monitor.js" defer></script>
+        {/* Disable broken performance script until hosted */}
+        {/* <script src="/scripts/performance-monitor.js" defer></script> */}
       </head>
       <body>
         <SEOOptimizer />

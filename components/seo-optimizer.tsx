@@ -6,7 +6,7 @@ export function SEOOptimizer() {
   useEffect(() => {
     // Preload critical resources
     const preloadLinks = [
-      { rel: 'preload', href: '/og-image.png', as: 'image' },
+      // Avoid unnecessary preload warnings in production for OG image
       { rel: 'preload', href: '/logo.png', as: 'image' },
       { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
       { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },

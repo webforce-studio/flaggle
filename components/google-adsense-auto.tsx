@@ -38,7 +38,11 @@ export function GoogleAdSenseAuto() {
           function initAutoAds() {
             if (typeof window !== 'undefined' && window.adsbygoogle) {
               try {
-                (adsbygoogle = window.adsbygoogle || []).push({});
+                // Prevent duplicate auto-ads initialization across route changes
+                if (!(window as any).__adsbygoogle_inited) {
+                  (window as any).__adsbygoogle_inited = true;
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                }
               } catch (error) {
                 console.warn('AdSense Auto Ads initialization error:', error);
               }
