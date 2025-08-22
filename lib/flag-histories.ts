@@ -1551,8 +1551,19 @@ Continuity. The composition has remained unchanged through political transitions
 
 Thus the Gambian banner ties geography and civics into a crisp, enduring tricolour with white separators, maintained by statute and ceremony.`,
     seoKeywords: ["gambia flag history", "gambia flag meaning"],
-  }
-  ,
+  },
+  "equatorial-guinea": {
+    countryId: "equatorial-guinea",
+    summary250: `Equatorial Guinea’s flag (12 October 1968) features green‑white‑red horizontal bands with a blue hoist triangle and the national coat of arms (silk‑cotton tree and six stars) centred on the white band. Green represents forests; white peace; red the struggle; blue the sea uniting the mainland and islands. Ratio 2:3; usage with or without arms varies by context, with arms on state flags.`,
+    longText: `Proclaimed at independence on 12 October 1968, Equatorial Guinea’s flag combines pan‑African colours with a maritime triangle and the national coat of arms. From the hoist, a blue isosceles triangle points into three equal horizontal bands of green, white, and red. Centred on the white stripe is the coat of arms: a silk‑cotton (ceiba) tree above a silver shield, six gold stars representing the mainland and five islands, and a scroll with the motto Unidad, Paz, Justicia.
+
+Colour meanings were defined at adoption: green for equatorial forests and agriculture; white for peace; red for the struggle and the people’s sacrifice; blue for the sea that links the continental territory to the islands. The arms identify the state in formal contexts and are commonly omitted in purely civil uses, where a plain tricolour with triangle may be displayed.
+
+Specifications set a 2:3 ratio; the triangle’s base and height, the bands’ equality, colour references, and the scale and placement of the arms are codified for consistent manufacture. Protocol regulates precedence, half‑masting, and the circumstances for displaying flags with or without arms. Worn flags are retired with dignity; misuse is penalised.
+
+The design has remained stable, with official drawings refining the arms. The flag is prominent on ministries, schools, ports, and missions abroad and anchors independence ceremonies and civic education.`,
+    seoKeywords: ["equatorial guinea flag history", "equatorial guinea flag meaning"],
+  },
   botswana: {
     countryId: "botswana",
     summary250: `Botswana’s flag, adopted on 30 September 1966 at independence, is a light‑blue field crossed by a central black stripe edged in white. Blue represents rain and life (pula); black and white together symbolize racial harmony and the diversity of the nation. The design intentionally avoided partisan or pan‑African palettes to emphasize unity and pragmatism. Proportions are typically 2:3; law and protocol regulate construction, respectful handling, precedence, half‑masting, and illumination at night. The flag has remained unchanged since adoption and is taught widely in schools and civic ceremonies.`,
@@ -1680,8 +1691,65 @@ The 2006 flag replaced the 1987 banner that bore shield, spear, and club motifs.
 
 The flag flies widely on state buildings, schools, and missions and features centrally in national holidays. Its crisp palette and central emblem have made it readily recognisable among African flags while retaining a distinctly local voice.`,
     seoKeywords: ["lesotho flag history", "lesotho flag meaning"],
-  }
-  ,
+  },
+  "south-sudan": {
+    countryId: "south-sudan",
+    summary250: `South Sudan’s flag (9 July 2011) has black‑red‑green horizontal bands separated by white fimbriations and a blue hoist triangle charged with a gold five‑pointed star. Black represents the people; red the blood shed; green the land; white peace; blue the Nile; gold unity and hope. Ratio 1:2; geometry and colours are codified.`,
+    longText: `Upon independence on 9 July 2011 South Sudan adopted a flag drawn from the Sudan People’s Liberation Movement banner. A blue isosceles triangle at the hoist points into three equal horizontal bands—black, red, green—separated by narrow white stripes; a gold five‑pointed star sits within the triangle.
+
+The colours’ meanings are widely taught: black for the people of South Sudan; red for the blood shed in the struggle; green for the land’s fertility; white for peace; blue for the Nile River; gold for unity and the nation’s aspirations. The combination of tricolour bands, fimbriations, and a hoist triangle produces a distinctive modern composition.
+
+Construction standards fix a 1:2 ratio; triangle base equal to flag height; fimbriation thickness; star size and placement; and colour references. Protocol governs precedence, half‑masting by order, illumination at night, and dignified retirement. The flag appears on ministries, schools, and missions abroad and anchors independence commemorations and civic education.`,
+    seoKeywords: ["south sudan flag history", "south sudan flag meaning"],
+  },
+  somalia: {
+    countryId: "somalia",
+    summary250: `Somalia’s flag (12 October 1954) is a light‑blue field with a central white five‑pointed star. Blue recalls the United Nations’ role and the sky/sea; the star originally represented five Somali regions. Ratio 2:3; geometry and colours are standardised. The design has remained unchanged through political transitions and is among the world’s simplest flags.`,
+    longText: `Somalia’s national flag was introduced on 12 October 1954 for the Trust Territory of Somalia under U.N. administration and retained at independence in 1960. The design is minimalist: a light‑blue field centred with a white five‑pointed star.
+
+Blue acknowledges both the U.N. trusteeship era and the surrounding sky and sea; the original interpretation of the white star’s five points referenced Somali‑inhabited regions separated by colonial boundaries. Over time the star’s reading has broadened to unity and sovereignty.
+
+Specifications set a 2:3 ratio, star diameter proportional to flag height, precise point angles, and colour references. Protocol governs precedence, half‑masting by proclamation, nocturnal illumination, and dignified retirement. Despite prolonged political challenges, the flag has remained constant and widely recognised, flown on ministries, at international missions, and in civic education.
+
+The emblem’s clarity and historical resonance make it one of the most identifiable flags globally.`,
+    seoKeywords: ["somalia flag history", "somalia flag meaning"],
+  },
+  seychelles: {
+    countryId: "seychelles",
+    summary250: `Seychelles’ flag (18 June 1996) radiates five oblique bands—blue, yellow, red, white, green—from the lower hoist corner toward the fly. Blue denotes sea and sky; yellow the sun; red the people and determination; white social justice and harmony; green land and nature. The dynamic composition symbolises forward motion. Ratio 1:2; colour angles and widths are codified.`,
+    longText: `Adopted on 18 June 1996, Seychelles’ third national flag presents five expanding bands issuing from the lower hoist: blue, yellow, red, white, and green. The fan‑like geometry conveys movement and the nation’s journey forward across sea and land under the sun.
+
+Colour readings are explicitly civic and geographic—blue for the surrounding Indian Ocean and the sky; yellow for the sun; red for the people’s courage and determination; white for social justice and harmony; green for the islands’ lush environment. The angled bands avoid the conventional horizontal/vertical schemes and provide a unique maritime‑island identity.
+
+Legal construction sheets fix a 1:2 ratio; the origin point, angles of each band, and relative widths are defined to ensure consistent manufacture. Protocol prescribes precedence, half‑masting, illumination at night, and dignified retirement; misuse is restricted. Earlier flags (1976, 1977) reflected successive political chapters; the 1996 design has remained stable and widely accepted.
+
+The flag appears on government buildings, ports, and missions abroad and features centrally in national holidays and civic education, where the symbolism of radiating progress is emphasised.`,
+    seoKeywords: ["seychelles flag history", "seychelles flag meaning"],
+  },
+  eritrea: {
+    countryId: "eritrea",
+    summary250: `Eritrea’s flag (24 May 1993; updated emblem proportions 1995) displays a red isosceles triangle from hoist to fly base, separating a green upper triangle and a blue lower triangle. Within the red field at the hoist sits a gold olive wreath encircling an upright olive branch. Green represents agriculture; blue the sea; red sacrifice; the olive device peace and state continuity. Ratio 1:2 with codified emblem geometry.`,
+    longText: `Adopted upon independence on 24 May 1993 and refined in 1995, Eritrea’s flag translates liberation‑era imagery into a national emblem. A red isosceles triangle extends from the hoist to the fly base, dividing a green upper triangle and a blue lower triangle. Near the hoist, centred within the red, appears a gold wreath of olive leaves encircling an upright olive branch—an emblem with roots in the pre‑federation period.
+
+The colours communicate clear meanings: green for agriculture and the land; blue for the Red Sea; red for the blood shed in the long struggle for independence. The olive branch and wreath signify peace, victory, and continuity of civic authority. The dynamic triangular composition gives the flag a distinct profile while supporting emblem legibility.
+
+Legal drawings fix a 1:2 ratio; the angles of the triangles, the placement and diameter of the wreath, the number and shape of leaves, and colour references are specified to ensure consistent manufacture. Protocol prescribes precedence, half‑masting by proclamation, illumination at night, and dignified retirement of worn flags. Improper use is restricted.
+
+The flag is widely displayed on ministries, schools, and missions, and in national ceremonies marking independence and remembrance. Its stability since 1995 reflects enduring consensus on the symbolism.`,
+    seoKeywords: ["eritrea flag history", "eritrea flag meaning"],
+  },
+  eswatini: {
+    countryId: "eswatini",
+    summary250: `Eswatini’s flag (re‑adopted 6 September 1968; name change from Swaziland in 2018) shows blue‑yellow‑red horizontal bands with a central Nguni shield and crossed staff and spear. Blue signifies peace; yellow mineral wealth; red past battles. The black‑and‑white shield expresses unity of black and white people. Ratio 2:3; emblem geometry and colours are standardised.`,
+    longText: `Eswatini restored a version of the Swazi national banner at independence on 6 September 1968. The design comprises blue (top and bottom) and red (centre) horizontal bands separated by narrow yellow stripes. Centred on the red is a black‑and‑white Nguni shield over two spears and a staff decorated with tassels.
+
+Blue denotes peace and stability; yellow represents mineral wealth; red recalls battles that formed national identity. The black‑and‑white shield symbolises unity between black and white citizens under one nation. The composition draws from regimental standards and royal symbolism adapted to a modern civic flag.
+
+Specifications set a 2:3 ratio; the shield’s proportions, spear lengths, tassel positions, and colour references are codified. Protocol addresses precedence, half‑masting, illumination at night, and dignified retirement; misuse is restricted. In 2018 the country’s official English name changed to Eswatini; the flag’s design remained unchanged, with nomenclature updated in law and guidance.
+
+The banner is prominent at national ceremonies, at royal and government venues, in schools, and abroad on missions.`,
+    seoKeywords: ["eswatini flag history", "eswatini flag meaning", "swaziland flag meaning"],
+  },
   burundi: {
     countryId: "burundi",
     summary250: `Burundi’s flag (adopted 28 June 1967; proportions 3:5) features a white saltire dividing red (hoist and fly) and green (top and bottom) panels, with a central white disk bearing three red six‑pointed stars edged green. Red recalls struggle and sacrifice; green hope; white peace. The three stars represent the national motto—Unité, Travail, Progrès (Unity, Work, Progress)—and the three major communities. Statutes specify geometry, colours, and protocols for public display and half‑masting.`,
@@ -1693,6 +1761,18 @@ Legal instruments prescribe a 3:5 ratio, the relative widths of the saltire arms
 
 The flag is omnipresent in public life—on ministries, schools, and missions abroad—and features centrally in national days where its meanings are taught in civic education. The design’s clarity and the balanced geometry of saltire and disk have ensured its longevity across constitutional chapters.`,
     seoKeywords: ["burundi flag history", "burundi flag meaning"],
+  },
+  libya: {
+    countryId: "libya",
+    summary250: `Libya’s current flag (restored 3 August 2011) is the 1951 tricolour of red, black (double width), and green with a white crescent and five‑pointed star centred on the black band. The colours reference pan‑Arab traditions; the crescent and star Islam and sovereignty. From 1977–2011 a plain green flag was used. Ratio 1:2; construction sheets standardise the crescent and star.`,
+    longText: `Libya reinstated its original independence flag on 3 August 2011 during the revolution that ended the 1977–2011 plain green state banner. The restored design comprises three horizontal bands—red, a double‑height black centre, and green—with a white crescent and five‑pointed star centred on the black stripe.
+
+The tricolour draws from Arab liberation colours associated with historical dynasties; the crescent and star symbolise Islam and national sovereignty. The doubled black band provides a stable field for the emblem and distinguishes the layout within the Arab colour family.
+
+Legal standards specify a 1:2 ratio, the radius and thickness of the crescent arcs, star geometry, and colours to ensure consistent manufacture. Protocol governs precedence, half‑masting by decree, nocturnal illumination, and dignified retirement. Desecration and improper commercial use are restricted.
+
+The 2011 restoration reconnected the republic to its founding symbolism from 24 December 1951. The flag is flown widely on public buildings and missions, serving as a marker of constitutional revival.`,
+    seoKeywords: ["libya flag history", "libya flag meaning"],
   },
   "cape-verde": {
     countryId: "cape-verde",
@@ -1716,6 +1796,16 @@ The palette connects each band to an island: yellow for Mohéli (Mwali), white f
 Statutes establish a 3:5 ratio, the triangle’s base equal to the flag’s height, the curvature and thickness of the crescent, star size and placement, and colour references. Protocol prescribes precedence, half‑masting by order, illumination at night, and dignified retirement. The flag flies on government buildings, schools, and missions abroad and is central to national ceremonies that teach the union of islands under a single crescent.`,
     seoKeywords: ["comoros flag history", "comoros flag meaning"],
   },
+  mauritius: {
+    countryId: "mauritius",
+    summary250: `Mauritius’s flag (12 March 1968) consists of four equal horizontal bands: red, blue, yellow, green. Red denotes the struggle for freedom; blue the Indian Ocean; yellow the new light of independence; green agriculture and the island’s lush landscape. Ratio 2:3; statutes fix colours and protocol for state display. The design has remained unchanged since independence.`,
+    longText: `Mauritius adopted its national flag on 12 March 1968, the day of independence. Four equal horizontal bands—red, blue, yellow, green—reflect geography and the constitutional moment: red for the struggle toward freedom, blue for the surrounding Indian Ocean, yellow for the new dawn of independence, and green for agriculture and the island’s verdant terrain.
+
+The simple four‑stripe arrangement yields clarity at distance and ease of manufacture. A 2:3 ratio with equal bands is specified in law, along with colour references to maintain consistency across flags. Protocol covers order of precedence, half‑masting by order, illumination when flown at night, and dignified retirement; misuse is restricted.
+
+Unchanged since adoption, the flag flies over ministries, schools, ports, and missions abroad and is taught in civic education as a symbol of a stable, democratic island state.`,
+    seoKeywords: ["mauritius flag history", "mauritius flag meaning"],
+  },
   congo: {
     countryId: "congo",
     summary250: `The Republic of the Congo’s flag (adopted 18 August 1958; restored 10 June 1991) is a diagonal tricolour: a yellow band from lower hoist to upper fly, separating green (upper hoist) and red (lower fly). Green denotes forests and agriculture; yellow wealth and friendship; red courage and independence. A 1970–1991 emblematic red flag was replaced by the original. Ratio 2:3; geometry and colours are codified.`,
@@ -1727,6 +1817,29 @@ Specifications prescribe a 2:3 ratio; the diagonal’s width relative to flag he
 
 The restored flag appears across ministries, schools, and missions and figures centrally in national days; the history of replacement and restoration is taught in civic education as a lesson in constitutional continuity.`,
     seoKeywords: ["republic of the congo flag history", "republic of the congo flag meaning"],
+  }
+  ,
+  "sao-tome-and-principe": {
+    countryId: "sao-tome-and-principe",
+    summary250: `São Tomé and Príncipe’s flag (adopted 5 November 1975) features green‑yellow‑green horizontal bands with a red hoist triangle and two centered black five‑pointed stars. Green denotes forests and agriculture; yellow cocoa and sunlight; red the struggle for independence; the twin stars represent the two main islands—São Tomé and Príncipe. Proportions are typically 1:2 with codified triangle geometry, star size and spacing, and colour references. Usage guidelines cover precedence, half‑masting, and respectful handling on state occasions and missions abroad.`,
+    longText: `Proclaimed shortly after independence on 12 July 1975, São Tomé and Príncipe’s national flag was standardised on 5 November 1975. Its composition places a red isosceles triangle at the hoist, issuing into three horizontal bands—green, yellow, green—with two black five‑pointed stars centred on the yellow band.
+
+The palette and symbols communicate both geography and history. Green signifies the islands’ equatorial forests, fertile soils, and agricultural base; yellow references sunlight and the export crops that historically sustained the economy—especially cocoa; red recalls the struggle and sacrifice made to secure independence; the twin black stars explicitly name the two principal islands, São Tomé and Príncipe, bound in one republic. The device is distinctive among African flags for its twin‑star motif, immediately signalling a bi‑insular state.
+
+Law and guidance fix the flag’s ratio at 1:2 and lay out construction details to support consistent manufacture: the red triangle’s base equals the flag’s height, the stars’ diameter and spacing are specified, and colour references are given. Protocol covers order of precedence with foreign flags, half‑masting by decree, illumination when flown at night, and dignified retirement of worn banners. Misuse, defacement, or improper commercial treatment is restricted by statute.
+
+Historically, independence‑era prototypes varied in triangle width and star placement before the government issued standard drawings later in 1975. The chosen layout balanced visibility at sea and on shore installations, mindful of the islands’ maritime context in the Gulf of Guinea. The flag appears across ministries, schools, ports, and embassies; in civic instruction the twin stars are emphasised as the graphic shorthand for the country’s dual‑island identity.
+
+Regionally, the colours align with broader pan‑African usage while remaining specifically local in meaning. The red triangle at the hoist—akin to the design seen in neighbouring archipelagic and West African flags—anchors the composition and provides a field for heraldic contrast. The result is a legible, memorable national emblem whose geometry and symbolism have proven durable since adoption.
+
+In practice, the flag is hoisted daily on public buildings, central on national days, and borne by vessels under national registry. Abroad, missions observe host‑nation etiquette and the Vienna Convention’s norms for display. The flag’s educational role—in textbooks and classrooms—helps reinforce knowledge of the islands’ geography, history, and constitutional development, ensuring that the two stars continue to represent unity in diversity.`,
+    seoKeywords: [
+      "sao tome and principe flag",
+      "flag of sao tome and principe",
+      "sao tome flag meaning",
+      "sao tome and principe flag history",
+      "sao tome and principe colors"
+    ],
   }
 }
 
