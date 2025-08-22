@@ -216,7 +216,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/logos/apple-touch-icon-180x180.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/logos/apple-touch-icon-152x152.png" />
         <link rel="apple-touch-icon" sizes="120x120" href="/logos/apple-touch-icon-120x120.png" />
-        <link rel="manifest" href="/site.webmanifest" />
+        {/* Use Next.js manifest route */}
+        <link rel="manifest" href="/manifest.webmanifest" />
         {/* Explicit icon for Safari pinned tabs / legacy */}
         <link rel="mask-icon" href="/logos/logo-header.svg" color="#0EA5E9" />
 
