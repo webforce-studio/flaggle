@@ -1834,6 +1834,63 @@ The 2006 flag replaced the 1987 banner that bore shield, spear, and club motifs.
 The flag flies widely on state buildings, schools, and missions and features centrally in national holidays. Its crisp palette and central emblem have made it readily recognisable among African flags while retaining a distinctly local voice.`,
     seoKeywords: ["lesotho flag history", "lesotho flag meaning"],
   }
+  ,
+  "antigua-and-barbuda": {
+    countryId: "antigua-and-barbuda",
+    summary250: `Antigua and Barbuda’s flag (27 February 1967), designed by Reginald Samuel, features a red field with an inverted black isosceles triangle at the hoist base, a rising golden sun, and horizontal blue and white bands. Black represents the African heritage; blue the Caribbean Sea and hope; white the sand; red the people’s energy; the sun a new dawn at statehood. Ratio 2:3; law codifies construction and display protocols.`,
+    longText: `Adopted on 27 February 1967 to mark associated statehood, Antigua and Barbuda’s flag was chosen via public competition and created by artist Reginald Samuel. The striking composition places a black inverted isosceles triangle at the base of the hoist, from which a golden rising sun emerges above white and blue horizontal bands, all set within a vivid red field.
+
+Each colour and shape bears layered meaning. Black denotes the African heritage of the population and resilience; blue represents the Caribbean Sea and hope; white symbolises the island’s famed beaches and purity; red stands for the dynamism and energy of the people. The golden sun evokes a new dawn at statehood, carried forward at full independence on 1 November 1981. The geometric interplay of triangle, sun, and bands yields an emblem both distinctive and legible at distance.
+
+Official guidance specifies a 2:3 ratio; the angles of the triangle, the number and proportion of sun rays, the widths of the blue and white bands, and colour references are defined to ensure consistent manufacture. Protocol prescribes precedence, dignified retirement of worn flags, half‑masting by proclamation, and illumination when flown at night. Desecration and unauthorised commercial use are restricted by statute.
+
+The flag appears across ministries, schools, ports, and missions abroad. Ceremonial usage on Independence Day and other national observances reinforces public understanding of the symbolism—especially the sun’s promise of renewal and the red field’s call to civic effort.`,
+    seoKeywords: ["antigua and barbuda flag history", "antigua and barbuda flag meaning"],
+  },
+  argentina: {
+    countryId: "argentina",
+    summary250: `Argentina’s flag—light‑blue, white, light‑blue horizontal bands—was first raised in 1812 and legally established in the 1816 independence era; the “Sun of May” emblem (golden sun with face) was added for the official flag and codified in 1985. Blue and white recall the May Revolution and sky/clouds; the sun symbolises liberty. Ratio 9:14; law defines civil vs. official variants and protocol.`,
+    longText: `Argentina’s flag emerged during the independence struggle. Manuel Belgrano first raised the celeste y blanca on 27 February 1812 at Rosario. The Congress of Tucumán affirmed national symbols around independence in 1816. Over time, practice distinguished a plain triband for civil use and a state flag bearing the “Sun of May,” a golden sun with a human face derived from Inca imagery and revolutionary iconography.
+
+Colours—light blue, white, light blue—have been read as sky and clouds and as the cockades worn during the May Revolution of 1810. The sun emblem ties the banner to the dawn of independence and the idea of a sovereign people. Legislation in 1985 standardised variants: the civil flag (without sun) and the official flag (with sun) used by federal and provincial authorities, the armed forces, and on international missions.
+
+A 9:14 ratio is set in law, along with the sun’s exact geometry (32 alternating straight and wavy rays), diameter relative to flag height, and colour references. Protocol covers precedence, half‑masting by decree, nocturnal illumination, interdiction of misuse, and ceremonial hoisting on national dates such as 25 May and 9 July.
+
+The flag is omnipresent in Argentine civic life: in schools, courts, military formations, sporting arenas, and abroad. Its serene palette and radiant sun encapsulate the nation’s revolutionary origins and constitutional evolution, uniting civil and state traditions under one emblem.`,
+    seoKeywords: ["argentina flag history", "argentina flag meaning"],
+  },
+  bahamas: {
+    countryId: "bahamas",
+    summary250: `The Bahamas’ flag (10 July 1973) displays aquamarine over gold over aquamarine horizontal bands with a black equilateral triangle at the hoist. Aquamarine represents surrounding waters; gold the beaches and natural resources; the black triangle the strength and will of the Bahamian people. Ratio 1:2; geometry and colours are standardised by law.`,
+    longText: `Adopted at independence on 10 July 1973, The Bahamas’ flag reflects an oceanic archipelago animated by a confident citizenry. Three equal horizontal bands—aquamarine, gold, aquamarine—symbolise the surrounding waters and the sunlit beaches and resources of the islands. A black equilateral triangle issuing from the hoist represents the strength, unity, and enterprise of the Bahamian people directed toward national development.
+
+The design was selected through a public process that sought a modern emblem distinct from colonial patterns. A 1:2 ratio is used; legal construction sheets fix colour references, triangle proportions, and band equality to ensure consistent manufacture across maritime and civil contexts. Protocol prescribes precedence, dignified retirement, half‑masting by proclamation, and illumination when flown at night. Misuse and defacement are restricted.
+
+The banner appears across government buildings, schools, ports, and on vessels under Bahamian registry. Its crisp geometry and saturated colours have made it one of the most recognisable Caribbean flags, frequently invoked in tourism branding while remaining a protected national symbol.`,
+    seoKeywords: ["bahamas flag history", "bahamas flag meaning"],
+  },
+  barbados: {
+    countryId: "barbados",
+    summary250: `Barbados’ flag (30 November 1966) consists of ultramarine—gold—ultramarine vertical bands with a black trident head (broken shaft) centred on the gold. Blue evokes sea and sky; gold the sand; the trident symbolises Neptune and, with the shaft broken, political break from colonial rule. Ratio 2:3; law standardises the trident’s geometry and use.`,
+    longText: `Raised at midnight on 30 November 1966 as Barbados became independent, the national flag sets three vertical bands—ultramarine, gold, ultramarine—with a black trident head centred on the gold stripe. The palette reads directly from the island’s geography: sea and sky in blue, sand in gold. The trident (the “broken trident”) alludes to Neptune, maritime heritage, and the decisive break from colonial governance indicated by the missing shaft.
+
+A 2:3 ratio governs the flag; construction sheets define the trident’s line weights, internal angles, and placement, as well as colour references. Protocol prescribes precedence, dignified retirement, and half‑masting by order; unauthorised commercial use and defacement are offences. The civil flag appears widely on state buildings and schools; derived ensigns serve maritime contexts.
+
+The design’s economy and symbolism have made it a strong national brand across diplomacy, sport, and culture, while retained legal protections preserve the emblem’s dignity.`,
+    seoKeywords: ["barbados flag history", "barbados flag meaning"],
+  },
+  belize: {
+    countryId: "belize",
+    summary250: `Belize’s flag (21 September 1981; refined 2019) is a royal‑blue field with red fimbriations at top and bottom and a large central coat of arms within a white disc. Blue and red reflect broad political traditions; the arms (mahogany shield, supporters, motto “Sub Umbra Floreo”) recall economic and historical foundations. Ratio 2:3; usage with arms is standard for state display.`,
+    longText: `Proclaimed at independence on 21 September 1981, Belize’s flag sets a royal‑blue field edged by narrow red stripes at the top and bottom, charged with the national coat of arms enclosed in a white disc. The palette acknowledges the country’s principal political traditions while uniting them under a single national standard.
+
+The arms feature a shield with tools of the mahogany trade, flanked by two supporters, below a mahogany tree and above the motto Sub Umbra Floreo (“I flourish in the shade”). This iconography ties the republic’s identity to forestry, labour, and continuity of civic authority. In 2019 minor refinements clarified colours and linework.
+
+Specifications fix a 2:3 ratio; the width of the red fimbriations, the disc diameter, and the scale and placement of the arms are codified to ensure legibility. Protocol distinguishes civil contexts (flag with arms) and derived ensigns; respectful handling, precedence, half‑masting, and dignified retirement are prescribed by law.
+
+The banner flies on ministries, schools, and missions abroad and features centrally in independence celebrations and civic education, where the arms’ symbolism is taught.`,
+    seoKeywords: ["belize flag history", "belize flag meaning"],
+  }
 }
 
 export function getFlagHistory(countryId: string): FlagHistoryEntry | undefined {
