@@ -906,7 +906,7 @@ Continuity since 1990. Although debates have surfaced about adopting the plain R
 
 International use and education. Diplomatic missions display the flag beside host standards; Moldova’s participation in the UN (since 1992) and European institutions has normalized its presence abroad. Civics curricula teach the flag’s history and correct handling. The banner is ubiquitous on Independence Day (27 August) and at remembrance ceremonies, binding a young state to a deep historical narrative.
 
-Thus Moldova’s flag—tricolour plus arms—states both kinship and distinction: a Romanian palette bearing a Moldovan emblem.",
+Thus Moldova’s flag—tricolour plus arms—states both kinship and distinction: a Romanian palette bearing a Moldovan emblem.`,
     seoKeywords: ["moldova flag history", "moldovan flag meaning"],
   },
   montenegro: {
