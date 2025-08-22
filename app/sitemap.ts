@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 import { countries } from "@/lib/country-database"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://flaggle.fun"
+  const baseUrl = "https://www.flaggle.fun"
   const currentDate = new Date().toISOString()
 
   // Static pages

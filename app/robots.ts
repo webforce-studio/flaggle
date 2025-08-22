@@ -64,7 +64,7 @@ export default function robots(): MetadataRoute.Robots {
         crawlDelay: 1,
       }
     ],
-    sitemap: "https://flaggle.fun/sitemap.xml",
-    host: "https://flaggle.fun",
+    sitemap: "https://www.flaggle.fun/sitemap.xml",
+    host: "https://www.flaggle.fun",
   }
 }
