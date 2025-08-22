@@ -14,7 +14,7 @@ export function StructuredData({ country, gameWon, guessCount }: StructuredDataP
     "@type": "Game",
     name: `Flagguesser - ${country.name} Challenge`,
     description: `Daily flag guessing challenge featuring ${country.name} flag`,
-    url: "https://flagguesser.fun",
+    url: "https://www.flaggle.fun",
     genre: ["Educational", "Quiz", "Geography"],
     educationalLevel: "Beginner",
     audience: {
@@ -27,7 +27,7 @@ export function StructuredData({ country, gameWon, guessCount }: StructuredDataP
     provider: {
       "@type": "Organization",
       name: "Flagguesser",
-      url: "https://flagguesser.fun"
+      url: "https://www.flaggle.fun"
     },
     ...(gameWon && {
       result: {
@@ -52,7 +52,7 @@ export function StructuredData({ country, gameWon, guessCount }: StructuredDataP
     acceptedAnswer: {
       "@type": "Answer",
       text: country.name,
-      url: `https://flagguesser.fun?country=${country.code}`,
+      url: `https://www.flaggle.fun?country=${country.code}`,
     },
     suggestedAnswer: [
       {

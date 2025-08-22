@@ -42,7 +42,7 @@ export function SEOOptimizer() {
           "@type": "WebPage",
           "name": "Flagguesser - Daily Flag Guessing Game",
           "description": "Play the daily flag guessing game with 150+ world countries",
-          "url": "https://flagguesser.fun",
+          "url": "https://www.flaggle.fun",
           "mainEntity": {
             "@type": "Game",
             "name": "Flagguesser Daily Challenge",
@@ -59,7 +59,7 @@ export function SEOOptimizer() {
             "provider": {
               "@type": "Organization",
               "name": "Flagguesser",
-              "url": "https://flagguesser.fun"
+              "url": "https://www.flaggle.fun"
             }
           }
         }

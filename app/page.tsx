@@ -388,7 +388,7 @@ export default function Flagguesser() {
     const today = new Date().toLocaleDateString()
     const result = gameWon ? `${guesses.length}/${MAX_GUESSES}` : "X/6"
     const text = `Flagguesser ${today} ${result} 🏳️ Daily flag guessing game`
-    const url = "https://flagguesser.fun"
+    const url = "https://www.flaggle.fun"
 
     let shareUrl = ""
 

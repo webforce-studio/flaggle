@@ -527,7 +527,7 @@ export default function RootLayout({
                   "@type": "ListItem",
                   position: 4,
                                       name: "World Flags",
-                  item: "https://flagguesser.fun/world-flags",
+                  item: "https://www.flaggle.fun/world-flags",
                 },
                 {
                   "@type": "ListItem",
