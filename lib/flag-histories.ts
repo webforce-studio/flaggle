@@ -1444,9 +1444,7 @@ Zambia’s flag is thus a distinctive composition among world flags—colour con
   },
   "democratic-republic-of-the-congo": {
     countryId: "democratic-republic-of-the-congo",
-    summary250:
-      "The DR Congo flag (restored 20 February 2006) is a sky‑blue field with a yellow five‑pointed star at the hoist and a red diagonal band edged yellow from lower hoist to upper fly. It reprises earlier Congolese designs: blue for peace and hope; red for the people’s blood; yellow for wealth; the star for a radiant future. Ratio commonly 3:5; geometry is standardised.
-    ",
+    summary250: `The DR Congo flag (restored 20 February 2006) is a sky‑blue field with a yellow five‑pointed star at the hoist and a red diagonal band edged yellow from lower hoist to upper fly. It reprises earlier Congolese designs: blue for peace and hope; red for the people’s blood; yellow for wealth; the star for a radiant future. Ratio commonly 3:5; geometry is standardised.`,
     longText: `The Democratic Republic of the Congo has cycled through several flags; the 2006 restoration re‑established a modernised diagonal‑band design with a guiding star.
 
 Chronology. The independent Congo (Léopoldville) in 1960 adopted a light‑blue flag with six yellow stars along the hoist and a larger star in the canton, signalling six provinces and unity. Later regimes introduced variants including solid blue with a single star and, from 2003, a red diagonal band bordered in yellow across blue. The current flag, enacted 20 February 2006, keeps the blue field and yellow fimbriations while repositioning a single large yellow star near the hoist and establishing a red diagonal band running from lower hoist to upper fly.
