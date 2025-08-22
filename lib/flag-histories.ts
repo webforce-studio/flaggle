@@ -1671,6 +1671,41 @@ The flag has remained stable since 1975, with official drawings refining constru
     seoKeywords: ["sao tome and principe flag history", "sao tome and principe flag meaning"],
   }
   ,
+  seychelles: {
+    countryId: "seychelles",
+    summary250: `Seychelles’ flag (18 June 1996) radiates five oblique bands—blue, yellow, red, white, green—from the lower hoist corner toward the fly. Blue denotes sea and sky; yellow the sun; red the people and determination; white social justice and harmony; green land and nature. The dynamic composition symbolises forward motion. Ratio 1:2; colour angles and widths are codified.`,
+    longText: `Adopted on 18 June 1996, Seychelles’ third national flag presents five expanding bands issuing from the lower hoist: blue, yellow, red, white, and green. The fan‑like geometry conveys movement and the nation’s journey forward across sea and land under the sun.
+
+Colour readings are explicitly civic and geographic—blue for the surrounding Indian Ocean and the sky; yellow for the sun; red for the people’s courage and determination; white for social justice and harmony; green for the islands’ lush environment. The angled bands avoid the conventional horizontal/vertical schemes and provide a unique maritime‑island identity.
+
+Legal construction sheets fix a 1:2 ratio; the origin point, angles of each band, and relative widths are defined to ensure consistent manufacture. Protocol prescribes precedence, half‑masting, illumination at night, and dignified retirement; misuse is restricted. Earlier flags (1976, 1977) reflected successive political chapters; the 1996 design has remained stable and widely accepted.
+
+The flag appears on government buildings, ports, and missions abroad and features centrally in national holidays and civic education, where the symbolism of radiating progress is emphasised.`,
+    seoKeywords: ["seychelles flag history", "seychelles flag meaning"],
+  },
+  somalia: {
+    countryId: "somalia",
+    summary250: `Somalia’s flag (12 October 1954) is a light‑blue field with a central white five‑pointed star. Blue recalls the United Nations’ role and the sky/sea; the star originally represented five Somali regions. Ratio 2:3; geometry and colours are standardised. The design has remained unchanged through political transitions and is among the world’s simplest flags.`,
+    longText: `Somalia’s national flag was introduced on 12 October 1954 for the Trust Territory of Somalia under U.N. administration and retained at independence in 1960. The design is minimalist: a light‑blue field centred with a white five‑pointed star.
+
+Blue acknowledges both the U.N. trusteeship era and the surrounding sky and sea; the original interpretation of the white star’s five points referenced Somali‑inhabited regions separated by colonial boundaries. Over time the star’s reading has broadened to unity and sovereignty.
+
+Specifications set a 2:3 ratio, star diameter proportional to flag height, precise point angles, and colour references. Protocol governs precedence, half‑masting by proclamation, nocturnal illumination, and dignified retirement. Despite prolonged political challenges, the flag has remained constant and widely recognised, flown on ministries, at international missions, and in civic education.
+
+The emblem’s clarity and historical resonance make it one of the most identifiable flags globally.`,
+    seoKeywords: ["somalia flag history", "somalia flag meaning"],
+  },
+  "south-sudan": {
+    countryId: "south-sudan",
+    summary250: `South Sudan’s flag (9 July 2011) has black‑red‑green horizontal bands separated by white fimbriations and a blue hoist triangle charged with a gold five‑pointed star. Black represents the people; red the blood shed; green the land; white peace; blue the Nile; gold unity and hope. Ratio 1:2; geometry and colours are codified.`,
+    longText: `Upon independence on 9 July 2011 South Sudan adopted a flag drawn from the Sudan People’s Liberation Movement banner. A blue isosceles triangle at the hoist points into three equal horizontal bands—black, red, green—separated by narrow white stripes; a gold five‑pointed star sits within the triangle.
+
+The colours’ meanings are widely taught: black for the people of South Sudan; red for the blood shed in the struggle; green for the land’s fertility; white for peace; blue for the Nile River; gold for unity and the nation’s aspirations. The combination of tricolour bands, fimbriations, and a hoist triangle produces a distinctive modern composition.
+
+Construction standards fix a 1:2 ratio; triangle base equal to flag height; fimbriation thickness; star size and placement; and colour references. Protocol governs precedence, half‑masting by order, illumination at night, and dignified retirement. The flag appears on ministries, schools, and missions abroad and anchors independence commemorations and civic education.`,
+    seoKeywords: ["south sudan flag history", "south sudan flag meaning"],
+  }
+  ,
   botswana: {
     countryId: "botswana",
     summary250: `Botswana’s flag, adopted on 30 September 1966 at independence, is a light‑blue field crossed by a central black stripe edged in white. Blue represents rain and life (pula); black and white together symbolize racial harmony and the diversity of the nation. The design intentionally avoided partisan or pan‑African palettes to emphasize unity and pragmatism. Proportions are typically 2:3; law and protocol regulate construction, respectful handling, precedence, half‑masting, and illumination at night. The flag has remained unchanged since adoption and is taught widely in schools and civic ceremonies.`,
