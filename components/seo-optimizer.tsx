@@ -6,19 +6,17 @@ export function SEOOptimizer() {
   useEffect(() => {
     // Preload critical resources
     const preloadLinks = [
-      // Avoid unnecessary preload warnings in production for OG image
-      { rel: 'preload', href: '/logo.png', as: 'image' },
       { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
       { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
       { rel: 'dns-prefetch', href: 'https://images.unsplash.com' },
       { rel: 'dns-prefetch', href: 'https://images.pexels.com' },
     ]
 
-    preloadLinks.forEach(({ rel, href, as }) => {
+    preloadLinks.forEach(({ rel, href, as: preloadAs }: any) => {
       const link = document.createElement('link')
       link.rel = rel
       link.href = href
-      if (as) link.setAttribute('as', as)
+      if (preloadAs) link.setAttribute('as', preloadAs)
       document.head.appendChild(link)
     })
 
