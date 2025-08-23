@@ -3752,6 +3752,151 @@ In sum, the Marshallese flag compresses maritime geography and civic structure i
       "marshall islands flag colors"
     ],
   },
+  palau: {
+    countryId: "palau",
+    summary250: `Palau’s flag (adopted 1 January 1981 ahead of the 1982 constitution) is a light‑blue field with a golden disc slightly shifted toward the hoist. The blue symbolizes a new era of self‑government and, secondarily, the Pacific setting; the disc represents the full moon, which in Palauan culture marks the ideal time for important activities (fishing, planting, harvesting, canoe‑building) and signifies peace, unity, and prosperity. Ratios vary in practice (often 5:8 or 1:2), but the disc remains off‑centre and sized as a large, clear circle. While statute names the colours as sky blue and golden yellow without numeric codes, government practice maintains consistent shades for legibility in tropical light. Protocol follows international norms: precedence with foreign flags, sunrise‑to‑sunset display unless illuminated, dignified retirement, and half‑masting during mourning. The design—selected by national competition—has remained unchanged through independence in 1994, anchoring Palau’s cultural identity and political continuity.`,
+    longText: `Palau’s national flag—light blue with a golden disc offset toward the hoist—encapsulates the country’s transition from trusteeship to self‑government and the continuity of cultural meaning centred on the moon. Adopted on 1 January 1981 after a nationwide design competition and ahead of the 1982 constitution, it served as the emblem of internal self‑government and remained unchanged when Palau became fully independent in 1994.
+
+Adoption and Design Selection
+In 1979 the new Palauan legislature endorsed a competition to produce a simple, recognisable banner that would not depend on colonial ensign conventions. The winning design, credited to Blau Skebong, presented a sky‑blue field bearing a golden disc displaced slightly toward the hoist. By positioning the disc off‑centre, the composition conveyed calm balance and avoided the static feel of a geometric centre.
+
+Symbolism
+Authoritative Palauan explanations identify the disc as the full moon—not the sun. The full moon carries practical and spiritual significance: it marks the most auspicious time for fishing, planting, harvesting, tree cutting, and canoe building; it connotes warmth, tranquillity, peace, love, and domestic unity. The blue field first signifies the end of foreign domination and the beginning of a new political era; secondarily it evokes the Pacific setting. The pairing thus fuses political transition with deep‑rooted cultural understanding of time, work, and harmony.
+
+Proportion, Geometry, and Colour
+Law and guidance specify the disc’s off‑centre placement toward the hoist while allowing practical variation in overall ratio (commonly 5:8 or 1:2). For typical 1:2 manufacture, practice places the disc centre about 7/16 of the length from the hoist, with a diameter on the order of 60–70% of the flag’s height—proportions that read clearly on masts and in vertical banners. The colours are defined descriptively as sky blue and golden yellow rather than by Pantone numbers; suppliers maintain stable shades to ensure the disc is luminous against a serene field under tropical light.
+
+Protocol and Usage
+Palau’s protocol aligns with international norms: sunrise‑to‑sunset display unless illuminated; respectful handling; prohibition on ground contact; and dignified retirement of worn flags. Half‑masting is ordered during periods of national mourning, with the standard procedure of first hoisting to the truck, lowering to the prescribed position, and re‑hoisting before sunset. The national banner appears at government offices, schools, and ceremonies, and alongside state flags at local events according to precedence rules.
+
+Continuity and Identity
+Since its first raising on 1 January 1981, the flag has required no redesign. Its distinctive lunar emblem has helped differentiate Palau from other disc‑bearing flags, while the blue field has proven broadly legible in maritime, diplomatic, and sporting contexts. The design’s staying power rests on disciplined geometry, a limited palette that reproduces well across media, and symbolism that connects constitutional change to long‑standing cultural practice.
+
+In sum, the Palauan flag transforms a simple composition into a statement of time, place, and continuity: a full moon presiding over an era of self‑government, rendered on a calm blue ground that reads with clarity from island village greens to international podia.`,
+    seoKeywords: [
+      "palau flag",
+      "flag of palau",
+      "palau flag meaning",
+      "palau flag history",
+      "palau flag colors"
+    ],
+  },
+  "solomon-islands": {
+    countryId: "solomon-islands",
+    summary250: `The Solomon Islands flag (18 November 1977) comprises a thin yellow diagonal band from lower hoist to upper fly, forming a blue upper triangle (canton side) with five white stars and a green lower triangle. Blue evokes the ocean, rivers, and rain; green the land’s fertility; yellow the sun. The five stars originally denoted the five districts and today express unity among the main island groups. Chosen via a national competition before independence (1978), the flag typically uses a 1:2 ratio; construction sheets standardise star placement and stripe width for legibility. Although precise Pantone values are not fixed in law, public practice maintains consistent shades. Protocol mirrors international norms, including precedence with foreign flags and half‑masting for mourning. The design has remained unchanged, signalling continuity amid evolving provincial administration.`,
+    longText: `Adopted on 18 November 1977, the flag of the Solomon Islands is a geometric synthesis of land, sea, sunlight, and unity. The thin yellow diagonal band, set between a blue upper triangle and a green lower triangle, produces a clear, modern composition whose meaning has proved durable from late colonial transition through independence and into the present.
+
+From Protectorate Ensigns to a National Emblem
+Under British rule (from 1893), the islands used the Union Jack and later Blue Ensigns defaced with local badges. Those badges evolved across the twentieth century, moving from narrow, district‑specific images toward a broader heraldic language. In the run‑up to independence, a national competition invited citizens to submit designs for a new flag that would be simple, legible at distance, and resonant across the archipelago. The selected scheme—blue, yellow, and green with five white stars in the canton—was approved in November 1977, eight months before independence, enabling a staged transition of symbols.
+
+Composition, Proportion, and Construction
+The flag typically uses a 1:2 ratio. A narrow yellow stripe runs diagonally from the lower hoist to the upper fly, dividing the field into two large right triangles: blue above (at the hoist side) and green below (at the fly side). Five white five‑pointed stars occupy the blue canton, arranged in a distinctive pattern that reads cleanly on cloth and in print. Government drawings standardise the stripe’s width, the stars’ diameters, and their coordinates relative to the flag’s edges, helping manufacturers maintain recognisability across sizes.
+
+Colour and Symbolism
+Blue signifies the surrounding ocean as well as rivers and rainfall essential to island life; green represents the land’s fertility, forests, and agriculture; yellow denotes sunlight and hope. At adoption, the five stars were linked to the five administrative districts; as provincial structures changed, the stars came to express unity among the principal island groups and, more broadly, the nation’s plurality. The palette mirrors natural contrasts that hold in tropical light and against maritime backdrops.
+
+Protocol and Usage
+Flag etiquette follows international practice: respectful handling; sunrise‑to‑sunset display unless illuminated; precedence rules when flown with foreign flags; and dignified retirement of worn banners. Half‑masting is ordered during national mourning. The banner is prominent on public buildings, in schools, at sporting events, and in diplomatic representation, where its diagonal banding aids recognition on moving fabric and in broadcast frames.
+
+Continuity
+Since independence in 1978, the design has remained unchanged, providing stability despite administrative shifts. Ministries issue model artwork to discourage drift in star placement and stripe width, and procurement guidance maintains a consistent blue, yellow, and green across textile batches.
+
+In sum, the Solomon Islands flag uses a spare geometry to map nature and community: sea and land divided by sunlight, five stars for unity, and a composition engineered for clarity from village mast to international arena.`,
+    seoKeywords: [
+      "solomon islands flag",
+      "flag of solomon islands",
+      "solomon islands flag meaning",
+      "solomon islands flag history",
+      "solomon islands flag colors"
+    ],
+  },
+  tonga: {
+    countryId: "tonga",
+    summary250: `Tonga’s flag, fixed by the 1875 constitution, is a red field with a white canton charged with a red couped cross. Red recalls the blood of Christ; white signifies purity; the cross affirms the kingdom’s Christian identity. The constitution declares the design unchangeable. A 1:2 ratio is standard; guidance maintains consistent hues and canton geometry across uses. Protocol reflects strong royal and national reverence: precedence rules, respectful handling, and half‑masting during mourning. Co‑designed under King George Tupou I with adviser Shirley Baker, the banner replaced earlier cross designs (one rejected for resembling the Red Cross) and has remained a continuous emblem through protectorate status and modern sovereignty, anchoring Tonga’s religious and constitutional heritage.`,
+    longText: `Tonga’s national flag is among the world’s most stable constitutional emblems. The 1875 constitution defined its present form—a red field with a white canton bearing a red couped cross—and declared the design unalterable. That legal permanence reflects the monarchy’s intention to bind Christian symbolism and national identity in a single, concise banner.
+
+Pre‑1875 Designs and Christian Turn
+In the mid‑nineteenth century, Tonga experimented with flags that incorporated crosses and initials associated with the monarch. As Christianity spread, Taufa’ahau (baptised and later crowned King George Tupou I) and his circle moved toward a national emblem centred on the cross. An early white flag with a red cross, however, risked confusion with the International Red Cross, prompting the search for a distinct arrangement.
+
+Constitutional Settlement and Final Design
+Working with Shirley Waldemar Baker, a Wesleyan missionary and adviser, King George Tupou I settled on a red ground with a white canton containing a red couped cross. Adopted on 4 November 1875, the design was embedded in the constitution with language forbidding alteration. The choice balanced recognisability with reverence: the cross in the canton reads as a sign of faith, while the red field supplies visual weight and meaning.
+
+Symbolism and Colour
+The red evokes the blood of Christ and sacrificial redemption; the white canton represents purity; the cross affirms the kingdom’s Christian character. Government usage maintains strong, saturated reds and a bright white to ensure clarity in tropical light and on broadcast.
+
+Proportion and Construction
+The flag commonly uses a 1:2 ratio. Construction sheets standardise the canton’s size, the cross’s arm widths, and placement within the canton so that reproductions remain consistent across ministries, schools, churches, and vessels. The simplicity of the geometry supports faithful stitching and printing at both ceremonial and hand‑flag scales.
+
+Protocol and Continuity
+Protocol mirrors Tonga’s monarchical traditions: the national flag holds precedence at state functions; it is raised briskly, lowered ceremonially, and never allowed to touch the ground. Half‑masting follows royal or governmental proclamations of mourning. Separate royal and defence flags exist but do not diminish the primacy of the national emblem. Through protectorate arrangements and independence in 1970, the flag has remained unchanged, a constant of church–state symbolism and constitutional order.
+
+In effect, Tonga’s flag is a creed in cloth: a protected design whose spare geometry and saturated palette project the kingdom’s faith and continuity from the late nineteenth century to the present.`,
+    seoKeywords: [
+      "tonga flag",
+      "flag of tonga",
+      "tonga flag meaning",
+      "tonga flag history",
+      "tonga flag colors"
+    ],
+  },
+  tuvalu: {
+    countryId: "tuvalu",
+    summary250: `Tuvalu’s flag (1 October 1978) is a light‑blue ensign with the Union Jack canton and nine yellow five‑pointed stars on the fly, arranged to reflect the islands’ positions (with east at the top). A 1995 republican variant dropped the Union Jack and altered the stars but was reversed in 1997 after public opposition; the original scheme was restored. Ratio 1:2; canton occupies the upper hoist quarter. Construction fixes star sizes and coordinates for cartographic legibility. The blue recalls the Pacific; stars denote the islands; the canton recognises Commonwealth ties. Protocol follows international norms, including precedence and half‑masting.`,
+    longText: `Adopted on Independence Day, 1 October 1978, Tuvalu’s national flag aligns a Commonwealth ensign layout with a cartographic motif of nine stars. It has twice served as a touchstone of constitutional debate—most notably during a 1995–1997 interlude—before the original design was reaffirmed.
+
+Independence and Design
+Tuvalu separated from the Gilbert and Ellice Islands colony in the mid‑1970s and adopted its own symbols upon independence in 1978. The national flag follows the light‑blue ensign pattern: the Union Jack fills the upper hoist canton, and nine golden‑yellow stars occupy the fly. The stars represent Nanumea, Nanumanga, Niutao, Nui, Vaitupu, Nukufetau, Funafuti, Nukulaelae, and Niulakita, arranged to reflect the islands’ geography with east oriented at the top—turning the flag into a stylised map.
+
+Geometry, Ratio, and Colour
+The flag’s ratio is 1:2. The canton occupies the upper hoist quarter as in British ensign practice. Government drawings set star diameters and coordinates so small flags retain legibility and the map‑like arrangement is preserved. The light, sky‑blue field distinguishes the flag from darker naval ensigns and reads clearly against tropical sky and sea; stars are rendered in a strong yellow for contrast.
+
+1995–1997 Variant and Restoration
+In 1995 a republican‑leaning government replaced the design with a flag that omitted the Union Jack and altered the star treatment, briefly reducing star count to reflect only inhabited islands. The change met strong public resistance tied to respect for the Crown and to the inclusive symbolism of nine islands. In 1997 the prior flag was restored by law, reinstating both the Union Jack and the nine‑star arrangement.
+
+Protocol and Usage
+Protocol mirrors Commonwealth norms: respectful handling; sunrise‑to‑sunset display unless illuminated; precedence rules; and half‑masting during national mourning. The flag is displayed on public buildings, schools, diplomatic missions, and at sporting events. Ministries maintain vector artwork to prevent drift in star placement and to stabilise dye choices across textile batches.
+
+Continuity and Meaning
+Since 1997 Tuvalu has retained the restored design without alteration. The flag’s elements combine a practical map of the archipelago with recognition of constitutional history and external ties; the sky‑blue ground foregrounds the oceanic context in which Tuvalu lives. The design’s clarity and colour contrast have aided recognition from village greens to international arenas.
+
+In sum, Tuvalu’s flag is a cartographic ensign: a sky‑blue field that holds a Commonwealth canton and nine stars set as islands—a compact statement of geography, history, and belonging.`,
+    seoKeywords: [
+      "tuvalu flag",
+      "flag of tuvalu",
+      "tuvalu flag meaning",
+      "tuvalu flag history",
+      "tuvalu flag colors"
+    ],
+  },
+  vanuatu: {
+    countryId: "vanuatu",
+    summary250: `Vanuatu’s flag (30 July 1980) features a black Y‑shape fimbriated in yellow issuing from the hoist, dividing a green upper fly and red lower fly, with a black hoist triangle bearing a yellow boar’s tusk encircling two crossed namele fronds. Red signifies sacrifice and nationhood; green the land’s abundance; black the Melanesian people and soil; yellow the light of the Gospel and prosperity. Ratio commonly 3:5; drawings fix the Y width, fimbriation, emblem geometry, and placements. Protocol covers precedence and half‑masting. The design, derived from party colours and local art, has remained unchanged, tying state symbolism to custom and unity.`,
+    longText: `Vanuatu’s national flag—adopted on Independence Day, 30 July 1980—binds political independence to customary symbolism in a composition engineered for legibility and cultural specificity.
+
+From Condominium to Independence
+Under the Anglo‑French condominium, British and French flags flew side by side over the New Hebrides. In the 1970s, independence movements developed distinct visual languages. A party banner designed by Kalontas Malon supplied the colour triad and emblem later adapted into the national flag, which the independence government formalised at the moment of sovereignty.
+
+Composition and Geometry
+A bold black Y issues from the hoist and divides the field, edged in yellow fimbriation that both separates colours and carries symbolic meaning. The upper fly is green; the lower fly is red. The hoist bears a black triangle charged with a yellow boar’s tusk enclosing two crossed namele fern fronds. Government artwork sets the flag at a common 3:5 proportion and fixes the Y’s width, fimbriation thickness, and emblem geometry—ensuring the tusk’s curl and the fern rachises render cleanly in stitch and print.
+
+Colour and Symbolism
+Red denotes the blood shed for freedom and communal rites; green represents fertile land and agriculture; black stands for the Melanesian people and rich volcanic soil; yellow symbolises the light of the Gospel and prosperity. The boar’s tusk is a prized emblem of status, wealth, and protection; the crossed namele fronds signify peace and, by one explanation, the leaves count aligns with parliamentary representation—tying emblem to governance.
+
+Protocol and Usage
+Flag protocol follows international norms: precedence with foreign flags, sunrise‑to‑sunset display unless illuminated, respectful handling, and dignified retirement of worn flags. Half‑masting is ordered for national mourning. Ministries distribute vector templates to curb drift in emblem proportions and to stabilise dyes across textile runs.
+
+Continuity and Identity
+Unaltered since 1980, the flag’s saturated palette and iconic emblem have made it one of the Pacific’s most recognisable. Educational materials foreground the tusk and namele meanings, reinforcing links between statehood and custom. On sporting kits, government buildings, and international podia, the flag’s black Y and golden emblem read instantly across distance and on camera.
+
+In essence, Vanuatu’s flag is a heraldry of independence and custom: a modern geometric scaffold bearing symbols of status and peace in colours that speak to land, people, sacrifice, and faith.`,
+    seoKeywords: [
+      "vanuatu flag",
+      "flag of vanuatu",
+      "vanuatu flag meaning",
+      "vanuatu flag history",
+      "vanuatu flag colors"
+    ],
+  },
   lebanon: {
     countryId: "lebanon",
     summary250: `Lebanon’s flag (7 December 1943) is red‑white‑red with a green cedar centred, touching the red bands. Red signifies sacrifice; white snow and peace; the cedar endurance and holiness. Law fixes a 2:3 ratio, mandates that the cedar touch the red fields, and codifies artwork, shades, protocol, and dignified retirement. The banner dates to independence from the French Mandate.`,
