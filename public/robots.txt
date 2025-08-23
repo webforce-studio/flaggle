@@ -63,8 +63,9 @@ Disallow: /direct-test/
 Disallow: /attribution-test/
 Crawl-delay: 1
 
-# Sitemap location
-Sitemap: https://monumentle.fun/sitemap.xml
+# Sitemap locations
+Sitemap: https://www.flaggle.fun/sitemap_index.xml
+Sitemap: https://www.flaggle.fun/sitemap.xml
 
 # Host directive
-Host: https://monumentle.fun
+Host: https://www.flaggle.fun
