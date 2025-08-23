@@ -144,6 +144,10 @@ export default async function FlagPage({ params }: PageProps) {
               const text = raw.trim()
               // Detect common section subheadings (content written with sentence-like headings)
               const headingLabels = [
+                "Precursors",
+                "Design Contest and Adoption",
+                "Design Contest and Adoption (1949)",
+                "Specifications",
                 "Adoption",
                 "Chronology",
                 "Design",
@@ -162,12 +166,24 @@ export default async function FlagPage({ params }: PageProps) {
                 "Public life",
                 "Role at Home and Abroad",
               ]
-              const matched = headingLabels.find((h) =>
-                text.startsWith(`${h}.`) || text.startsWith(`${h}:`) || text === h
-              )
+              const isStartOf = (label: string) => {
+                const lower = text.toLowerCase()
+                const l = label.toLowerCase()
+                return (
+                  lower.startsWith(l + " ") ||
+                  lower.startsWith(l + ":") ||
+                  lower.startsWith(l + ".") ||
+                  lower.startsWith(l + "-") ||
+                  lower.startsWith(l + "–") ||
+                  lower.startsWith(l + "—") ||
+                  lower === l
+                )
+              }
+              const matched = headingLabels.find((h) => isStartOf(h))
               if (matched) {
                 // Remove the heading token and render it as a styled subheading
-                const remainder = text.replace(new RegExp(`^${matched}[\.:]?\s*`), "")
+                let remainder = text.slice(matched.length)
+                remainder = remainder.replace(/^[\s\.:–—-]+/, "")
                 return (
                   <div key={`${blockIndex}-${i}`} className="mb-4">
                     <h3 className="text-lg md:text-xl font-extrabold mt-4 mb-2">{matched}</h3>
