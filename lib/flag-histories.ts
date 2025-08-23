@@ -3597,6 +3597,65 @@ Since 1970 the flag has remained stable, with periodic restatement of shield art
       "fiji flag colors"
     ],
   },
+  samoa: {
+    countryId: "samoa",
+    summary250: `Samoa’s flag (24 February 1949; retained at independence in 1962) is a red field with a blue canton at the hoist bearing the Southern Cross—four large white five‑pointed stars and a smaller one. The design descends from a 1948 bill under New Zealand administration and replaced earlier colonial ensigns. A 1:2 ratio is standard; construction sheets fix canton size, star diameters, and coordinates. Red denotes courage and the blood of forebears; blue stands for freedom and the Pacific; the Southern Cross locates Samoa under southern skies. Protocol sets precedence, half‑masting rules, and dignified retirement; guidance ensures crisp star geometry and consistent shades across textiles for schools, churches, and state buildings.`,
+    longText: `Samoa’s national flag—a red field with a blue canton charged with the Southern Cross—connects modern constitutional identity to the wider Pacific tradition of southern‑sky emblems while preserving a straightforward geometry suitable for cloth and broadcast use. Adopted in 1949 and retained upon independence in 1962, it has become a constant of Samoan civic life at home and in the diaspora.
+
+Late‑Colonial Origins and Adoption (1948–1949)
+During the Trusteeship period under New Zealand administration, Samoan leaders pursued symbols that would express local nationhood without complex heraldry. A 1948 bill proposed a flag comprising a red field and a blue canton at the hoist bearing the Southern Cross—four large white stars and a smaller star representing the familiar constellation. After deliberation and minor adjustments, the flag was adopted on 24 February 1949. When Samoa (then Western Samoa) gained independence on 1 January 1962, the banner was retained as the national flag, reinforcing continuity between the final phase of trusteeship and sovereign statehood.
+
+Design, Proportion, and Construction
+The national flag’s common proportion is 1:2. The blue canton occupies the upper hoist quarter; within it, five white five‑pointed stars depict the Southern Cross (Crux) according to government drawings that specify star diameters, spacing, and coordinates from the canton edges. The canton’s blue and the field’s red are defined by colour references to reduce shade drift; the white of the stars is pure to maximise contrast. Procurement notes for schools and public offices emphasise a crisp star outline to prevent “blooming” in humid conditions and to ensure recognisability on televised ceremonies.
+
+Symbolism
+Red is widely read as courage, sacrifice, and the blood of forebears; blue denotes liberty, the oceanic environment, and faith; the Southern Cross locates Samoa beneath the southern sky and aligns the flag with Pacific neighbours while preserving a distinct composition. The flag’s economy of forms—rectangles and stars—suits stitched and printed production across island climates and congregational settings, where banners are frequently displayed.
+
+Protocol and Usage
+Government guidance sets out respectful handling (no contact with ground or water), sunrise‑to‑sunset display unless illuminated, order of precedence with foreign flags and ecclesiastical banners, and dignified retirement of worn flags. Half‑masting follows national mourning declarations and includes instructions for hoisting to the truck, lowering to the prescribed depth, and re‑hoisting before sunset. Educational materials circulate star coordinate charts to ensure that the small fifth star is placed correctly relative to the larger four.
+
+Continuity and Diaspora Display
+The flag features prominently at Independence Day celebrations, sporting events, and church festivals, both in Samoa and among Samoan communities abroad. Civic instruction encourages use of correctly proportioned flags, particularly the canton size and star geometry, to avoid distorted renderings common in informal printing. Since independence, the design has not been altered, and discussion of alternatives has been limited, reflecting strong attachment to the existing emblem.
+
+In sum, Samoa’s flag fuses a legible Pacific constellation with bold, saturated fields to produce a banner that reads clearly from village greens to stadium tiers—an emblem of a seafaring nation grounded beneath the Southern Cross.`,
+    seoKeywords: [
+      "samoa flag",
+      "flag of samoa",
+      "samoa flag meaning",
+      "samoa flag history",
+      "samoa flag colors"
+    ],
+  },
+  kiribati: {
+    countryId: "kiribati",
+    summary250: `Kiribati’s flag (12 July 1979) features a gold frigatebird flying over a rising gold sun of 17 rays above three white‑and‑blue wavy bands, all on a red field. The design derives from the colonial badge granted in 1937, simplified at independence: the bird symbolises strength and freedom; the sun the equatorial position and 16 Gilbert Islands plus Banaba (17); the waves the Pacific and the main island groups. Ratio 1:2; construction sheets codify the sun’s diameter, ray angles, bird silhouette, and wave geometry. Protocol governs precedence, half‑masting, and dignified retirement.`,
+    longText: `Kiribati’s national flag presents a striking heraldic scene: a golden frigatebird (Fregata) soars above a rising golden sun with seventeen rays, set above three pairs of alternating white and blue waves, all against a red ground. Adopted on 12 July 1979 for the new Republic of Kiribati, the design refines the colonial badge first granted in 1937 and long used on ensigns.
+
+Colonial Badge to National Flag
+Under British administration, the Gilbert and Ellice Islands Colony used a Blue Ensign defaced with a badge: a gold frigatebird flying above a golden rising sun over stylised waves, all within a white disc. As independence approached, authorities replaced the ensign framework with a full flag bearing the badge elements across the entire field, simplifying outlines for cloth and wind legibility. When the Ellice Islands became Tuvalu (1978) and the Gilbert Islands proceeded to independence as Kiribati (1979), the refined device was entrenched in statute and construction drawings.
+
+Geometry and Construction
+The proportion is 1:2. Official art specifies the sun’s diameter and placement at the centreline above the waves, the exact number and sweep of the seventeen rays, and the bird’s silhouette and angle of flight. The waves are rendered as three double bands (white over blue, repeated), their amplitudes and phase aligned so that crests and troughs fall at fixed fractions of the flag’s length. The bird’s wingtips and forked tail are positioned to avoid tangling with the sun’s rays while maintaining dynamism. These constraints ensure consistent reproduction across stitched and printed flags.
+
+Symbolism
+The frigatebird is associated with seamanship, protection, and freedom in Micronesian tradition; the rising sun marks Kiribati’s equatorial position and daybreak over the Pacific; the seventeen rays signify the sixteen Gilbert Islands plus Banaba; the waves represent the ocean and, by reading, the three island groups commonly referenced in national discourse. The red field provides strong contrast and ceremonial warmth.
+
+Colour Standards and Manufacture
+Guidance provides colour references for the red ground, golden emblems, and the blues of the waves, along with white that remains crisp under tropical light. Manufacturers are advised to use reinforced stitching along wave boundaries and the bird silhouette to prevent fraying on coastal masts. Vector artwork circulated by government specifies ray angles and bird proportions to curb drift in unofficial renderings.
+
+Protocol and Usage
+Rules cover respectful handling, sunrise‑to‑sunset display unless illuminated, precedence with foreign flags, and civil‑military contexts. Half‑masting follows national mourning decrees. On national days and at international sporting events, large‑format banners exhibit the undulating wave motif, while smaller hand flags prioritise simplified line weights to keep the bird recognisable.
+
+Continuity
+Since 1979 the design has remained stable. Public education encourages correct wave counts and sun‑ray geometry—frequent points of error in improvised versions. The flag serves as a unifying emblem across dispersed atolls and a distinctive national signature among Pacific states.`,
+    seoKeywords: [
+      "kiribati flag",
+      "flag of kiribati",
+      "kiribati flag meaning",
+      "kiribati flag history",
+      "kiribati flag colors"
+    ],
+  },
   lebanon: {
     countryId: "lebanon",
     summary250: `Lebanon’s flag (7 December 1943) is red‑white‑red with a green cedar centred, touching the red bands. Red signifies sacrifice; white snow and peace; the cedar endurance and holiness. Law fixes a 2:3 ratio, mandates that the cedar touch the red fields, and codifies artwork, shades, protocol, and dignified retirement. The banner dates to independence from the French Mandate.`,
