@@ -41,39 +41,6 @@ export default async function FlagPage({ params }: PageProps) {
   const history = getFlagHistory(id)
 
   const paragraphs = [history?.summary250, history?.longText].filter(Boolean) as string[]
-  // Normalize paragraphs: remove heading-only lines like "Adoption.", "Symbolism.", etc.
-  const headingWords = [
-    "Adoption",
-    "Symbolism",
-    "Standards and protocol",
-    "Standards",
-    "Protocol",
-    "Construction",
-    "Construction and standards",
-    "Chronology",
-    "Continuity",
-    "Continuity and presence",
-    "Continuity and identity",
-    "Continuity and civic use",
-    "Public life",
-    "Public life and presence",
-    "Origins",
-    "Origins and adoption",
-    "Design",
-    "Change and restoration",
-    "Variant and restoration",
-    "Unification and current design",
-    "Precedents and independence",
-    "Law and protocol",
-    "Debate and continuity",
-  ]
-  const headingOnlyRe = new RegExp(`^(${headingWords.map(w => w.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&")).join("|")})\.?$`, "i")
-  const headingPrefixRe = new RegExp(`^(${headingWords.map(w => w.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&")).join("|")})\.?\s+`, "i")
-  const splitParas = paragraphs
-    .flatMap((block) => block.split(/\n\n+/).map((p) => p.trim()))
-    .filter((p) => p.length > 0)
-    .map((p) => p.replace(headingPrefixRe, ""))
-    .filter((p) => !headingOnlyRe.test(p))
   const allIds = countries.map((c) => c.id)
   const currentIndex = allIds.indexOf(id)
   const prevId = currentIndex > 0 ? allIds[currentIndex - 1] : undefined
@@ -171,9 +138,50 @@ export default async function FlagPage({ params }: PageProps) {
 
       {history ? (
         <article className="prose dark:prose-invert">
-          {splitParas.map((p, i) => (
-            <p key={`p-${i}`} className="mb-4 last:mb-0 leading-relaxed">{linkify(p)}</p>
-          ))}
+          {paragraphs.flatMap((block, blockIndex) => {
+            const chunks = block.split(/\n\n+/)
+            return chunks.map((raw, i) => {
+              const text = raw.trim()
+              // Detect common section subheadings (content written with sentence-like headings)
+              const headingLabels = [
+                "Adoption",
+                "Chronology",
+                "Design",
+                "Origins and adoption",
+                "Variant and restoration",
+                "Change and restoration",
+                "Symbolism",
+                "Symbolism and Protocol",
+                "Standards and protocol",
+                "Standards and construction",
+                "Law and protocol",
+                "Protocol",
+                "Continuity",
+                "Continuity and Law",
+                "Continuity and presence",
+                "Public life",
+                "Role at Home and Abroad",
+              ]
+              const matched = headingLabels.find((h) =>
+                text.startsWith(`${h}.`) || text.startsWith(`${h}:`) || text === h
+              )
+              if (matched) {
+                // Remove the heading token and render it as a styled subheading
+                const remainder = text.replace(new RegExp(`^${matched}[\.:]?\s*`), "")
+                return (
+                  <div key={`${blockIndex}-${i}`} className="mb-4">
+                    <h3 className="text-lg md:text-xl font-extrabold mt-4 mb-2">{matched}</h3>
+                    {remainder && (
+                      <p className="leading-relaxed">{linkify(remainder)}</p>
+                    )}
+                  </div>
+                )
+              }
+              return (
+                <p key={`${blockIndex}-${i}`} className="mb-4 last:mb-0 leading-relaxed">{linkify(text)}</p>
+              )
+            })
+          })}
         </article>
       ) : (
         <p className="text-gray-600 dark:text-gray-300">Detailed history is coming soon.</p>
