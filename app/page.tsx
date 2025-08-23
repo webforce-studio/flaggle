@@ -1066,6 +1066,103 @@ Play at: ${url}`)
               <Button variant="outline" className="rounded-full">Scandinavian cross</Button>
             </Link>
           </div>
+
+          {/* More Games to Play */}
+          <div
+            className={`rounded-lg border text-card-foreground shadow-sm mt-8 mb-12 transition-colors duration-300 ${
+              darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"
+            }`}
+          >
+            <div className="p-8">
+              <div className="text-center mb-6">
+                <h2 className="text-3xl font-bold text-amber-500 font-varela flex items-center justify-center gap-2">
+                  <span className="text-4xl">🎮</span>More Games to Play
+                </h2>
+                <p className={`mt-2 ${darkMode ? "text-slate-400" : "text-slate-600"}`}>
+                  Check out these other fun daily challenges from the same creator
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                <a href="https://www.monumentle.fun" target="_blank" rel="noopener noreferrer" className="block group">
+                  <div
+                    className={`h-full rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                      darkMode
+                        ? "bg-slate-900 border-amber-600/30 hover:border-amber-500"
+                        : "bg-white border-amber-300 hover:border-amber-500"
+                    }`}
+                  >
+                    <div className="p-6">
+                      <div className="flex items-center justify-center mb-4">
+                        <div className="w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center mr-3 overflow-hidden">
+                          <img src="https://www.monumentle.fun/favicon.ico" alt="Monumentle" width="24" height="24" />
+                        </div>
+                        <h3 className="text-2xl font-bold text-amber-500 font-varela">Monumentle</h3>
+                      </div>
+                      <div className={`text-center mb-4 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
+                        <p>Guess world monuments in this engaging daily challenge.</p>
+                      </div>
+                      <div className="flex justify-center">
+                        <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-amber-900/30 text-amber-400 group-hover:bg-amber-800/50">Play Now →</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="https://www.classic-snake.com" target="_blank" rel="noopener noreferrer" className="block group">
+                  <div
+                    className={`h-full rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                      darkMode
+                        ? "bg-slate-900 border-green-600/30 hover:border-green-500"
+                        : "bg-white border-green-300 hover:border-green-500"
+                    }`}
+                  >
+                    <div className="p-6">
+                      <div className="flex items-center justify-center mb-4">
+                        <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center mr-3">
+                          <span className="text-2xl">🐍</span>
+                        </div>
+                        <h3 className="text-2xl font-bold text-green-500 font-varela">Classic Snake</h3>
+                      </div>
+                      <div className={`text-center mb-4 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
+                        <p>The nostalgic snake game reimagined! Collect food, grow longer, and avoid hitting walls.</p>
+                      </div>
+                      <div className="flex justify-center">
+                        <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-green-900/30 text-green-400 group-hover:bg-green-800/50">Play Now →</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div className="flex justify-center mt-6">
+                <a href="https://numlink.fun" target="_blank" rel="noopener noreferrer" className="block group w-full md:w-1/2">
+                  <div
+                    className={`h-full rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                      darkMode
+                        ? "bg-slate-900 border-blue-600/30 hover:border-blue-500"
+                        : "bg-white border-blue-300 hover:border-blue-500"
+                    }`}
+                  >
+                    <div className="p-6">
+                      <div className="flex items-center justify-center mb-4">
+                        <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center mr-3">
+                          <span className="text-white font-bold text-lg">123</span>
+                        </div>
+                        <h3 className="text-2xl font-bold text-blue-500 font-varela">Numlink</h3>
+                      </div>
+                      <div className={`text-center mb-4 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
+                        <p>Connect matching numbers to clear the board in this addictive puzzle.</p>
+                      </div>
+                      <div className="flex justify-center">
+                        <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-blue-900/30 text-blue-400 group-hover:bg-blue-800/50">Play Now →</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
