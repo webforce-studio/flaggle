@@ -3504,6 +3504,99 @@ In sum, Australia’s flag is the product of a federation‑era competition, ref
       "australia flag colors"
     ],
   },
+  "new-zealand": {
+    countryId: "new-zealand",
+    summary250: `New Zealand’s national flag is a British Blue Ensign (ratio 1:2) defaced with four red, white‑fimbriated stars of the Southern Cross in the fly. The design stems from nineteenth‑century colonial ensigns and was standardised by the New Zealand Ensign Act 1901 (in force 1902). Star positions and diameters were later clarified in construction sheets. The Union Jack in the canton marks constitutional origins; the Southern Cross anchors the banner in the southern sky. Protocol sets precedence, half‑masting practice, and rules for respectful display. In 2015–2016, a government‑run referendum considered alternatives but retained the current flag. Service ensigns (navy, air force) and Māori flags are recognised for specific contexts but do not alter the national flag’s legal form. Government specifications fix Pantone/CMYK references to control shade drift across textile and print.`,
+    longText: `New Zealand’s national flag developed from maritime practice into a codified symbol of statehood. Its familiar elements—the Union Jack in the canton and four five‑pointed stars marking the Southern Cross—reflect nineteenth‑century British ensign conventions adapted to a distinct southern identity. Legislation and construction drawings now ensure precise geometry and consistent colour across government, education, and protocol use.
+
+From Colonial Ensigns to a Distinct Device
+During the mid‑nineteenth century, British colonies commonly used the Blue Ensign defaced with a local badge for government vessels and the Red Ensign for merchant shipping. In 1867, following Admiralty guidance, New Zealand introduced badges to distinguish its vessels; over subsequent years, practice converged on a Blue Ensign showing the Southern Cross as four red, white‑edged stars in the fly. This arrangement quickly became the recognizable New Zealand device at sea and at official functions ashore.
+
+Enactment and Standardisation (1901–1902)
+The New Zealand Ensign Act 1901 regularised the flag for use on land and at sea, coming into force in 1902. The statute established the Blue Ensign base and specified the stars’ colours. Government drawings, published subsequently, set star diameters, positions, and fimbriations (white borders) to produce constant appearance across sizes. The flag’s overall proportion is 1:2, consistent with British and Commonwealth practice.
+
+Geometry and Colour
+The Southern Cross stars (Alpha, Beta, Gamma, Delta Crucis) are placed by coordinates referenced to the flag’s edges; their diameters and the width of the white fimbriation are fixed fractions of the flag’s width. The Union Jack follows standard construction. Colour standards—often provided as Pantone approximations for deep blue and the red of the stars, with white fimbriations—support consistency across textile batches and broadcast lighting conditions. Procurement guidance emphasizes high contrast and crisp star apertures to avoid visual muddiness at distance.
+
+Protocol and Usage
+Protocol requires respectful handling, sunrise‑to‑sunset display unless illuminated, and dignified retirement of worn flags. Order‑of‑precedence diagrams cover joint display with other national flags, the New Zealand Police flag, service ensigns, the Māori flag, and regional banners. Half‑masting follows national mourning directives, with detailed instructions for hoisting, lowering to the correct depth, and re‑hoisting at day’s end. At sea, the national flag coexists with naval and civil ensigns according to warrant and international law.
+
+Referendum on Alternatives (2015–2016)
+Between 2015 and 2016 the government held a two‑stage referendum to consider alternative designs that might emphasise a uniquely New Zealand identity without a foreign union in the canton. After significant public debate and international attention, the electorate chose to retain the existing flag. The process generated widespread civic education about flag protocol and construction, and reinforced familiarity with the current design.
+
+Symbolism
+The Union Jack signals constitutional origins in British law and institutions; the Southern Cross anchors the flag in the southern skies under which the country lives. The blue ground evokes the surrounding oceanic context of Aotearoa New Zealand. Public discourse often pairs the national flag with other recognised banners (such as the Māori flag) to express multiple strands of identity in civic life while preserving the legally defined national standard.
+
+Continuity
+Since 1902 the national flag has remained unchanged in law, with refinements confined to technical drawings and colour references. Its clarity at distance, maritime lineage, and consistent geometry have made it effective on masts, at sporting venues, and across digital and television media.`,
+    seoKeywords: [
+      "new zealand flag",
+      "flag of new zealand",
+      "new zealand flag meaning",
+      "new zealand flag history",
+      "new zealand flag colors"
+    ],
+  },
+  "papua-new-guinea": {
+    countryId: "papua-new-guinea",
+    summary250: `Papua New Guinea’s flag (adopted 1 July 1971; retained at independence in 1975) is diagonally divided from upper hoist to lower fly—black over red—with a white Southern Cross of five stars on the black and a golden Raggiana bird‑of‑paradise in silhouette on the red. Designed by school student Susan Karike (later Karike Huhume), it replaced earlier ensign proposals. The design balances Melanesian colours and symbols with astronomical identity. Specifications fix a 3:4 or 1:2 ratio (commonly 3:4), star sizes/positions, and the bird’s silhouette artwork. Guidance covers protocol, half‑masting, and dignified retirement. The distinctive diagonal split yields strong contrast for mast and textile reproduction across the country’s varied climates.`,
+    longText: `Papua New Guinea’s national flag—black over red divided diagonally from the upper hoist, bearing the Southern Cross in white and a golden Raggiana bird‑of‑paradise—was officially adopted on 1 July 1971 and raised at independence on 16 September 1975. Originating in a nationwide search for a design that would express local heritage rather than colonial motifs, it has since become an emblem of Melanesian identity and constitutional statehood.
+
+Selection and Adoption (1971)
+In the lead‑up to internal self‑government, various proposals circulated, including ensigns featuring the Southern Cross with external heraldry. A public competition produced a compelling design by student Susan Karike: a stark diagonal division of black and red, five white stars for the Southern Cross, and a golden silhouette of the Raggiana bird‑of‑paradise—an endemic species central to cultural art. Authorities adopted the flag on 1 July 1971, several years before full independence, to establish a visual identity rooted in local forms.
+
+Geometry and Construction
+The flag is typically produced at a 3:4 proportion (other ratios appear in practice). The diagonal descends from the upper hoist to the lower fly, creating two right triangles. The Southern Cross stars (Alpha to Epsilon Crucis) are placed on the black triangle by coordinates referenced to the flag’s edges, with diameters scaled by magnitude; the stars are white and five‑pointed. The bird‑of‑paradise in the red triangle is drawn from an approved silhouette file that captures characteristic plumage and tail feathers for legibility at distance. Official art defines minimum line weights and clearspace to preserve the silhouette against stitch and print variations.
+
+Colour and Contrast
+Black and red are common in regional ornament and bilum patterns; together they provide strong visual contrast in coastal glare and highland cloud. Specifications provide dye references for deep red and rich black, and a golden yellow for the bird. Manufacturers are cautioned to avoid muted reds that reduce separation from the bird, and to maintain hard edges along the diagonal seam.
+
+Symbolism
+The Southern Cross marks Papua New Guinea’s place beneath the southern skies and situates the flag within a wider Pacific constellation of designs, while remaining visually distinct through the diagonal division and colour palette. The Raggiana bird‑of‑paradise symbolises vibrancy, ceremony, and the diversity of the country’s hundreds of language communities, serving as a unifying motif across provinces.
+
+Protocol and Usage
+Government guidance sets precedence with provincial flags and foreign banners, sunrise‑to‑sunset display unless illuminated, prohibition on ground contact, and dignified retirement of worn flags. Half‑masting is ordered for national mourning. For schools and public buildings, procurement notes emphasise accurate star placement and the use of the official bird silhouette to prevent drift. The flag appears on national sports uniforms, diplomatic missions, and international events, where the bold diagonal split aids recognition on moving fabric and televised backgrounds.
+
+Continuity
+Since independence the design has remained unchanged, its authority reinforced by widespread civic education on construction and etiquette. The flag’s combination of regional colours, astronomy, and endemic fauna has made it one of the Pacific’s most distinctive state symbols.`,
+    seoKeywords: [
+      "papua new guinea flag",
+      "flag of papua new guinea",
+      "papua new guinea flag meaning",
+      "papua new guinea flag history",
+      "papua new guinea flag colors"
+    ],
+  },
+  fiji: {
+    countryId: "fiji",
+    summary250: `Fiji’s flag (10 October 1970) is a light‑blue British Blue Ensign defaced with the national shield at the fly and the Union Jack in the canton. The pale blue recalls the Pacific; the shield displays a red St George’s Cross with a lion passant and quarters showing sugar cane, coconut palm, bananas, and a dove of peace—derived from colonial arms simplified at independence. The ratio is 1:2; construction sheets fix shield size and position, and colour references. A 2015–2016 redesign initiative was discontinued, retaining the current flag. Protocol governs half‑masting, precedence with foreign flags, and dignified retirement; the Red Ensign serves mercantile use.`,
+    longText: `Fiji’s national flag reflects the island state’s transition from a British colony to an independent country while preserving recognisable heraldry. Adopted on 10 October 1970, the design is a light‑blue British Blue Ensign defaced with Fiji’s shield of arms at the fly. The pale blue evokes the surrounding Pacific, while the shield condenses historical agriculture and aspirations to peace.
+
+Colonial Arms and the Path to Independence
+Under British rule, Fiji used standard colonial ensigns: the Blue Ensign with the full colonial badge for government vessels and the Red Ensign for merchant shipping. As independence approached, authorities sought continuity with simplified symbolism. The arms were adapted to a shield for flag use: a red St George’s Cross quarters the shield; above the cross a golden lion holds a cocoa pod; in the four quarters appear sugar cane, a coconut palm, a bunch of bananas, and a white dove of peace. This device, long associated with the colony, was retained in simplified form on the national flag.
+
+Adoption and Specification (1970)
+The independence flag retained the Union Jack in the canton, signalling constitutional origins and Commonwealth connections. The national flag’s proportion is 1:2. Construction drawings define the shield’s height as a fixed fraction of the flag’s height, its offset from the fly edge, and alignment along the horizontal centreline. Shield linework and colours follow government art files to prevent drift. The pale blue ground—distinct from darker naval blues—was specified to suggest the Pacific setting and to distinguish the flag in regional contexts.
+
+Protocol and Usage
+Guidance addresses sunrise‑to‑sunset display (or illumination at night), prohibition on contact with the ground or water, and respectful retirement of worn flags. When displayed with other national flags, the Fijian flag follows international precedence rules; when shown with provincial or institutional banners, order‑of‑precedence charts place the national flag first. Half‑masting procedures follow government notices of mourning. At sea, the Red Ensign variant is reserved for merchant vessels, consistent with Commonwealth practice.
+
+Symbolism
+The Union Jack acknowledges historical ties and legal traditions; the light‑blue field evokes the Pacific Ocean and Fiji’s maritime environment; the shield’s agricultural motifs recall key crops in the economy, while the dove symbolises peace and a forward‑looking national identity. The simplified heraldry aids reproduction on cloth and broadcast backdrops, maintaining legibility at distance.
+
+Redesign Discussions (2015–2016)
+In 2015 the government opened discussion on a new flag that might remove colonial elements. A shortlist of alternatives was exhibited, but after public consultation and a successful hosting of international events under the existing flag, authorities announced in 2016 that the current design would be retained. The episode increased public familiarity with flag protocol and reinforced the established banner’s recognition domestically and abroad.
+
+Continuity and Technical Notes
+Since 1970 the flag has remained stable, with periodic restatement of shield artwork to harmonise print and textile versions. Government suppliers observe Pantone/CMYK guidance for the pale blue ground, the red of St George’s Cross, and the shield’s colours. Educational materials emphasise correct shield scale and placement to avoid undersized or off‑centre renderings.`,
+    seoKeywords: [
+      "fiji flag",
+      "flag of fiji",
+      "fiji flag meaning",
+      "fiji flag history",
+      "fiji flag colors"
+    ],
+  },
   lebanon: {
     countryId: "lebanon",
     summary250: `Lebanon’s flag (7 December 1943) is red‑white‑red with a green cedar centred, touching the red bands. Red signifies sacrifice; white snow and peace; the cedar endurance and holiness. Law fixes a 2:3 ratio, mandates that the cedar touch the red fields, and codifies artwork, shades, protocol, and dignified retirement. The banner dates to independence from the French Mandate.`,
