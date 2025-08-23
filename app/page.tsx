@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
-import { Trophy, Share2, BarChart3, Flame, Zap, Crown, Star, Gem, MapPin, Facebook, Linkedin } from "lucide-react"
+import { Trophy, Share2, BarChart3, Flame, Zap, Crown, Star, Gem, MapPin, Facebook, Linkedin, Globe } from "lucide-react"
 import Image from "next/image"
 import { Input } from "@/components/ui/input"
 import { StructuredData } from "@/components/structured-data"
@@ -1008,12 +1008,37 @@ Play at: ${url}`)
             Browse country flags by region. Each page includes a larger flag table with names, short histories,
             download links (SVG/PNG), and navigation to detailed meanings.
           </p>
-          <div className="flex flex-wrap gap-2">
-            <Link href="/europe-flags"><Button variant="outline">Europe Flags</Button></Link>
-            <Link href="/asia-flags"><Button variant="outline">Asia Flags</Button></Link>
-            <Link href="/africa-flags"><Button variant="outline">Africa Flags</Button></Link>
-            <Link href="/america-flags"><Button variant="outline">Americas Flags</Button></Link>
-            <Link href="/oceania-flags"><Button variant="outline">Oceania Flags</Button></Link>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/europe-flags">
+              <Button className="group rounded-full border-0 bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm hover:shadow-md hover:from-blue-500 hover:to-indigo-500">
+                <Globe className="w-4 h-4 mr-2 opacity-90 group-hover:scale-110 transition-transform" />
+                Europe Flags
+              </Button>
+            </Link>
+            <Link href="/asia-flags">
+              <Button className="group rounded-full border-0 bg-gradient-to-r from-rose-600 to-orange-600 text-white shadow-sm hover:shadow-md hover:from-rose-500 hover:to-orange-500">
+                <Globe className="w-4 h-4 mr-2 opacity-90 group-hover:scale-110 transition-transform" />
+                Asia Flags
+              </Button>
+            </Link>
+            <Link href="/africa-flags">
+              <Button className="group rounded-full border-0 bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-sm hover:shadow-md hover:from-emerald-500 hover:to-teal-500">
+                <Globe className="w-4 h-4 mr-2 opacity-90 group-hover:scale-110 transition-transform" />
+                Africa Flags
+              </Button>
+            </Link>
+            <Link href="/america-flags">
+              <Button className="group rounded-full border-0 bg-gradient-to-r from-sky-600 to-cyan-600 text-white shadow-sm hover:shadow-md hover:from-sky-500 hover:to-cyan-500">
+                <Globe className="w-4 h-4 mr-2 opacity-90 group-hover:scale-110 transition-transform" />
+                Americas Flags
+              </Button>
+            </Link>
+            <Link href="/oceania-flags">
+              <Button className="group rounded-full border-0 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white shadow-sm hover:shadow-md hover:from-purple-500 hover:to-fuchsia-500">
+                <Globe className="w-4 h-4 mr-2 opacity-90 group-hover:scale-110 transition-transform" />
+                Oceania Flags
+              </Button>
+            </Link>
           </div>
         </div>
 
