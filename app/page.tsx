@@ -1042,19 +1042,30 @@ Play at: ${url}`)
           </div>
         </div>
 
-        {/* Printable Flags CTA */}
-        <div className="mt-8 flex justify-center">
-          <a
-            href="/printable-flags"
-            aria-label="Free printable country flags (SVG and PNG)"
-            className={`inline-flex items-center gap-2 px-6 py-3 rounded-md font-semibold transition-colors ${
-              darkMode
-                ? "bg-blue-600 text-white hover:bg-blue-500"
-                : "bg-blue-600 text-white hover:bg-blue-500"
-            }`}
-          >
-            Free Printable Flags (SVG/PNG)
-          </a>
+        {/* Printable Flags Section */}
+        <div className="mt-10">
+          <h2 className={`text-2xl font-extrabold mb-2 ${darkMode ? "text-white" : "text-slate-900"}`}>Printable flags</h2>
+          <p className={`${darkMode ? "text-slate-300" : "text-slate-700"} mb-4 max-w-3xl`}>
+            Download high‑quality country flags in SVG or PNG sizes (320/640/1280). Each entry links to
+            Wikimedia Commons for licensing and to our history & meaning pages.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/printable-flags">
+              <Button className="rounded-full border-0 bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-sm hover:shadow-md hover:from-blue-500 hover:to-indigo-500">Printable Flags Hub</Button>
+            </Link>
+            <Link href="/flags/colors/red-white">
+              <Button variant="outline" className="rounded-full">Red & white flags</Button>
+            </Link>
+            <Link href="/flags/symbols/stars">
+              <Button variant="outline" className="rounded-full">Flags with stars</Button>
+            </Link>
+            <Link href="/flags/symbols/animals">
+              <Button variant="outline" className="rounded-full">Flags with animals</Button>
+            </Link>
+            <Link href="/flags/styles/scandinavian-cross">
+              <Button variant="outline" className="rounded-full">Scandinavian cross</Button>
+            </Link>
+          </div>
         </div>
       </div>
 
