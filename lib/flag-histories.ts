@@ -3659,6 +3659,99 @@ Since 1979 the design has remained stable. Public education encourages correct w
       "kiribati flag colors"
     ],
   },
+  micronesia: {
+    countryId: "micronesia",
+    summary250: `The flag of the Federated States of Micronesia (FSM) was adopted on 30 November 1978 amid the transition from the UN Trust Territory to self‑government and entered use in 1979. It is a light (later darker) blue field charged with four white five‑pointed stars in a circle, symbolising the Pacific Ocean and the FSM’s four states—Chuuk, Pohnpei, Kosrae, and Yap. After the 1986 Compact of Free Association, the field shifted from UN blue to a deeper blue. A common ratio is 1:1.9; construction places the stars equidistant on a circle, one point of each oriented outward. Law and protocol govern respectful use, order of precedence, and half‑masting. The design continues the Trust Territory star motif while expressing a distinct federal identity in the Pacific.`,
+    longText: `The flag of the Federated States of Micronesia emerged directly from the islands’ path from United Nations trusteeship to constitutional self‑government and international association. Its clean geometry—a blue field with four white five‑pointed stars arranged in a circle—condenses geography, federal structure, and oceanic identity into a legible emblem suitable for masts, schools, and diplomatic halls.
+
+Trust Territory Background and Early Symbols
+Following the Second World War, the islands that now form the Federated States of Micronesia were administered by the United States as the Trust Territory of the Pacific Islands under the auspices of the United Nations. In 1962 the Trust Territory introduced a flag featuring six white stars on a blue field, the blue deliberately echoing the hue of the UN banner. The stars represented the administrative districts—Yap, Truk (now Chuuk), Ponape (now Pohnpei), Palau, the Marshall Islands, and the Northern Mariana Islands—serving as a unifying device across a wide expanse of ocean and cultures.
+
+Constitutional Formation and 1978 Adoption
+As political development accelerated in the 1970s, the districts that would comprise the FSM moved to establish distinct national symbols. With Kosrae’s separation from Ponape in 1977, the prospective federation coalesced around four states: Chuuk, Pohnpei, Kosrae, and Yap. On 30 November 1978, during the constitutional transition, a new national flag was adopted: a blue field carrying four white five‑pointed stars in a circle. The design maintained continuity with the Trust Territory motif while reducing the stars to reflect the FSM’s final composition. The flag entered regular use in 1979 alongside the new constitution, appearing at state offices, schools, and on official publications.
+
+Compact of Free Association and Colour Refinement
+On 3 November 1986, the Compact of Free Association with the United States took effect, formally ending UN trusteeship and defining the FSM’s international status. In this context, the field colour shifted from the earlier "UN blue" to a deeper blue, reinforcing the flag’s national identity while keeping the oceanic reference. The change improved contrast for print and textile manufacture and clarified the flag’s distinctness from UN imagery.
+
+Geometry, Ratio, and Construction
+Statute and government drawings define the flag’s geometry. A commonly used proportion is 1:1.9. The four stars are equidistant on an imaginary circle centered in the flag. Each five‑pointed star is oriented with one point facing outward, creating a balanced composition that reads at distance and in motion. The circle’s diameter and star radii are given as fractions of the flag’s height, ensuring that stitching and digital artwork reproduce the intended relationships across sizes. The blue field occupies the entire background, with no fimbriations or additional charges, foregrounding the stars.
+
+Symbolism
+The stars represent the four states—Chuuk, Pohnpei, Kosrae, and Yap—standing in equality around a shared center. The circle suggests union without hierarchy; the outward‑facing points imply openness to the Pacific world. The blue field reads first as the Pacific Ocean, the environmental and cultural medium that unites the archipelagos, and second as a historical nod to the UN framework out of which the FSM’s statehood emerged. In educational materials, the constellation‑like arrangement is often used to teach both civic structure and the oceanic geography that shapes daily life.
+
+Protocol and Usage
+Government guidance prescribes respectful treatment: sunrise‑to‑sunset display unless illuminated, prohibition on contact with the ground or water, and dignified retirement of worn flags. Order‑of‑precedence charts address co‑display with foreign flags and the flags of the four states at national ceremonies. Half‑masting follows presidential proclamations of mourning, with instructions for hoisting fully before lowering to the prescribed position and for re‑hoisting before sunset. The flag is used across civil and ceremonial contexts; the FSM does not widely employ separate civil or naval ensigns.
+
+Continuity and Practice
+Since 1978 the flag has remained unchanged in its core geometry, with the principal refinement being the post‑1986 deepening of the field blue. Ministries maintain vector artwork to avoid drift in star size or spacing, and procurement notes emphasise consistent dyes that hold colour under tropical light. The flag’s simplicity has aided faithful reproduction on cloth, print, and screens, from village schools to international sporting events and diplomatic missions.
+
+In sum, the FSM flag integrates federal equality and oceanic belonging within a disciplined construction. It inherits the Trust Territory’s star lexicon while articulating a specific four‑state polity, projecting continuity and self‑government in a region where the sea is both connective tissue and horizon.`,
+    seoKeywords: [
+      "micronesia flag",
+      "flag of micronesia",
+      "micronesia flag meaning",
+      "micronesia flag history",
+      "micronesia flag colors"
+    ],
+  },
+  nauru: {
+    countryId: "nauru",
+    summary250: `Nauru’s flag (31 January 1968) is a deep blue field crossed by a narrow golden horizontal stripe representing the Equator, with a white twelve‑pointed star set below the stripe near the hoist to mark the island’s position one degree south. The twelve points denote the island’s traditional tribes; white has been associated with phosphate, central to Nauru’s economy. Ratio is 1:2; construction fixes the stripe at one‑twelfth of the flag’s length and standardises star size and offsets. Protocol covers precedence, respectful handling, and half‑masting. The design, chosen at independence, has remained unchanged, projecting precise geographic symbolism and indigenous identity.`,
+    longText: `Adopted on 31 January 1968, the day of independence, Nauru’s national flag translates the island’s geography and social memory into three elements: a deep blue field for the Pacific Ocean, a narrow golden stripe for the Equator, and a white twelve‑pointed star placed just below the stripe near the hoist to mark the island’s position one degree south of that line. Its disciplined construction and concise symbolism have supported consistent use at sea level and on the international stage.
+
+Origins and Adoption
+Prior to independence, Nauru flew the flags of administering powers in succession—German, British, Japanese, and, during the final Trusteeship years, Australian ensigns. In the 1960s, as constitutional change gathered pace, a public competition sought a design that would be unmistakably local yet straightforward to manufacture. The chosen concept—subsequently refined by professional manufacturers—fixed a golden stripe at the flag’s midline to represent the Equator and placed a white twelve‑pointed star just below the stripe near the hoist to identify Nauru’s latitude. The Cabinet adopted the design for first raising on Independence Day, establishing an enduring visual identity at the moment of sovereignty.
+
+Design, Ratio, and Construction
+The flag’s proportion is 1:2. The golden stripe spans the full length of the flag with a width equal to one‑twelfth of the flag’s length, a specification that ensures the stripe remains visually slender even on large ceremonial banners. The star, rendered in pure white to maximise contrast, is positioned beneath the stripe near the hoist according to fixed offsets from the flag’s edges; its twelve points are evenly spaced to preserve symmetry when stitched or printed. The deep blue ground is specified for high contrast with the gold stripe and white star under tropical light and maritime glare.
+
+Symbolism
+Each point of the white star represents one of the island’s twelve traditional tribes, anchoring present civic life in ancestral structures. The star’s placement below the Equator stripe is a literal cartographic statement of Nauru’s latitude. The blue field evokes the Pacific environment that defines transport, climate, and economy; the golden stripe can be read both as the Equator and, by association, as the light of the tropical belt. Many explanations note that the white star also recalls phosphate—historically central to Nauru’s development—without turning the emblem into economic heraldry.
+
+Protocol and Usage
+Government instructions follow commonwealth practice: the flag is raised briskly, lowered ceremonially, and not allowed to touch the ground or water; it may be flown from sunrise to sunset or at night if illuminated. Half‑masting is ordered for national mourning, with the flag first raised to the peak before being lowered to the prescribed position and re‑hoisted at day’s end. When displayed with other national flags, precedence rules and alphabetical order by English name typically apply; when shown with institutional or regional banners, the national flag holds the position of honour. Vertical displays preserve the stripe’s horizontal orientation and the star’s position beneath it toward the hoist.
+
+Continuity and Manufacture
+Since 1968 the design has remained unchanged. Construction sheets standardise the stripe width, star diameter, and placement to prevent drift, particularly on small hand flags where star geometry can distort. Dye references are circulated to suppliers to keep the deep blue and gold within tolerances under strong sunlight; reinforced stitching is recommended along the stripe to prevent puckering on tall masts. Civic education materials emphasise the Equator symbolism and the tribal points to sustain public understanding of the design’s meaning.
+
+In practice, the Nauruan flag has proven adaptable across formats—from coastal government buildings and schools to international sport and diplomacy—its off‑centre star and measured stripe standing out in a field of more conventional canton‑based designs. As such, the banner continues to function as both a precise geographic diagram and an emblem of a small island nation’s unity and independence.`,
+    seoKeywords: [
+      "nauru flag",
+      "flag of nauru",
+      "nauru flag meaning",
+      "nauru flag history",
+      "nauru flag colors"
+    ],
+  },
+  "marshall-islands": {
+    countryId: "marshall-islands",
+    summary250: `The Marshall Islands flag (1 May 1979) has a deep blue field crossed by two diagonal bands—wide orange over narrow white—radiating from the lower hoist toward the fly, with a white star of 24 points near the upper hoist. The bands evoke equatorial sunlight (orange) and peace (white) and the island chains’ sweep; the star’s points reference electoral districts, with elongated rays indicating the cardinal directions. Adopted at constitutional self‑government and retained under the Compact of Free Association, the flag’s ratio is commonly 10:19; drawings fix band widths, angles, star radius, and placement. Protocol addresses precedence and half‑masting.`,
+    longText: `Adopted on 1 May 1979, the flag of the Republic of the Marshall Islands reflects the atolls’ geography and constitutional identity in a composition optimised for legibility at sea and on parade. Its deep blue ground carries two sweeping diagonal bands—orange over white—issuing from the lower hoist corner toward the fly, and a white 24‑pointed star set near the upper hoist.
+
+Origins and Adoption
+The Marshall Islands emerged from the Trust Territory of the Pacific Islands with a new constitution in 1979. Seeking a banner independent of colonial ensign conventions, authorities endorsed a design that would read clearly against ocean and sky while encoding local meaning. The selected flag placed two diagonal bands radiating from the lower hoist across a blue field, with a white star near the upper hoist, and was raised at the inauguration of local self‑government. When the Compact of Free Association with the United States took effect in 1986, the flag was retained without change, underscoring continuity in national symbolism.
+
+Geometry, Ratio, and Construction
+The flag is commonly manufactured at a 10:19 proportion. Government drawings fix the angle at which the bands emerge from the lower hoist, their relative widths (the orange band being wider than the white), and the clearspace around the star. The star’s radius and the lengths of alternating long and short rays are given as fractions of the flag’s height; the star is offset toward the canton to balance the visual weight of the sweeping bands. The blue field provides high contrast with both white and orange under strong equatorial light, and stitching guidance calls for reinforced seams along the diagonals.
+
+Symbolism
+The deep blue field represents the Pacific; the twin bands, issuing like wakes or sun paths, symbolise the chain of atolls stretching northwest–southeast across the ocean and the equatorial sun’s track. The colour pairing assigns white to peace and orange to courage and the warmth of the islands. The 24‑pointed star represents the electoral districts, while the four elongated rays indicate the principal directions and the cultural centrality of navigation. Official explanations also tie the star’s placement near the upper hoist to the islands’ position just north of the Equator.
+
+Protocol and Usage
+Protocol follows commonwealth practice: the flag is raised briskly, lowered ceremonially, and retired with dignity when worn; it is displayed sunrise‑to‑sunset unless illuminated at night. Half‑masting is ordered during national mourning, with instructions for hoisting fully before lowering and re‑hoisting before sunset. At national events the flag is displayed with state seals and local atoll banners according to precedence charts. At international gatherings, the sweeping diagonals aid recognition on moving fabric and broadcast backgrounds.
+
+Continuity and Practice
+Since 1979 the design has been stable. Ministries distribute vector artwork to standardise the star geometry and band angles; procurement notes emphasise dye tolerances to keep the orange vivid without drifting toward red, and to maintain crisp separation between the bands. Civic education materials explain the star’s 24 points and elongated rays to curb common errors in simplified renderings. The flag’s dynamic diagonals, balanced by the poised star, have made it one of the Pacific’s most recognisable state emblems.
+
+In sum, the Marshallese flag compresses maritime geography and civic structure into a clear, modern composition. Its diagonal bands sweep the eye across a wide ocean; its star fixes orientation and community; and its colour pairing reads with clarity from lagoon shorelines to international podiums.`,
+    seoKeywords: [
+      "marshall islands flag",
+      "flag of marshall islands",
+      "marshall islands flag meaning",
+      "marshall islands flag history",
+      "marshall islands flag colors"
+    ],
+  },
   lebanon: {
     countryId: "lebanon",
     summary250: `Lebanon’s flag (7 December 1943) is red‑white‑red with a green cedar centred, touching the red bands. Red signifies sacrifice; white snow and peace; the cedar endurance and holiness. Law fixes a 2:3 ratio, mandates that the cedar touch the red fields, and codifies artwork, shades, protocol, and dignified retirement. The banner dates to independence from the French Mandate.`,
