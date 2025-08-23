@@ -1269,19 +1269,9 @@ Thus Mozambique’s banner—bands, triangle, star with book, hoe, and rifle—s
     countryId: "madagascar",
     summary250:
       "Madagascar’s flag—white vertical at the hoist, with red over green horizontal bands at the fly—was adopted on 14 October 1958 and retained at independence on 26 June 1960. White and red echo the Merina kingdom’s colours; green represents the coastal peoples and hope. A 2:3 ratio is standard; statutes regulate colour references and display protocol across the republic’s institutions.",
-    longText: `Madagascar’s national flag blends pre‑colonial heraldry with republican form.
+    longText: `Madagascar’s flag marries nineteenth‑century highland heraldry to a modern republican form. Selected in 1958 as autonomy deepened and retained unchanged at independence on 26 June 1960, the banner sets a white vertical panel at the hoist with two equal horizontal bands of red over green at the fly. White and red recall the colours of the Merina kingdom that dominated the plateau before colonisation; they signal historical continuity and a just peace. Green is commonly read as the vitality of the coastal peoples and as hope for renewal. The geometry—one vertical field and two horizontal bands—gives the flag a calm, legible structure distinct among African designs while acknowledging the French vexillological influence of the period.
 
-Adoption. In the course of constitutional change within the French Community, Madagascar adopted on 14 October 1958 a flag consisting of a white vertical band at the hoist and, on the fly, two equal horizontal bands of red over green. When the island attained independence on 26 June 1960, this flag was retained without alteration.
-
-Symbolism. White and red were the colours of the Merina kingdom that achieved nineteenth‑century hegemony in the highlands; they evoke sovereignty and the historic state. Green is commonly read as representing the coastal populations and hope. The arrangement—vertical hoist panel and horizontal fly bands—creates a legible geometry distinct among African flags while acknowledging French vexillological influence.
-
-Standards and protocol. A 2:3 ratio is typical; the hoist panel occupies one‑third of the length; colours are referenced to official guides. Protocol governs respectful handling, daily hoisting on public buildings, precedence with foreign flags, half‑masting by decree, illumination at night, and dignified retirement.
-
-Continuity. The drawing has remained stable since 1958/1960, with refinements confined to colour specifications for consistent manufacture. The civil flag is the state’s primary banner; military and presidential standards add coats of arms where appropriate.
-
-Public life. National and independence days emphasise flag‑raising ceremonies across the island; schools teach the colours’ meanings and correct use as part of civic curricula.
-
-Madagascar’s banner thus unites a Merina visual legacy with a modern republican layout, fixed in statute and ritual.`,
+Official drawings use a 2:3 ratio, with the hoist panel occupying one‑third of the length; colour references are standardised so that the red does not drift toward scarlet and the green remains saturated on cloth and digital assets. Protocol governs daily hoisting on ministries and schools, precedence alongside foreign flags, half‑masting by decree, illumination when flown at night, and dignified retirement of worn banners. The design has remained stable since 1958/1960; only manufacturing guidance has been refined. From independence parades to classroom posters and sports delegations, the white‑red‑green tricolour is the island’s most economical visual summary: a memory of Merina sovereignty, a place for coastal voices, and a confident republican rectangle that reads instantly in the trade winds.`,
     seoKeywords: ["madagascar flag history", "madagascar flag meaning"],
   },
   mali: {
@@ -1305,51 +1295,21 @@ Thus Mali’s flag—simple, stable, and symbolic—binds federation history to 
     countryId: "niger",
     summary250:
       "Niger’s flag, adopted on 23 November 1959 and retained at independence (3 August 1960), is orange‑white‑green with an orange disc centred in the white band. Orange denotes the Sahara and courage; white purity and honesty; green the Niger River, agriculture, and hope; the disc signifies the sun. Official drawings historically cite a 6:7 ratio though 2:3 variants appear in practice. Protocol governs respectful use across the republic.",
-    longText: `Niger’s banner—three horizontal bands with a central sun disc—expresses geography and civic ideals in a distinctive proportion.
-
-Adoption. As autonomy advanced, Niger enacted a national flag on 23 November 1959: horizontal bands of orange, white, and green with an orange disc centred in the white band. The republic retained the design upon independence on 3 August 1960.
-
-Symbolism. Orange represents the Saharan north and courage; white peace and honesty; green the southern agricultural belt, the Niger River, and hope. The orange disc is the sun, an ever‑present fact of Nigerien life and a symbol of energy.
-
-Standards and protocol. Historic specifications cite a 6:7 ratio; other ratios, notably 2:3, appear in manufacture, but official drawings regulate band equality, disc diameter and centring, and colour references. Protocol sets precedence with foreign flags, half‑masting by decree, illumination at night, and dignified retirement of worn banners.
-
-Continuity and civic use. The design has been stable since 1959/1960. State and military standards incorporate coats of arms where appropriate; education materials teach colour meanings and correct handling.
-
-Niger’s flag thus joins sun and land in a concise geometry unique among world flags.`,
+    longText: `Niger’s flag translates desert, river, and civic purpose into a spare tricolour with a single solar disc. Adopted on 23 November 1959 and retained at independence (3 August 1960), it arranges orange, white, and green horizontal bands with an orange circle centred in the white. The palette reads readily: orange for the Saharan north and the courage and labour required there; white for peace and honesty in public life; green for the agricultural south, the Niger River, and hope. The disc is the sun—inescapable in the Sahel and a symbol of energy and endurance. Historic specifications cite an uncommon 6:7 ratio, though 2:3 variants are manufactured; official drawings regulate band equality, disc diameter and centring, and colour references so that the orange disc remains vivid but distinct from the top stripe. Protocol addresses precedence with foreign flags, half‑masting by decree, illumination for continuous display, and dignified retirement. Stable since independence, the design’s quiet balance has made it an instantly legible emblem from embassy mast to classroom map.`,
     seoKeywords: ["niger flag history", "niger flag meaning"],
   },
   rwanda: {
     countryId: "rwanda",
     summary250:
       "Rwanda’s current flag (25 October 2001) replaced the 1962 green‑yellow‑red tricolour. It features sky‑blue, yellow, and green horizontal bands (2:1:1) with a golden sun of 24 rays in the fly‑side canton. Blue signifies peace and happiness; yellow economic development; green hope; the sun enlightenment. Law fixes a 2:3 ratio, precise sun geometry, and protocol.",
-    longText: `Rwanda’s redesigned banner signals renewal and development while preserving a clear national identity.
-
-Adoption. On 25 October 2001 Rwanda adopted a new flag to replace the 1962 tricolour. The current design comprises a wide sky‑blue band over narrower yellow and green bands (proportions 2:1:1). A golden sun with 24 rays appears near the fly in the blue field.
-
-Symbolism. Blue denotes peace and happiness; yellow economic development and work; green hope for prosperity. The sun symbolises enlightenment and unity, projecting forward‑looking purpose after national trauma in the 1990s.
-
-Standards and protocol. Statutes set a 2:3 ratio, the exact construction and placement of the sun, and colour references to ensure consistent production. Protocol prescribes order of precedence, hoisting and lowering rites, half‑masting, illumination at night, and dignified retirement. Misuse is prohibited.
-
-Continuity and presence. The flag is flown widely on public buildings, schools, and missions; derived standards are used by the presidency and defence forces. Education emphasises correct usage and civic meaning.
-
-Rwanda’s flag is thus a precise, optimistic composition—blue, yellow, green, and a radiant sun—anchored in law and ceremony.`,
+    longText: `Rwanda’s current flag, introduced on 25 October 2001, was conceived as a visual reset—forward‑looking, development‑minded, and unifying. It places a wide sky‑blue band over narrower yellow and green bands (2:1:1) and set near the fly a golden sun with 24 rays. Blue expresses peace and happiness; yellow economic development and the dignity of work; green hope and the land’s renewal; the sun symbolises enlightenment and national unity. The redesign replaced the 1962 tricolour and, with it, charged associations, while preserving a simple, optimistic geometry that reads with clarity in schools, ceremonies, and stadiums. Statutes fix a 2:3 ratio, the sun’s precise construction and position, and colour references; protocol governs precedence, half‑masting, illumination at night for continuous display, and dignified retirement of worn banners. The result is a modern African flag that communicates aspiration without text or coats of arms—plain colour, a single emblem, and a disciplined drawing that supports consistent manufacture and confident public use.`,
     seoKeywords: ["rwanda flag history", "rwanda flag meaning"],
   },
   sudan: {
     countryId: "sudan",
     summary250:
       "Sudan’s flag (20 May 1970) is a horizontal tricolour of red, white, and black with a green hoist triangle, aligning with pan‑Arab colours. It replaced the 1956 blue‑yellow‑green flag of independence. Red symbolises struggle; white peace; black the ‘land of the blacks’ and identity; green Islam and agriculture. Law standardises a 1:2 ratio, triangle geometry, and protocol.",
-    longText: `Sudan’s current flag ties republican symbolism to the wider pan‑Arab palette.
-
-Adoption. Following the 1969 revolution, Sudan replaced its 1956 independence flag (blue‑yellow‑green) with a pan‑Arab tricolour: on 20 May 1970 the state enacted a red‑white‑black horizontal flag with a green triangle at the hoist.
-
-Symbolism. Red recalls struggle and sacrifice; white peace and optimism; black the country’s historical name and identity; green Islam, agriculture, and prosperity. The green triangle anchors the hoist and balances the long 1:2 ratio.
-
-Standards and protocol. A 1:2 ratio is prescribed; the triangle’s base equals the hoist; colour references are fixed. Protocol regulates order of precedence, half‑masting, illumination when displayed at night, and dignified retirement; misuse is penalised.
-
-Continuity and presence. The 1970 design has been stable; derived standards exist for state offices and forces. The flag flies widely on public buildings and missions and figures centrally in national ceremonies.
-
-Thus Sudan’s banner situates national identity within a canonical Arab chromatic sequence, expressed through clear geometry and law.`,
+    longText: `Sudan’s national flag, enacted on 20 May 1970 after the 1969 revolution, aligns the republic with the pan‑Arab palette while asserting a distinct geometry. The horizontal tricolour of red, white, and black carries at the hoist a green triangle. Public explanations typically read red as struggle and sacrifice; white as peace and optimism; black as the country’s historical name and identity; and green as Islam, agriculture, and prosperity. The design replaced the 1956 blue‑yellow‑green banner of independence and has remained the state’s principal emblem through constitutional change. Law standardises a 1:2 ratio, triangle geometry, and colour references; protocol governs order of precedence, half‑masting, illumination when displayed continuously, and dignified retirement. In ministries, schools, and embassies abroad, the red‑white‑black bands with green hoist triangle provide a legible, regionally intelligible symbol that situates Sudan among Arab states while marking its own history on the Nile.`,
     seoKeywords: ["sudan flag history", "sudan flag meaning"],
   },
   senegal: {
@@ -1457,35 +1417,19 @@ For many Congolese the star and diagonal together capture a determination to mov
   benin: {
     countryId: "benin",
     summary250: `Benin’s flag—green vertical at the hoist with yellow over red at the fly—was adopted 16 November 1959 ahead of independence (1 August 1960). Green signifies hope and revival; yellow wealth and the northern savannas; red courage and sacrifice. Replaced in 1975 by a green field with a red star during the Marxist period, the original design was restored on 1 August 1990 with the return to multiparty democracy. Proportions are typically 2:3; statutes and guidance regulate colours, construction, and protocol for display on public buildings, missions, and national holidays.`,
-    longText: `Benin’s flag reflects independence, ideological change, and democratic restoration through a concise pan‑African palette.
+    longText: `Benin’s flag tells a compact story of decolonisation, ideological experiment, and democratic restoration. Adopted on 16 November 1959 in the closing months of Dahomey’s autonomy and retained at independence on 1 August 1960, the banner sets a green vertical band at the hoist with yellow over red at the fly (ratio 2:3). The palette belongs to the pan‑African family, but the composition—colour concentrated at the hoist and fly—gives the flag a distinctive balance among West African designs. Readings of the colours are now conventional: green for hope and renewal; yellow for the savannas and the country’s wealth; red for courage and the blood shed for freedom.
 
-Adoption. On 16 November 1959 Dahomey (now Benin) enacted a national flag—green vertical hoist band with yellow over red at the fly—in anticipation of independence on 1 August 1960. The composition aligns with pan‑African colours while offering a distinctive layout.
+In 1975, during Marxist‑Leninist reforms, the state replaced the tricolour with a plain green field bearing a red star in the canton as the emblem of the People’s Republic of Benin. Fifteen years later, as political liberalisation gathered force, the 1959 flag was restored on 1 August 1990, signalling a return to constitutional pluralism and to the thread of national memory that pre‑dated the revolutionary period. Law standardises a 2:3 ratio, band widths, and colour references; protocol mandates respectful handling, half‑masting by decree, illumination when flown at night, and dignified retirement. Misuse and defacement are prohibited.
 
-Symbolism. Green denotes hope and revival; yellow wealth and the northern savannas; red courage and the blood shed for freedom. The design situates the republic within African solidarity while articulating local readings.
-
-Change and restoration. In 1975, amid Marxist‑Leninist reforms, a plain green flag with a red star was introduced as the People’s Republic of Benin’s emblem. With political liberalisation, the 1959 design was restored on 1 August 1990, reaffirming constitutional democracy and historical continuity.
-
-Standards and protocol. Ratio 2:3; band widths and colour references are standardised. Protocol mandates respectful handling, precedence with foreign flags, half‑masting by decree, illumination when flown at night, and dignified retirement. Misuse and defacement are prohibited.
-
-Public life and presence. The flag is raised on ministries, schools, and missions; it anchors ceremonies on Independence Day and other national observances; and it identifies the state in international fora.
-
-Thus Benin’s banner records a trajectory from decolonisation through ideological experiment to democratic reaffirmation, kept precise by law and ritual.`,
+In public life the tricolour appears on ministries, schools, and diplomatic missions; it centres Independence Day ceremonies and sports delegations; and it identifies the republic in regional bodies. The simple geometry travels well across fabrics and digital assets, ensuring that the greens and reds remain saturated and the yellow legible. As a result the restored flag has become both a practical sign and a civic syllabus, reminding citizens that the state’s present rests on a longer story—independence, a period of ideological re‑drawing, and a deliberate reaffirmation of democratic norms—rendered in three fields kept precise by statute and ritual.`,
     seoKeywords: ["benin flag history", "benin flag meaning"],
   },
   "burkina-faso": {
     countryId: "burkina-faso",
     summary250: `Burkina Faso’s flag (4 August 1984) bears red over green with a centred yellow star, replacing Upper Volta’s black‑white‑red tricolour. Red honours revolution and sacrifice; green agricultural wealth and hope; the yellow star the guiding light of progress. The change accompanied the country’s renaming under Thomas Sankara. Proportions 2:3 are typical; law fixes colours, star geometry, and protocol.`,
-    longText: `Burkina Faso’s national flag marks a deliberate break with colonial and post‑colonial symbolism and a turn toward pan‑African ideals.
+    longText: `Burkina Faso’s flag marks a decisive break with colonial symbolism and a clear embrace of pan‑African colours. Upper Volta’s independence banner (1960) was a black‑white‑red tricolour representing the Volta rivers. On 4 August 1984, amid sweeping reforms and the country’s renaming to Burkina Faso, a new flag was adopted: red over green with a centred yellow five‑pointed star. Public explanations render the colours succinctly—red as revolution and sacrifice; green as the land’s fertility and agriculture; the yellow star as a guiding light of unity and progress—placing the republic within a continental colour tradition while asserting a distinct national narrative.
 
-From Upper Volta to Burkina Faso. Upper Volta’s independence flag (1960) used black‑white‑red stripes for the Volta rivers. On 4 August 1984, amid sweeping reforms, the country was renamed Burkina Faso and adopted a new flag of red over green with a centred yellow five‑pointed star.
-
-Symbolism. Red signifies the revolution and sacrifices; green the land’s fertility and agriculture; the yellow star a guiding light of unity and progress. The palette places the state within the pan‑African colour family.
-
-Standards and protocol. A 2:3 ratio is common; the star’s size and centring and the colour references are specified. Protocol governs precedence, half‑masting, illumination at night, and dignified retirement. Misuse is penalised.
-
-Continuity. Despite later political changes, the 1984 design has endured, stabilising national identity in ceremonies, education, and diplomacy.
-
-The flag, therefore, encodes revolution and renewal in a precise, durable emblem.`,
+A 2:3 ratio is standard; the star’s diameter and exact centring, together with colourimetric references, are specified to ensure consistent manufacture. Protocol governs precedence with foreign flags, half‑masting, illumination when flown continuously at night, and dignified retirement; misuse is penalised. The 1984 design has endured through later political chapters and is now a stable anchor of ceremonies, education, and diplomacy. As a compact emblem the red‑green bicolour struck by a golden star communicates revolution, resources, and direction—a durable sign drawn with legal precision.`,
     seoKeywords: ["burkina faso flag history", "burkina faso flag meaning"],
   },
   togo: {
