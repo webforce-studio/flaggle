@@ -45,6 +45,11 @@ export function Footer() {
                   Americas Flags
                 </Link>
               </li>
+              <li>
+                <Link href="/oceania-flags" className="hover:text-amber-400 transition-colors">
+                  Oceania Flags
+                </Link>
+              </li>
             </ul>
           </div>
 
