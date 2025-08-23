@@ -38,6 +38,17 @@ export default function PrintableFlagsPage() {
           </div>
         </div>
 
+        {/* Category shortcuts for SEO-friendly hubs */}
+        <div className="mb-8">
+          <h2 className="text-xl md:text-2xl font-extrabold text-gray-900 dark:text-white mb-3">Explore by category</h2>
+          <div className="flex flex-wrap gap-2">
+            <Link href="/flags/colors/red-white" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Red & white flags</Link>
+            <Link href="/flags/symbols/stars" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Flags with stars</Link>
+            <Link href="/flags/symbols/animals" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Flags with animals</Link>
+            <Link href="/flags/styles/scandinavian-cross" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Scandinavian cross flags</Link>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {countries.map((c) => {
             const code = c.code.toLowerCase()

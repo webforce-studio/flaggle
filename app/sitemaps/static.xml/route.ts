@@ -20,6 +20,10 @@ export async function GET() {
     { loc: `${baseUrl}/asia-flags`, changefreq: "weekly", priority: 0.8 },
     { loc: `${baseUrl}/america-flags`, changefreq: "weekly", priority: 0.8 },
     { loc: `${baseUrl}/oceania-flags`, changefreq: "weekly", priority: 0.8 },
+    { loc: `${baseUrl}/flags/colors/red-white`, changefreq: "weekly", priority: 0.75 },
+    { loc: `${baseUrl}/flags/symbols/stars`, changefreq: "weekly", priority: 0.75 },
+    { loc: `${baseUrl}/flags/symbols/animals`, changefreq: "weekly", priority: 0.75 },
+    { loc: `${baseUrl}/flags/styles/scandinavian-cross`, changefreq: "weekly", priority: 0.75 },
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n` +

@@ -201,7 +201,7 @@ export default async function FlagPage({ params }: PageProps) {
         if (related.length === 0) return null
         return (
           <div className="mt-6">
-            <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Related {country.region} flags</h2>
+            <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Other {country.region} flags</h2>
             <div className="flex flex-wrap gap-2">
               {related.map((r) => (
                 <Link key={r.id} href={`/flags/${r.id}`} className="px-3 py-2 rounded-md bg-gray-100 text-gray-900 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">
