@@ -1669,13 +1669,13 @@ The flag appears on government buildings, ports, and missions abroad and feature
   eritrea: {
     countryId: "eritrea",
     summary250: `Eritrea’s flag (24 May 1993; updated emblem proportions 1995) displays a red isosceles triangle from hoist to fly base, separating a green upper triangle and a blue lower triangle. Within the red field at the hoist sits a gold olive wreath encircling an upright olive branch. Green represents agriculture; blue the sea; red sacrifice; the olive device peace and state continuity. Ratio 1:2 with codified emblem geometry.`,
-    longText: `Adopted upon independence on 24 May 1993 and refined in 1995, Eritrea’s flag translates liberation‑era imagery into a national emblem. A red isosceles triangle extends from the hoist to the fly base, dividing a green upper triangle and a blue lower triangle. Near the hoist, centred within the red, appears a gold wreath of olive leaves encircling an upright olive branch—an emblem with roots in the pre‑federation period.
+    longText: `Adoption and design. Adopted upon independence on 24 May 1993 and refined in 1995, Eritrea’s flag translates liberation‑era imagery into a national emblem. A red isosceles triangle extends from the hoist to the fly base, dividing a green upper triangle and a blue lower triangle. Near the hoist, centred within the red, appears a gold wreath of olive leaves encircling an upright olive branch—an emblem with roots in the pre‑federation period.
 
-The colours communicate clear meanings: green for agriculture and the land; blue for the Red Sea; red for the blood shed in the long struggle for independence. The olive branch and wreath signify peace, victory, and continuity of civic authority. The dynamic triangular composition gives the flag a distinct profile while supporting emblem legibility.
+Symbolism. The colours communicate clear meanings: green for agriculture and the land; blue for the Red Sea; red for the blood shed in the long struggle for independence. The olive branch and wreath signify peace, victory, and continuity of civic authority. The dynamic triangular composition gives the flag a distinct profile while supporting emblem legibility.
 
-Legal drawings fix a 1:2 ratio; the angles of the triangles, the placement and diameter of the wreath, the number and shape of leaves, and colour references are specified to ensure consistent manufacture. Protocol prescribes precedence, half‑masting by proclamation, illumination at night, and dignified retirement of worn flags. Improper use is restricted.
+Standards and protocol. Legal drawings fix a 1:2 ratio; the angles of the triangles, the placement and diameter of the wreath, the number and shape of leaves, and colour references are specified to ensure consistent manufacture. Protocol prescribes precedence, half‑masting by proclamation, illumination at night, and dignified retirement of worn flags. Improper use is restricted.
 
-The flag is widely displayed on ministries, schools, and missions, and in national ceremonies marking independence and remembrance. Its stability since 1995 reflects enduring consensus on the symbolism.`,
+Public life. The flag is widely displayed on ministries, schools, and missions, and in national ceremonies marking independence and remembrance. Its stability since 1995 reflects enduring consensus on the symbolism.`,
     seoKeywords: ["eritrea flag history", "eritrea flag meaning"],
   },
   eswatini: {
