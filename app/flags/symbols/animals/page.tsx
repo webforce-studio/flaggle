@@ -19,6 +19,14 @@ export default function AnimalFlagsPage() {
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-3">Flags with Animals</h1>
         <p className="text-gray-700 dark:text-gray-300 mb-6 max-w-3xl">{cat.description}</p>
 
+        <div className="mb-6 flex flex-wrap gap-2">
+          <Link href="/printable-flags" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">← Back to all printable flags</Link>
+          <Link href="/flags/colors/red-white" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Red & white</Link>
+          <Link href="/flags/symbols/stars" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Stars</Link>
+          <Link href="/flags/symbols/animals" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Animals</Link>
+          <Link href="/flags/styles/scandinavian-cross" className="px-3 py-2 rounded-md bg-gray-200 text-gray-900 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">Scandinavian cross</Link>
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {items.map((c) => {
             const code = c.code.toLowerCase()
