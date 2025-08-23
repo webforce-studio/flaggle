@@ -66,23 +66,6 @@ export default function AmericaFlagsPage() {
             </div>
           </div>
 
-          {/* Regional flag pages */}
-          <div className="mb-12">
-            <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-3">
-              Explore other regional flag pages
-            </h2>
-            <p className="text-center text-gray-700 dark:text-gray-300 mb-5">
-              Browse continent pages with larger flags, quick facts, and links to each country’s history and printable downloads.
-            </p>
-            <div className="flex flex-wrap gap-2 justify-center">
-              <Link href="/europe-flags"><Button variant="outline">Europe flags</Button></Link>
-              <Link href="/africa-flags"><Button variant="outline">Africa flags</Button></Link>
-              <Link href="/asia-flags"><Button variant="outline">Asia flags</Button></Link>
-              <Link href="/oceania-flags"><Button variant="outline">Oceania flags</Button></Link>
-              <Link href="/printable-flags"><Button>Printable flags hub</Button></Link>
-            </div>
-          </div>
-
           {/* American Regions */}
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">

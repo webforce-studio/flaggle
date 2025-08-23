@@ -41,6 +41,39 @@ export default async function FlagPage({ params }: PageProps) {
   const history = getFlagHistory(id)
 
   const paragraphs = [history?.summary250, history?.longText].filter(Boolean) as string[]
+  // Normalize paragraphs: remove heading-only lines like "Adoption.", "Symbolism.", etc.
+  const headingWords = [
+    "Adoption",
+    "Symbolism",
+    "Standards and protocol",
+    "Standards",
+    "Protocol",
+    "Construction",
+    "Construction and standards",
+    "Chronology",
+    "Continuity",
+    "Continuity and presence",
+    "Continuity and identity",
+    "Continuity and civic use",
+    "Public life",
+    "Public life and presence",
+    "Origins",
+    "Origins and adoption",
+    "Design",
+    "Change and restoration",
+    "Variant and restoration",
+    "Unification and current design",
+    "Precedents and independence",
+    "Law and protocol",
+    "Debate and continuity",
+  ]
+  const headingOnlyRe = new RegExp(`^(${headingWords.map(w => w.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&")).join("|")})\.?$`, "i")
+  const headingPrefixRe = new RegExp(`^(${headingWords.map(w => w.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&")).join("|")})\.?\s+`, "i")
+  const splitParas = paragraphs
+    .flatMap((block) => block.split(/\n\n+/).map((p) => p.trim()))
+    .filter((p) => p.length > 0)
+    .map((p) => p.replace(headingPrefixRe, ""))
+    .filter((p) => !headingOnlyRe.test(p))
   const allIds = countries.map((c) => c.id)
   const currentIndex = allIds.indexOf(id)
   const prevId = currentIndex > 0 ? allIds[currentIndex - 1] : undefined
@@ -138,13 +171,9 @@ export default async function FlagPage({ params }: PageProps) {
 
       {history ? (
         <article className="prose dark:prose-invert">
-          {paragraphs.flatMap((block, blockIndex) =>
-            block
-              .split(/\n\n+/)
-              .map((p, i) => (
-                <p key={`${blockIndex}-${i}`} className="mb-4 last:mb-0 leading-relaxed">{linkify(p.trim())}</p>
-              ))
-          )}
+          {splitParas.map((p, i) => (
+            <p key={`p-${i}`} className="mb-4 last:mb-0 leading-relaxed">{linkify(p)}</p>
+          ))}
         </article>
       ) : (
         <p className="text-gray-600 dark:text-gray-300">Detailed history is coming soon.</p>
