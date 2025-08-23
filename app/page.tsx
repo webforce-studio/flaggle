@@ -999,6 +999,24 @@ Play at: ${url}`)
           <FAQ />
         </div>
 
+        {/* Regional Flags Section */}
+        <div className="mt-8">
+          <h2 className={`text-2xl font-extrabold mb-2 ${darkMode ? "text-white" : "text-slate-900"}`}>
+            Explore regional flags
+          </h2>
+          <p className={`${darkMode ? "text-slate-300" : "text-slate-700"} mb-4 max-w-3xl`}>
+            Browse country flags by region. Each page includes a larger flag table with names, short histories,
+            download links (SVG/PNG), and navigation to detailed meanings.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <Link href="/europe-flags"><Button variant="outline">Europe Flags</Button></Link>
+            <Link href="/asia-flags"><Button variant="outline">Asia Flags</Button></Link>
+            <Link href="/africa-flags"><Button variant="outline">Africa Flags</Button></Link>
+            <Link href="/america-flags"><Button variant="outline">Americas Flags</Button></Link>
+            <Link href="/oceania-flags"><Button variant="outline">Oceania Flags</Button></Link>
+          </div>
+        </div>
+
         {/* Printable Flags CTA */}
         <div className="mt-8 flex justify-center">
           <a
