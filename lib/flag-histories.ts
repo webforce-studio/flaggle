@@ -3461,6 +3461,49 @@ Since 1975 the design has been stable, with educational outreach focusing on cor
       "laos flag colors"
     ],
   },
+  australia: {
+    countryId: "australia",
+    summary250: `Australia’s national flag is a Blue Ensign (ratio 1:2) bearing the Union Jack in the canton, the large seven‑pointed Commonwealth Star beneath it, and the Southern Cross constellation in the fly. The design originated in a public competition following Federation in 1901 and was first approved that year, with specifications gazetted in 1903. In 1908 the Commonwealth Star gained a seventh point to acknowledge the territories. For decades two variants were used in parallel: the Blue Ensign for official Commonwealth purposes and the Red Ensign for the mercantile marine and much civil use; the Flags Act 1953 affirmed the Blue Ensign as the Australian National Flag. Government drawings fix star sizes, positions, and color standards (deep blue, white, and the Union’s red/white/blue); protocol governs precedence, half‑masting, dignified retirement, and display on public buildings, ships, and diplomatic missions.`,
+    longText: `Australia’s national flag took shape in the years immediately following Federation and has been refined by royal approvals, legislation, and detailed construction sheets. Its elements—the Union Jack, Commonwealth Star, and the Southern Cross—interweave constitutional history, maritime practice, and southern sky astronomy into a design that is both heraldically layered and rigorously specified.
+
+Federation, Competition, and First Approvals (1901–1903)
+When the six British colonies in Australia federated on 1 January 1901 to form the Commonwealth of Australia, the new polity required a distinct ensign. A public competition—announced in 1901 and attracting thousands of entries—produced a composite design broadly corresponding to today’s flag: a British Blue Ensign charged with a large star beneath the canton and the Southern Cross in the fly. The winners’ design, in both Blue and Red Ensign forms, was approved for use that year, with royal approval and formal specifications issued in 1903. The 1903 gazette drawings set the initial geometry of the five Southern Cross stars (with varying points and magnitudes) and depicted a six‑pointed Commonwealth Star symbolising the six founding states.
+
+Refinement and the Seven‑Point Commonwealth Star (1908)
+An early adjustment came in 1908, when authorities added a seventh point to the Commonwealth Star to acknowledge federal territories alongside the six states. The star remains a single, large, seven‑pointed emblem centred beneath the union, its diameter and offset strictly defined in official art. The Southern Cross stars (Alpha to Epsilon Crucis) are likewise set out by precise radii, positions, and point counts to approximate astronomical magnitude while preserving clarity at distance.
+
+Blue and Red Ensigns: Usage and Transition
+As across the British world, two parallel ensigns existed: a Blue Ensign and a Red Ensign. The Australian Red Ensign served as the civil (merchant) ensign for Australian‑registered vessels and, for much of the first half of the twentieth century, appeared widely in civilian contexts. The Blue Ensign denoted Commonwealth government authority and was used by federal offices, defence forces (with service‑specific variants), and diplomatic missions. Over time, public usage converged on the Blue Ensign, especially after wartime directions during the 1940s permitted broader blue‑flag display ashore. The Flags Act 1953 legally affirmed the Blue Ensign as the Australian National Flag while maintaining the Red Ensign as the civil maritime flag for merchant shipping.
+
+The Flags Act 1953 and Legal Status
+The Flags Act 1953 consolidated the flag’s legal position, describing the national flag as the design depicted in the Schedule and providing for proclamations of other flags (notably the Royal Australian Navy’s White Ensign and the Royal Australian Air Force Ensign) and rules regarding their use. Subsequent practice and administrative guidance clarified flying days, order of precedence, half‑masting on national days of mourning, and respectful disposal of unserviceable flags. Later administrative measures recognised other Australian flags used nationally—the Australian Aboriginal Flag and the Torres Strait Islander Flag—without altering the national flag’s design or status.
+
+Construction, Proportion, and Colour Standards
+The national flag’s proportion is 1:2. The Union Jack in the canton follows standard construction. The Commonwealth Star is a large seven‑pointed star positioned beneath the union; its centre, diameter, and orientation are set out in construction sheets so manufacturers can reproduce the emblem consistently across sizes and materials. The Southern Cross appears in the fly as five stars of differing sizes: Alpha, Beta, Gamma, Delta (seven‑pointed) and Epsilon (five‑pointed) Crucis, each anchored to specific coordinates. Government art files define star radii as fractions of the flag’s width and provide offsets from the hoist and upper edge to prevent drift.
+
+Colour references are provided for textile and print to stabilise appearance—commonly a deep navy (often rendered near Pantone 280 for cloth) and pure white, alongside the Union’s standard reds and whites—while allowing for lighting and dye variability. Guidance cautions against faded fabrics that can misread outdoors or on broadcast.
+
+Protocol, Precedence, and Half‑Masting
+Protocol prescribes that the national flag be raised briskly and lowered ceremonially; that it not touch the ground or be used for draping in a manner inconsistent with dignity; and that worn flags be retired respectfully. When displayed with other national flags in Australia, the Australian National Flag occupies the position of honour; when shown with state and territory flags or with the Aboriginal and Torres Strait Islander flags on public buildings, precedence follows Commonwealth guidance. Half‑masting is ordered for national mourning and on specified commemorations, with instructions for the initial hoist to the truck, the lowering to half‑mast, and re‑hoisting at day’s end.
+
+Service Ensigns and Related Flags
+The Royal Australian Navy adopted a distinct White Ensign in 1967, replacing a British form used earlier; the Royal Australian Air Force flies a light‑blue ensign defaced with its roundel and the Southern Cross. Each has separate construction sheets and usage rules. Australian states retain their own flags, most derived from nineteenth‑century British Blue Ensign patterns defaced with colonial badges, while territories use distinctive modern designs. These flags are co‑displayed according to precedence tables that place the national flag first.
+
+Symbolism and Public Meaning
+The Union Jack in the canton signals constitutional origins and long‑standing connections with the British Crown and Westminster traditions. The Commonwealth Star below it condenses the federal compact—originally six states, with the seventh point recognising the territories and the ongoing federal idea. The Southern Cross, visible across Australia’s night sky, anchors the design in physical geography and longstanding southern identity. Over more than a century, this triad has become a familiar visual language in civic life, international sport, and diplomacy.
+
+Continuity and Debate
+From time to time, alternative designs have been proposed—most prominently during debates about constitutional change or national identity—yet the legislated design has remained stable. Supporters emphasise continuity and the layered symbolism of federation and the southern sky; critics argue for a design without a foreign union in the canton. The Flags Act sets out processes for alteration, while public guidance encourages respectful discussion. Meanwhile, practical work continues to ensure accurate reproduction across ships, schools, courts, sporting arenas, and digital media.
+
+In sum, Australia’s flag is the product of a federation‑era competition, refined by early twentieth‑century geometric codification and mid‑century statute. Its clarity comes from durable geometry—Union, Commonwealth Star, and Southern Cross—paired with precise construction and protocol. That combination has supported consistent use at scale, from harbour ensigns and parade grounds to embassy façades and televised events, where legibility and symbolism must travel equally well across wind, cloth, and pixel.`,
+    seoKeywords: [
+      "australia flag",
+      "flag of australia",
+      "australia flag meaning",
+      "australia flag history",
+      "australia flag colors"
+    ],
+  },
   lebanon: {
     countryId: "lebanon",
     summary250: `Lebanon’s flag (7 December 1943) is red‑white‑red with a green cedar centred, touching the red bands. Red signifies sacrifice; white snow and peace; the cedar endurance and holiness. Law fixes a 2:3 ratio, mandates that the cedar touch the red fields, and codifies artwork, shades, protocol, and dignified retirement. The banner dates to independence from the French Mandate.`,
