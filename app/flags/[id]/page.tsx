@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const country = getCountryById(id)
   const history = getFlagHistory(id)
   if (!country) return {}
-  const title = `${country.name} Flag History | Meaning, Colors, and Timeline`
+  const title = `${country.name} Flag: Meaning, Colors, History, Download (SVG/PNG)`
   const description = history?.summary250?.slice(0, 155) || `Learn the history and meaning of the ${country.name} flag.`
   return {
     title,
@@ -102,6 +102,13 @@ export default async function FlagPage({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
       <main className="container mx-auto px-4 py-8 max-w-3xl">
+      <nav aria-label="Breadcrumb" className="mb-2 text-sm text-gray-600 dark:text-gray-300">
+        <ol className="flex gap-1">
+          <li><Link href="/" className="underline hover:no-underline">Home</Link> /</li>
+          <li><Link href={regionPath(country.region)} className="underline hover:no-underline">{country.region} Flags</Link> /</li>
+          <li aria-current="page">{country.name} Flag</li>
+        </ol>
+      </nav>
       <div className="mb-6 flex items-center justify-between">
         <BackButton href={regionPath(country.region)} label={`← Back to ${country.region} Flags`} />
         <div className="flex gap-2">
@@ -114,11 +121,19 @@ export default async function FlagPage({ params }: PageProps) {
         </div>
       </div>
       <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-4">
-        {country.name} Flag History
+        {country.name} Flag: Meaning, Colors, History & Download
       </h1>
       <div className="mb-6">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={country.flagUrl} alt={`${country.name} flag`} className="h-14 w-auto rounded-sm ring-1 ring-gray-200 dark:ring-gray-700" />
+        <img
+          src={country.flagUrl}
+          alt={`${country.name} flag`}
+          width={320}
+          height={200}
+          decoding="async"
+          fetchPriority="high"
+          className="h-14 w-auto rounded-sm ring-1 ring-gray-200 dark:ring-gray-700"
+        />
       </div>
 
       {history ? (
@@ -178,6 +193,26 @@ export default async function FlagPage({ params }: PageProps) {
         <Link href="/oceania-flags"><Button variant="outline" size="sm">Oceania Flags</Button></Link>
       </div>
 
+      {/* Related internal links: other flags in the same region */}
+      {(() => {
+        const related = countries
+          .filter((c) => c.region === country.region && c.id !== country.id)
+          .slice(0, 8)
+        if (related.length === 0) return null
+        return (
+          <div className="mt-6">
+            <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Related {country.region} flags</h2>
+            <div className="flex flex-wrap gap-2">
+              {related.map((r) => (
+                <Link key={r.id} href={`/flags/${r.id}`} className="px-3 py-2 rounded-md bg-gray-100 text-gray-900 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600">
+                  {r.name} flag
+                </Link>
+              ))}
+            </div>
+          </div>
+        )
+      })()}
+
       <div className="mt-8 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-6 md:p-8 text-center">
         <h2 className="text-2xl md:text-3xl font-extrabold mb-3">Ready to Master World Flags?</h2>
         <p className="mb-5 opacity-90">Start the daily Flaggle challenge and become a world geography expert.</p>
@@ -192,13 +227,39 @@ export default async function FlagPage({ params }: PageProps) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: `${country.name} Flag History`,
+            headline: `${country.name} Flag: Meaning, Colors, History & Download`,
             about: {
               "@type": "Thing",
               name: `${country.name} flag`,
             },
             mainEntityOfPage: `https://flaggle.fun/flags/${country.id}`,
+            author: { "@type": "Organization", name: "flaggle.fun" },
+            publisher: { "@type": "Organization", name: "flaggle.fun" },
+            datePublished: new Date().toISOString().split('T')[0],
+            dateModified: new Date().toISOString().split('T')[0],
+            image: {
+              "@type": "ImageObject",
+              url: country.flagUrl,
+              width: 320,
+              height: 200,
+            },
             wordCount: (history?.summary250?.split(" ").length || 0) + (history?.longText?.split(" ").length || 0),
+          }),
+        }}
+      />
+
+      {/* Breadcrumbs for the country page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.flaggle.fun/" },
+              { "@type": "ListItem", position: 2, name: `${country.region} Flags`, item: `https://www.flaggle.fun${regionPath(country.region)}` },
+              { "@type": "ListItem", position: 3, name: `${country.name} Flag`, item: `https://www.flaggle.fun/flags/${country.id}` },
+            ],
           }),
         }}
       />

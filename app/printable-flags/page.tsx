@@ -3,9 +3,9 @@ import Link from "next/link"
 import { countries } from "@/lib/country-database"
 
 export const metadata: Metadata = {
-  title: "Printable Flags (SVG, PNG) | Download Country Flags",
+  title: "Printable Flags (SVG, PNG) | Download Country Flags for Free",
   description:
-    "Download printable country flags in SVG and PNG (320/640/1280). Includes links to Wikimedia Commons categories and each flag's history and meaning.",
+    "Download printable country flags in SVG and PNG (320/640/1280). Includes Wikimedia Commons licensing links and each flag's history & meaning.",
   alternates: { canonical: "/printable-flags" },
 }
 
@@ -14,7 +14,7 @@ export default function PrintableFlagsPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
       <main className="container mx-auto px-4 py-8">
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-3">
-          Printable Flags (SVG, PNG)
+          Printable Country Flags: SVG & PNG Downloads
         </h1>
         <p className="text-gray-700 dark:text-gray-300 mb-4 max-w-3xl">
           Download high‑quality, printable country flags in crisp SVG (vector) or PNG sizes (320/640/1280). Perfect for
@@ -50,7 +50,7 @@ export default function PrintableFlagsPage() {
               <div key={c.id} className="rounded-lg border border-gray-200 dark:border-gray-700 bg-white/70 dark:bg-gray-900/50 p-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <div className="flex items-center gap-3 mb-3">
-                  <img src={c.flagUrl} alt={`${c.name} flag`} className="h-6 w-auto rounded-sm ring-1 ring-gray-200 dark:ring-gray-700" />
+                  <img src={c.flagUrl} alt={`${c.name} flag`} width={96} height={64} loading="lazy" className="h-6 w-auto rounded-sm ring-1 ring-gray-200 dark:ring-gray-700" />
                   <h2 className="text-lg font-bold text-gray-900 dark:text-white">{c.name}</h2>
                 </div>
                 <div className="flex flex-wrap gap-2">
@@ -107,6 +107,17 @@ export default function PrintableFlagsPage() {
                 position: idx + 1,
                 url: `https://flaggle.fun/flags/${c.id}`,
                 name: `${c.name} flag`,
+                image: {
+                  "@type": "ImageObject",
+                  url: c.flagUrl,
+                  width: 320,
+                  height: 200,
+                },
+                potentialAction: {
+                  "@type": "ViewAction",
+                  target: `https://www.flaggle.fun/printable-flags`,
+                  name: `Download ${c.name} flag (SVG/PNG)`
+                }
               })),
             }),
           }}

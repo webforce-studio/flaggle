@@ -387,7 +387,7 @@ export default function Flagguesser() {
   const shareToSocial = (platform: string) => {
     const today = new Date().toLocaleDateString()
     const result = gameWon ? `${guesses.length}/${MAX_GUESSES}` : "X/6"
-    const text = `Flagguesser ${today} ${result} 🏳️ Daily flag guessing game`
+    const text = `Flaggle ${today} ${result} 🏳️ Daily flag guessing game`
     const url = "https://www.flaggle.fun"
 
     let shareUrl = ""
@@ -398,7 +398,7 @@ export default function Flagguesser() {
           try {
             navigator
               .share({
-                title: "Flagguesser Result",
+                title: "Flaggle Result",
                 text: `${text}
 Play at: ${url}`,
               })

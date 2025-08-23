@@ -6,10 +6,8 @@ export function SEOOptimizer() {
   useEffect(() => {
     // Preload critical resources
     const preloadLinks = [
-      { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
-      { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
-      { rel: 'dns-prefetch', href: 'https://images.unsplash.com' },
-      { rel: 'dns-prefetch', href: 'https://images.pexels.com' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: 'anonymous' },
     ]
 
     preloadLinks.forEach(({ rel, href, as: preloadAs }: any) => {
@@ -17,6 +15,7 @@ export function SEOOptimizer() {
       link.rel = rel
       link.href = href
       if (preloadAs) link.setAttribute('as', preloadAs)
+      if ((link as any).crossOrigin) link.setAttribute('crossorigin', 'anonymous')
       document.head.appendChild(link)
     })
 

@@ -1,4 +1,5 @@
 import { countries } from "@/lib/country-database"
+import { pingIndexNow } from "@/lib/utils"
 
 export const runtime = "edge"
 
@@ -17,6 +18,9 @@ export async function GET() {
       )
       .join("\n") +
     `\n</urlset>`
+
+  // Fire-and-forget IndexNow ping for flag URLs
+  pingIndexNow(countries.map((c) => `${baseUrl}/flags/${c.id}`)).catch(() => {})
 
   return new Response(xml, {
     status: 200,
