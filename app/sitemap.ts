@@ -3,7 +3,7 @@ import { countries } from "@/lib/country-database"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.flaggle.fun"
-  const currentDate = new Date()
+  const currentDate = new Date().toISOString().split("T")[0]
 
   // Static pages
   const staticPages = [
