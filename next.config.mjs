@@ -64,6 +64,21 @@ const nextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'flaggle.fun',
+          },
+        ],
+        destination: 'https://www.flaggle.fun/:path*',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default nextConfig
