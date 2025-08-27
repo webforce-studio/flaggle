@@ -144,6 +144,8 @@ export default async function FlagPage({ params }: PageProps) {
               const text = raw.trim()
               // Detect common section subheadings (content written with sentence-like headings)
               const headingLabels = [
+                "Adoption and design",
+                "Independence context",
                 "Precursors",
                 "Design Contest and Adoption",
                 "Design Contest and Adoption (1949)",

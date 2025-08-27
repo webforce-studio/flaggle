@@ -36,7 +36,20 @@ export async function GET() {
 
   return new Response(xml, {
     status: 200,
-    headers: { "content-type": "application/xml; charset=utf-8", "cache-control": "public, max-age=3600" },
+    headers: {
+      "content-type": "application/xml; charset=utf-8",
+      "cache-control": "no-cache, no-store, must-revalidate",
+    },
+  })
+}
+
+export async function HEAD() {
+  return new Response(null, {
+    status: 200,
+    headers: {
+      "content-type": "application/xml; charset=utf-8",
+      "cache-control": "no-cache, no-store, must-revalidate",
+    },
   })
 }
 

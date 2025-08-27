@@ -5,20 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: [
-          "/",
-          "/about",
-          "/contact", 
-          "/privacy",
-          "/terms",
-          "/geography-quiz",
-          "/world-flags",
-          "/learn-geography",
-          "/europe-flags",
-          "/africa-flags",
-          "/asia-flags",
-          "/america-flags"
-        ],
+        allow: "/",
         disallow: [
           "/monument-overview/",
           "/api/",
@@ -64,11 +51,7 @@ export default function robots(): MetadataRoute.Robots {
         crawlDelay: 1,
       }
     ],
-    sitemap: [
-      "https://www.flaggle.fun/sitemap_index.xml",
-      "https://www.flaggle.fun/sitemap.xml",
-      "https://www.flaggle.fun/sitemap.txt",
-    ],
+    sitemap: ["https://www.flaggle.fun/sitemap_index.xml", "https://www.flaggle.fun/sitemap.txt"],
     host: "https://www.flaggle.fun",
   }
 }

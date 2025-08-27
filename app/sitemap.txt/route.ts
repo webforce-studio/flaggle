@@ -30,7 +30,17 @@ export async function GET() {
     status: 200,
     headers: {
       "content-type": "text/plain; charset=utf-8",
-      "cache-control": "public, max-age=3600",
+      "cache-control": "no-cache, no-store, must-revalidate",
+    },
+  })
+}
+
+export async function HEAD() {
+  return new Response(null, {
+    status: 200,
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      "cache-control": "no-cache, no-store, must-revalidate",
     },
   })
 }
