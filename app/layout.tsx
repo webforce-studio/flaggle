@@ -132,7 +132,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://flaggle.fun"),
+  metadataBase: new URL("https://www.flaggle.fun"),
   alternates: {
     canonical: "/",
   },
