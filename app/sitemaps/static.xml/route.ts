@@ -1,6 +1,6 @@
 export const runtime = "edge"
 
-export async function GET() {
+function buildXml(): string {
   const baseUrl = "https://www.flaggle.fun"
   const today = new Date().toISOString().split("T")[0]
 
@@ -26,26 +26,33 @@ export async function GET() {
     { loc: `${baseUrl}/flags/styles/scandinavian-cross`, changefreq: "weekly", priority: 0.75 },
   ]
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+  return `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n` +
+    `<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n` +
     urls.map(u => `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`).join("\n") +
     `\n</urlset>`
+}
+
+export async function GET() {
+  const xml = buildXml()
 
   return new Response(xml, {
     status: 200,
     headers: {
       "content-type": "application/xml; charset=utf-8",
       "cache-control": "public, max-age=0, must-revalidate",
+      "content-length": String(new TextEncoder().encode(xml).length),
     },
   })
 }
 
 export async function HEAD() {
+  const xml = buildXml()
   return new Response(null, {
     status: 200,
     headers: {
       "content-type": "application/xml; charset=utf-8",
       "cache-control": "public, max-age=0, must-revalidate",
+      "content-length": String(new TextEncoder().encode(xml).length),
     },
   })
 }

@@ -3,11 +3,10 @@ import { pingIndexNow } from "@/lib/utils"
 
 export const runtime = "edge"
 
-export async function GET() {
+function buildXml(): string {
   const baseUrl = "https://www.flaggle.fun"
   const today = new Date().toISOString().split("T")[0]
-
-  const xml = `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n` +
+  return `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n` +
     `<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n` +
     countries
       .map(
@@ -15,6 +14,10 @@ export async function GET() {
       )
       .join("\n") +
     `\n</urlset>`
+}
+
+export async function GET() {
+  const xml = buildXml()
 
   // Fire-and-forget IndexNow ping for flag URLs
   pingIndexNow(countries.map((c) => `${baseUrl}/flags/${c.id}`)).catch(() => {})
@@ -24,16 +27,19 @@ export async function GET() {
     headers: {
       "content-type": "application/xml; charset=utf-8",
       "cache-control": "public, max-age=0, must-revalidate",
+      "content-length": String(new TextEncoder().encode(xml).length),
     },
   })
 }
 
 export async function HEAD() {
+  const xml = buildXml()
   return new Response(null, {
     status: 200,
     headers: {
       "content-type": "application/xml; charset=utf-8",
       "cache-control": "public, max-age=0, must-revalidate",
+      "content-length": String(new TextEncoder().encode(xml).length),
     },
   })
 }
