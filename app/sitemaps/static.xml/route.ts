@@ -35,7 +35,7 @@ export async function GET() {
     status: 200,
     headers: {
       "content-type": "application/xml; charset=utf-8",
-      "cache-control": "no-cache, no-store, must-revalidate",
+      "cache-control": "public, max-age=0, must-revalidate",
     },
   })
 }
@@ -45,7 +45,7 @@ export async function HEAD() {
     status: 200,
     headers: {
       "content-type": "application/xml; charset=utf-8",
-      "cache-control": "no-cache, no-store, must-revalidate",
+      "cache-control": "public, max-age=0, must-revalidate",
     },
   })
 }
