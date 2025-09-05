@@ -2,7 +2,7 @@
 module.exports = {
   siteUrl: 'https://www.flaggle.fun',
   generateRobotsTxt: true,
-  generateIndexSitemap: false, // We want a single sitemap, not an index
+  generateIndexSitemap: false, // Single sitemap is more reliable for Google
   exclude: [
     '/admin',
     '/admin/*',
@@ -18,26 +18,20 @@ module.exports = {
     '/favicon.ico',
     '/sitemap.xml',
     '/robots.txt',
+    '/sitemap-*.xml',
   ],
   // Disable auto-discovery to have full control
   additionalSitemaps: [],
   // Disable auto-discovery completely
   autoLastmod: false,
-  // Only include pages we explicitly define
+  // Single sitemap approach
+  sitemapSize: 50000,
+  // Add trailing slash for consistency
+  trailingSlash: false,
+  // Start with minimal sitemap for testing
   additionalPaths: async (config) => {
-    // Import countries data
-    const { countries } = await import('./lib/country-database.ts')
-    
-    // Generate paths for all flag pages
-    const flagPaths = countries.map(country => ({
-      loc: `/flags/${country.id}`,
-      lastmod: new Date().toISOString(),
-      changefreq: 'weekly',
-      priority: 0.7,
-    }))
-
     return [
-      // Static pages with custom priorities
+      // Only essential pages first
       {
         loc: '/',
         lastmod: new Date().toISOString(),
@@ -45,10 +39,10 @@ module.exports = {
         priority: 1.0,
       },
       {
-        loc: '/printable-flags',
+        loc: '/world-flags',
         lastmod: new Date().toISOString(),
         changefreq: 'weekly',
-        priority: 0.85,
+        priority: 0.9,
       },
       {
         loc: '/how-to-play',
@@ -68,68 +62,6 @@ module.exports = {
         changefreq: 'monthly',
         priority: 0.7,
       },
-      {
-        loc: '/privacy',
-        lastmod: new Date().toISOString(),
-        changefreq: 'yearly',
-        priority: 0.5,
-      },
-      {
-        loc: '/terms',
-        lastmod: new Date().toISOString(),
-        changefreq: 'yearly',
-        priority: 0.5,
-      },
-      {
-        loc: '/geography-quiz',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.9,
-      },
-      {
-        loc: '/world-flags',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.9,
-      },
-      {
-        loc: '/learn-geography',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.9,
-      },
-      {
-        loc: '/europe-flags',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.8,
-      },
-      {
-        loc: '/africa-flags',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.8,
-      },
-      {
-        loc: '/asia-flags',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.8,
-      },
-      {
-        loc: '/america-flags',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.8,
-      },
-      {
-        loc: '/oceania-flags',
-        lastmod: new Date().toISOString(),
-        changefreq: 'weekly',
-        priority: 0.8,
-      },
-      // Add all flag pages
-      ...flagPaths,
     ]
   },
   robotsTxtOptions: {
