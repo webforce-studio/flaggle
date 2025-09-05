@@ -1,8 +1,18 @@
 import { NextResponse } from 'next/server'
 import { countries } from '../../lib/country-database'
+import { submitIndexNow } from '../../lib/indexnow'
 
 export async function GET() {
   const currentDate = new Date().toISOString().split('T')[0]
+  
+  // Notify search engines about sitemap update via IndexNow
+  try {
+    const sitemapUrl = 'https://www.flaggle.fun/sitemap.xml'
+    await submitIndexNow([sitemapUrl])
+  } catch (error) {
+    // Don't fail the sitemap if IndexNow fails
+    console.warn('IndexNow notification failed:', error)
+  }
   
   // Static pages
   const staticPages = [

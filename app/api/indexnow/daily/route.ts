@@ -1,26 +1,41 @@
 import { NextResponse } from "next/server"
-import { submitIndexNow } from "@/lib/indexnow"
 import { getTodaysCountry } from "@/lib/data"
+import { notifyKeyPages, notifyFlagPage, notifyRegionalPages } from "@/lib/indexnow-utils"
 
 export async function GET() {
   try {
     const today = getTodaysCountry()
-    const base = "https://flaggle.fun"
-    const urls = [
-      `${base}/`,
-      `${base}/printable-flags`,
-      `${base}/europe-flags`,
-      `${base}/asia-flags`,
-      `${base}/africa-flags`,
-      `${base}/america-flags`,
-      `${base}/flags/${today.id}`,
-    ]
+    
+    // Notify about key pages
+    const keyPagesResult = await notifyKeyPages()
+    
+    // Notify about today's flag
+    const flagResult = await notifyFlagPage(today.id)
+    
+    // Notify about regional pages
+    const regionalResult = await notifyRegionalPages()
+    
+    const allResults = {
+      keyPages: keyPagesResult,
+      todaysFlag: flagResult,
+      regionalPages: regionalResult,
+      summary: {
+        totalUrls: keyPagesResult.count + flagResult.count + regionalResult.count,
+        allSuccessful: keyPagesResult.success && flagResult.success && regionalResult.success
+      }
+    }
 
-    const res = await submitIndexNow(urls)
-    const text = await res.text()
-    return NextResponse.json({ ok: res.ok, status: res.status, body: text, urls })
+    return NextResponse.json({
+      success: allResults.summary.allSuccessful,
+      results: allResults,
+      timestamp: new Date().toISOString()
+    })
   } catch (e: any) {
-    return NextResponse.json({ ok: false, error: e?.message || "Unknown error" }, { status: 500 })
+    console.error('Daily IndexNow notification failed:', e)
+    return NextResponse.json({ 
+      success: false, 
+      error: e?.message || "Unknown error" 
+    }, { status: 500 })
   }
 }
 
