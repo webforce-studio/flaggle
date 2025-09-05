@@ -114,14 +114,14 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/:path*',
+        source: '/((?!sitemap\\.xml|robots\\.txt).*)',
         has: [
           {
             type: 'host',
             value: 'flaggle.fun',
           },
         ],
-        destination: 'https://www.flaggle.fun/:path*',
+        destination: 'https://www.flaggle.fun/$1',
         permanent: true,
       },
     ]
