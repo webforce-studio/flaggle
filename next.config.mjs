@@ -55,6 +55,24 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/sitemap.xml',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=300, s-maxage=300',
+          },
+        ],
+      },
+      {
+        source: '/sitemaps/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=300, s-maxage=300',
+          },
+        ],
+      },
     ]
   },
   experimental: {
