@@ -1,3 +1,9 @@
 {
-  "pages": {}
+  "pages": {
+    "/sitemap.xml/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/sitemap.xml/route.js"
+    ]
+  }
 }
