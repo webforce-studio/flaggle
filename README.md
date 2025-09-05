@@ -162,4 +162,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for geography enthusiasts and flag lovers worldwide**
 
-[🌐 Play Flaggle](https://flaggle.fun) | [📱 Share on Twitter](https://twitter.com/intent/tweet?text=I%20just%20played%20Flaggle%2C%20the%20daily%20flag%20guessing%20game!%20%F0%9F%8F%B3%EF%B8%8F%20Test%20your%20knowledge%20of%20world%20flags%3A%20https%3A//flaggle.fun) | [⭐ Star on GitHub](https://github.com/webforce-studio/flaggle) 
+[🌐 Play Flaggle](https://flaggle.fun) | [📱 Share on Twitter](https://twitter.com/intent/tweet?text=I%20just%20played%20Flaggle%2C%20the%20daily%20flag%20guessing%20game!%20%F0%9F%8F%B3%EF%B8%8F%20Test%20your%20knowledge%20of%20world%20flags%3A%20https%3A//flaggle.fun) | [⭐ Star on GitHub](https://github.com/webforce-studio/flaggle) # Force rebuild Fri Sep  5 23:55:14 CEST 2025
