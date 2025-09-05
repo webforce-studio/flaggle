@@ -12,6 +12,8 @@ import { SimpleCookieConsent } from "@/components/cookie-consent"
 import { BlockingCookieConsent } from "@/components/cookie-consent-blocking"
 
 import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
+import { NextSEOProvider } from "@/components/NextSEOProvider"
+import { GoogleAnalytics } from "@/components/GoogleAnalytics"
 
 export const metadata: Metadata = {
   title: "flaggle.fun - Daily Flag Guessing Game | The Fun Flagle Alternative",
@@ -672,6 +674,8 @@ export default function RootLayout({
         {/* <script src="/scripts/performance-monitor.js" defer></script> */}
       </head>
       <body>
+        <NextSEOProvider />
+        <GoogleAnalytics />
         <SEOOptimizer />
         <SEOAnalytics />
         <Providers>
