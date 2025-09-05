@@ -12,7 +12,6 @@ import { SimpleCookieConsent } from "@/components/cookie-consent"
 import { BlockingCookieConsent } from "@/components/cookie-consent-blocking"
 
 import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
-import { NextSEOProvider } from "@/components/NextSEOProvider"
 import { GoogleAnalytics } from "@/components/GoogleAnalytics"
 
 export const metadata: Metadata = {
@@ -674,7 +673,6 @@ export default function RootLayout({
         {/* <script src="/scripts/performance-monitor.js" defer></script> */}
       </head>
       <body>
-        <NextSEOProvider />
         <GoogleAnalytics />
         <SEOOptimizer />
         <SEOAnalytics />
