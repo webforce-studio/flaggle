@@ -123,7 +123,7 @@ const nextConfig = {
     ]
   },
   experimental: {
-    optimizeCss: true,
+    optimizeCss: false, // Disabled due to critters dependency issues
     optimizePackageImports: ['@radix-ui/react-icons'],
   },
   compiler: {
