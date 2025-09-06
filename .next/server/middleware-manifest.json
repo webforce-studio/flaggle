@@ -22,11 +22,32 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "pJWRhfsA87eUfDi5bsi_w",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "qZQgZT348c1Fb1lh9TTFXpyzHK1jEFQG3z5AF2IEgDE=",
-        "__NEXT_PREVIEW_MODE_ID": "3d685c83e2c78a20abf7edf3baed200d",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "91dbb927b3f31746e16f7ef29deb15a1e9e4d0f5c8f05b7a5c8fbb918a2a0b9c",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "34e5161dda1d0a31c321c34895fea405e696e4b6e2159d28c1b1712bd5430aaa"
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "qZQgZT348c1Fb1lh9TTFXpyzHK1jEFQG3z5AF2IEgDE="
+      }
+    },
+    "/sitemap.xml/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/sitemap.xml/route.js"
+      ],
+      "name": "app/sitemap.xml/route",
+      "page": "/sitemap.xml/route",
+      "matchers": [
+        {
+          "regexp": "^/sitemap\\.xml$",
+          "originalSource": "/sitemap.xml"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "qZQgZT348c1Fb1lh9TTFXpyzHK1jEFQG3z5AF2IEgDE="
       }
     }
   },
