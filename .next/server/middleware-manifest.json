@@ -1,6 +1,65 @@
 {
   "version": 3,
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/sitemap.xml/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/101.js",
+        "server/edge-chunks/128.js",
+        "server/app/sitemap.xml/route.js"
+      ],
+      "name": "app/sitemap.xml/route",
+      "page": "/sitemap.xml/route",
+      "matchers": [
+        {
+          "regexp": "^/sitemap\\.xml$",
+          "originalSource": "/sitemap.xml"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "mHF1IxhdUa9957SqjU3lt",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "NVRg8qcWVOkuXHQYgR4bakJVh5SZgUOtCw5vTf/poEk=",
+        "__NEXT_PREVIEW_MODE_ID": "b8d99562fcda019c244c2f963b9ff6fe",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "1cb33d75ee8ac15d4334460d3a56b7334ae333b41fb83f3b9e04a6b77ee1922b",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8656477b534799b98db2eaf7b3176b1eb4281df62bc13fb0c34044f236ee0e09"
+      }
+    },
+    "/sitemap.txt/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/101.js",
+        "server/edge-chunks/128.js",
+        "server/app/sitemap.txt/route.js"
+      ],
+      "name": "app/sitemap.txt/route",
+      "page": "/sitemap.txt/route",
+      "matchers": [
+        {
+          "regexp": "^/sitemap\\.txt$",
+          "originalSource": "/sitemap.txt"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "mHF1IxhdUa9957SqjU3lt",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "NVRg8qcWVOkuXHQYgR4bakJVh5SZgUOtCw5vTf/poEk=",
+        "__NEXT_PREVIEW_MODE_ID": "b8d99562fcda019c244c2f963b9ff6fe",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "1cb33d75ee8ac15d4334460d3a56b7334ae333b41fb83f3b9e04a6b77ee1922b",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8656477b534799b98db2eaf7b3176b1eb4281df62bc13fb0c34044f236ee0e09"
+      }
+    }
+  },
   "sortedMiddleware": []
 }

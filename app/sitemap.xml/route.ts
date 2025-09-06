@@ -51,7 +51,25 @@ export async function GET() {
       priority: "0.5"
     },
     {
+      url: `${baseUrl}/flag-quiz`,
+      lastmod: currentDate,
+      changefreq: "weekly",
+      priority: "0.9"
+    },
+    {
+      url: `${baseUrl}/world-flag-quiz`,
+      lastmod: currentDate,
+      changefreq: "weekly",
+      priority: "0.9"
+    },
+    {
       url: `${baseUrl}/geography-quiz`,
+      lastmod: currentDate,
+      changefreq: "weekly",
+      priority: "0.8"
+    },
+    {
+      url: `${baseUrl}/flag-facts`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"

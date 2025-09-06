@@ -1059,6 +1059,38 @@ Play at: ${url}`)
           </div>
         </div>
 
+        {/* Additional Quiz Pages Section */}
+        <div className="mt-8">
+          <h2 className={`text-2xl font-extrabold mb-2 ${darkMode ? "text-white" : "text-slate-900"}`}>
+            More flag quizzes and geography games
+          </h2>
+          <p className={`${darkMode ? "text-slate-300" : "text-slate-700"} mb-4 max-w-3xl`}>
+            Test your knowledge with our comprehensive collection of flag quizzes and geography challenges.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/flag-quiz">
+              <Button variant="outline" className="rounded-full">
+                Flag Quiz
+              </Button>
+            </Link>
+            <Link href="/world-flag-quiz">
+              <Button variant="outline" className="rounded-full">
+                World Flag Quiz
+              </Button>
+            </Link>
+            <Link href="/geography-quiz">
+              <Button variant="outline" className="rounded-full">
+                Geography Quiz
+              </Button>
+            </Link>
+            <Link href="/flag-facts">
+              <Button variant="outline" className="rounded-full">
+                Flag Facts
+              </Button>
+            </Link>
+          </div>
+        </div>
+
         {/* Printable Flags Section */}
         <div className="mt-10">
           <h2 className={`text-2xl font-extrabold mb-2 ${darkMode ? "text-white" : "text-slate-900"}`}>Printable flags</h2>
