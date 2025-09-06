@@ -15,6 +15,8 @@ import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
 import { GoogleAnalytics } from "@/components/GoogleAnalytics"
 import { PerformanceMonitor } from "@/components/performance-monitor"
 import { ThirdPartyOptimizer } from "@/components/third-party-optimizer"
+import { CriticalScripts } from "@/components/critical-scripts"
+import { ScriptManager } from "@/components/script-manager"
 
 export const metadata: Metadata = {
   title: "flaggle.fun - Daily Flag Guessing Game | The Fun Flagle Alternative",
@@ -631,25 +633,7 @@ export default function RootLayout({
           }}
         />
 
-        {/* Google AdSense - Deferred for performance */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Defer Google AdSense loading - hydration safe
-              (function() {
-                if (typeof window !== 'undefined') {
-                  window.addEventListener('load', function() {
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159';
-                    script.crossOrigin = 'anonymous';
-                    document.head.appendChild(script);
-                  });
-                }
-              })();
-            `,
-          }}
-        />
+        {/* Google AdSense is now handled by GoogleAdSenseAuto component */}
 
         {/* Monument Database Structured Data */}
         <script
@@ -742,8 +726,8 @@ export default function RootLayout({
         {/* <script src="/scripts/performance-monitor.js" defer></script> */}
       </head>
       <body>
-        <PerformanceMonitor />
-        <ThirdPartyOptimizer />
+        <CriticalScripts />
+        <ScriptManager />
         <SEOOptimizer />
         <SEOAnalytics />
         <Providers>

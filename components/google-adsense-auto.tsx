@@ -30,70 +30,86 @@ declare global {
 
 export function GoogleAdSenseAuto() {
   const [shouldLoad, setShouldLoad] = useState(false)
+  const [loadStrategy, setLoadStrategy] = useState<string>('')
 
   useEffect(() => {
-    // Check if third-party scripts should load
-    const checkThirdParty = () => {
-      const element = document.getElementById('third-party-scripts-loaded')
+    // Check script manager configuration
+    const checkScriptConfig = () => {
+      const element = document.getElementById('script-manager')
       if (element) {
-        setShouldLoad(true)
+        try {
+          const config = JSON.parse(element.getAttribute('data-config') || '{}')
+          if (config.loadAdSense) {
+            setLoadStrategy('enabled')
+            setShouldLoad(true)
+          } else {
+            setShouldLoad(false)
+          }
+        } catch (e) {
+          // Invalid config, don't load
+          setShouldLoad(false)
+        }
       } else {
         // Check again after a short delay
-        setTimeout(checkThirdParty, 100)
+        setTimeout(checkScriptConfig, 100)
       }
     }
 
-    checkThirdParty()
+    checkScriptConfig()
   }, [])
 
   if (!shouldLoad) return null
 
+  // Only load AdSense if explicitly enabled by script manager
+  if (loadStrategy !== 'enabled') {
+    return null
+  }
+
   return (
     <>
-      {/* AdSense script with lazy loading */}
+      {/* Minimal AdSense script - only load the core script */}
       <Script
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6011234567890123"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159"
         strategy="lazyOnload"
         onLoad={() => {
-          // Initialize AdSense after script loads
-          if (typeof window !== 'undefined') {
+          // Initialize AdSense after script loads - prevent duplicate initialization
+          if (typeof window !== 'undefined' && !(window as any).__adsbygoogle_initialized) {
+            (window as any).__adsbygoogle_initialized = true;
             (window.adsbygoogle = window.adsbygoogle || []).push({});
           }
         }}
       />
-      {/* Auto Ads initialization */}
-      <Script
-        id="google-adsense-auto"
-        strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-            // Wait for the main AdSense script to load
-            function initAutoAds() {
-              if (typeof window !== 'undefined' && window.adsbygoogle) {
-                try {
-                  // Prevent duplicate auto-ads initialization across route changes
-                  if (!(window as any).__adsbygoogle_inited) {
-                    (window as any).__adsbygoogle_inited = true;
-                    (window.adsbygoogle = window.adsbygoogle || []).push({});
+      {/* Minimal Auto Ads initialization - only if needed */}
+      {loadStrategy === 'interaction' && (
+        <Script
+          id="google-adsense-auto"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Minimal AdSense initialization - prevent duplicates
+              function initAutoAds() {
+                if (typeof window !== 'undefined' && window.adsbygoogle) {
+                  try {
+                    if (!(window as any).__adsbygoogle_initialized) {
+                      (window as any).__adsbygoogle_initialized = true;
+                      (window.adsbygoogle = window.adsbygoogle || []).push({});
+                    }
+                  } catch (error) {
+                    console.warn('AdSense initialization error:', error);
                   }
-                } catch (error) {
-                  console.warn('AdSense Auto Ads initialization error:', error);
                 }
-              } else {
-                // Retry after a short delay if not ready
-                setTimeout(initAutoAds, 100);
               }
-            }
-            
-            // Initialize when DOM is ready
-            if (document.readyState === 'loading') {
-              document.addEventListener('DOMContentLoaded', initAutoAds);
-            } else {
-              initAutoAds();
-            }
-          `,
-        }}
-      />
+              
+              // Initialize when DOM is ready
+              if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initAutoAds);
+              } else {
+                initAutoAds();
+              }
+            `,
+          }}
+        />
+      )}
     </>
   )
 }

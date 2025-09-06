@@ -54,18 +54,21 @@ export function Header({
           <button
             onClick={() => setShowHowToPlay(!showHowToPlay)}
             className="p-2 rounded-xl bg-blue-500 text-gray-50 hover:bg-blue-400 transition-colors"
+            aria-label={showHowToPlay ? "Close how to play guide" : "Open how to play guide"}
           >
             <Calendar size={20} />
           </button>
           <button
             onClick={() => setShowStats(!showStats)}
             className="p-2 rounded-xl bg-blue-500 text-gray-50 hover:bg-blue-400 transition-colors"
+            aria-label={showStats ? "Close statistics" : "Open statistics"}
           >
             <BarChart3 size={20} />
           </button>
           <button
             onClick={toggleDarkMode}
             className="p-2 rounded-xl bg-blue-500 text-gray-50 hover:bg-blue-400 transition-colors"
+            aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
           </button>
