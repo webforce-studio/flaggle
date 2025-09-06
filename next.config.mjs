@@ -1,3 +1,5 @@
+import withBundleAnalyzer from '@next/bundle-analyzer';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -129,6 +131,66 @@ const nextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  // Disable polyfills for modern JavaScript features
+  webpack: (config, { dev, isServer }) => {
+    // Disable polyfills for modern features
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      // Disable polyfills for these features that are supported in modern browsers
+      'core-js/stable': false,
+      'regenerator-runtime/runtime': false,
+    };
+    
+    // Exclude polyfills from bundle
+    config.module.rules.push({
+      test: /\.js$/,
+      exclude: [
+        /node_modules\/core-js/,
+        /node_modules\/regenerator-runtime/,
+      ],
+    });
+    
+    // Remove polyfills plugin
+    config.plugins = config.plugins.filter(plugin => {
+      return !plugin.constructor.name.includes('Polyfill');
+    });
+    
+    // Disable polyfills entirely
+    config.optimization = {
+      ...config.optimization,
+      sideEffects: false,
+    };
+    
+    // Disable polyfills for modern features
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'core-js/stable': false,
+      'regenerator-runtime/runtime': false,
+    };
+    
+    // Force modern target to disable polyfills
+    // config.target = 'browserslist'; // Disabled due to build errors
+    
+    // Try to disable polyfills by setting target to modern browsers
+    if (!isServer) {
+      config.target = 'browserslist';
+    }
+    
+    // Add webpack plugin to completely remove polyfills file
+    config.plugins.push({
+      apply(compiler) {
+        compiler.hooks.emit.tap('RemovePolyfills', (compilation) => {
+          Object.keys(compilation.assets).forEach((name) => {
+            if (name.includes('polyfill')) {
+              delete compilation.assets[name];
+            }
+          });
+        });
+      },
+    });
+    
+    return config;
+  },
   async redirects() {
     return [
       {
@@ -146,4 +208,6 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+export default withBundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+})(nextConfig)

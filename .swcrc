@@ -1,0 +1,46 @@
+{
+  "jsc": {
+    "target": "es2022",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "legacyDecorator": true,
+      "decoratorMetadata": true,
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "loose": false,
+    "externalHelpers": false,
+    "keepClassNames": false
+  },
+  "module": {
+    "type": "es6",
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  },
+  "minify": true,
+  "isModule": true,
+  "env": {
+    "targets": {
+        "browsers": [
+          "> 2%",
+          "last 2 years",
+          "not dead",
+          "not ie 11",
+          "not chrome < 95",
+          "not firefox < 95",
+          "not safari < 15",
+          "not edge < 95"
+        ]
+    },
+    "mode": "usage",
+    "coreJs": false
+  }
+}

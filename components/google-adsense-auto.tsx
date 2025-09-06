@@ -1,6 +1,7 @@
 "use client"
 
 import Script from 'next/script'
+import { useEffect, useState } from 'react'
 
 // TypeScript declarations for Google AdSense
 declare global {
@@ -28,39 +29,72 @@ declare global {
  */
 
 export function GoogleAdSenseAuto() {
+  const [shouldLoad, setShouldLoad] = useState(false)
+
+  useEffect(() => {
+    // Check if third-party scripts should load
+    const checkThirdParty = () => {
+      const element = document.getElementById('third-party-scripts-loaded')
+      if (element) {
+        setShouldLoad(true)
+      } else {
+        // Check again after a short delay
+        setTimeout(checkThirdParty, 100)
+      }
+    }
+
+    checkThirdParty()
+  }, [])
+
+  if (!shouldLoad) return null
+
   return (
-    <Script
-      id="google-adsense-auto"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{
-        __html: `
-          // Wait for the main AdSense script to load
-          function initAutoAds() {
-            if (typeof window !== 'undefined' && window.adsbygoogle) {
-              try {
-                // Prevent duplicate auto-ads initialization across route changes
-                if (!(window as any).__adsbygoogle_inited) {
-                  (window as any).__adsbygoogle_inited = true;
-                  (window.adsbygoogle = window.adsbygoogle || []).push({});
+    <>
+      {/* AdSense script with lazy loading */}
+      <Script
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6011234567890123"
+        strategy="lazyOnload"
+        onLoad={() => {
+          // Initialize AdSense after script loads
+          if (typeof window !== 'undefined') {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+          }
+        }}
+      />
+      {/* Auto Ads initialization */}
+      <Script
+        id="google-adsense-auto"
+        strategy="lazyOnload"
+        dangerouslySetInnerHTML={{
+          __html: `
+            // Wait for the main AdSense script to load
+            function initAutoAds() {
+              if (typeof window !== 'undefined' && window.adsbygoogle) {
+                try {
+                  // Prevent duplicate auto-ads initialization across route changes
+                  if (!(window as any).__adsbygoogle_inited) {
+                    (window as any).__adsbygoogle_inited = true;
+                    (window.adsbygoogle = window.adsbygoogle || []).push({});
+                  }
+                } catch (error) {
+                  console.warn('AdSense Auto Ads initialization error:', error);
                 }
-              } catch (error) {
-                console.warn('AdSense Auto Ads initialization error:', error);
+              } else {
+                // Retry after a short delay if not ready
+                setTimeout(initAutoAds, 100);
               }
-            } else {
-              // Retry after a short delay if not ready
-              setTimeout(initAutoAds, 100);
             }
-          }
-          
-          // Initialize when DOM is ready
-          if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initAutoAds);
-          } else {
-            initAutoAds();
-          }
-        `,
-      }}
-    />
+            
+            // Initialize when DOM is ready
+            if (document.readyState === 'loading') {
+              document.addEventListener('DOMContentLoaded', initAutoAds);
+            } else {
+              initAutoAds();
+            }
+          `,
+        }}
+      />
+    </>
   )
 }
 

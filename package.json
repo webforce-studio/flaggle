@@ -10,6 +10,16 @@
     "start": "next start",
     "sitemap": "echo 'Using dynamic sitemap routes'"
   },
+  "browserslist": [
+    "> 2%",
+    "last 2 years",
+    "not dead",
+    "not ie 11",
+    "not chrome < 95",
+    "not firefox < 95",
+    "not safari < 15",
+    "not edge < 95"
+  ],
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
     "@next/bundle-analyzer": "^15.5.2",

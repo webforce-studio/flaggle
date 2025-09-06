@@ -84,18 +84,16 @@ export function FAQ() {
 
       {/* Two-column layout with subtle background */}
       <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-8">
-        <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {FAQ_DATA.map((item, idx) => {
             const IconComponent = item.icon
             return (
-              <div key={idx} className="flex gap-4">
-                <div className="flex-shrink-0 mt-1">
-                  <IconComponent className="w-6 h-6 text-orange-400" />
+              <div key={idx} className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <IconComponent className="w-5 h-5 text-orange-400 flex-shrink-0" />
+                  <h3 className="font-bold text-lg text-orange-400">{item.question}</h3>
                 </div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-lg text-orange-400 mb-2">{item.question}</h3>
-                  <p className="text-slate-300 leading-relaxed">{item.answer}</p>
-                </div>
+                <p className="text-slate-300 leading-relaxed ml-7">{item.answer}</p>
               </div>
             )
           })}

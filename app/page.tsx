@@ -468,6 +468,7 @@ Play at: ${url}`)
       link.as = 'image'
       link.href = currentCountry.flagUrl
       link.setAttribute('fetchpriority', 'high')
+      link.setAttribute('crossorigin', 'anonymous')
       document.head.appendChild(link)
     }
 
@@ -639,10 +640,12 @@ Play at: ${url}`)
                     className="object-cover"
                     priority
                     fetchPriority="high"
+                    loading="eager"
+                    decoding="sync"
                   />
 
                   {!gameOver && (
-                    <div className="absolute inset-0 flex">
+                    <div className="absolute inset-0 grid grid-cols-24">
                       {Array.from({ length: 24 }, (_, index) => {
                         const isRevealed = revealedSquares.includes(index)
                         const isAnimating = animatingSquares.includes(index)
@@ -650,7 +653,7 @@ Play at: ${url}`)
                         return (
                           <div
                             key={index}
-                            className={`flex-1 border-r border-white/10 last:border-r-0 transition-all duration-500 ${
+                            className={`transition-all duration-500 ${
                               isAnimating ? "animate-pulse" : ""
                             }`}
                             style={{
@@ -660,6 +663,7 @@ Play at: ${url}`)
                                   ? "rgba(59, 130, 246, 0.85)"
                                   : "rgba(59, 130, 246, 0.8)",
                               backdropFilter: isRevealed ? "none" : "blur(25px)",
+                              borderRight: index < 23 ? "1px solid rgba(255,255,255,0.1)" : "none"
                             }}
                           >
                             {isAnimating && (
@@ -953,11 +957,12 @@ Play at: ${url}`)
                     .slice(0, 6)
                     .map((badge, index) => {
                       const IconComponent = badge.icon
+                      const isEarned = badge.earned
                       return (
                         <div
                           key={index}
-                          className={`text-center p-3 rounded-lg border transition-all ${
-                            badge.earned
+                          className={`text-center p-2 rounded-lg border transition-all ${
+                            isEarned
                               ? `bg-gradient-to-br ${badge.bgColor} ${badge.borderColor}`
                               : darkMode
                                 ? "bg-slate-900 border-slate-700 opacity-50"
@@ -965,20 +970,20 @@ Play at: ${url}`)
                           }`}
                         >
                           <IconComponent
-                            className={`w-8 h-8 mx-auto mb-2 ${
-                              badge.earned ? badge.color : darkMode ? "text-slate-600" : "text-slate-400"
-                            } ${badge.earned ? "" : "grayscale"}`}
+                            className={`w-6 h-6 mx-auto mb-1 ${
+                              isEarned ? badge.color : darkMode ? "text-slate-600" : "text-slate-400"
+                            } ${isEarned ? "" : "grayscale"}`}
                           />
                           <div
-                            className={`text-xs font-bold mb-1 ${
-                              badge.earned ? badge.color : darkMode ? "text-slate-600" : "text-slate-400"
+                            className={`text-xs font-bold ${
+                              isEarned ? badge.color : darkMode ? "text-slate-600" : "text-slate-400"
                             }`}
                           >
                             {badge.title}
                           </div>
                           <div
                             className={`text-xs ${
-                              badge.earned
+                              isEarned
                                 ? darkMode
                                   ? "text-slate-400"
                                   : "text-slate-600"
@@ -987,9 +992,9 @@ Play at: ${url}`)
                                   : "text-slate-400"
                             }`}
                           >
-                            {badge.milestone} streak
+                            {badge.milestone}
                           </div>
-                          {badge.earned && badge.perk && (
+                          {isEarned && badge.perk && (
                             <div className="text-xs text-blue-600 mt-1 font-medium">{badge.perk}</div>
                           )}
                         </div>
@@ -1098,50 +1103,42 @@ Play at: ${url}`)
               <div className="grid md:grid-cols-2 gap-6">
                 <a href="https://www.monumentle.fun" target="_blank" rel="noopener noreferrer" className="block group">
                   <div
-                    className={`h-full rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                    className={`rounded-xl border-2 transition-all duration-300 p-6 ${
                       darkMode
                         ? "bg-slate-900 border-amber-600/30 hover:border-amber-500"
                         : "bg-white border-amber-300 hover:border-amber-500"
                     }`}
                   >
-                    <div className="p-6">
-                      <div className="flex items-center justify-center mb-4">
-                        <div className="w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center mr-3 overflow-hidden">
-                          <img src="https://www.monumentle.fun/favicon.ico" alt="Monumentle" width="24" height="24" />
-                        </div>
-                        <h3 className="text-2xl font-bold text-amber-500 font-varela">Monumentle</h3>
+                    <div className="text-center">
+                      <div className="flex items-center justify-center mb-3">
+                        <img src="https://www.monumentle.fun/favicon.ico" alt="Monumentle" width="24" height="24" className="mr-2" />
+                        <h3 className="text-xl font-bold text-amber-500 font-varela">Monumentle</h3>
                       </div>
-                      <div className={`text-center mb-4 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
-                        <p>Guess world monuments in this engaging daily challenge.</p>
-                      </div>
-                      <div className="flex justify-center">
-                        <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-amber-900/30 text-amber-400 group-hover:bg-amber-800/50">Play Now →</span>
-                      </div>
+                      <p className={`mb-3 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
+                        Guess world monuments in this engaging daily challenge.
+                      </p>
+                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-amber-900/30 text-amber-400 group-hover:bg-amber-800/50">Play Now →</span>
                     </div>
                   </div>
                 </a>
 
                 <a href="https://www.classic-snake.com" target="_blank" rel="noopener noreferrer" className="block group">
                   <div
-                    className={`h-full rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                    className={`rounded-xl border-2 transition-all duration-300 p-6 ${
                       darkMode
                         ? "bg-slate-900 border-green-600/30 hover:border-green-500"
                         : "bg-white border-green-300 hover:border-green-500"
                     }`}
                   >
-                    <div className="p-6">
-                      <div className="flex items-center justify-center mb-4">
-                        <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center mr-3">
-                          <span className="text-2xl">🐍</span>
-                        </div>
-                        <h3 className="text-2xl font-bold text-green-500 font-varela">Classic Snake</h3>
+                    <div className="text-center">
+                      <div className="flex items-center justify-center mb-3">
+                        <span className="text-2xl mr-2">🐍</span>
+                        <h3 className="text-xl font-bold text-green-500 font-varela">Classic Snake</h3>
                       </div>
-                      <div className={`text-center mb-4 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
-                        <p>The nostalgic snake game reimagined! Collect food, grow longer, and avoid hitting walls.</p>
-                      </div>
-                      <div className="flex justify-center">
-                        <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-green-900/30 text-green-400 group-hover:bg-green-800/50">Play Now →</span>
-                      </div>
+                      <p className={`mb-3 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
+                        The nostalgic snake game reimagined! Collect food, grow longer, and avoid hitting walls.
+                      </p>
+                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-900/30 text-green-400 group-hover:bg-green-800/50">Play Now →</span>
                     </div>
                   </div>
                 </a>
@@ -1150,25 +1147,23 @@ Play at: ${url}`)
               <div className="flex justify-center mt-6">
                 <a href="https://numlink.fun" target="_blank" rel="noopener noreferrer" className="block group w-full md:w-1/2">
                   <div
-                    className={`h-full rounded-xl overflow-hidden border-2 transition-all duration-300 ${
+                    className={`rounded-xl border-2 transition-all duration-300 p-6 ${
                       darkMode
                         ? "bg-slate-900 border-blue-600/30 hover:border-blue-500"
                         : "bg-white border-blue-300 hover:border-blue-500"
                     }`}
                   >
-                    <div className="p-6">
-                      <div className="flex items-center justify-center mb-4">
-                        <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center mr-3">
-                          <span className="text-white font-bold text-lg">123</span>
+                    <div className="text-center">
+                      <div className="flex items-center justify-center mb-3">
+                        <div className="w-8 h-8 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center mr-2">
+                          <span className="text-white font-bold text-sm">123</span>
                         </div>
-                        <h3 className="text-2xl font-bold text-blue-500 font-varela">Numlink</h3>
+                        <h3 className="text-xl font-bold text-blue-500 font-varela">Numlink</h3>
                       </div>
-                      <div className={`text-center mb-4 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
-                        <p>Connect matching numbers to clear the board in this addictive puzzle.</p>
-                      </div>
-                      <div className="flex justify-center">
-                        <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-blue-900/30 text-blue-400 group-hover:bg-blue-800/50">Play Now →</span>
-                      </div>
+                      <p className={`mb-3 ${darkMode ? "text-slate-300" : "text-slate-700"}`}>
+                        Connect matching numbers to clear the board in this addictive puzzle.
+                      </p>
+                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-900/30 text-blue-400 group-hover:bg-blue-800/50">Play Now →</span>
                     </div>
                   </div>
                 </a>

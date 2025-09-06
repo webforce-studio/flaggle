@@ -14,6 +14,7 @@ import { BlockingCookieConsent } from "@/components/cookie-consent-blocking"
 import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
 import { GoogleAnalytics } from "@/components/GoogleAnalytics"
 import { PerformanceMonitor } from "@/components/performance-monitor"
+import { ThirdPartyOptimizer } from "@/components/third-party-optimizer"
 
 export const metadata: Metadata = {
   title: "flaggle.fun - Daily Flag Guessing Game | The Fun Flagle Alternative",
@@ -742,7 +743,7 @@ export default function RootLayout({
       </head>
       <body>
         <PerformanceMonitor />
-        <GoogleAnalytics />
+        <ThirdPartyOptimizer />
         <SEOOptimizer />
         <SEOAnalytics />
         <Providers>
@@ -754,10 +755,12 @@ export default function RootLayout({
           {/* Cookie Consent Manager - Blocking Version */}
           <BlockingCookieConsent />
           
-          {/* Google AdSense Auto Ads */}
-          <GoogleAdSenseAuto />
           <Footer />
         </Providers>
+        
+        {/* Third-party scripts loaded after user interaction */}
+        <GoogleAnalytics />
+        <GoogleAdSenseAuto />
       </body>
     </html>
   )
