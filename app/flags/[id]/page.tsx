@@ -241,11 +241,11 @@ export default async function FlagPage({ params }: PageProps) {
       </div>
 
       <div className="mt-6 flex flex-wrap gap-2">
-        <Link href="/europe-flags"><Button variant="outline" size="sm">Europe Flags</Button></Link>
-        <Link href="/asia-flags"><Button variant="outline" size="sm">Asia Flags</Button></Link>
-        <Link href="/africa-flags"><Button variant="outline" size="sm">Africa Flags</Button></Link>
-        <Link href="/america-flags"><Button variant="outline" size="sm">Americas Flags</Button></Link>
-        <Link href="/oceania-flags"><Button variant="outline" size="sm">Oceania Flags</Button></Link>
+        <Link href="/europe-flags" className="px-3 py-2 rounded-md border border-gray-300 bg-white text-gray-900 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700 transition-colors">Europe Flags</Link>
+        <Link href="/asia-flags" className="px-3 py-2 rounded-md border border-gray-300 bg-white text-gray-900 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700 transition-colors">Asia Flags</Link>
+        <Link href="/africa-flags" className="px-3 py-2 rounded-md border border-gray-300 bg-white text-gray-900 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700 transition-colors">Africa Flags</Link>
+        <Link href="/america-flags" className="px-3 py-2 rounded-md border border-gray-300 bg-white text-gray-900 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700 transition-colors">Americas Flags</Link>
+        <Link href="/oceania-flags" className="px-3 py-2 rounded-md border border-gray-300 bg-white text-gray-900 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-700 transition-colors">Oceania Flags</Link>
       </div>
 
       {/* Related internal links: other flags in the same region */}
