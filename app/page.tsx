@@ -461,6 +461,16 @@ Play at: ${url}`)
   }
 
   useEffect(() => {
+    // Preload the flag image for LCP optimization
+    if (currentCountry?.flagUrl) {
+      const link = document.createElement('link')
+      link.rel = 'preload'
+      link.as = 'image'
+      link.href = currentCountry.flagUrl
+      link.setAttribute('fetchpriority', 'high')
+      document.head.appendChild(link)
+    }
+
     // Load dark mode preference
     const savedDarkMode = localStorage.getItem("flagguesser-dark-mode")
     if (savedDarkMode) {
@@ -627,6 +637,8 @@ Play at: ${url}`)
                     alt={`Mystery flag puzzle - Guess the country`}
                     fill
                     className="object-cover"
+                    priority
+                    fetchPriority="high"
                   />
 
                   {!gameOver && (
