@@ -117,4 +117,4 @@ temp/
 *.sw?
 
 # Local Netlify folder
-.netlify 
+.netlify gsc-credentials.json

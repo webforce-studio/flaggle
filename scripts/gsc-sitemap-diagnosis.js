@@ -14,7 +14,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const SITE_URL = 'https://www.flaggle.fun';
+const SITE_URL = 'sc-domain:flaggle.fun';
 const SITEMAPS = [
   'https://www.flaggle.fun/sitemap.xml',
   'https://www.flaggle.fun/sitemap.txt'
@@ -38,7 +38,7 @@ class SitemapDiagnostic {
       
       const response = await this.webmasters.sitemaps.submit({
         siteUrl: SITE_URL,
-        feedPath: sitemapUrl
+        feedpath: sitemapUrl
       });
       
       console.log('✅ Sitemap submitted successfully');
@@ -53,7 +53,7 @@ class SitemapDiagnostic {
     try {
       const response = await this.webmasters.sitemaps.get({
         siteUrl: SITE_URL,
-        feedPath: sitemapUrl
+        feedpath: sitemapUrl
       });
       
       return { success: true, data: response.data };
@@ -139,7 +139,7 @@ class SitemapDiagnostic {
       console.log(`📄 Pages submitted: ${data.contents?.[0]?.submitted || 'Unknown'}`);
       console.log(`📄 Pages indexed: ${data.contents?.[0]?.indexed || 'Unknown'}`);
       
-      if (data.errors && data.errors.length > 0) {
+      if (data.errors && Array.isArray(data.errors) && data.errors.length > 0) {
         console.log('❌ Errors found:');
         data.errors.forEach((error, index) => {
           console.log(`   ${index + 1}. ${error.reason}: ${error.message}`);

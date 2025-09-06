@@ -13,6 +13,7 @@ import { BlockingCookieConsent } from "@/components/cookie-consent-blocking"
 
 import { GoogleAdSenseAuto } from "@/components/google-adsense-auto"
 import { GoogleAnalytics } from "@/components/GoogleAnalytics"
+import { PerformanceMonitor } from "@/components/performance-monitor"
 
 export const metadata: Metadata = {
   title: "flaggle.fun - Daily Flag Guessing Game | The Fun Flagle Alternative",
@@ -225,12 +226,67 @@ export default function RootLayout({
         {/* Explicit icon for Safari pinned tabs / legacy */}
         <link rel="mask-icon" href="/logos/logo-header.svg" color="#0EA5E9" />
 
+        {/* Resource hints for performance optimization */}
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
+        
+        {/* Optimized Google Fonts loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Varela+Round&display=swap"
-          rel="stylesheet"
+          rel="preload"
+          as="style"
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Optimize font loading
+              document.addEventListener('DOMContentLoaded', function() {
+                const fontLink = document.querySelector('link[rel="preload"][as="style"]');
+                if (fontLink) {
+                  fontLink.onload = function() {
+                    this.onload = null;
+                    this.rel = 'stylesheet';
+                  };
+                }
+              });
+            `,
+          }}
+        />
+        <noscript>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Varela+Round&display=swap"
+            rel="stylesheet"
+          />
+        </noscript>
+
+        {/* Critical CSS - Inlined to prevent render blocking */}
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            /* Critical CSS - Above the fold styles */
+            * { box-sizing: border-box; }
+            html { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.5; -webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; text-size-adjust: 100%; }
+            body { margin: 0; padding: 0; font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #ffffff; color: #000000; line-height: 1.6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+            .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+            .header { background: #ffffff; border-bottom: 1px solid #e5e7eb; position: sticky; top: 0; z-index: 50; backdrop-filter: blur(8px); background-color: rgba(255, 255, 255, 0.8); }
+            .main { min-height: calc(100vh - 200px); padding: 2rem 0; }
+            .game-container { max-width: 600px; margin: 0 auto; padding: 1rem; }
+            .btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.5rem 1rem; border-radius: 0.375rem; font-weight: 500; text-decoration: none; transition: all 0.2s ease-in-out; border: 1px solid transparent; cursor: pointer; }
+            .btn-primary { background-color: #3b82f6; color: #ffffff; border-color: #3b82f6; }
+            .btn-primary:hover { background-color: #2563eb; border-color: #2563eb; }
+            .flag-image { width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out; }
+            .flag-image:hover { transform: scale(1.02); }
+            .loading { opacity: 0.6; pointer-events: none; }
+            @media (max-width: 768px) { .container { padding: 0 0.5rem; } .game-container { padding: 0.5rem; } .main { padding: 1rem 0; } }
+            @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            @font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+          `
+        }} />
 
 
 
@@ -541,17 +597,23 @@ export default function RootLayout({
           }}
         />
 
-        {/* Google Analytics - GA4 Implementation */}
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XY7R6HH2R7"></script>
+        {/* Google Analytics - GA4 Implementation - Deferred for performance */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              
-                                // Initialize Consent Mode v2 - start with denied consent until user accepts
+              // Defer Google Analytics loading
+              window.addEventListener('load', function() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = 'https://www.googletagmanager.com/gtag/js?id=G-XY7R6HH2R7';
+                document.head.appendChild(script);
+                
+                script.onload = function() {
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  
+                  // Initialize Consent Mode v2 - start with denied consent until user accepts
                   gtag('consent', 'default', {
                     analytics_storage: 'denied',
                     ad_storage: 'denied',
@@ -560,27 +622,41 @@ export default function RootLayout({
                     functionality_storage: 'granted',
                     personalization_storage: 'denied'
                   });
-              
-              gtag('config', 'G-XY7R6HH2R7', {
-                anonymize_ip: true,
-                allow_google_signals: false,
-                allow_ad_personalization_signals: false,
-                page_title: document.title,
-                page_location: window.location.href
-              });
-              
-              // Track page views
-              gtag('event', 'page_view', {
-                page_title: document.title,
-                page_location: window.location.href
+                  
+                  gtag('config', 'G-XY7R6HH2R7', {
+                    anonymize_ip: true,
+                    allow_google_signals: false,
+                    allow_ad_personalization_signals: false,
+                    page_title: document.title,
+                    page_location: window.location.href
+                  });
+                  
+                  // Track page views
+                  gtag('event', 'page_view', {
+                    page_title: document.title,
+                    page_location: window.location.href
+                  });
+                };
               });
             `,
           }}
         />
 
-        {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159"
-     crossOrigin="anonymous"></script>
+        {/* Google AdSense - Deferred for performance */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // Defer Google AdSense loading
+              window.addEventListener('load', function() {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159';
+                script.crossOrigin = 'anonymous';
+                document.head.appendChild(script);
+              });
+            `,
+          }}
+        />
 
         {/* Monument Database Structured Data */}
         <script
@@ -673,6 +749,7 @@ export default function RootLayout({
         {/* <script src="/scripts/performance-monitor.js" defer></script> */}
       </head>
       <body>
+        <PerformanceMonitor />
         <GoogleAnalytics />
         <SEOOptimizer />
         <SEOAnalytics />
