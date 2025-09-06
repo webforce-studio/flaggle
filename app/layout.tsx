@@ -227,48 +227,19 @@ export default function RootLayout({
         <link rel="mask-icon" href="/logos/logo-header.svg" color="#0EA5E9" />
 
         {/* Resource hints for performance optimization */}
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         
         {/* Preload critical images */}
         <link rel="preload" href="/logo.png" as="image" type="image/png" />
         
-        {/* Optimized Google Fonts loading */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Varela+Round&display=swap"
-          rel="preload"
-          as="style"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Optimize font loading - hydration safe
-              (function() {
-                if (typeof window !== 'undefined') {
-                  document.addEventListener('DOMContentLoaded', function() {
-                    const fontLink = document.querySelector('link[rel="preload"][as="style"]');
-                    if (fontLink) {
-                      fontLink.onload = function() {
-                        this.onload = null;
-                        this.rel = 'stylesheet';
-                      };
-                    }
-                  });
-                }
-              })();
-            `,
-          }}
-        />
-        <noscript>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Varela+Round&display=swap"
-            rel="stylesheet"
-          />
-        </noscript>
+        {/* Preload critical font files directly - bypass Google Fonts CSS */}
+        <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="https://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJXGh-rtV7f7M.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="https://fonts.gstatic.com/s/varelaround/v20/w8gd2832kzSgUJMQf_7Vo4M.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        
+        {/* DNS prefetch for font domains */}
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
 
         {/* Critical CSS - Inlined to prevent render blocking */}
         <style dangerouslySetInnerHTML={{
@@ -292,6 +263,9 @@ export default function RootLayout({
             @font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
             @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
             @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            @font-face { font-family: 'Crimson Text'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJXGh-rtV7f7M.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            @font-face { font-family: 'Crimson Text'; font-style: normal; font-weight: 600; font-display: swap; src: url('https://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJXGh-rtV7f7M.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            @font-face { font-family: 'Crimson Text'; font-style: normal; font-weight: 700; font-display: swap; src: url('https://fonts.gstatic.com/s/crimsontext/v19/wlp2gwHKFkZgtmSR3NB0oRJXGh-rtV7f7M.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
             @font-face { font-family: 'Varela Round'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://fonts.gstatic.com/s/varelaround/v20/w8gd2832kzSgUJMQf_7Vo4M.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
             .font-varela { font-family: 'Varela Round', system-ui, -apple-system, sans-serif; }
           `
