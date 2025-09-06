@@ -89,7 +89,7 @@ export default async function FlagPage({ params }: PageProps) {
         const targetId = countryNameToId.get(key)
         if (targetId) {
           return (
-            <Link key={`lk-${i}`} href={`/flags/${targetId}`} className="text-blue-600 underline hover:no-underline">
+            <Link key={`lk-${i}`} href={`/flags/${targetId}`} className="text-blue-600 dark:text-blue-400 underline hover:no-underline">
               {part}
             </Link>
           )
@@ -137,7 +137,7 @@ export default async function FlagPage({ params }: PageProps) {
       </div>
 
       {history ? (
-        <article className="prose dark:prose-invert">
+        <article className="prose dark:prose-invert text-gray-700 dark:text-gray-200">
           {paragraphs.flatMap((block, blockIndex) => {
             const chunks = block.split(/\n\n+/)
             return chunks.map((raw, i) => {
@@ -188,15 +188,15 @@ export default async function FlagPage({ params }: PageProps) {
                 remainder = remainder.replace(/^[\s\.:–—-]+/, "")
                 return (
                   <div key={`${blockIndex}-${i}`} className="mb-4">
-                    <h3 className="text-lg md:text-xl font-extrabold mt-4 mb-2">{matched}</h3>
+                    <h3 className="text-lg md:text-xl font-extrabold mt-4 mb-2 text-gray-900 dark:text-white">{matched}</h3>
                     {remainder && (
-                      <p className="leading-relaxed">{linkify(remainder)}</p>
+                      <p className="leading-relaxed text-gray-700 dark:text-gray-200">{linkify(remainder)}</p>
                     )}
                   </div>
                 )
               }
               return (
-                <p key={`${blockIndex}-${i}`} className="mb-4 last:mb-0 leading-relaxed">{linkify(text)}</p>
+                <p key={`${blockIndex}-${i}`} className="mb-4 last:mb-0 leading-relaxed text-gray-700 dark:text-gray-200">{linkify(text)}</p>
               )
             })
           })}
