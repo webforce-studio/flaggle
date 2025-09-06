@@ -1,8 +1,4 @@
-"use client"
-
 import { Metadata } from 'next'
-import { useState, useEffect } from 'react'
-import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { BookOpen, Globe, Star, Heart, Crown, Zap } from 'lucide-react'
@@ -23,32 +19,14 @@ export const metadata: Metadata = {
 }
 
 export default function FlagFactsPage() {
-  const { theme } = useTheme()
-  const [darkMode, setDarkMode] = useState(true)
-
-  // reflect global theme into local state
-  useEffect(() => {
-    setDarkMode(theme === "dark")
-  }, [theme])
-
   return (
-    <div
-      className={`min-h-screen transition-colors duration-300 ${
-        darkMode
-          ? "bg-gradient-to-br from-slate-900 to-slate-800 text-slate-100"
-          : "bg-gradient-to-br from-blue-50 to-indigo-50 text-slate-900"
-      }`}
-    >
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-900 dark:to-slate-800 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <div className="text-center mb-12">
-          <h1 className={`text-4xl md:text-6xl font-bold mb-4 ${
-            darkMode ? "text-white" : "text-gray-900"
-          }`}>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-900 dark:text-white">
             Flag Facts & Meanings
           </h1>
-          <p className={`text-xl mb-8 ${
-            darkMode ? "text-gray-300" : "text-gray-600"
-          }`}>
+          <p className="text-xl mb-8 text-gray-600 dark:text-gray-300">
             Discover the fascinating stories behind world flags! Learn about colors, symbols, 
             designs, and the rich history that makes each flag unique.
           </p>
@@ -60,9 +38,7 @@ export default function FlagFactsPage() {
               </Button>
             </Link>
             <Link href="/flag-quiz">
-              <Button variant="outline" className={`border-blue-500 text-blue-500 hover:bg-blue-50 px-8 py-3 text-lg ${
-                darkMode ? "hover:bg-blue-900/20" : ""
-              }`}>
+              <Button variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/20 px-8 py-3 text-lg">
                 <BookOpen className="w-5 h-5 mr-2" />
                 Flag Quiz Hub
               </Button>
@@ -71,18 +47,12 @@ export default function FlagFactsPage() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <div className={`rounded-lg shadow-lg p-6 transition-colors duration-300 ${
-            darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"
-          }`}>
+          <div className="rounded-lg shadow-lg p-6 transition-colors duration-300 bg-white dark:bg-slate-800 border-blue-200 dark:border-slate-700">
             <div className="flex items-center mb-4">
               <Star className="h-8 w-8 text-yellow-500 mr-3" />
-              <h2 className={`text-2xl font-bold ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Flag Colors</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Flag Colors</h2>
             </div>
-            <p className={`mb-4 ${
-              darkMode ? "text-gray-300" : "text-gray-600"
-            }`}>
+            <p className="mb-4 text-gray-600 dark:text-gray-300">
               Learn what different colors represent in flags around the world. 
               From red symbolizing courage to blue representing freedom and peace.
             </p>
@@ -93,49 +63,33 @@ export default function FlagFactsPage() {
             </div>
           </div>
 
-          <div className={`rounded-lg shadow-lg p-6 transition-colors duration-300 ${
-            darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"
-          }`}>
+          <div className="rounded-lg shadow-lg p-6 transition-colors duration-300 bg-white dark:bg-slate-800 border-blue-200 dark:border-slate-700">
             <div className="flex items-center mb-4">
               <Heart className="h-8 w-8 text-red-500 mr-3" />
-              <h2 className={`text-2xl font-bold ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Symbols & Meanings</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Symbols & Meanings</h2>
             </div>
-            <p className={`mb-4 ${
-              darkMode ? "text-gray-300" : "text-gray-600"
-            }`}>
+            <p className="mb-4 text-gray-600 dark:text-gray-300">
               Explore the symbols used in flags and their cultural significance. 
               From stars and crosses to animals and natural elements.
             </p>
             <div className="space-y-2">
-              <div className={`flex items-center ${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <div className="flex items-center text-gray-600 dark:text-gray-300">
                 <Star className="h-4 w-4 text-yellow-500 mr-2" />
                 <span>Stars: Unity & Hope</span>
               </div>
-              <div className={`flex items-center ${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <div className="flex items-center text-gray-600 dark:text-gray-300">
                 <Crown className="h-4 w-4 text-purple-500 mr-2" />
                 <span>Crosses: Faith & Heritage</span>
               </div>
             </div>
           </div>
 
-          <div className={`rounded-lg shadow-lg p-6 transition-colors duration-300 ${
-            darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"
-          }`}>
+          <div className="rounded-lg shadow-lg p-6 transition-colors duration-300 bg-white dark:bg-slate-800 border-blue-200 dark:border-slate-700">
             <div className="flex items-center mb-4">
               <Globe className="h-8 w-8 text-green-500 mr-3" />
-              <h2 className={`text-2xl font-bold ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Regional Styles</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Regional Styles</h2>
             </div>
-            <p className={`mb-4 ${
-              darkMode ? "text-gray-300" : "text-gray-600"
-            }`}>
+            <p className="mb-4 text-gray-600 dark:text-gray-300">
               Discover how different regions have developed their own flag traditions. 
               From Nordic crosses to African pan-colors.
             </p>
@@ -147,101 +101,65 @@ export default function FlagFactsPage() {
           </div>
         </div>
 
-        <div className={`rounded-lg shadow-lg p-8 transition-colors duration-300 ${
-          darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"
-        }`}>
-          <h2 className={`text-3xl font-bold text-center mb-6 ${
-            darkMode ? "text-white" : "text-gray-900"
-          }`}>
+        <div className="rounded-lg shadow-lg p-8 transition-colors duration-300 bg-white dark:bg-slate-800 border-blue-200 dark:border-slate-700">
+          <h2 className="text-3xl font-bold text-center mb-6 text-gray-900 dark:text-white">
             Fascinating Flag Facts
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
               <div className="text-4xl mb-4">🇳🇵</div>
-              <h3 className={`text-xl font-semibold mb-2 ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Unique Shapes</h3>
-              <p className={`${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Unique Shapes</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Nepal has the only non-rectangular flag in the world - it's made of two triangles.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🇱🇮</div>
-              <h3 className={`text-xl font-semibold mb-2 ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Similar Designs</h3>
-              <p className={`${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Similar Designs</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Haiti and Liechtenstein had identical flags until 1936 - neither country knew!
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🇩🇰</div>
-              <h3 className={`text-xl font-semibold mb-2 ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Oldest Flag</h3>
-              <p className={`${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Oldest Flag</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Denmark's flag is the oldest continuously used national flag, dating back to 1219.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🇺🇸</div>
-              <h3 className={`text-xl font-semibold mb-2 ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Most Stars</h3>
-              <p className={`${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Most Stars</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 The US flag has 50 stars, but Brazil's flag has 27 stars representing its states.
               </p>
             </div>
           </div>
         </div>
 
-        <div className={`rounded-lg shadow-lg p-8 mt-8 transition-colors duration-300 ${
-          darkMode ? "bg-slate-800 border-slate-700" : "bg-white border-blue-200"
-        }`}>
-          <h2 className={`text-3xl font-bold text-center mb-6 ${
-            darkMode ? "text-white" : "text-gray-900"
-          }`}>
+        <div className="rounded-lg shadow-lg p-8 mt-8 transition-colors duration-300 bg-white dark:bg-slate-800 border-blue-200 dark:border-slate-700">
+          <h2 className="text-3xl font-bold text-center mb-6 text-gray-900 dark:text-white">
             Learning Resources
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
               <div className="text-4xl mb-4">📚</div>
-              <h3 className={`text-xl font-semibold mb-2 ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Educational Content</h3>
-              <p className={`${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Educational Content</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Perfect for students, teachers, and anyone interested in world cultures and history.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🎯</div>
-              <h3 className={`text-xl font-semibold mb-2 ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Interactive Learning</h3>
-              <p className={`${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Interactive Learning</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Learn through our interactive flag games and quizzes that make education fun.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🌍</div>
-              <h3 className={`text-xl font-semibold mb-2 ${
-                darkMode ? "text-white" : "text-gray-900"
-              }`}>Global Perspective</h3>
-              <p className={`${
-                darkMode ? "text-gray-300" : "text-gray-600"
-              }`}>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Global Perspective</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Develop a deeper understanding of our diverse world through flag symbolism.
               </p>
             </div>
@@ -249,14 +167,10 @@ export default function FlagFactsPage() {
         </div>
 
         <div className="text-center mt-12">
-          <h2 className={`text-2xl font-bold mb-4 ${
-            darkMode ? "text-white" : "text-gray-900"
-          }`}>
+          <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
             Ready to Learn About Flags?
           </h2>
-          <p className={`mb-6 ${
-            darkMode ? "text-gray-300" : "text-gray-600"
-          }`}>
+          <p className="mb-6 text-gray-600 dark:text-gray-300">
             Start with our daily flag game or explore our comprehensive flag quiz collection.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -267,9 +181,7 @@ export default function FlagFactsPage() {
               </Button>
             </Link>
             <Link href="/flag-quiz">
-              <Button variant="outline" className={`border-blue-500 text-blue-500 hover:bg-blue-50 px-8 py-3 text-lg ${
-                darkMode ? "hover:bg-blue-900/20" : ""
-              }`}>
+              <Button variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/20 px-8 py-3 text-lg">
                 <BookOpen className="w-5 h-5 mr-2" />
                 Explore Flag Quiz Hub
               </Button>
