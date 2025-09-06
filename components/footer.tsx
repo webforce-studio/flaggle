@@ -3,14 +3,21 @@ import Image from "next/image"
 
 export function Footer() {
   return (
-    <footer className="bg-slate-800 text-slate-300 py-12">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8">
+    <footer className="bg-slate-800 text-slate-300 py-12 min-h-[400px]">
+      <div className="max-w-6xl mx-auto px-4" style={{ contain: 'layout' }}>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8" style={{ minHeight: '200px' }}>
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="relative w-10 h-10">
-                <img src="/logo.png" alt="Flagguesser" className="w-full h-full object-contain" />
+              <div className="relative w-10 h-10 flex-shrink-0">
+                <img 
+                  src="/logo.png" 
+                  alt="Flagguesser" 
+                  className="w-full h-full object-contain" 
+                  width="40"
+                  height="40"
+                  style={{ aspectRatio: '1/1' }}
+                />
               </div>
               <h3 className="text-xl font-bold text-blue-400 font-varela">flaggle.fun</h3>
             </div>
@@ -149,7 +156,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-slate-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center min-h-[80px]">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-sm text-slate-400">© 2025 Webforce Studio. All rights reserved.</p>
             <p className="text-xs text-slate-500 mt-2">Exploring world flags through daily geography challenges</p>

@@ -41,7 +41,7 @@ export function GoogleAdSenseAuto() {
                 // Prevent duplicate auto-ads initialization across route changes
                 if (!(window as any).__adsbygoogle_inited) {
                   (window as any).__adsbygoogle_inited = true;
-                  (adsbygoogle = window.adsbygoogle || []).push({});
+                  (window.adsbygoogle = window.adsbygoogle || []).push({});
                 }
               } catch (error) {
                 console.warn('AdSense Auto Ads initialization error:', error);

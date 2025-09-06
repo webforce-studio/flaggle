@@ -232,6 +232,9 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         
+        {/* Preload critical images */}
+        <link rel="preload" href="/logo.png" as="image" type="image/png" />
+        
         {/* Optimized Google Fonts loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -243,16 +246,20 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              // Optimize font loading
-              document.addEventListener('DOMContentLoaded', function() {
-                const fontLink = document.querySelector('link[rel="preload"][as="style"]');
-                if (fontLink) {
-                  fontLink.onload = function() {
-                    this.onload = null;
-                    this.rel = 'stylesheet';
-                  };
+              // Optimize font loading - hydration safe
+              (function() {
+                if (typeof window !== 'undefined') {
+                  document.addEventListener('DOMContentLoaded', function() {
+                    const fontLink = document.querySelector('link[rel="preload"][as="style"]');
+                    if (fontLink) {
+                      fontLink.onload = function() {
+                        this.onload = null;
+                        this.rel = 'stylesheet';
+                      };
+                    }
+                  });
                 }
-              });
+              })();
             `,
           }}
         />
@@ -285,6 +292,8 @@ export default function RootLayout({
             @font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
             @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
             @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            @font-face { font-family: 'Varela Round'; font-style: normal; font-weight: 400; font-display: swap; src: url('https://fonts.gstatic.com/s/varelaround/v20/w8gd2832kzSgUJMQf_7Vo4M.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+            .font-varela { font-family: 'Varela Round', system-ui, -apple-system, sans-serif; }
           `
         }} />
 
@@ -601,43 +610,47 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              // Defer Google Analytics loading
-              window.addEventListener('load', function() {
-                var script = document.createElement('script');
-                script.async = true;
-                script.src = 'https://www.googletagmanager.com/gtag/js?id=G-XY7R6HH2R7';
-                document.head.appendChild(script);
-                
-                script.onload = function() {
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  
-                  // Initialize Consent Mode v2 - start with denied consent until user accepts
-                  gtag('consent', 'default', {
-                    analytics_storage: 'denied',
-                    ad_storage: 'denied',
-                    ad_user_data: 'denied',
-                    ad_personalization: 'denied',
-                    functionality_storage: 'granted',
-                    personalization_storage: 'denied'
+              // Defer Google Analytics loading - hydration safe
+              (function() {
+                if (typeof window !== 'undefined') {
+                  window.addEventListener('load', function() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-XY7R6HH2R7';
+                    document.head.appendChild(script);
+
+                    script.onload = function() {
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+
+                      // Initialize Consent Mode v2 - start with denied consent until user accepts
+                      gtag('consent', 'default', {
+                        analytics_storage: 'denied',
+                        ad_storage: 'denied',
+                        ad_user_data: 'denied',
+                        ad_personalization: 'denied',
+                        functionality_storage: 'granted',
+                        personalization_storage: 'denied'
+                      });
+
+                      gtag('config', 'G-XY7R6HH2R7', {
+                        anonymize_ip: true,
+                        allow_google_signals: false,
+                        allow_ad_personalization_signals: false,
+                        page_title: document.title,
+                        page_location: window.location.href
+                      });
+
+                      // Track page views
+                      gtag('event', 'page_view', {
+                        page_title: document.title,
+                        page_location: window.location.href
+                      });
+                    };
                   });
-                  
-                  gtag('config', 'G-XY7R6HH2R7', {
-                    anonymize_ip: true,
-                    allow_google_signals: false,
-                    allow_ad_personalization_signals: false,
-                    page_title: document.title,
-                    page_location: window.location.href
-                  });
-                  
-                  // Track page views
-                  gtag('event', 'page_view', {
-                    page_title: document.title,
-                    page_location: window.location.href
-                  });
-                };
-              });
+                }
+              })();
             `,
           }}
         />
@@ -646,14 +659,18 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              // Defer Google AdSense loading
-              window.addEventListener('load', function() {
-                var script = document.createElement('script');
-                script.async = true;
-                script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159';
-                script.crossOrigin = 'anonymous';
-                document.head.appendChild(script);
-              });
+              // Defer Google AdSense loading - hydration safe
+              (function() {
+                if (typeof window !== 'undefined') {
+                  window.addEventListener('load', function() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6013883003344159';
+                    script.crossOrigin = 'anonymous';
+                    document.head.appendChild(script);
+                  });
+                }
+              })();
             `,
           }}
         />
