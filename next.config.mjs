@@ -44,7 +44,11 @@ const nextConfig = {
           },
           {
             key: 'Strict-Transport-Security',
-            value: 'max-age=31536000; includeSubDomains',
+            value: 'max-age=31536000; includeSubDomains; preload',
+          },
+          {
+            key: 'Cross-Origin-Opener-Policy',
+            value: 'same-origin',
           },
           {
             key: 'Content-Security-Policy',
@@ -60,6 +64,8 @@ const nextConfig = {
               "base-uri 'self'",
               "form-action 'self'",
               "frame-ancestors 'none'",
+              "require-trusted-types-for 'script'",
+              "trusted-types 'none'",
               "upgrade-insecure-requests"
             ].join('; ')
           },
