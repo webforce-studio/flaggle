@@ -9,16 +9,20 @@ export function Footer() {
           {/* Brand Section */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="relative w-10 h-10 flex-shrink-0">
-                <img 
-                  src="/logo.png" 
-                  alt="Flagguesser" 
-                  className="w-full h-full object-contain" 
-                  width="40"
-                  height="40"
-                  style={{ aspectRatio: '1/1' }}
-                />
-              </div>
+                  <div className="relative w-10 h-10 flex-shrink-0">
+                    <picture>
+                      <source srcSet="/logos/logo-80.avif" type="image/avif" />
+                      <source srcSet="/logos/logo-80.webp" type="image/webp" />
+                      <img
+                        src="/logos/logo-40.png"
+                        alt="Flagguesser"
+                        className="w-full h-full object-contain"
+                        width="40"
+                        height="40"
+                        style={{ aspectRatio: '1/1' }}
+                      />
+                    </picture>
+                  </div>
               <h3 className="text-xl font-bold text-blue-400 font-varela">flaggle.fun</h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">

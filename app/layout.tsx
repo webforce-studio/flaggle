@@ -212,7 +212,7 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/logos/logo-header.svg?v=1" />
         {/* PNG fallbacks */}
         <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png?v=6" />
-        <link rel="icon" type="image/png" href="/logo.png?v=7" />
+        <link rel="icon" type="image/png" href="/logos/logo-32.png?v=8" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />
         <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png?v=2" />
@@ -231,7 +231,8 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
         
         {/* Preload critical images */}
-        <link rel="preload" href="/logo.png" as="image" type="image/png" />
+        <link rel="preload" href="/logos/logo-112.webp" as="image" type="image/webp" />
+        <link rel="preload" href="/logos/logo-56.png" as="image" type="image/png" />
         
         {/* Preload critical font files directly - bypass Google Fonts CSS */}
         <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeWoSxMPI.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
@@ -305,7 +306,7 @@ export default function RootLayout({
                 url: "https://monumentle.fun",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://monumentle.fun/logo.png",
+                  url: "https://www.flaggle.fun/logos/logo-512.png",
                   width: 512,
                   height: 512,
                 },
@@ -510,7 +511,7 @@ export default function RootLayout({
               url: "https://monumentle.fun",
               logo: {
                 "@type": "ImageObject",
-                url: "https://monumentle.fun/logo.png",
+                url: "https://www.flaggle.fun/logos/logo-512.png",
                 width: 512,
                 height: 512,
               },

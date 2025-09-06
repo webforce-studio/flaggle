@@ -32,7 +32,17 @@ export function Header({
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-2">
             <div className="relative w-14 h-14">
-              <img src="/logo.png" alt="Flaggle" className="w-full h-full object-contain" />
+              <picture>
+                <source srcSet="/logos/logo-112.avif" type="image/avif" />
+                <source srcSet="/logos/logo-112.webp" type="image/webp" />
+                <img 
+                  src="/logos/logo-56.png" 
+                  alt="Flaggle" 
+                  className="w-full h-full object-contain"
+                  width="56"
+                  height="56"
+                />
+              </picture>
             </div>
             <Link href="/" className="text-3xl font-extrabold text-blue-500 font-varela">
               Flaggle
