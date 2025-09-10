@@ -7,6 +7,11 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin/', '/api/'],
     },
-    sitemap: 'https://www.flaggle.fun/sitemap-index.xml',
+    sitemap: [
+      'https://www.flaggle.fun/sitemap-index.xml',
+      'https://www.flaggle.fun/sitemap.xml',
+      'https://www.flaggle.fun/sitemap.txt',
+      'https://www.flaggle.fun/sitemap_index.xml'
+    ],
   }
 }
