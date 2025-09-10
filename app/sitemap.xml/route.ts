@@ -9,109 +9,109 @@ export async function GET() {
   // Static pages with their priorities and change frequencies
   const staticPages = [
     {
-      url: baseUrl,
+      url: `${baseUrl}/`,
       lastmod: currentDate,
       changefreq: "daily",
       priority: "1.0"
     },
     {
-      url: `${baseUrl}/world-flags`,
+      url: `${baseUrl}/world-flags/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.9"
     },
     {
-      url: `${baseUrl}/how-to-play`,
+      url: `${baseUrl}/how-to-play/`,
       lastmod: currentDate,
       changefreq: "monthly",
       priority: "0.9"
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/about/`,
       lastmod: currentDate,
       changefreq: "monthly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/contact`,
+      url: `${baseUrl}/contact/`,
       lastmod: currentDate,
       changefreq: "monthly",
       priority: "0.7"
     },
     {
-      url: `${baseUrl}/privacy`,
+      url: `${baseUrl}/privacy/`,
       lastmod: currentDate,
       changefreq: "yearly",
       priority: "0.5"
     },
     {
-      url: `${baseUrl}/terms`,
+      url: `${baseUrl}/terms/`,
       lastmod: currentDate,
       changefreq: "yearly",
       priority: "0.5"
     },
     {
-      url: `${baseUrl}/flag-quiz`,
+      url: `${baseUrl}/flag-quiz/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.9"
     },
     {
-      url: `${baseUrl}/world-flag-quiz`,
+      url: `${baseUrl}/world-flag-quiz/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.9"
     },
     {
-      url: `${baseUrl}/geography-quiz`,
+      url: `${baseUrl}/geography-quiz/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/flag-facts`,
+      url: `${baseUrl}/flag-facts/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/learn-geography`,
+      url: `${baseUrl}/learn-geography/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/printable-flags`,
+      url: `${baseUrl}/printable-flags/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.7"
     },
     {
-      url: `${baseUrl}/europe-flags`,
+      url: `${baseUrl}/europe-flags/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/africa-flags`,
+      url: `${baseUrl}/africa-flags/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/asia-flags`,
+      url: `${baseUrl}/asia-flags/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/america-flags`,
+      url: `${baseUrl}/america-flags/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
     },
     {
-      url: `${baseUrl}/oceania-flags`,
+      url: `${baseUrl}/oceania-flags/`,
       lastmod: currentDate,
       changefreq: "weekly",
       priority: "0.8"
@@ -120,7 +120,7 @@ export async function GET() {
 
   // Flag pages for each country
   const flagPages = countries.map(country => ({
-    url: `${baseUrl}/flags/${country.id}`,
+    url: `${baseUrl}/flags/${country.id}/`,
     lastmod: currentDate,
     changefreq: "monthly",
     priority: "0.6"
@@ -129,39 +129,49 @@ export async function GET() {
   // Flag category pages
   const flagCategoryPages = [
     {
-      url: `${baseUrl}/flags/colors/red-white`,
+      url: `${baseUrl}/flags/colors/red-white/`,
       lastmod: currentDate,
       changefreq: "monthly",
       priority: "0.6"
     },
     {
-      url: `${baseUrl}/flags/styles/scandinavian-cross`,
+      url: `${baseUrl}/flags/styles/scandinavian-cross/`,
       lastmod: currentDate,
       changefreq: "monthly",
       priority: "0.6"
     },
     {
-      url: `${baseUrl}/flags/symbols/animals`,
+      url: `${baseUrl}/flags/symbols/animals/`,
       lastmod: currentDate,
       changefreq: "monthly",
       priority: "0.6"
     },
     {
-      url: `${baseUrl}/flags/symbols/stars`,
+      url: `${baseUrl}/flags/symbols/stars/`,
       lastmod: currentDate,
       changefreq: "monthly",
       priority: "0.6"
     }
   ]
 
+  // Helper function to escape XML special characters
+  function escapeXml(unsafe: string): string {
+    return unsafe
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;")
+  }
+
   // Combine all pages
   const allPages = [...staticPages, ...flagPages, ...flagCategoryPages]
 
-  // Generate XML sitemap
+  // Generate XML sitemap with proper encoding
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${allPages.map(page => `  <url>
-    <loc>${page.url}</loc>
+    <loc>${escapeXml(page.url)}</loc>
     <lastmod>${page.lastmod}</lastmod>
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority}</priority>

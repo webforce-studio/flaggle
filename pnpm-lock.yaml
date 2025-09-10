@@ -216,6 +216,9 @@ importers:
       typescript:
         specifier: ^5
         version: 5.8.3
+      xmldom:
+        specifier: ^0.6.0
+        version: 0.6.0
 
 packages:
 
@@ -2408,6 +2411,10 @@ packages:
       utf-8-validate:
         optional: true
 
+  xmldom@0.6.0:
+    resolution: {integrity: sha512-iAcin401y58LckRZ0TkI4k0VSM1Qg0KGSc3i8rU+xrxe19A/BN1zHyVSJY7uoutVlaTSzYyk/v5AmkewAP7jtg==}
+    engines: {node: '>=10.0.0'}
+
   yaml@2.8.0:
     resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
     engines: {node: '>= 14.6'}
@@ -4596,6 +4603,8 @@ snapshots:
       strip-ansi: 7.1.0
 
   ws@7.5.10: {}
+
+  xmldom@0.6.0: {}
 
   yaml@2.8.0: {}
 
